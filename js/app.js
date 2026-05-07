@@ -93,6 +93,7 @@ class SmartDailyApp {
 
   initParticles() {
     const container = document.getElementById('particles');
+    if (!container) return;
     for (let i = 0; i < 30; i++) {
       const p = document.createElement('div');
       p.className = 'particle';
