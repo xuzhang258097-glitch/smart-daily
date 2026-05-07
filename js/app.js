@@ -1634,6 +1634,16 @@ class SmartDailyApp {
     }
   }
 
+  subscribeNewsletter() {
+    const email = document.getElementById('newsletterEmail')?.value?.trim();
+    if (!email || !email.includes('@')) {
+      this.showToast('请输入有效的邮箱地址', 'error');
+      return;
+    }
+    this.showToast('订阅成功！感谢您的关注', 'success');
+    document.getElementById('newsletterEmail').value = '';
+  }
+
   showToast(message, type = 'info') {
     const container = document.getElementById('toastContainer');
     const toast = document.createElement('div');

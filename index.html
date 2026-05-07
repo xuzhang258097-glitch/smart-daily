@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- 动态背景 -->
-    <div class="bg-gradient"></div>
-    <div class="bg-particles" id="particles"></div>
-    
     <!-- 音效开关 -->
     <button class="sound-toggle" id="soundToggle" title="开启/关闭音效">
         <span class="sound-icon">🔊</span>
@@ -167,6 +163,43 @@
         <div class="page-container">
             <!-- 首页仪表盘 -->
             <section class="page active" id="page-dashboard">
+                <!-- Hero Section -->
+                <div class="hero-section" id="heroSection">
+                    <div class="hero-bg"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">智阅每日，<br>让知识触手可及</h1>
+                        <p class="hero-subtitle">汇聚 AI 技术、财经股市、英语学习等 10 大栏目实时资讯，每日精选，高效阅读</p>
+                        <button class="hero-btn" onclick="app.switchPage('ai'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=ai]').classList.add('active');">
+                            开始探索 <span>→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Feature Cards -->
+                <div class="feature-cards">
+                    <div class="feature-card" onclick="app.switchPage('finance'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=finance]').classList.add('active');">
+                        <div class="feature-card-img" style="background: var(--gradient-2);">
+                            <span style="z-index:1">📈</span>
+                        </div>
+                        <div class="feature-card-title">财经股市</div>
+                        <div class="feature-card-desc">实时追踪 A 股、港股、美股动态，把握市场脉搏</div>
+                    </div>
+                    <div class="feature-card" onclick="app.switchPage('english'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=english]').classList.add('active');">
+                        <div class="feature-card-img" style="background: var(--gradient-3);">
+                            <span style="z-index:1">🌍</span>
+                        </div>
+                        <div class="feature-card-title">英语学习</div>
+                        <div class="feature-card-desc">每日一词、好词好句、单词书库，全面提升英语能力</div>
+                    </div>
+                    <div class="feature-card" onclick="app.switchPage('leisure'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=leisure]').classList.add('active');">
+                        <div class="feature-card-img" style="background: var(--gradient-4);">
+                            <span style="z-index:1">🎧</span>
+                        </div>
+                        <div class="feature-card-title">课后时间</div>
+                        <div class="feature-card-desc">B 站热门视频 + 小宇宙播客，课余时光好伴侣</div>
+                    </div>
+                </div>
+
                 <div class="welcome-section">
                     <h1 class="welcome-title">早安，探索者</h1>
                     <p class="welcome-subtitle">今日已为你精选 <strong id="totalNewsCount">--</strong> 条实时资讯，涵盖 10 大资讯栏目</p>
@@ -708,6 +741,66 @@
                 <div class="news-grid" id="favoritesGrid"></div>
             </section>
         </div>
+
+        <!-- Newsletter Section -->
+        <div class="newsletter-section" id="newsletterSection">
+            <div class="newsletter-left">
+                <h2 class="newsletter-title">订阅每日精选</h2>
+                <p class="newsletter-desc">每周推送最新资讯摘要，不错过任何重要动态</p>
+            </div>
+            <div class="newsletter-right">
+                <input type="email" class="newsletter-input" placeholder="输入你的邮箱..." id="newsletterEmail">
+                <button class="newsletter-btn" onclick="app.subscribeNewsletter()">订阅 <span>→</span></button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <div class="footer-brand-icon">✦</div>
+                        <div class="footer-brand-text">Smart Daily</div>
+                    </div>
+                    <p class="footer-desc">智阅每日，让知识触手可及。汇聚全球资讯，每日精选推送。</p>
+                    <div class="footer-socials">
+                        <button class="footer-social">𝕏</button>
+                        <button class="footer-social">in</button>
+                        <button class="footer-social">📧</button>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a onclick="app.switchPage('dashboard')">首页概览</a></li>
+                        <li><a onclick="app.switchPage('ai')">AI 技术</a></li>
+                        <li><a onclick="app.switchPage('finance')">财经股市</a></li>
+                        <li><a onclick="app.switchPage('english')">英语学习</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">更多栏目</h4>
+                    <ul class="footer-links">
+                        <li><a onclick="app.switchPage('tech')">计算机</a></li>
+                        <li><a onclick="app.switchPage('science')">气象地质</a></li>
+                        <li><a onclick="app.switchPage('knowledge')">知识科普</a></li>
+                        <li><a onclick="app.switchPage('sports')">体育</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">发现</h4>
+                    <ul class="footer-links">
+                        <li><a onclick="app.switchPage('entertainment')">娱乐</a></li>
+                        <li><a onclick="app.switchPage('international')">国际新闻</a></li>
+                        <li><a onclick="app.switchPage('leisure')">课后时间</a></li>
+                        <li><a onclick="app.switchPage('favorites')">我的收藏</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 Smart Daily · 智阅每日. All Rights Reserved.
+            </div>
+        </footer>
     </main>
 
     <!-- 详情弹窗 -->
