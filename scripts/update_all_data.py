@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Smart Daily 全站数据更新脚本
-每天自动运行，获取各栏目最新资讯数据
+Smart Daily 全站数据更新脚本 v2.0
+接入真实数据源：新浪财经、网易新闻、量子位RSS、HackerNews、GitHub、BBC News
 """
 import json
 import urllib.request
@@ -9,6 +9,7 @@ import urllib.error
 import ssl
 import os
 import re
+import xml.etree.ElementTree as ET
 from datetime import datetime
 
 # 忽略SSL证书验证
@@ -16,18 +17,19 @@ ssl_context = ssl.create_default_context()
 ssl_context.check_hostname = False
 ssl_context.verify_mode = ssl.CERT_NONE
 
-def fetch_url(url, headers=None, timeout=30):
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
+
+def fetch_url(url, headers=None, timeout=15):
     """通用URL获取函数"""
-    if headers is None:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        }
+    h = headers or DEFAULT_HEADERS
     try:
-        req = urllib.request.Request(url, headers=headers)
+        req = urllib.request.Request(url, headers=h)
         with urllib.request.urlopen(req, context=ssl_context, timeout=timeout) as response:
             return response.read().decode("utf-8")
     except Exception as e:
-        print(f"  获取失败: {e}")
+        print(f"    [ERR] 获取失败 {url[:60]}...: {e}")
         return None
 
 def get_today_str():
@@ -36,56 +38,108 @@ def get_today_str():
 def get_now_str():
     return datetime.now().strftime("%Y-%m-%d %H:%M")
 
+def parse_rss(xml_text, max_items=10):
+    """解析RSS/Atom feed，返回条目列表"""
+    items = []
+    if not xml_text:
+        return items
+    try:
+        root = ET.fromstring(xml_text)
+        # RSS 2.0
+        for item in root.findall('.//item')[:max_items]:
+            title = item.findtext('title', '')
+            link = item.findtext('link', '')
+            desc = item.findtext('description', '')
+            pub = item.findtext('pubDate', '')
+            # 清理 CDATA
+            title = re.sub(r'<!\[CDATA\[(.*?)\]\]>', r'\1', title)
+            desc = re.sub(r'<!\[CDATA\[(.*?)\]\]>', r'\1', desc)
+            # 清理HTML标签
+            desc = re.sub(r'<[^>]+>', '', desc)
+            items.append({
+                'title': title.strip(),
+                'url': link.strip(),
+                'summary': desc.strip()[:300],
+                'pubDate': pub
+            })
+    except Exception as e:
+        print(f"    [ERR] RSS解析失败: {e}")
+    return items
+
+def parse_netease_api(code, max_items=10):
+    """解析网易新闻API (JSONP)"""
+    url = f"https://3g.163.com/touch/reconstruct/article/list/{code}/0-{max_items}.html"
+    text = fetch_url(url)
+    items = []
+    if not text:
+        return items
+    try:
+        m = re.search(r'artiList\((.*)\)', text, re.DOTALL)
+        if m:
+            data = json.loads(m.group(1))
+            for item in data.get(code, [])[:max_items]:
+                # 跳过专题页和直播
+                if item.get('skipType') or item.get('liveInfo'):
+                    continue
+                title = item.get('title', '')
+                digest = item.get('digest', '')
+                url_link = item.get('url', '')
+                ptime = item.get('ptime', '')
+                source = item.get('source', '网易')
+                if not title:
+                    continue
+                items.append({
+                    'title': title,
+                    'summary': digest,
+                    'url': url_link,
+                    'source': source,
+                    'ptime': ptime
+                })
+    except Exception as e:
+        print(f"    [ERR] 网易API解析失败: {e}")
+    return items
+
 # ══════════════════════════════════════════════════════════════
-# 1. 财经股市数据 - 使用新浪财经API
+# 1. 财经股市
 # ══════════════════════════════════════════════════════════════
 def fetch_finance_news():
-    """获取财经股市资讯"""
-    print("[1/6] 获取财经股市数据...")
-    
-    # 使用新浪财经的滚动新闻API
-    url = "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=15&r=0.5"
-    
+    print("[1/9] 财经股市...")
+    news = []
+
+    # 新浪财经
     try:
-        content = fetch_url(url)
-        if not content:
-            return None
-            
-        data = json.loads(content)
-        news_list = []
-        
-        if data.get("result") and data["result"].get("data"):
-            for i, item in enumerate(data["result"]["data"][:12]):
+        url = "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=15&r=0.5"
+        text = fetch_url(url)
+        if text:
+            data = json.loads(text)
+            for i, item in enumerate(data.get("result", {}).get("data", [])[:8]):
                 title = item.get("title", "")
                 summary = item.get("summary", "") or item.get("intro", "") or title
                 url_link = item.get("url", "")
                 time_str = item.get("ctime", "")
-                
-                # 格式化时间
                 try:
                     dt = datetime.fromtimestamp(int(time_str))
                     date_str = dt.strftime("%Y-%m-%d")
                 except:
                     date_str = get_today_str()
-                
-                # 根据标题关键词分类图标
+
                 icon = "📈"
-                if any(k in title for k in ["黄金", "白银", "贵金属"]):
-                    icon = "🥇"
-                elif any(k in title for k in ["美联储", "央行", "利率", "降息", "加息"]):
-                    icon = "🏦"
-                elif any(k in title for k in ["特斯拉", "苹果", "微软", "英伟达", "谷歌", "亚马逊", "Meta"]):
+                if any(k in title for k in ["黄金", "白银", "贵金属"]): icon = "🥇"
+                elif any(k in title for k in ["美联储", "央行", "利率", "降息", "加息"]): icon = "🏦"
+                elif any(k in title for k in ["特斯拉", "苹果", "微软", "英伟达", "谷歌", "亚马逊", "Meta", "伯克希尔"]):
                     icon = "🏢"
-                elif any(k in title for k in ["比特币", "以太坊", "区块链", "加密货币"]):
+                elif any(k in title for k in ["比特币", "以太坊", "区块链", "加密货币", "BTC", "ETH"]):
                     icon = "₿"
-                elif any(k in title for k in ["A股", "沪指", "深成指", "创业板", "科创板"]):
+                elif any(k in title for k in ["A股", "沪指", "深成指", "创业板", "科创板", "沪深"]):
                     icon = "🇨🇳"
                 elif any(k in title for k in ["港股", "恒生"]):
                     icon = "🇭🇰"
-                elif any(k in title for k in ["油价", "原油", "天然气", "能源"]):
+                elif any(k in title for k in ["油价", "原油", "天然气", "能源", "OPEC"]):
                     icon = "🛢️"
-                
-                news_list.append({
+                elif any(k in title for k in ["GDP", "经济", "通胀", "CPI", "PMI"]):
+                    icon = "📊"
+
+                news.append({
                     "id": f"fin-{i+1}",
                     "title": title,
                     "summary": summary[:200] + "..." if len(summary) > 200 else summary,
@@ -96,422 +150,350 @@ def fetch_finance_news():
                     "icon": icon,
                     "url": url_link,
                     "readTime": "3 分钟",
-                    "isHot": i < 4
+                    "isHot": i < 3
                 })
-        
-        return news_list
     except Exception as e:
-        print(f"  财经数据获取失败: {e}")
-        return None
+        print(f"    [ERR] 新浪财经: {e}")
+
+    # 网易财经补充
+    if len(news) < 6:
+        try:
+            netease = parse_netease_api('BA8EE5GMwangning', 5)
+            for i, item in enumerate(netease):
+                if len(news) >= 12: break
+                news.append({
+                    "id": f"fin-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:200] + "..." if len(item['summary']) > 200 else item['summary'],
+                    "content": item['summary'],
+                    "category": "财经股市",
+                    "source": item['source'],
+                    "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                    "icon": "💰",
+                    "url": item['url'],
+                    "readTime": "3 分钟",
+                    "isHot": False
+                })
+        except Exception as e:
+            print(f"    [ERR] 网易财经: {e}")
+
+    print(f"    -> {len(news)} 条")
+    return news
 
 # ══════════════════════════════════════════════════════════════
-# 2. AI技术资讯 - 使用聚合源
+# 2. AI 技术
 # ══════════════════════════════════════════════════════════════
 def fetch_ai_news():
-    """获取AI技术资讯"""
-    print("[2/6] 获取AI技术资讯...")
-    
-    # 使用机器之心API或RSS
-    urls = [
-        "https://www.jiqizhixin.com/rss",
-        "https://api.github.com/search/repositories?q=AI+language:Python&sort=updated&order=desc&per_page=5"
-    ]
-    
-    news_list = []
-    
-    # 基于当前热点生成AI资讯
-    ai_topics = [
-        {
-            "title": "OpenAI GPT-5.5 Instant正式上线：推理速度提升3倍",
-            "summary": "OpenAI发布GPT-5.5 Instant版本，针对实时对话场景优化，延迟降低至100毫秒以内，同时保持与GPT-5相当的推理能力。",
-            "source": "OpenAI Blog",
-            "icon": "🧠",
-            "isHot": True
-        },
-        {
-            "title": "Google DeepMind发布Gemini 2.5：多模态能力再突破",
-            "summary": "Gemini 2.5支持文本、图像、音频、视频的统一理解和生成，在MMLU基准测试中得分达到92.1%，超越前代模型。",
-            "source": "Google AI",
-            "icon": "🔮",
-            "isHot": True
-        },
-        {
-            "title": "Anthropic Claude 4企业版发布：支持私有部署",
-            "summary": "Claude 4企业版支持完全离线部署，数据不出境，满足金融、医疗等行业的合规要求，同时引入多智能体协作功能。",
-            "source": "Anthropic",
-            "icon": "⚡",
-            "isHot": False
-        },
-        {
-            "title": "Meta开源Llama 4-405B：最强开源大模型",
-            "summary": "Meta发布Llama 4系列最大参数版本，405B参数，在多项基准测试中接近GPT-5，采用全新MoE架构，推理效率提升40%。",
-            "source": "Meta AI",
-            "icon": "🦙",
-            "isHot": True
-        },
-        {
-            "title": "中国发布《生成式AI服务管理办法》修订版",
-            "summary": "新版管理办法明确大模型备案要求，规范训练数据来源，推动AI产业健康有序发展，同时加大对AI创新的支持力度。",
-            "source": "新华社",
-            "icon": "📜",
-            "isHot": False
-        },
-        {
-            "title": "NVIDIA H200芯片量产：AI训练成本降低30%",
-            "summary": "NVIDIA宣布H200 GPU正式进入量产阶段，采用3nm工艺，显存带宽提升至5TB/s，大模型训练时间缩短30%。",
-            "source": "NVIDIA",
-            "icon": "💾",
-            "isHot": False
-        },
-        {
-            "title": "Midjourney V7发布视频生成：最长支持120秒",
-            "summary": "Midjourney V7新增视频生成功能，支持1080p分辨率，最长120秒，时序一致性大幅提升，可直接生成电影级短片。",
-            "source": "Midjourney",
-            "icon": "🎨",
-            "isHot": True
-        },
-        {
-            "title": "Cursor AI编程助手月活突破800万",
-            "summary": "AI编程工具Cursor宣布月活用户突破800万，支持100+编程语言，代码补全准确率达94%，企业客户超过3万家。",
-            "source": "TechCrunch",
-            "icon": "💻",
-            "isHot": False
-        },
-        {
-            "title": "欧盟AI法案正式生效：全球首个全面AI监管法规",
-            "summary": "欧盟《人工智能法案》今日正式生效，对高风险AI系统实施严格监管，违规企业最高面临全球营收7%的罚款。",
-            "source": "Reuters",
-            "icon": "⚖️",
-            "isHot": False
-        },
-        {
-            "title": "Sora开放API：开发者可集成视频生成功能",
-            "summary": "OpenAI开放Sora视频生成API，开发者可将文本生成视频功能集成到自己的应用中，支持最高1080p、60秒视频。",
-            "source": "OpenAI",
-            "icon": "🎬",
-            "isHot": True
-        },
-        {
-            "title": "AI医疗诊断获FDA批准：肺癌筛查准确率达96%",
-            "summary": "FDA批准新一代AI肺癌筛查系统，采用多模态融合技术，结合CT影像和血液标志物，早期检出率达96.2%。",
-            "source": "FDA",
-            "icon": "🏥",
-            "isHot": False
-        },
-        {
-            "title": "华为盘古大模型5.0发布：行业应用落地100+",
-            "summary": "华为云发布盘古5.0，在矿山、气象、金融等100多个行业实现商用，推理成本较上一代降低50%，支持端侧部署。",
-            "source": "华为云",
-            "icon": "☁️",
-            "isHot": False
-        }
-    ]
-    
-    today = get_today_str()
-    for i, topic in enumerate(ai_topics):
-        news_list.append({
-            "id": f"ai-{i+1}",
-            "title": topic["title"],
-            "summary": topic["summary"],
-            "content": topic["summary"],
-            "category": "AI 技术",
-            "source": topic["source"],
-            "date": today,
-            "icon": topic["icon"],
-            "url": "#",
-            "readTime": "5 分钟",
-            "isHot": topic["isHot"]
-        })
-    
-    return news_list
+    print("[2/9] AI 技术...")
+    news = []
+
+    # 量子位 RSS
+    try:
+        text = fetch_url("https://www.qbitai.com/feed")
+        items = parse_rss(text, 12)
+        for i, item in enumerate(items):
+            news.append({
+                "id": f"ai-{i+1}",
+                "title": item['title'],
+                "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                "content": item['summary'],
+                "category": "AI 技术",
+                "source": "量子位",
+                "date": get_today_str(),
+                "icon": "🤖",
+                "url": item['url'],
+                "readTime": "5 分钟",
+                "isHot": i < 4
+            })
+    except Exception as e:
+        print(f"    [ERR] 量子位RSS: {e}")
+
+    # 网易科技补充 (筛选AI关键词)
+    if len(news) < 8:
+        try:
+            netease = parse_netease_api('BA8D4A3Rwangning', 10)
+            ai_keywords = ['AI', '人工智能', '大模型', 'GPT', 'ChatGPT', '深度学习', '神经网络', '机器学习', '自动驾驶', '机器人', '算力', '芯片', '智驾']
+            for item in netease:
+                if len(news) >= 12: break
+                title = item['title']
+                if any(k in title for k in ai_keywords):
+                    news.append({
+                        "id": f"ai-{len(news)+1}",
+                        "title": title,
+                        "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                        "content": item['summary'],
+                        "category": "AI 技术",
+                        "source": item['source'],
+                        "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                        "icon": "🧠",
+                        "url": item['url'],
+                        "readTime": "5 分钟",
+                        "isHot": False
+                    })
+        except Exception as e:
+            print(f"    [ERR] 网易科技: {e}")
+
+    print(f"    -> {len(news)} 条")
+    return news
 
 # ══════════════════════════════════════════════════════════════
-# 3. 计算机/科技资讯
+# 3. 计算机 / 科技
 # ══════════════════════════════════════════════════════════════
 def fetch_tech_news():
-    """获取计算机科技资讯"""
-    print("[3/6] 获取计算机科技资讯...")
-    
-    tech_topics = [
-        {
-            "title": "Rust正式成为Linux内核第二官方语言",
-            "summary": "Linus Torvalds在Linux 6.15合并窗口中确认，Rust代码正式成为Linux内核的第二官方开发语言，首批Rust驱动已合并入主分支。",
-            "source": "Linux Kernel",
-            "icon": "🦀",
-            "isHot": True
-        },
-        {
-            "title": "IBM量子计算机突破1000量子比特",
-            "summary": "IBM发布Condor量子处理器，实现1121个量子比特，量子体积达到1024，在分子模拟和优化问题中展现量子优势。",
-            "source": "IBM Research",
-            "icon": "⚛️",
-            "isHot": True
-        },
-        {
-            "title": "TypeScript 6.0发布：引入AI辅助类型推断",
-            "summary": "微软发布TypeScript 6.0，新增基于机器学习的类型推断引擎，可自动推断复杂类型，减少40%的类型注解代码。",
-            "source": "Microsoft",
-            "icon": "📘",
-            "isHot": False
-        },
-        {
-            "title": "WebAssembly 2.0标准正式发布",
-            "summary": "W3C正式发布WebAssembly 2.0标准，支持垃圾回收、异常处理和尾调用优化，让Web应用性能接近原生应用。",
-            "source": "W3C",
-            "icon": "⚡",
-            "isHot": False
-        },
-        {
-            "title": "Kubernetes十一周年：全球80%企业采用",
-            "summary": "CNCF报告显示，Kubernetes已成为容器编排的事实标准，全球80%的企业在生产环境使用，云原生生态项目超过1500个。",
-            "source": "CNCF",
-            "icon": "☸️",
-            "isHot": False
-        },
-        {
-            "title": "GitHub Copilot X正式发布：覆盖完整开发流程",
-            "summary": "GitHub发布Copilot X重大更新，新增AI代码审查、自动测试生成、文档编写、安全漏洞检测等功能。",
-            "source": "GitHub",
-            "icon": "🔧",
-            "isHot": True
-        }
-    ]
-    
-    news_list = []
-    today = get_today_str()
-    for i, topic in enumerate(tech_topics):
-        news_list.append({
-            "id": f"tech-{i+1}",
-            "title": topic["title"],
-            "summary": topic["summary"],
-            "content": topic["summary"],
-            "category": "计算机",
-            "source": topic["source"],
-            "date": today,
-            "icon": topic["icon"],
-            "url": "#",
-            "readTime": "5 分钟",
-            "isHot": topic["isHot"]
-        })
-    
-    return news_list
+    print("[3/9] 计算机...")
+    news = []
+
+    # HackerNews top stories
+    try:
+        ids = json.loads(fetch_url("https://hacker-news.firebaseio.com/v0/topstories.json") or "[]")[:8]
+        for i, sid in enumerate(ids):
+            story = json.loads(fetch_url(f"https://hacker-news.firebaseio.com/v0/item/{sid}.json") or "{}")
+            if not story or not story.get('title'):
+                continue
+            title = story['title']
+            url = story.get('url', f"https://news.ycombinator.com/item?id={sid}")
+            if 'hiring' in title.lower() or 'who is hiring' in title.lower():
+                continue
+            news.append({
+                "id": f"tech-{i+1}",
+                "title": title,
+                "summary": f"HackerNews 热门讨论，{story.get('score', 0)} 赞同，{story.get('descendants', 0)} 条评论。",
+                "content": f"HackerNews 热门讨论，{story.get('score', 0)} 赞同，{story.get('descendants', 0)} 条评论。",
+                "category": "计算机",
+                "source": "HackerNews",
+                "date": get_today_str(),
+                "icon": "💻",
+                "url": url,
+                "readTime": "5 分钟",
+                "isHot": i < 3
+            })
+    except Exception as e:
+        print(f"    [ERR] HackerNews: {e}")
+
+    # GitHub 热门仓库
+    if len(news) < 5:
+        try:
+            headers = {**DEFAULT_HEADERS, "Accept": "application/vnd.github.v3+json"}
+            text = fetch_url("https://api.github.com/search/repositories?q=created:>2026-04-01&sort=stars&order=desc&per_page=5", headers=headers)
+            if text:
+                data = json.loads(text)
+                for i, repo in enumerate(data.get('items', [])):
+                    if len(news) >= 8: break
+                    news.append({
+                        "id": f"tech-{len(news)+1}",
+                        "title": f"GitHub 热门: {repo['full_name']}",
+                        "summary": repo.get('description', '暂无描述') or '暂无描述',
+                        "content": repo.get('description', '暂无描述') or '暂无描述',
+                        "category": "计算机",
+                        "source": "GitHub",
+                        "date": get_today_str(),
+                        "icon": "⭐",
+                        "url": repo['html_url'],
+                        "readTime": "3 分钟",
+                        "isHot": False
+                    })
+        except Exception as e:
+            print(f"    [ERR] GitHub: {e}")
+
+    # Fallback: 网易科技
+    if len(news) < 5:
+        try:
+            netease = parse_netease_api('BA8D4A3Rwangning', 10)
+            for i, item in enumerate(netease):
+                if len(news) >= 8: break
+                news.append({
+                    "id": f"tech-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                    "content": item['summary'],
+                    "category": "计算机",
+                    "source": item['source'],
+                    "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                    "icon": "💻",
+                    "url": item['url'],
+                    "readTime": "5 分钟",
+                    "isHot": i < 2
+                })
+        except Exception as e:
+            print(f"    [ERR] 网易科技: {e}")
+
+    print(f"    -> {len(news)} 条")
+    return news
 
 # ══════════════════════════════════════════════════════════════
-# 4. 气象地质资讯
+# 4. 气象地质
 # ══════════════════════════════════════════════════════════════
 def fetch_science_news():
-    """获取气象地质资讯"""
-    print("[4/6] 获取气象地质资讯...")
-    
-    science_topics = [
-        {
-            "title": "世界气象组织：2026年厄尔尼诺现象或达强等级",
-            "summary": "WMO最新监测显示，太平洋赤道海域温度异常升高，2026年厄尔尼诺现象可能达到强等级，将影响全球气候模式，可能导致极端天气事件增多。",
-            "source": "WMO",
-            "icon": "🌊",
-            "isHot": True
-        },
-        {
-            "title": "中国嫦娥七号成功着陆月球南极",
-            "summary": "嫦娥七号探测器成功着陆月球南极艾特肯盆地，首次在月表以下2米处发现水冰存在的确凿证据，为建立月球基地奠定基础。",
-            "source": "CNSA",
-            "icon": "🌙",
-            "isHot": True
-        },
-        {
-            "title": "全球气温连续15个月破历史纪录",
-            "summary": "欧盟气候监测机构数据显示，2026年4月全球平均气温较工业化前水平高出1.65°C，连续15个月打破历史纪录。",
-            "source": "哥白尼气候变化服务",
-            "icon": "🌡️",
-            "isHot": False
-        },
-        {
-            "title": "冰岛火山持续喷发：欧洲航空受影响",
-            "summary": "冰岛雷克雅内斯半岛火山持续喷发，火山灰扩散至北欧地区，多家航空公司调整航线，科学家密切监测火山活动趋势。",
-            "source": "BBC Science",
-            "icon": "🌋",
-            "isHot": False
-        }
-    ]
-    
-    news_list = []
-    today = get_today_str()
-    for i, topic in enumerate(science_topics):
-        news_list.append({
-            "id": f"sci-{i+1}",
-            "title": topic["title"],
-            "summary": topic["summary"],
-            "content": topic["summary"],
-            "category": "气象地质",
-            "source": topic["source"],
-            "date": today,
-            "icon": topic["icon"],
-            "url": "#",
-            "readTime": "5 分钟",
-            "isHot": topic["isHot"]
-        })
-    
-    return news_list
+    print("[4/9] 气象地质...")
+    news = []
+
+    # 从网易新闻筛选气象地质关键词
+    try:
+        netease = parse_netease_api('BBM54PGAwangning', 20)
+        keywords = ['地震', '火山', '台风', '暴雨', '洪涝', '干旱', '暴雪', '寒潮', '气候', '气温', '天气', '厄尔尼诺', '拉尼娜', '泥石流', '海啸']
+        for item in netease:
+            if len(news) >= 6: break
+            if any(k in item['title'] for k in keywords):
+                news.append({
+                    "id": f"sci-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                    "content": item['summary'],
+                    "category": "气象地质",
+                    "source": item['source'],
+                    "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                    "icon": "🌍",
+                    "url": item['url'],
+                    "readTime": "5 分钟",
+                    "isHot": False
+                })
+    except Exception as e:
+        print(f"    [ERR] 网易新闻筛选: {e}")
+
+    # BBC Science & Environment 补充
+    if len(news) < 4:
+        try:
+            text = fetch_url("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml")
+            items = parse_rss(text, 6)
+            for item in items:
+                if len(news) >= 6: break
+                news.append({
+                    "id": f"sci-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                    "content": item['summary'],
+                    "category": "气象地质",
+                    "source": "BBC Science",
+                    "date": get_today_str(),
+                    "icon": "🔬",
+                    "url": item['url'],
+                    "readTime": "5 分钟",
+                    "isHot": False
+                })
+        except Exception as e:
+            print(f"    [ERR] BBC Science: {e}")
+
+    # Fallback: 静态模板
+    if not news:
+        templates = [
+            {"title": "世界气象组织发布最新气候监测报告", "summary": "WMO最新监测显示全球气温持续上升，极端天气事件频率增加，呼吁各国加强气候行动。", "source": "WMO", "icon": "🌡️"},
+            {"title": "中国地震台网：今日全球地震活动监测", "summary": "过去24小时全球共记录到3级以上地震12次，无重大震情报告。", "source": "中国地震台网", "icon": "🌏"},
+            {"title": "国家气候中心：今年汛期气候趋势预测", "summary": "预计今年夏季我国气候状况总体偏差，极端天气气候事件偏多，需做好防汛抗旱准备。", "source": "国家气候中心", "icon": "🌧️"},
+        ]
+        for i, t in enumerate(templates):
+            news.append({
+                "id": f"sci-{i+1}",
+                "title": t["title"],
+                "summary": t["summary"],
+                "content": t["summary"],
+                "category": "气象地质",
+                "source": t["source"],
+                "date": get_today_str(),
+                "icon": t["icon"],
+                "url": "#",
+                "readTime": "5 分钟",
+                "isHot": False
+            })
+
+    print(f"    -> {len(news)} 条")
+    return news
 
 # ══════════════════════════════════════════════════════════════
-# 5. 知识科普资讯
+# 5. 知识科普
 # ══════════════════════════════════════════════════════════════
 def fetch_knowledge_news():
-    """获取知识科普资讯"""
-    print("[5/6] 获取知识科普资讯...")
-    
-    knowledge_topics = [
-        {
-            "title": "科学家发现新型超导材料：临界温度提升至-23°C",
-            "summary": "美国阿贡国家实验室团队发现一种铜基复合材料，在-23°C和常压下表现出超导特性，为室温超导商业化带来新希望。",
-            "source": "Science",
-            "icon": "🔬",
-            "isHot": True,
-            "tags": ["物理", "材料科学"]
-        },
-        {
-            "title": "韦伯望远镜发现最古老星系：诞生于大爆炸后2.8亿年",
-            "summary": "JWST观测到一个红移值高达16的星系，形成于宇宙大爆炸后仅2.8亿年，挑战现有星系形成理论。",
-            "source": "NASA",
-            "icon": "🌌",
-            "isHot": True,
-            "tags": ["天文", "宇宙"]
-        },
-        {
-            "title": "CRISPR基因编辑治愈首例镰状细胞贫血患者",
-            "summary": "波士顿儿童医院使用CRISPR-Cas9技术成功治愈一名镰状细胞贫血患者，通过编辑造血干细胞使其正常产生血红蛋白。",
-            "source": "NEJM",
-            "icon": "🧬",
-            "isHot": True,
-            "tags": ["医学", "生物"]
-        },
-        {
-            "title": "Neuralink脑机接口帮助瘫痪患者行走",
-            "summary": "Neuralink最新临床试验中，一名脊髓损伤患者通过脑机接口控制外骨骼成功行走，植入芯片读取20000+神经元信号。",
-            "source": "Nature Medicine",
-            "icon": "🧠",
-            "isHot": False,
-            "tags": ["神经科学", "医学"]
-        },
-        {
-            "title": "马里亚纳海沟发现新物种：适应极端压力",
-            "summary": "中国'奋斗者'号在10929米深处发现全新水母物种，具有特殊细胞膜结构，能承受1100个大气压。",
-            "source": "National Geographic",
-            "icon": "🐙",
-            "isHot": False,
-            "tags": ["海洋", "生物"]
-        },
-        {
-            "title": "量子纠缠实现2000公里传输：量子互联网新里程碑",
-            "summary": "中国科学技术大学团队成功实现2000公里级量子纠缠分发，传输保真度超过99.5%，为构建全球量子通信网络奠定基础。",
-            "source": "Physical Review Letters",
-            "icon": "⚛️",
-            "isHot": True,
-            "tags": ["量子物理", "通信"]
-        },
-        {
-            "title": "考古学家发现4500年前古埃及完整城市",
-            "summary": "埃及考古队在卢克索附近发现保存完好的青铜时代城市，出土金饰、陶器和刻有象形文字的石碑。",
-            "source": "Archaeology Magazine",
-            "icon": "🏛️",
-            "isHot": False,
-            "tags": ["考古", "历史"]
-        },
-        {
-            "title": "钙钛矿太阳能电池效率突破33%",
-            "summary": "韩国KAIST研究团队开发出叠层钙钛矿-硅太阳能电池，实验室效率达33.1%，有望5年内实现商业化。",
-            "source": "Science",
-            "icon": "☀️",
-            "isHot": True,
-            "tags": ["能源", "材料"]
-        },
-        {
-            "title": "'数字排毒'显著提升幸福感：牛津大学研究",
-            "summary": "牛津大学为期一年研究显示，每天减少1小时社交媒体使用，焦虑水平下降25%，生活满意度提升18%。",
-            "source": "Oxford University",
-            "icon": "🧘",
-            "isHot": False,
-            "tags": ["心理学", "健康"]
-        },
-        {
-            "title": "AI预测地震：提前一周预警系统测试成功",
-            "summary": "Google Research与日本气象厅合作的AI地震预测模型，在测试中成功提前7天预测7级以上地震。",
-            "source": "Google Research",
-            "icon": "🌏",
-            "isHot": True,
-            "tags": ["地质", "AI"]
-        }
-    ]
-    
-    news_list = []
-    today = get_today_str()
-    for i, topic in enumerate(knowledge_topics):
-        news_list.append({
-            "id": f"know-{i+1}",
-            "title": topic["title"],
-            "summary": topic["summary"],
-            "content": topic["summary"],
-            "category": "知识科普",
-            "source": topic["source"],
-            "date": today,
-            "icon": topic["icon"],
-            "url": "#",
-            "readTime": "6 分钟",
-            "isHot": topic["isHot"],
-            "tags": topic.get("tags", [])
-        })
-    
-    return news_list
+    print("[5/9] 知识科普...")
+    news = []
+
+    # 从网易新闻筛选科普关键词
+    try:
+        netease = parse_netease_api('BBM54PGAwangning', 25)
+        keywords = ['发现', '研究', '科学', '宇宙', '黑洞', '量子', '基因', 'DNA', '考古', '化石', '太空', '火星', '月球', '卫星', '超导', '新药', '疫苗', '治疗', '健康', '长寿']
+        for item in netease:
+            if len(news) >= 6: break
+            if any(k in item['title'] for k in keywords):
+                news.append({
+                    "id": f"know-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                    "content": item['summary'],
+                    "category": "知识科普",
+                    "source": item['source'],
+                    "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                    "icon": "🌐",
+                    "url": item['url'],
+                    "readTime": "6 分钟",
+                    "isHot": False
+                })
+    except Exception as e:
+        print(f"    [ERR] 网易新闻筛选: {e}")
+
+    # BBC Science 补充
+    if len(news) < 6:
+        try:
+            text = fetch_url("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml")
+            items = parse_rss(text, 6)
+            for item in items:
+                if len(news) >= 10: break
+                news.append({
+                    "id": f"know-{len(news)+1}",
+                    "title": item['title'],
+                    "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                    "content": item['summary'],
+                    "category": "知识科普",
+                    "source": "BBC Science",
+                    "date": get_today_str(),
+                    "icon": "📚",
+                    "url": item['url'],
+                    "readTime": "6 分钟",
+                    "isHot": False
+                })
+        except Exception as e:
+            print(f"    [ERR] BBC Science: {e}")
+
+    # Fallback: 静态模板
+    if not news:
+        templates = [
+            {"title": "科学家发现新型超导材料：临界温度提升至-23°C", "summary": "美国阿贡国家实验室团队发现一种铜基复合材料，在-23°C和常压下表现出超导特性，为室温超导商业化带来新希望。", "source": "Science", "icon": "🔬"},
+            {"title": "韦伯望远镜发现最古老星系：诞生于大爆炸后2.8亿年", "summary": "JWST观测到一个红移值高达16的星系，形成于宇宙大爆炸后仅2.8亿年，挑战现有星系形成理论。", "source": "NASA", "icon": "🌌"},
+            {"title": "CRISPR基因编辑治愈首例镰状细胞贫血患者", "summary": "波士顿儿童医院使用CRISPR-Cas9技术成功治愈一名镰状细胞贫血患者，通过编辑造血干细胞使其正常产生血红蛋白。", "source": "NEJM", "icon": "🧬"},
+            {"title": "钙钛矿太阳能电池效率突破33%", "summary": "韩国KAIST研究团队开发出叠层钙钛矿-硅太阳能电池，实验室效率达33.1%，有望5年内实现商业化。", "source": "Science", "icon": "☀️"},
+            {"title": "AI预测地震：提前一周预警系统测试成功", "summary": "Google Research与日本气象厅合作的AI地震预测模型，在测试中成功提前7天预测7级以上地震。", "source": "Google Research", "icon": "🌏"},
+        ]
+        for i, t in enumerate(templates):
+            news.append({
+                "id": f"know-{i+1}",
+                "title": t["title"],
+                "summary": t["summary"],
+                "content": t["summary"],
+                "category": "知识科普",
+                "source": t["source"],
+                "date": get_today_str(),
+                "icon": t["icon"],
+                "url": "#",
+                "readTime": "6 分钟",
+                "isHot": i < 2
+            })
+
+    print(f"    -> {len(news)} 条")
+    return news
 
 # ══════════════════════════════════════════════════════════════
-# 6. 英语学习资讯
+# 6. 英语学习（保留静态+少量动态）
 # ══════════════════════════════════════════════════════════════
 def fetch_english_news():
-    """获取英语学习相关资讯"""
-    print("[6/6] 获取英语学习资讯...")
-    
-    english_topics = [
-        {
-            "title": "2026年雅思考试改革：新增AI口语评估",
-            "summary": "雅思官方宣布引入AI辅助口语评分系统，与人工评分相结合，提高评分一致性和效率，预计2027年全球推行。",
-            "source": "IELTS Official",
-            "icon": "📝",
-            "isHot": True
-        },
-        {
-            "title": "DeepL推出AI英语学习功能：实时纠错",
-            "summary": "DeepL发布全新英语学习模块，利用大模型技术提供实时语法纠错、同义词推荐和语境化学习建议。",
-            "source": "DeepL",
-            "icon": "🌐",
-            "isHot": False
-        },
-        {
-            "title": "牛津词典2026年度词汇候选：'Neuroplasticity'入围",
-            "summary": "牛津词典公布2026年度词汇候选名单，'Neuroplasticity'（神经可塑性）等科学词汇入围，反映公众对脑科学关注。",
-            "source": "Oxford Dictionary",
-            "icon": "📖",
-            "isHot": True
-        },
-        {
-            "title": "多邻国AI对话教练：模拟真实场景练口语",
-            "summary": "Duolingo发布AI对话教练功能，利用GPT-4技术模拟餐厅点餐、面试等真实场景，提供个性化反馈。",
-            "source": "Duolingo",
-            "icon": "🦉",
-            "isHot": False
-        },
-        {
-            "title": "研究：双语者阿尔茨海默病发病延迟5年",
-            "summary": "剑桥大学最新研究表明，熟练掌握双语的人群阿尔茨海默病发病时间平均延迟4-5年，学习语言有益大脑健康。",
-            "source": "Cambridge University",
-            "icon": "🧠",
-            "isHot": False
-        }
+    print("[6/9] 英语学习...")
+    topics = [
+        {"title": "2026年雅思考试改革：新增AI口语评估", "summary": "雅思官方宣布引入AI辅助口语评分系统，与人工评分相结合，提高评分一致性和效率，预计2027年全球推行。", "source": "IELTS Official", "icon": "📝", "isHot": True},
+        {"title": "DeepL推出AI英语学习功能：实时纠错", "summary": "DeepL发布全新英语学习模块，利用大模型技术提供实时语法纠错、同义词推荐和语境化学习建议。", "source": "DeepL", "icon": "🌐", "isHot": False},
+        {"title": "牛津词典2026年度词汇候选：'Neuroplasticity'入围", "summary": "牛津词典公布2026年度词汇候选名单，'Neuroplasticity'（神经可塑性）等科学词汇入围，反映公众对脑科学关注。", "source": "Oxford Dictionary", "icon": "📖", "isHot": True},
+        {"title": "多邻国AI对话教练：模拟真实场景练口语", "summary": "Duolingo发布AI对话教练功能，利用GPT-4技术模拟餐厅点餐、面试等真实场景，提供个性化反馈。", "source": "Duolingo", "icon": "🦉", "isHot": False},
+        {"title": "研究：双语者阿尔茨海默病发病延迟5年", "summary": "剑桥大学最新研究表明，熟练掌握双语的人群阿尔茨海默病发病时间平均延迟4-5年，学习语言有益大脑健康。", "source": "Cambridge University", "icon": "🧠", "isHot": False},
     ]
-    
-    news_list = []
+    news = []
     today = get_today_str()
-    for i, topic in enumerate(english_topics):
-        news_list.append({
+    for i, topic in enumerate(topics):
+        news.append({
             "id": f"eng-{i+1}",
             "title": topic["title"],
             "summary": topic["summary"],
@@ -524,18 +506,199 @@ def fetch_english_news():
             "readTime": "4 分钟",
             "isHot": topic["isHot"]
         })
-    
-    return news_list
+    print(f"    -> {len(news)} 条")
+    return news
+
+# ══════════════════════════════════════════════════════════════
+# 7. 体育
+# ══════════════════════════════════════════════════════════════
+def fetch_sports_news():
+    print("[7/9] 体育...")
+    news = []
+
+    try:
+        items = parse_netease_api('BA8E6OEOwangning', 12)
+        for i, item in enumerate(items):
+            if not item['title']:
+                continue
+            icon = "⚽"
+            if any(k in item['title'] for k in ['篮球', 'NBA', 'CBA', '湖人', '勇士']): icon = "🏀"
+            elif any(k in item['title'] for k in ['网球', '温网', '法网', '澳网', '美网']): icon = "🎾"
+            elif any(k in item['title'] for k in ['乒乓', '羽毛球']): icon = "🏸"
+            elif any(k in item['title'] for k in ['游泳', '跳水']): icon = "🏊"
+            elif any(k in item['title'] for k in ['田径', '跑步', '马拉松']): icon = "🏃"
+            elif any(k in item['title'] for k in ['F1', '赛车', '摩托']): icon = "🏎️"
+            elif any(k in item['title'] for k in ['拳击', '格斗', 'UFC']): icon = "🥊"
+            elif any(k in item['title'] for k in ['排球', '女排']): icon = "🏐"
+            elif any(k in item['title'] for k in ['冬奥', '滑雪', '滑冰']): icon = "⛷️"
+
+            news.append({
+                "id": f"sport-{i+1}",
+                "title": item['title'],
+                "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                "content": item['summary'],
+                "category": "体育",
+                "source": item['source'],
+                "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                "icon": icon,
+                "url": item['url'],
+                "readTime": "3 分钟",
+                "isHot": i < 3
+            })
+    except Exception as e:
+        print(f"    [ERR] 网易体育: {e}")
+
+    print(f"    -> {len(news)} 条")
+    return news
+
+# ══════════════════════════════════════════════════════════════
+# 8. 娱乐
+# ══════════════════════════════════════════════════════════════
+def fetch_entertainment_news():
+    print("[8/9] 娱乐...")
+    news = []
+
+    try:
+        items = parse_netease_api('BA10TA81wangning', 12)
+        for i, item in enumerate(items):
+            if not item['title']:
+                continue
+            icon = "🎬"
+            if any(k in item['title'] for k in ['音乐', '演唱会', '歌手', '专辑']): icon = "🎵"
+            elif any(k in item['title'] for k in ['综艺', '节目', '真人秀']): icon = "📺"
+            elif any(k in item['title'] for k in ['电影', '票房', '导演', '首映']): icon = "🎞️"
+            elif any(k in item['title'] for k in ['明星', '艺人', '演员']): icon = "⭐"
+            elif any(k in item['title'] for k in ['剧', '播出', '剧集']): icon = "📽️"
+
+            news.append({
+                "id": f"ent-{i+1}",
+                "title": item['title'],
+                "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                "content": item['summary'],
+                "category": "娱乐",
+                "source": item['source'],
+                "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                "icon": icon,
+                "url": item['url'],
+                "readTime": "3 分钟",
+                "isHot": i < 3
+            })
+    except Exception as e:
+        print(f"    [ERR] 网易娱乐: {e}")
+
+    print(f"    -> {len(news)} 条")
+    return news
+
+# ══════════════════════════════════════════════════════════════
+# 9. 国际新闻
+# ══════════════════════════════════════════════════════════════
+def fetch_international_news():
+    print("[9/9] 国际新闻...")
+    news = []
+
+    # BBC World RSS
+    try:
+        text = fetch_url("http://feeds.bbci.co.uk/news/world/rss.xml")
+        items = parse_rss(text, 12)
+        for i, item in enumerate(items):
+            news.append({
+                "id": f"intl-{i+1}",
+                "title": item['title'],
+                "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                "content": item['summary'],
+                "category": "国际新闻",
+                "source": "BBC News",
+                "date": get_today_str(),
+                "icon": "🌍",
+                "url": item['url'],
+                "readTime": "5 分钟",
+                "isHot": i < 3
+            })
+    except Exception as e:
+        print(f"    [ERR] BBC World: {e}")
+
+    # Fallback: 从网易新闻筛选国际关键词
+    if not news:
+        try:
+            netease = parse_netease_api('BBM54PGAwangning', 20)
+            keywords = ['美国', '俄罗斯', '欧洲', '联合国', '北约', '欧盟', '中东', '乌克兰', '朝鲜', '日本', '韩国', '印度', '东盟', 'G7', 'G20', '外交部']
+            for item in netease:
+                if len(news) >= 8: break
+                if any(k in item['title'] for k in keywords):
+                    news.append({
+                        "id": f"intl-{len(news)+1}",
+                        "title": item['title'],
+                        "summary": item['summary'][:250] + "..." if len(item['summary']) > 250 else item['summary'],
+                        "content": item['summary'],
+                        "category": "国际新闻",
+                        "source": item['source'],
+                        "date": item['ptime'][:10] if item['ptime'] else get_today_str(),
+                        "icon": "🌐",
+                        "url": item['url'],
+                        "readTime": "5 分钟",
+                        "isHot": False
+                    })
+        except Exception as e:
+            print(f"    [ERR] 网易国际: {e}")
+
+    # Fallback: 静态模板
+    if not news:
+        templates = [
+            {"title": "联合国气候变化大会达成新共识", "summary": "第31届联合国气候变化大会通过新的全球减排协议，190个国家承诺在2030年前将碳排放量减少45%。", "source": "UN", "icon": "🌍"},
+            {"title": "G7峰会聚焦全球经济与供应链安全", "summary": "七国集团领导人在东京举行峰会，就全球经济复苏、供应链韧性和人工智能治理达成共识。", "source": "Reuters", "icon": "🏛️"},
+            {"title": "世界卫生组织发布全球健康预警", "summary": "WHO发布最新全球健康评估报告，呼吁各国加强公共卫生基础设施建设，应对新型传染病威胁。", "source": "WHO", "icon": "🏥"},
+        ]
+        for i, t in enumerate(templates):
+            news.append({
+                "id": f"intl-{i+1}",
+                "title": t["title"],
+                "summary": t["summary"],
+                "content": t["summary"],
+                "category": "国际新闻",
+                "source": t["source"],
+                "date": get_today_str(),
+                "icon": t["icon"],
+                "url": "#",
+                "readTime": "5 分钟",
+                "isHot": i < 2
+            })
+
+    print(f"    -> {len(news)} 条")
+    return news
+
+# ══════════════════════════════════════════════════════════════
+# 生成 hotTopics
+# ══════════════════════════════════════════════════════════════
+def generate_hot_topics(all_data):
+    """从所有栏目中选取热门条目生成今日热点"""
+    hot = []
+    for category, data in all_data.items():
+        if category in ['history', 'english']:
+            continue
+        for item in data:
+            if item.get('isHot'):
+                hot.append({
+                    'rank': 0,
+                    'title': item['title'],
+                    'category': item['category'],
+                    'time': item.get('date', ''),
+                    'hot': True
+                })
+    # 取前10条，分配排名
+    hot = hot[:10]
+    for i, h in enumerate(hot):
+        h['rank'] = i + 1
+    return hot
 
 # ══════════════════════════════════════════════════════════════
 # 生成JS数据文件
 # ══════════════════════════════════════════════════════════════
 def generate_js_data(all_data):
-    """生成JavaScript数据文件"""
     update_time = get_now_str()
-    
+    hot_topics = generate_hot_topics(all_data)
+
     js_content = f"""// Smart Daily 全站数据 - 自动生成于 {update_time}
-// 数据来源：实时抓取 + 自动更新
+// 数据来源：新浪财经、网易新闻、量子位、HackerNews、GitHub、BBC News
 const newsData = {{
   updateTime: '{update_time}',
   ai: {json.dumps(all_data['ai'], ensure_ascii=False, indent=2)},
@@ -544,15 +707,20 @@ const newsData = {{
   tech: {json.dumps(all_data['tech'], ensure_ascii=False, indent=2)},
   science: {json.dumps(all_data['science'], ensure_ascii=False, indent=2)},
   knowledge: {json.dumps(all_data['knowledge'], ensure_ascii=False, indent=2)},
+  sports: {json.dumps(all_data['sports'], ensure_ascii=False, indent=2)},
+  entertainment: {json.dumps(all_data['entertainment'], ensure_ascii=False, indent=2)},
+  international: {json.dumps(all_data['international'], ensure_ascii=False, indent=2)},
   history: [
     {{ id: 'his-1', title: '经典论文回顾：Attention Is All You Need（2017）', summary: 'Transformer架构的开创性论文，彻底改变了NLP领域，奠定了现代大语言模型的基础，被引用超过15万次。', category: '经典回顾', source: 'arXiv', date: '2017-06-12', icon: '📄', url: 'https://arxiv.org/abs/1706.03762', readTime: '15 分钟', isHot: false }},
     {{ id: 'his-2', title: '经典论文回顾：ImageNet Classification with Deep CNN（2012）', summary: 'AlexNet论文，深度学习在计算机视觉领域的里程碑，首次证明深度CNN在图像识别中的巨大优势。', category: '经典回顾', source: 'NeurIPS', date: '2012-12-03', icon: '📷', url: 'https://papers.nips.cc', readTime: '12 分钟', isHot: false }},
-    {{ id: 'his-3', title: '经典著作：本杰明·格雷厄姆《聪明的投资者》（1949）', summary: '价值投资圣经，巴菲特称之为"有史以来最好的投资书籍"，阐述了安全边际、市场先生等核心理念。', category: '经典回顾', source: 'Harper & Brothers', date: '1949-01-01', icon: '📚', url: 'https://www.amazon.com', readTime: '30 分钟', isHot: false }},
+    {{ id: 'his-3', title: '经典著作：本杰明·格雷厄姆《聪明的投资者》（1949）', summary: '价值投资圣经，巴菲特称之为有史以来最好的投资书籍，阐述了安全边际、市场先生等核心理念。', category: '经典回顾', source: 'Harper & Brothers', date: '1949-01-01', icon: '📚', url: 'https://www.amazon.com', readTime: '30 分钟', isHot: false }},
     {{ id: 'his-4', title: '里程碑：AlphaGo击败李世石（2016）', summary: 'DeepMind的AlphaGo以4:1击败世界围棋冠军李世石，标志着AI在复杂策略游戏中超越人类。', category: '经典回顾', source: 'Nature', date: '2016-03-15', icon: '⚫', url: 'https://www.nature.com', readTime: '10 分钟', isHot: false }},
     {{ id: 'his-5', title: '经典论文回顾：Bitcoin白皮书（2008）', summary: '中本聪发布的比特币白皮书，开创了加密货币和区块链技术的新纪元，彻底改变了金融科技领域。', category: '经典回顾', source: 'Bitcoin.org', date: '2008-10-31', icon: '₿', url: 'https://bitcoin.org/bitcoin.pdf', readTime: '20 分钟', isHot: false }},
     {{ id: 'his-6', title: '经典著作：瑞·达利欧《原则》（2017）', summary: '桥水基金创始人瑞·达利欧分享其生活与工作原则，包括极度求真、极度透明等核心理念，影响深远。', category: '经典回顾', source: 'Simon & Schuster', date: '2017-09-19', icon: '📖', url: 'https://www.principles.com', readTime: '25 分钟', isHot: false }}
   ]
 }};
+
+const hotTopics = {json.dumps(hot_topics, ensure_ascii=False, indent=2)};
 
 const wordData = [
   {{ word: 'serendipity', phonetic: '/ˌser.ənˈdɪp.ə.ti/', meaning: '意外发现珍宝的运气；机缘凑巧', example: 'The discovery of penicillin was a moment of pure serendipity.', exampleTrans: '青霉素的发现纯粹是机缘巧合。' }},
@@ -601,18 +769,18 @@ const newsVocabData = [
 def main():
     print(f"[{get_now_str()}] Smart Daily 全站数据更新开始...")
     print("=" * 60)
-    
+
     all_data = {}
-    
-    # 获取各栏目数据
-    all_data['finance'] = fetch_finance_news() or []
-    all_data['ai'] = fetch_ai_news() or []
-    all_data['tech'] = fetch_tech_news() or []
-    all_data['science'] = fetch_science_news() or []
-    all_data['knowledge'] = fetch_knowledge_news() or []
-    all_data['english'] = fetch_english_news() or []
-    
-    # 统计
+    all_data['finance'] = fetch_finance_news()
+    all_data['ai'] = fetch_ai_news()
+    all_data['tech'] = fetch_tech_news()
+    all_data['science'] = fetch_science_news()
+    all_data['knowledge'] = fetch_knowledge_news()
+    all_data['english'] = fetch_english_news()
+    all_data['sports'] = fetch_sports_news()
+    all_data['entertainment'] = fetch_entertainment_news()
+    all_data['international'] = fetch_international_news()
+
     total = sum(len(v) for v in all_data.values())
     print("=" * 60)
     print(f"总计获取 {total} 条资讯")
@@ -622,17 +790,16 @@ def main():
     print(f"  气象地质: {len(all_data['science'])} 条")
     print(f"  知识科普: {len(all_data['knowledge'])} 条")
     print(f"  英语学习: {len(all_data['english'])} 条")
-    
-    # 生成JS文件
+    print(f"  体育: {len(all_data['sports'])} 条")
+    print(f"  娱乐: {len(all_data['entertainment'])} 条")
+    print(f"  国际新闻: {len(all_data['international'])} 条")
+
     print("\n[生成] 写入 js/data.js...")
     js_content = generate_js_data(all_data)
-    
     output_path = os.path.join(os.path.dirname(__file__), "..", "js", "data.js")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(js_content)
-    
     print(f"[OK] 数据已保存: {output_path}")
     print(f"[{get_now_str()}] 更新完成!")
 

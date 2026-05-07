@@ -93,7 +93,22 @@
             <li class="nav-item" data-page="knowledge">
                 <span class="nav-icon">🌐</span>
                 <span class="nav-label">知识科普</span>
-                <span class="nav-badge">15</span>
+                <span class="nav-badge">10</span>
+            </li>
+            <li class="nav-item" data-page="sports">
+                <span class="nav-icon">⚽</span>
+                <span class="nav-label">体育</span>
+                <span class="nav-badge">12</span>
+            </li>
+            <li class="nav-item" data-page="entertainment">
+                <span class="nav-icon">🎬</span>
+                <span class="nav-label">娱乐</span>
+                <span class="nav-badge">12</span>
+            </li>
+            <li class="nav-item" data-page="international">
+                <span class="nav-icon">🌍</span>
+                <span class="nav-label">国际新闻</span>
+                <span class="nav-badge">10</span>
             </li>
             <li class="nav-item" data-page="leisure">
                 <span class="nav-icon">🎧</span>
@@ -154,7 +169,7 @@
             <section class="page active" id="page-dashboard">
                 <div class="welcome-section">
                     <h1 class="welcome-title">早安，探索者</h1>
-                    <p class="welcome-subtitle">今日已为你精选 <strong>50</strong> 条前沿资讯，涵盖 7 大学科领域</p>
+                    <p class="welcome-subtitle">今日已为你精选 <strong id="totalNewsCount">--</strong> 条实时资讯，涵盖 10 大资讯栏目</p>
                 </div>
 
                 <div class="dashboard-grid" id="dashboardGrid">
@@ -230,7 +245,31 @@
                                 <div class="category-icon">🌐</div>
                                 <div class="category-info">
                                     <h4>知识科普</h4>
-                                    <p>15 条新发现</p>
+                                    <p>10 条新发现</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="sports">
+                                <div class="category-icon">⚽</div>
+                                <div class="category-info">
+                                    <h4>体育</h4>
+                                    <p>12 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="entertainment">
+                                <div class="category-icon">🎬</div>
+                                <div class="category-info">
+                                    <h4>娱乐</h4>
+                                    <p>12 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="international">
+                                <div class="category-icon">🌍</div>
+                                <div class="category-info">
+                                    <h4>国际新闻</h4>
+                                    <p>10 条新资讯</p>
                                 </div>
                                 <div class="category-arrow">→</div>
                             </div>
@@ -588,6 +627,30 @@
                 <div class="news-grid" id="knowledgeNewsGrid"></div>
             </section>
 
+            <section class="page" id="page-sports">
+                <div class="page-header">
+                    <h2>⚽ 体育资讯</h2>
+                    <p>足球、篮球、网球、田径等国内外体育赛事与动态</p>
+                </div>
+                <div class="news-grid" id="sportsNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-entertainment">
+                <div class="page-header">
+                    <h2>🎬 娱乐资讯</h2>
+                    <p>电影、音乐、综艺、明星动态等娱乐圈最新消息</p>
+                </div>
+                <div class="news-grid" id="entertainmentNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-international">
+                <div class="page-header">
+                    <h2>🌍 国际新闻</h2>
+                    <p>全球政治、经济、社会等领域的国际要闻</p>
+                </div>
+                <div class="news-grid" id="internationalNewsGrid"></div>
+            </section>
+
             <!-- 课后时间 -->
             <section class="page" id="page-leisure">
                 <div class="page-header">
@@ -684,7 +747,6 @@
     <!-- 提示消息 -->
     <div class="toast-container" id="toastContainer"></div>
 
-    <script src="js/data-finance.js"></script>
     <script src="js/data.js"></script>
     <script src="js/data-leisure.js"></script>
     <script src="js/audio.js"></script>

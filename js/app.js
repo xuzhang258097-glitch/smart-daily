@@ -229,8 +229,19 @@ class SmartDailyApp {
 
   renderHotTopics() {
     const list = document.getElementById('hotTopics');
+    const catMap = {
+      'AI 技术': 'ai',
+      '财经股市': 'finance',
+      '英语学习': 'english',
+      '计算机': 'tech',
+      '气象地质': 'science',
+      '知识科普': 'knowledge',
+      '体育': 'sports',
+      '娱乐': 'entertainment',
+      '国际新闻': 'international'
+    };
     list.innerHTML = hotTopics.map(t => `
-      <div class="topic-item" onclick="app.openNews('${t.category === 'AI 技术' ? 'ai' : t.category === '财经股市' ? 'finance' : 'tech'}', ${t.rank - 1})">
+      <div class="topic-item" onclick="app.openNews('${catMap[t.category] || 'tech'}', ${t.rank - 1})">
         <div class="topic-rank ${t.hot ? 'hot' : t.rank <= 3 ? 'warm' : 'normal'}">${t.rank}</div>
         <div class="topic-info">
           <div class="topic-title">${t.title}</div>
@@ -243,11 +254,27 @@ class SmartDailyApp {
 
   renderCategoryCards() {
     // 动态更新数字
-    const counts = { ai: newsData.ai.length, finance: newsData.finance.length, english: newsData.english.length, tech: newsData.tech.length, science: newsData.science.length };
+    const counts = {
+      ai: newsData.ai.length,
+      finance: newsData.finance.length,
+      english: newsData.english.length,
+      tech: newsData.tech.length,
+      science: newsData.science.length,
+      knowledge: newsData.knowledge.length,
+      sports: newsData.sports.length,
+      entertainment: newsData.entertainment.length,
+      international: newsData.international.length
+    };
+    const total = Object.values(counts).reduce((a, b) => a + b, 0) + newsData.history.length;
+    const totalEl = document.getElementById('totalNewsCount');
+    if (totalEl) totalEl.textContent = total;
+
     document.querySelectorAll('.category-card').forEach(card => {
       const cat = card.dataset.category;
       const info = card.querySelector('.category-info p');
-      if (counts[cat]) info.textContent = `${counts[cat]} 条新资讯`;
+      if (info && counts[cat] !== undefined) {
+        info.textContent = `${counts[cat]} 条新资讯`;
+      }
     });
   }
 
@@ -298,6 +325,9 @@ class SmartDailyApp {
     render(newsData.english, 'englishNewsGrid');
     render(newsData.tech, 'techNewsGrid');
     render(newsData.science, 'scienceNewsGrid');
+    render(newsData.sports, 'sportsNewsGrid');
+    render(newsData.entertainment, 'entertainmentNewsGrid');
+    render(newsData.international, 'internationalNewsGrid');
     render(newsData.history, 'historyNewsGrid');
     this.initKnowledge();
   }
@@ -382,7 +412,18 @@ class SmartDailyApp {
   }
 
   getGradient(category) {
-    const map = { 'AI 技术': 'var(--gradient-1)', '财经股市': 'var(--gradient-2)', '英语学习': 'var(--gradient-3)', '计算机': 'var(--gradient-5)', '气象地质': 'var(--gradient-4)', '经典回顾': 'linear-gradient(135deg, #8b7355 0%, #c2b280 100%)' };
+    const map = {
+      'AI 技术': 'var(--gradient-1)',
+      '财经股市': 'var(--gradient-2)',
+      '英语学习': 'var(--gradient-3)',
+      '计算机': 'var(--gradient-5)',
+      '气象地质': 'var(--gradient-4)',
+      '知识科普': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      '体育': 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
+      '娱乐': 'linear-gradient(135deg, #ff6b6b 0%, #feca57 100%)',
+      '国际新闻': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+      '经典回顾': 'linear-gradient(135deg, #8b7355 0%, #c2b280 100%)'
+    };
     return map[category] || 'var(--gradient-1)';
   }
 
@@ -842,7 +883,12 @@ class SmartDailyApp {
   }
 
   renderFavorites() {
-    const all = [...newsData.ai, ...newsData.finance, ...newsData.english, ...newsData.tech, ...newsData.science, ...newsData.history];
+    const all = [
+      ...newsData.ai, ...newsData.finance, ...newsData.english,
+      ...newsData.tech, ...newsData.science, ...newsData.knowledge,
+      ...newsData.sports, ...newsData.entertainment, ...newsData.international,
+      ...newsData.history
+    ];
     const favs = all.filter(item => this.favorites.includes(item.id));
     const grid = document.getElementById('favoritesGrid');
     grid.innerHTML = favs.length ? favs.map(item => this.createNewsCard(item)).join('') : '<div style="text-align:center;padding:60px;color:var(--text-muted)"><div style="font-size:48px;margin-bottom:16px">⭐</div><div>暂无收藏内容</div><div style="font-size:13px;margin-top:8px">浏览资讯时点击 ☆ 即可收藏</div></div>';
@@ -863,7 +909,12 @@ class SmartDailyApp {
 
   exportFavorites() {
     audioManager.download();
-    const all = [...newsData.ai, ...newsData.finance, ...newsData.english, ...newsData.tech, ...newsData.science, ...newsData.history];
+    const all = [
+      ...newsData.ai, ...newsData.finance, ...newsData.english,
+      ...newsData.tech, ...newsData.science, ...newsData.knowledge,
+      ...newsData.sports, ...newsData.entertainment, ...newsData.international,
+      ...newsData.history
+    ];
     const favs = all.filter(item => this.favorites.includes(item.id));
     const data = { exportDate: new Date().toISOString(), favorites: favs };
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -878,7 +929,12 @@ class SmartDailyApp {
 
   downloadItem(id) {
     audioManager.download();
-    const all = [...newsData.ai, ...newsData.finance, ...newsData.english, ...newsData.tech, ...newsData.science, ...newsData.history, ...knowledgeData];
+    const all = [
+      ...newsData.ai, ...newsData.finance, ...newsData.english,
+      ...newsData.tech, ...newsData.science, ...newsData.knowledge,
+      ...newsData.sports, ...newsData.entertainment, ...newsData.international,
+      ...newsData.history
+    ];
     const item = all.find(i => i.id === id);
     if (!item) return;
     const body = item.content || item.summary;
