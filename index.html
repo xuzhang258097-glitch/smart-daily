@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Daily · 智阅每日</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 动态背景 -->
+    <div class="bg-gradient"></div>
+    <div class="bg-particles" id="particles"></div>
+    
+    <!-- 音效开关 -->
+    <button class="sound-toggle" id="soundToggle" title="开启/关闭音效">
+        <span class="sound-icon">🔊</span>
+    </button>
+
+    <!-- 移动端顶部栏 -->
+    <div class="mobile-header" id="mobileHeader">
+        <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="app.toggleMobileMenu()">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="mobile-back-btn" id="mobileBackBtn" onclick="app.goBack()" style="display:none;">
+            ←
+        </button>
+        <div class="mobile-brand">
+            <span class="brand-icon">✦</span>
+            <span>Smart Daily</span>
+        </div>
+        <div class="mobile-header-actions">
+            <button class="mobile-action-btn" onclick="app.switchPage('english'); app.closeMobileMenu();">
+                🎯
+            </button>
+        </div>
+    </div>
+
+    <!-- 移动端菜单遮罩 -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay" onclick="app.closeMobileMenu()"></div>
+
+    <!-- 侧边导航 -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-icon">✦</div>
+            <div class="brand-text">
+                <span class="brand-title">Smart Daily</span>
+                <span class="brand-subtitle">智阅每日</span>
+            </div>
+            <button class="mobile-menu-close" id="mobileMenuClose" onclick="app.closeMobileMenu()">✕</button>
+        </div>
+        
+        <div class="sidebar-time">
+            <div class="time-display" id="timeDisplay">09:28</div>
+            <div class="date-display" id="dateDisplay">4月29日 星期三</div>
+            <div class="update-status" id="updateStatus">
+                <span class="status-dot"></span>
+                <span>今日已更新</span>
+            </div>
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item active" data-page="dashboard">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">首页概览</span>
+            </li>
+            <li class="nav-item" data-page="ai">
+                <span class="nav-icon">🤖</span>
+                <span class="nav-label">AI 技术</span>
+                <span class="nav-badge">12</span>
+            </li>
+            <li class="nav-item" data-page="finance">
+                <span class="nav-icon">📈</span>
+                <span class="nav-label">财经股市</span>
+                <span class="nav-badge">8</span>
+            </li>
+            <li class="nav-item" data-page="english">
+                <span class="nav-icon">🌍</span>
+                <span class="nav-label">英语学习</span>
+                <span class="nav-badge">5</span>
+            </li>
+            <li class="nav-item" data-page="tech">
+                <span class="nav-icon">💻</span>
+                <span class="nav-label">计算机</span>
+                <span class="nav-badge">6</span>
+            </li>
+            <li class="nav-item" data-page="science">
+                <span class="nav-icon">🔬</span>
+                <span class="nav-label">气象地质</span>
+                <span class="nav-badge">4</span>
+            </li>
+            <li class="nav-item" data-page="knowledge">
+                <span class="nav-icon">🌐</span>
+                <span class="nav-label">知识科普</span>
+                <span class="nav-badge">15</span>
+            </li>
+            <li class="nav-item" data-page="leisure">
+                <span class="nav-icon">🎧</span>
+                <span class="nav-label">课后时间</span>
+                <span class="nav-badge">Hot</span>
+            </li>
+            <li class="nav-item" data-page="history">
+                <span class="nav-icon">📚</span>
+                <span class="nav-label">经典回顾</span>
+            </li>
+            <li class="nav-item" data-page="favorites">
+                <span class="nav-icon">⭐</span>
+                <span class="nav-label">我的收藏</span>
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <div class="english-widget-mini" id="englishWidgetMini" onclick="app.switchPage('english'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=english]').classList.add('active');">
+                <div class="widget-header">
+                    <span>🎯 背单词</span>
+                    <span class="word-streak">🔥 7天</span>
+                </div>
+                <div class="word-progress-mini">
+                    <div class="progress-fill-mini" style="width: 30%"></div>
+                </div>
+                <div class="word-progress-text">今日已学 3 / 10 词</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="main-content" id="mainContent">
+        <!-- 顶部栏 -->
+        <header class="top-bar">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="搜索资讯、资料、单词..." id="searchInput">
+            </div>
+            <div class="top-actions">
+                <button class="action-btn layout-toggle" id="layoutToggleBtn" title="编辑布局">
+                    <span>🎨</span>
+                </button>
+                <button class="action-btn" id="refreshBtn" title="刷新资讯">
+                    <span>🔄</span>
+                </button>
+                <button class="action-btn" id="downloadAllBtn" title="批量下载">
+                    <span>💾</span>
+                </button>
+                <div class="user-avatar">
+                    <span>👤</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 页面内容 -->
+        <div class="page-container">
+            <!-- 首页仪表盘 -->
+            <section class="page active" id="page-dashboard">
+                <div class="welcome-section">
+                    <h1 class="welcome-title">早安，探索者</h1>
+                    <p class="welcome-subtitle">今日已为你精选 <strong>50</strong> 条前沿资讯，涵盖 7 大学科领域</p>
+                </div>
+
+                <div class="dashboard-grid" id="dashboardGrid">
+                    <!-- 今日热点 -->
+                    <div class="layout-card-wrapper" data-layout-id="hot-topics" draggable="true" data-col="full" data-row="1">
+                        <div class="layout-edit-controls">
+                            <div class="layout-drag-handle" title="拖拽排序">⋮⋮</div>
+                            <button class="layout-size-btn" title="宽度" onclick="app.toggleCardWidth('hot-topics')">↔</button>
+                            <button class="layout-size-btn" title="高度" onclick="app.toggleCardHeight('hot-topics')">↕</button>
+                            <button class="layout-delete-btn" title="隐藏此卡片" onclick="app.hideLayoutCard('hot-topics')">✕</button>
+                        </div>
+                        <div class="glass-card hot-topics">
+                            <div class="card-header">
+                                <h3>🔥 今日热点</h3>
+                                <span class="card-time">09:30 更新</span>
+                            </div>
+                            <div class="topic-list" id="hotTopics">
+                                <!-- 动态生成 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 学科分类快速入口 -->
+                    <div class="layout-card-wrapper" data-layout-id="categories" draggable="true" data-col="full" data-row="1">
+                        <div class="layout-edit-controls">
+                            <div class="layout-drag-handle" title="拖拽排序">⋮⋮</div>
+                            <button class="layout-size-btn" title="宽度" onclick="app.toggleCardWidth('categories')">↔</button>
+                            <button class="layout-size-btn" title="高度" onclick="app.toggleCardHeight('categories')">↕</button>
+                            <button class="layout-delete-btn" title="隐藏此卡片" onclick="app.hideLayoutCard('categories')">✕</button>
+                        </div>
+                        <div class="category-grid">
+                            <div class="category-card" data-category="ai">
+                                <div class="category-icon">🤖</div>
+                                <div class="category-info">
+                                    <h4>AI 技术</h4>
+                                    <p>12 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="finance">
+                                <div class="category-icon">📈</div>
+                                <div class="category-info">
+                                    <h4>财经股市</h4>
+                                    <p>8 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="english">
+                                <div class="category-icon">🌍</div>
+                                <div class="category-info">
+                                    <h4>英语学习</h4>
+                                    <p>5 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="tech">
+                                <div class="category-icon">💻</div>
+                                <div class="category-info">
+                                    <h4>计算机</h4>
+                                    <p>6 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="science">
+                                <div class="category-icon">🔬</div>
+                                <div class="category-info">
+                                    <h4>气象地质</h4>
+                                    <p>4 条新资讯</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="knowledge">
+                                <div class="category-icon">🌐</div>
+                                <div class="category-info">
+                                    <h4>知识科普</h4>
+                                    <p>15 条新发现</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                            <div class="category-card" data-category="history">
+                                <div class="category-icon">📚</div>
+                                <div class="category-info">
+                                    <h4>经典回顾</h4>
+                                    <p>重要历史资料</p>
+                                </div>
+                                <div class="category-arrow">→</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 背单词快捷入口 -->
+                    <div class="layout-card-wrapper" data-layout-id="english" draggable="true" data-col="full" data-row="1">
+                        <div class="layout-edit-controls">
+                            <div class="layout-drag-handle" title="拖拽排序">⋮⋮</div>
+                            <button class="layout-size-btn" title="宽度" onclick="app.toggleCardWidth('english')">↔</button>
+                            <button class="layout-size-btn" title="高度" onclick="app.toggleCardHeight('english')">↕</button>
+                            <button class="layout-delete-btn" title="隐藏此卡片" onclick="app.hideLayoutCard('english')">✕</button>
+                        </div>
+                        <div class="glass-card" id="vocabEntryCard" onclick="app.switchPage('english'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); document.querySelector('.nav-item[data-page=english]').classList.add('active');">
+                            <div class="vocab-entry-header">
+                                <h3>🎯 英语学习中心</h3>
+                                <span class="vocab-entry-badge">6 本单词书</span>
+                            </div>
+                            <div class="vocab-entry-body">
+                                <div class="vocab-entry-stats">
+                                    <div class="vocab-stat">
+                                        <div class="vocab-stat-num" id="entryLearnedCount">23</div>
+                                        <div class="vocab-stat-label">已掌握</div>
+                                    </div>
+                                    <div class="vocab-stat">
+                                        <div class="vocab-stat-num" id="entryTodayCount">3</div>
+                                        <div class="vocab-stat-label">今日已学</div>
+                                    </div>
+                                    <div class="vocab-stat">
+                                        <div class="vocab-stat-num">7</div>
+                                        <div class="vocab-stat-label">连续打卡</div>
+                                    </div>
+                                </div>
+                                <div class="vocab-entry-books">
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #43cea2, #185a9d)">四级</span>
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #5B86E5, #36D1DC)">六级</span>
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #ff6b6b, #feca57)">雅思</span>
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #a8edea, #fed6e3)">托福</span>
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #ff9a9e, #fecfef)">考研</span>
+                                    <span class="vocab-book-tag" style="background: linear-gradient(135deg, #667eea, #764ba2)">商务</span>
+                                </div>
+                            </div>
+                            <div class="vocab-entry-cta">
+                                <span>点击进入背单词 →</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 便利贴 -->
+                    <div class="layout-card-wrapper" data-layout-id="sticky" draggable="true" data-col="half" data-row="1">
+                        <div class="layout-edit-controls">
+                            <div class="layout-drag-handle" title="拖拽排序">⋮⋮</div>
+                            <button class="layout-size-btn" title="宽度" onclick="app.toggleCardWidth('sticky')">↔</button>
+                            <button class="layout-size-btn" title="高度" onclick="app.toggleCardHeight('sticky')">↕</button>
+                            <button class="layout-delete-btn" title="隐藏此卡片" onclick="app.hideLayoutCard('sticky')">✕</button>
+                        </div>
+                        <div class="glass-card sticky-note-card">
+                            <div class="card-header">
+                                <h3>📝 今日便利贴</h3>
+                                <span class="card-date" id="stickyDate">4月29日</span>
+                            </div>
+                            <div class="sticky-todo-list" id="stickyTodoList">
+                                <!-- 动态生成 -->
+                            </div>
+                            <div class="sticky-add-row">
+                                <input type="text" id="stickyInput" placeholder="添加待办事项..." maxlength="50">
+                                <button id="stickyAddBtn" onclick="app.addStickyTodo()">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- 布局编辑工具栏 -->
+                <div class="layout-editor-bar" id="layoutEditorBar">
+                    <span class="layout-editor-hint">✋ 拖拽排序，⛶ 切换大小，✕ 隐藏卡片</span>
+                    <div class="layout-editor-actions">
+                        <button class="layout-btn restore" id="layoutRestoreBtn" onclick="app.restoreLayoutCards()">↩ 恢复默认</button>
+                        <button class="layout-btn save" onclick="app.saveLayoutEdit()">✓ 完成</button>
+                    </div>
+                </div>
+                
+                <!-- 隐藏卡片管理器 -->
+                <div class="hidden-cards-panel" id="hiddenCardsPanel" style="display:none">
+                    <div class="hidden-cards-header">
+                        <span>📦 已隐藏的卡片</span>
+                        <button onclick="app.toggleHiddenPanel()">收起</button>
+                    </div>
+                    <div class="hidden-cards-list" id="hiddenCardsList"></div>
+                </div>
+            </section>
+
+            <!-- 分类资讯页面模板 -->
+            <section class="page" id="page-ai">
+                <div class="page-header">
+                    <h2>🤖 AI 技术前沿</h2>
+                    <p>人工智能、机器学习、大模型最新动态</p>
+                </div>
+                <div class="news-grid" id="aiNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-finance">
+                <div class="page-header">
+                    <h2>📈 财经股市</h2>
+                    <p>国内外上市公司、股市行情、黄金贵金属</p>
+                </div>
+                <div class="news-grid" id="financeNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-english">
+                <div class="page-header">
+                    <h2>🌍 英语学习中心</h2>
+                    <p>单词书 · 背单词 · 每日英语 · 好词好句</p>
+                </div>
+                
+                <!-- 英语学习 Tabs -->
+                <div class="english-tabs">
+                    <button class="english-tab active" data-etab="news">
+                        <span>📰</span> 英语资讯
+                    </button>
+                    <button class="english-tab" data-etab="books">
+                        <span>📚</span> 单词书库
+                    </button>
+                    <button class="english-tab" data-etab="study">
+                        <span>🎯</span> 背单词
+                    </button>
+                    <button class="english-tab" data-etab="daily">
+                        <span>📝</span> 每日英语
+                    </button>
+                </div>
+
+                <!-- Tab: 英语资讯 -->
+                <div class="english-panel active" id="epanel-news">
+                    <div class="news-grid" id="englishNewsGrid"></div>
+                </div>
+
+                <!-- Tab: 单词书库 -->
+                <div class="english-panel" id="epanel-books">
+                    <div class="wordbook-grid" id="wordbookGrid">
+                        <!-- 动态生成单词书卡片 -->
+                    </div>
+                </div>
+
+                <!-- Tab: 背单词 -->
+                <div class="english-panel" id="epanel-study">
+                    <div class="study-setup" id="studySetup">
+                        <div class="setup-card glass-card">
+                            <h3>🎯 开始背单词</h3>
+                            <p>选择单词书和模式，制定你的学习计划</p>
+                            <div class="setup-form">
+                                <div class="setup-field">
+                                    <label>选择单词书</label>
+                                    <select id="studyBookSelect">
+                                        <option value="">-- 请选择 --</option>
+                                    </select>
+                                </div>
+                                <div class="setup-field">
+                                    <label>学习模式</label>
+                                    <div class="mode-selector">
+                                        <div class="mode-option active" data-mode="card">
+                                            <div class="mode-icon">🃏</div>
+                                            <div class="mode-name">卡片模式</div>
+                                            <div class="mode-desc">点击翻转，看词想义</div>
+                                        </div>
+                                        <div class="mode-option" data-mode="keyboard">
+                                            <div class="mode-icon">⌨️</div>
+                                            <div class="mode-name">键盘模式</div>
+                                            <div class="mode-desc">看义打字，强化记忆</div>
+                                        </div>
+                                        <div class="mode-option" data-mode="visual">
+                                            <div class="mode-icon">🎨</div>
+                                            <div class="mode-name">图文模式</div>
+                                            <div class="mode-desc">图文联想，场景记忆</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="setup-field">
+                                    <label>每日目标: <strong id="dailyGoalVal">10</strong> 词</label>
+                                    <input type="range" id="dailyGoal" min="5" max="30" value="10" step="5">
+                                    <div class="goal-hint">💡 建议每日 10 词，循序渐进</div>
+                                </div>
+                                <button class="btn-start-study" id="btnStartStudy">开始学习</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 学习界面 -->
+                    <div class="study-interface" id="studyInterface" style="display:none">
+                        <div class="study-progress-bar">
+                            <div class="study-progress-fill" id="studyProgressFill"></div>
+                            <span class="study-progress-text" id="studyProgressText">1 / 10</span>
+                        </div>
+                        
+                        <!-- 卡片模式 -->
+                        <div class="study-mode-area active" id="mode-card">
+                            <div class="flashcard" id="flashcard" onclick="app.flipCard()">
+                                <div class="flashcard-inner" id="flashcardInner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-word" id="cardWord">word</div>
+                                        <div class="flashcard-phonetic" id="cardPhonetic">/phonetic/</div>
+                                        <div class="flashcard-hint">
+                                            <span class="hint-desktop">点击翻转查看释义</span>
+                                            <span class="hint-mobile">👆 轻触翻转 · 👈左滑忘记 · 右滑记得👉</span>
+                                        </div>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <div class="flashcard-meaning" id="cardMeaning">meaning</div>
+                                        <div class="flashcard-example" id="cardExample">example</div>
+                                        <div class="flashcard-example-trans" id="cardExampleTrans">example trans</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="study-actions">
+                                <button class="study-btn fail" id="btnForget" onclick="app.markWord(false)">😰 忘记</button>
+                                <button class="study-btn speak" onclick="app.speakCurrentWord()">🔊 朗读</button>
+                                <button class="study-btn success" id="btnRemember" onclick="app.markWord(true)">😊 记得</button>
+                            </div>
+                        </div>
+                        
+                        <!-- 键盘模式 -->
+                        <div class="study-mode-area" id="mode-keyboard">
+                            <div class="keyboard-prompt">
+                                <div class="keyboard-meaning" id="kbMeaning">根据释义输入单词</div>
+                                <div class="keyboard-phonetic" id="kbPhoneticHint"></div>
+                            </div>
+                            <div class="keyboard-input-area">
+                                <input type="text" class="keyboard-input" id="kbInput" placeholder="在此输入单词..." autocomplete="off" spellcheck="false">
+                                <div class="keyboard-feedback" id="kbFeedback"></div>
+                            </div>
+                            <div class="keyboard-scene" id="kbScene">
+                                <div class="scene-emoji" id="kbSceneEmoji">🎬</div>
+                                <div class="scene-desc" id="kbSceneDesc">场景描述</div>
+                            </div>
+                            <div class="study-actions">
+                                <button class="study-btn hint" onclick="app.showKeyboardHint()">💡 提示</button>
+                                <button class="study-btn speak" onclick="app.speakCurrentWord()">🔊 朗读</button>
+                                <button class="study-btn primary" onclick="app.checkKeyboardAnswer()">✓ 确认</button>
+                            </div>
+                        </div>
+                        
+                        <!-- 图文模式 -->
+                        <div class="study-mode-area" id="mode-visual">
+                            <div class="visual-card">
+                                <div class="visual-scene-large" id="visualScene">🎬</div>
+                                <div class="visual-scene-desc" id="visualSceneDesc">场景描述</div>
+                                <div class="visual-meaning" id="visualMeaning">中文释义</div>
+                                <div class="visual-options" id="visualOptions">
+                                    <!-- 四个选项 -->
+                                </div>
+                            </div>
+                            <div class="study-actions">
+                                <button class="study-btn speak" onclick="app.speakCurrentWord()">🔊 朗读</button>
+                            </div>
+                        </div>
+                        
+                        <!-- 学习完成 -->
+                        <div class="study-complete" id="studyComplete" style="display:none">
+                            <div class="complete-emoji">🎉</div>
+                            <h3>今日学习完成！</h3>
+                            <div class="complete-stats">
+                                <div class="cstat">
+                                    <div class="cstat-num" id="completeTotal">10</div>
+                                    <div class="cstat-label">学习总数</div>
+                                </div>
+                                <div class="cstat">
+                                    <div class="cstat-num" id="completeCorrect">8</div>
+                                    <div class="cstat-label">掌握单词</div>
+                                </div>
+                                <div class="cstat">
+                                    <div class="cstat-num" id="completeWrong">2</div>
+                                    <div class="cstat-label">需复习</div>
+                                </div>
+                            </div>
+                            <div class="complete-actions">
+                                <button class="study-btn primary" onclick="app.restartStudy()">再来一组</button>
+                                <button class="study-btn" onclick="app.showStudySetup()">返回设置</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab: 每日英语 -->
+                <div class="english-panel" id="epanel-daily">
+                    <div class="daily-english-tabs">
+                        <button class="daily-tab active" data-dtab="word">📝 每日一词</button>
+                        <button class="daily-tab" data-dtab="sentence">💬 好词好句</button>
+                        <button class="daily-tab" data-dtab="news">📰 新闻词汇</button>
+                    </div>
+                    <div class="daily-panel active" id="dpanel-word">
+                        <div class="word-card-large">
+                            <div class="word-main" id="dailyWord">serendipity</div>
+                            <div class="word-phonetic" id="dailyPhonetic">/ˌser.ənˈdɪp.ə.ti/</div>
+                            <div class="word-meaning-large" id="dailyMeaning">意外发现珍宝的运气；机缘凑巧</div>
+                            <div class="word-example" id="dailyExample">
+                                "The discovery of penicillin was a moment of pure serendipity."
+                                <span class="example-trans">青霉素的发现纯粹是机缘巧合。</span>
+                            </div>
+                            <div class="word-actions">
+                                <button class="word-btn primary" id="nextWordBtn">下一个</button>
+                                <button class="word-btn" id="collectWordBtn">⭐ 收藏</button>
+                                <button class="word-btn" id="speakWordBtn">🔊 朗读</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-panel" id="dpanel-sentence">
+                        <div class="sentence-list" id="sentenceList"></div>
+                    </div>
+                    <div class="daily-panel" id="dpanel-news">
+                        <div class="news-vocab-list" id="newsVocabList"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page" id="page-tech">
+                <div class="page-header">
+                    <h2>💻 计算机科学</h2>
+                    <p>编程、算法、软件工程、前沿技术</p>
+                </div>
+                <div class="news-grid" id="techNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-science">
+                <div class="page-header">
+                    <h2>🔬 气象地质</h2>
+                    <p>气象预报、地质灾害、环境科学</p>
+                </div>
+                <div class="news-grid" id="scienceNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-knowledge">
+                <div class="page-header">
+                    <h2>🌐 全球知识科普</h2>
+                    <p>物理、天文、生物、医学、考古、环境等全球各领域最新发现</p>
+                </div>
+                <div class="knowledge-tags" id="knowledgeTags">
+                    <span class="knowledge-tag active" data-tag="all">全部</span>
+                    <span class="knowledge-tag" data-tag="物理">⚛️ 物理</span>
+                    <span class="knowledge-tag" data-tag="天文">🌌 天文</span>
+                    <span class="knowledge-tag" data-tag="生物">🧬 生物</span>
+                    <span class="knowledge-tag" data-tag="医学">🏥 医学</span>
+                    <span class="knowledge-tag" data-tag="考古">🏛️ 考古</span>
+                    <span class="knowledge-tag" data-tag="环境">🌍 环境</span>
+                    <span class="knowledge-tag" data-tag="能源">☀️ 能源</span>
+                    <span class="knowledge-tag" data-tag="心理">🧘 心理</span>
+                </div>
+                <div class="news-grid" id="knowledgeNewsGrid"></div>
+            </section>
+
+            <!-- 课后时间 -->
+            <section class="page" id="page-leisure">
+                <div class="page-header">
+                    <h2>🎧 课后时间</h2>
+                    <p>B站热门视频 · 小宇宙播客 · 每日精选</p>
+                    <div class="leisure-update-info">
+                        <span id="leisureUpdateTime">更新时间: --</span>
+                        <button class="btn-refresh-leisure" id="btnRefreshLeisure" onclick="app.refreshLeisureData()">🔄 刷新数据</button>
+                    </div>
+                </div>
+
+                <!-- 课后时间 Tabs -->
+                <div class="leisure-tabs">
+                    <button class="leisure-tab active" data-ltab="bilibili">
+                        <span>📺</span> B站热门
+                    </button>
+                    <button class="leisure-tab" data-ltab="podcast">
+                        <span>🎙️</span> 热门播客
+                    </button>
+                </div>
+
+                <!-- B站热门 -->
+                <div class="leisure-panel active" id="lpanel-bilibili">
+                    <div class="bilibili-grid" id="bilibiliGrid">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 播客热门 -->
+                <div class="leisure-panel" id="lpanel-podcast">
+                    <div class="podcast-grid" id="podcastGrid">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="page" id="page-history">
+                <div class="page-header">
+                    <h2>📚 经典回顾</h2>
+                    <p>重要历史资料、里程碑论文、经典著作</p>
+                </div>
+                <div class="news-grid" id="historyNewsGrid"></div>
+            </section>
+
+            <section class="page" id="page-favorites">
+                <div class="page-header">
+                    <h2>⭐ 我的收藏</h2>
+                    <p>你收藏的所有资料</p>
+                </div>
+                <div class="favorites-toolbar">
+                    <button class="btn-export" id="exportFavorites">💾 导出到本地</button>
+                    <button class="btn-export cloud" id="exportCloud">☁️ 备份到云端</button>
+                    <button class="btn-clear" id="clearFavorites">🗑️ 清空收藏</button>
+                </div>
+                <div class="news-grid" id="favoritesGrid"></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 详情弹窗 -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+
+
+    <!-- 移动端底部导航 -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav">
+        <a class="mobile-nav-item active" data-page="dashboard" onclick="app.switchPage('dashboard'); app.setMobileNavActive(this)">
+            <span class="mnav-icon">🏠</span>
+            <span class="mnav-label">首页</span>
+        </a>
+        <a class="mobile-nav-item" data-page="english" onclick="app.switchPage('english'); app.setMobileNavActive(this)">
+            <span class="mnav-icon">🌍</span>
+            <span class="mnav-label">英语</span>
+        </a>
+        <a class="mobile-nav-item" data-page="finance" onclick="app.switchPage('finance'); app.setMobileNavActive(this)">
+            <span class="mnav-icon">📈</span>
+            <span class="mnav-label">财经</span>
+        </a>
+        <a class="mobile-nav-item" data-page="leisure" onclick="app.switchPage('leisure'); app.setMobileNavActive(this)">
+            <span class="mnav-icon">🎧</span>
+            <span class="mnav-label">课后</span>
+        </a>
+        <a class="mobile-nav-item" data-page="favorites" onclick="app.switchPage('favorites'); app.setMobileNavActive(this)">
+            <span class="mnav-icon">⭐</span>
+            <span class="mnav-label">收藏</span>
+        </a>
+    </nav>
+
+    <!-- 提示消息 -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="js/data-finance.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/data-leisure.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
