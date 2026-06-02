@@ -1,27 +1,8 @@
-// 课后时间数据 - 自动生成于 2026-06-02 15:16
+// 课后时间数据 - 自动生成于 2026-06-02 17:56
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-06-02 15:16',
+  updateTime: '2026-06-02 17:56',
   bilibili: [
-  {
-    "bvid": "BV1MbVv67Eet",
-    "title": "《鸣潮》×《赛博朋克：边缘行者》共鸣者战斗演示 | 丽贝卡",
-    "desc": "“来吧！吃枪子儿吧！” \n\n中文CV\n丽贝卡：陈章\n\n日文CV\n丽贝卡：黑泽朋世\n\n英文CV\n丽贝卡：Alex Cazares\n\n韩文CV\n丽贝卡：박시윤",
-    "pic": "http://i1.hdslb.com/bfs/archive/96c1f9083a1f066922b7acbd646fae2a558fb72f.jpg",
-    "duration": 298,
-    "owner": {
-      "name": "鸣潮",
-      "face": "https://i2.hdslb.com/bfs/face/d5e2f2f5f5a9e82d0c4fd4f66b40b883d7a4e336.jpg"
-    },
-    "stat": {
-      "view": 1042142,
-      "like": 37119,
-      "danmaku": 820
-    },
-    "tname": "单机游戏",
-    "pubdate": 1780369200,
-    "rcmd_reason": ""
-  },
   {
     "bvid": "BV1RvVo6QEqo",
     "title": "不儿，你俩来真的啊？！",
@@ -33,13 +14,51 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/571c63f133b7379fbed645130450c3168a4aec5e.jpg"
     },
     "stat": {
-      "view": 958730,
-      "like": 149514,
-      "danmaku": 3502
+      "view": 1751030,
+      "like": 292846,
+      "danmaku": 7353
     },
     "tname": "搞笑",
     "pubdate": 1780314627,
-    "rcmd_reason": "14万点赞"
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1jqVS6MECE",
+    "title": "【野餐】你醒啦 现在是2012年的5月份呀",
+    "desc": "你们好呀我终于更新了（目移）\n为什么这个月更新的这么费劲呢因为我跑了很多个舞台但是又没录出好看的直拍 我直接抱头痛哭 然后我就想干脆在家里录点视频算了 意外的效果还不错 嗯 或许以后我会多在家里面录一点 我有好多好多视频想录来的！好多粉丝投稿我还没清（目移*2）等我后面慢慢发出来！\n去年就一直说想录五月病 结果这个五月快过完了才勉强录上！咕咕咕咕咕……\n录完又突发奇想搞了个文艺复兴的低画质版本 或许会有一点古早频的感觉？哎呀其实一直都感觉那个年代的氛围很好 对什么都很包容的样子 很想体验一把 但是12年我",
+    "pic": "http://i2.hdslb.com/bfs/archive/e9673e0b6ccc8de75e114c6f2ea5484907789e23.jpg",
+    "duration": 182,
+    "owner": {
+      "name": "野餐slu2pcekry",
+      "face": "https://i0.hdslb.com/bfs/face/6c20e086f03cf3711ebb422b2cb18c1ecfd2aabe.jpg"
+    },
+    "stat": {
+      "view": 692308,
+      "like": 128916,
+      "danmaku": 381
+    },
+    "tname": "宅舞",
+    "pubdate": 1780221916,
+    "rcmd_reason": "12万点赞"
+  },
+  {
+    "bvid": "BV1jwV663EjR",
+    "title": "我的世界杯主题曲！IShowSpeed - World Cup (Champions)",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/2807f6a9b9342740dfa8764e7bcc6e231196c94f.jpg",
+    "duration": 299,
+    "owner": {
+      "name": "ishowspeedsui",
+      "face": "https://i1.hdslb.com/bfs/face/23fe07a1fb5bae1c0042ad44ed1b05eddc29ff9f.jpg"
+    },
+    "stat": {
+      "view": 612910,
+      "like": 45963,
+      "danmaku": 513
+    },
+    "tname": "竞技体育",
+    "pubdate": 1780386563,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1QzVR63E3L",
@@ -52,32 +71,70 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/99aa43ae5b2c3b398592907146ffd8bb0ee9a7c4.jpg"
     },
     "stat": {
-      "view": 1942346,
-      "like": 337538,
-      "danmaku": 15474
+      "view": 2348707,
+      "like": 408311,
+      "danmaku": 18487
     },
     "tname": "日常",
     "pubdate": 1780286400,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1s5Vp6uEJ4",
-    "title": "周深惊喜快闪！与毕业生唱响《逆光》【B站毕业歌会单品】",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/d3f1195f702ee13e9e10dc2a66607df3361793a2.jpg",
-    "duration": 303,
+    "bvid": "BV1REV56YEjz",
+    "title": "50秒一片肉，火力全开，快到起飞",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/4d7ccd61eaa71d221ff926561ee7efac7b5c1b1f.jpg",
+    "duration": 59,
     "owner": {
-      "name": "卡布叻_周深",
-      "face": "https://i0.hdslb.com/bfs/face/2ac5c9dbef48290847084d08a473b00c422bc24f.jpg"
+      "name": "左手刀鹏哥",
+      "face": "https://i0.hdslb.com/bfs/face/7110fde4290e9b813d26c23fb3c53647ad884e59.jpg"
     },
     "stat": {
-      "view": 2522472,
-      "like": 53005,
-      "danmaku": 3734
+      "view": 3889357,
+      "like": 157991,
+      "danmaku": 916
     },
-    "tname": "翻唱",
-    "pubdate": 1780139375,
-    "rcmd_reason": "百万播放"
+    "tname": "日常",
+    "pubdate": 1780138201,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1wCVZ6TEPX",
+    "title": "【短的发布会】拒绝千车一面！奥迪E7X 配置绝不妥协，价格诚意拉满",
+    "desc": "确实是诚意拉满了",
+    "pic": "http://i0.hdslb.com/bfs/archive/37001b06777d68379da5638e009e3db865456a66.jpg",
+    "duration": 274,
+    "owner": {
+      "name": "短的发布会",
+      "face": "https://i2.hdslb.com/bfs/face/e455079f6c4cc76b2736fdf0417513c29c127d50.jpg"
+    },
+    "stat": {
+      "view": 733596,
+      "like": 30440,
+      "danmaku": 695
+    },
+    "tname": "新能源车",
+    "pubdate": 1780303518,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV15wVB6YECT",
+    "title": "一顿饭只要三块钱，客人吃着吃着，人就“没了”",
+    "desc": "一顿饭三块钱，老板连续亏本15年。",
+    "pic": "http://i1.hdslb.com/bfs/archive/fd898a754bc3cf4317349a2b3c4394e104417434.jpg",
+    "duration": 187,
+    "owner": {
+      "name": "瞎通不设计了",
+      "face": "https://i0.hdslb.com/bfs/face/c7066ae12ec6560166fa71ba319ae42af63e3819.jpg"
+    },
+    "stat": {
+      "view": 146288,
+      "like": 21045,
+      "danmaku": 180
+    },
+    "tname": "美食侦探",
+    "pubdate": 1780390800,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1xWG16qEBn",
@@ -90,32 +147,70 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/e83f7de7928cdab9c628aa7b4da1045f2803574f.jpg"
     },
     "stat": {
-      "view": 999707,
-      "like": 50179,
-      "danmaku": 895
+      "view": 1747918,
+      "like": 92216,
+      "danmaku": 1748
     },
     "tname": "鬼畜调教",
     "pubdate": 1780286400,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV12XVi6SEwe",
+    "title": "兄弟们，良子最后一顿面花了我4000多。后面看我怎么练他就完了。",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/75e65b58cea833ce925b6c77c65816fa1ad99626.jpg",
+    "duration": 256,
+    "owner": {
+      "name": "健身华哥",
+      "face": "https://i1.hdslb.com/bfs/face/13aad09d84f050c5a9b3cb2ce432f0da4c11163a.jpg"
+    },
+    "stat": {
+      "view": 631731,
+      "like": 31299,
+      "danmaku": 739
+    },
+    "tname": "运动综合",
+    "pubdate": 1780380971,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV18b5F6sEgH",
-    "title": "北极惊魂：百年远征绝案的惊悚真相！",
-    "desc": "1845年，英国探险家约翰·富兰克林率领129人，驾驶两艘当时最先进的极地探险船“幽冥号”与“恐怖号”驶向北极，寻找西北航道；然而两个月后，他们就永远消失在了北冰洋。搜救队找到的，只有几具骸骨和一张写着\"一切安好\"的字条。这支队伍到底经历了什么？铅中毒、坏血病、肺结核、弃船、食人痕迹、因纽特人证词……当富兰克林远征队的真相被沉船考古一点点揭开，人类在绝境中的选择，远比想象更加可怕。\n参考文献：\n[1] Parks Canada. Franklin’s 1845 expedition[EB/OL].\n[2]",
-    "pic": "http://i1.hdslb.com/bfs/archive/6b37df3c9b1ad382ce74d30bcd9e3c905cb1904f.jpg",
-    "duration": 542,
+    "bvid": "BV1YmV666EoR",
+    "title": "坏了，这下特朗普都反犹了",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/52eddb4b47addf6fcebb5bcb20458336c2d0d4ea.jpg",
+    "duration": 915,
     "owner": {
-      "name": "大圆镜科普",
-      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
+      "name": "波士顿圆脸",
+      "face": "https://i2.hdslb.com/bfs/face/f8f0fc4114bb06a87481abe12faa006a383cbe6d.jpg"
     },
     "stat": {
-      "view": 755168,
-      "like": 56417,
-      "danmaku": 762
+      "view": 254372,
+      "like": 18947,
+      "danmaku": 890
     },
-    "tname": "科学科普",
-    "pubdate": 1780318896,
-    "rcmd_reason": "5万点赞"
+    "tname": "社科·法律·心理",
+    "pubdate": 1780412433,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1B75w6zEG1",
+    "title": "二次元老资历童年都在听什么？！老番串烧34首大连唱！",
+    "desc": "非常之废肝的稿件…做串烧太累了！其实编曲去年就有了拖了快一年就等着今年六一儿童节发结果还没 赶 上 ！！（人老了做啥都心酸\n其实还有很多想加入的歌曲但因为考虑到视频时长原因所以还是浓缩了一下 只挑了我认为最精华的！\n这些很多都是在我目前的人生旅程中陪伴我走过很长时间的动漫歌曲，只要一听到旋律就会马上想起那些熬夜追番的夜晚和假期~希望这个串烧也可以让你找回那个纯粹热爱动漫、热爱二次元的心~六一儿童节快乐呀\n编曲：@探井的阿尔法  \n翻唱：@鹿火CAVY  \n录音：@鹿火CAVY  \n混音：@泽奇Sawaki",
+    "pic": "http://i1.hdslb.com/bfs/archive/a1759f48c315c61aff7325cc0d6c931ad115a8d4.jpg",
+    "duration": 462,
+    "owner": {
+      "name": "鹿火CAVY",
+      "face": "https://i2.hdslb.com/bfs/face/6eddf76765648483faf65026835c2a84d7008a5a.jpg"
+    },
+    "stat": {
+      "view": 360278,
+      "like": 45492,
+      "danmaku": 1392
+    },
+    "tname": "仿妆cos",
+    "pubdate": 1780337109,
+    "rcmd_reason": "人气飙升"
   },
   {
     "bvid": "BV11BVU6mEUe",
@@ -128,164 +223,69 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/7f3b21362ae7969e450be591a628a90eed693dae.jpg"
     },
     "stat": {
-      "view": 1653064,
-      "like": 85455,
-      "danmaku": 837
+      "view": 2110179,
+      "like": 110547,
+      "danmaku": 1087
     },
     "tname": "仿妆cos",
     "pubdate": 1780234512,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1yoVo6qEbw",
-    "title": "【战双帕弥什】「露西亚·逆冕」实机展示",
-    "desc": "“来吧，面见你们的终局。”\n——阔别已久，手中的长刃早已蓄势待发。新机体「露西亚·逆冕」今日正式登场！\n——————————————————\n游戏下载：https://www.biligame.com/detail/?id=114996",
-    "pic": "http://i0.hdslb.com/bfs/archive/af7e175102ac697630fa758cbae693b4a8fb6bbe.jpg",
-    "duration": 107,
+    "bvid": "BV1pAVz6DEDB",
+    "title": "5.14马尔代夫潜水事故，5人洞穴潜水全部遇难",
+    "desc": "2026年5月14日，马尔代夫发生了一起惨烈的洞潜事故，5名意大利人进入一个海蚀洞穴潜水，结果全部遇难，之后又有一名救援人员因减压病死亡，使得该起事故的总遇难人数达到6人。本期视频神秘园将对该起事故的经过进行推测还原。",
+    "pic": "http://i1.hdslb.com/bfs/archive/141ade135f39736a342786a14b07bd965e1ba300.jpg",
+    "duration": 812,
     "owner": {
-      "name": "战双帕弥什",
-      "face": "https://i2.hdslb.com/bfs/face/29d40886bc649fd2b81793c17077728820d411b6.jpg"
+      "name": "神秘园",
+      "face": "https://i0.hdslb.com/bfs/face/97df512c31b322245934bfbd23613510d2203d11.jpg"
     },
     "stat": {
-      "view": 269447,
-      "like": 5430,
-      "danmaku": 70
-    },
-    "tname": "手机游戏",
-    "pubdate": 1780372800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV14FVE6AEze",
-    "title": "不止抽象！内娱唯一的硬汉！盘点嘎子谢孟伟职业生涯高光演技",
-    "desc": "本视频素材来自网络，由文西激情解说！",
-    "pic": "http://i0.hdslb.com/bfs/archive/2105e724eb0f4af98e4443b568807fe1d19d5160.jpg",
-    "duration": 1050,
-    "owner": {
-      "name": "文西与阿漆",
-      "face": "https://i2.hdslb.com/bfs/face/ae7a0c58232beb681c8d7470914b78f03dc2d313.jpg"
-    },
-    "stat": {
-      "view": 1159096,
-      "like": 87499,
-      "danmaku": 9200
+      "view": 414832,
+      "like": 29005,
+      "danmaku": 3079
     },
     "tname": "影视杂谈",
-    "pubdate": 1780304700,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1xv5F6JE2R",
-    "title": "哭了……姥爷这一集好虐心啊！！！最瑞克的瑞克是一个“在乎”的瑞克！（瑞克和莫蒂·第九季第二集剧情）",
-    "desc": "上一集：https://www.bilibili.com/video/BV1QsVU64E5d",
-    "pic": "http://i1.hdslb.com/bfs/archive/769b35fe4898f486b342c6f9a3bbb67d896ceb75.jpg",
-    "duration": 769,
-    "owner": {
-      "name": "安迪视频",
-      "face": "https://i0.hdslb.com/bfs/face/44be7e29670fafd734a6961668f3e130ff7e7456.jpg"
-    },
-    "stat": {
-      "view": 818559,
-      "like": 41015,
-      "danmaku": 1235
-    },
-    "tname": "动漫杂谈",
-    "pubdate": 1780321897,
+    "pubdate": 1780398000,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV12rVD6WE5y",
-    "title": "⚡浪浪山最浪的妖怪⚡",
-    "desc": "bgm：Sweet Dreams",
-    "pic": "http://i2.hdslb.com/bfs/archive/f594d67e0718501384b4e0500ac306f6926e4256.jpg",
-    "duration": 157,
+    "bvid": "BV1gWVd6GEna",
+    "title": "期末到了，你们寝室准备好应对之策了吗",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/d0a8e406e4231a2cad0caefda83bab3276dc8059.jpg",
+    "duration": 200,
     "owner": {
-      "name": "洛温阿特金森",
-      "face": "https://i2.hdslb.com/bfs/face/8991695154e980e8986b35a78e44bf52c8173b06.jpg"
+      "name": "灵霖七",
+      "face": "https://i1.hdslb.com/bfs/face/b9c4127e627b53e25d0e1e793dd3c5f56f7fb5f8.jpg"
     },
     "stat": {
-      "view": 829530,
-      "like": 47763,
-      "danmaku": 311
+      "view": 669634,
+      "like": 43504,
+      "danmaku": 663
     },
-    "tname": "鬼畜剧场",
-    "pubdate": 1780279200,
+    "tname": "日常",
+    "pubdate": 1780293767,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1xxV96wEtN",
-    "title": "《绿梦：时空之声》「焕梦测试」招募PV丨旅程",
-    "desc": "从梦境中孤身醒来，在旅程中结伴同行。\n和每位御能者的相遇，都让冒险焕发出全新的希望与可能。\n蚀务官，一起出发吧。\n\n「焕梦测试」招募现已正式开启！点击前往：https://app.biligame.com/detail?id=118683\n\n\n「焕梦测试」中的体验内容均为测试开发中的版本，不代表游戏最终品质。\n\n——————————\n▸全新3D二次元横版ACT《绿梦：时空之声》预约进行中：https://www.biligame.com/detail/?id=112070",
-    "pic": "http://i2.hdslb.com/bfs/archive/8084c13e92c41bf854b5f4d7632738c82e8b6e3f.jpg",
-    "duration": 125,
-    "owner": {
-      "name": "绿梦时空之声",
-      "face": "https://i1.hdslb.com/bfs/face/1817124d8adf84d59d4515f0f4b362ca6aff371f.jpg"
-    },
-    "stat": {
-      "view": 551418,
-      "like": 24044,
-      "danmaku": 433
-    },
-    "tname": "手机游戏",
-    "pubdate": 1780365600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1kCVU65ERM",
-    "title": "初中生斗胆跳一段jam",
+    "bvid": "BV1nsVf6ME6Q",
+    "title": "起初我一直以为“霸总”只是大家对王心凌站哥站姐的爱称…",
     "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/5871a66dc8e356ff71da4a6d99d5922b4a6a3fce.jpg",
-    "duration": 45,
+    "pic": "http://i1.hdslb.com/bfs/archive/577514b0c4adb075d9561dda563e0b33c2cc9b1e.jpg",
+    "duration": 42,
     "owner": {
-      "name": "特崮斯",
-      "face": "https://i2.hdslb.com/bfs/face/484a154a59c23904788dd43d928d3c5e827ec83c.jpg"
+      "name": "王心凌FM",
+      "face": "https://i1.hdslb.com/bfs/face/28c5586faf6ceaa182860f614a7ae1f2b782ee7d.jpg"
     },
     "stat": {
-      "view": 2722543,
-      "like": 537118,
-      "danmaku": 2075
+      "view": 1147106,
+      "like": 79585,
+      "danmaku": 187
     },
-    "tname": "篮球",
-    "pubdate": 1780229707,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1LRVZ6ZEUM",
-    "title": "我就是反派",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/876eb8a248e8ea09faeb25d6fbbb3706fd616bc7.jpg",
-    "duration": 248,
-    "owner": {
-      "name": "邢三狗子",
-      "face": "https://i2.hdslb.com/bfs/face/70782f5063ee85c90d422bdd28d8888a049c3ff8.jpg"
-    },
-    "stat": {
-      "view": 746837,
-      "like": 48983,
-      "danmaku": 286
-    },
-    "tname": "搞笑",
-    "pubdate": 1780305354,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1sJVL6QEvL",
-    "title": "“只见三面,便定终身”",
-    "desc": "人生新阶段 2026.05.20",
-    "pic": "http://i1.hdslb.com/bfs/archive/6281d8aab68e8dcf1d6f102bcc3bcd256cc5ccb6.jpg",
-    "duration": 1089,
-    "owner": {
-      "name": "俊晖JAN",
-      "face": "https://i2.hdslb.com/bfs/face/629d28d20a3d5e3bacf411ea40bfb0f25a7b8936.jpg"
-    },
-    "stat": {
-      "view": 881293,
-      "like": 23273,
-      "danmaku": 1859
-    },
-    "tname": "出行",
-    "pubdate": 1780305600,
+    "tname": "音乐现场",
+    "pubdate": 1780334311,
     "rcmd_reason": ""
   }
 ],
