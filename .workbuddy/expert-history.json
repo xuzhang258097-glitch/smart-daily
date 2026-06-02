@@ -22,7 +22,40 @@
         "usedAt": 1778141823087,
         "industryId": "02-Engineering"
       }
+    ],
+    "73a8935a254848a0aaf84e8048eb47e2": [
+      {
+        "expertId": "SeniorDeveloper",
+        "name": "吴八哥",
+        "profession": "高级开发工程师",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/SeniorDeveloper/SeniorDeveloper.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/SeniorDeveloper/SeniorDeveloper_zh.md",
+        "usedAt": 1778550762800,
+        "industryId": "02-Engineering"
+      }
+    ],
+    "6f23bba03cb442c3b5075f6ec8f3b732": [
+      {
+        "expertId": "SeniorDeveloper",
+        "name": "吴八哥",
+        "profession": "高级开发工程师",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/SeniorDeveloper/SeniorDeveloper.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/SeniorDeveloper/SeniorDeveloper_zh.md",
+        "usedAt": 1779867813944,
+        "industryId": "02-Engineering"
+      }
+    ],
+    "ed2f0202c5734d11a359c633931e3c29": [
+      {
+        "expertId": "APMPerformanceExpert",
+        "name": "安迪",
+        "profession": "应用性能专家",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/APMPerformanceExpert/APMPerformanceExpert.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/APMPerformanceExpert/APMPerformanceExpert_zh.md",
+        "usedAt": 1780385528317,
+        "industryId": "02-Engineering"
+      }
     ]
   },
-  "lastUpdated": 1778150344165
+  "lastUpdated": 1780385759384
 }
