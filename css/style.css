@@ -7,8 +7,8 @@
   --bg-secondary: #E8E4DD;
   --bg-dark: #3D3A38;
   --bg-dark-secondary: #4A4643;
-  --card-bg: #FFFFFF;
-  --card-bg-hover: #F8F6F2;
+  --card-bg: #FAF8F5;
+  --card-bg-hover: #F5F2EE;
   --text-primary: #4A4643;
   --text-secondary: #7A7570;
   --text-muted: #A8A29A;
@@ -422,12 +422,12 @@ body {
 .category-card[data-category="finance"] .category-icon { background: rgba(184,155,160,0.08); }
 .category-card[data-category="english"] .category-icon { background: rgba(123,139,154,0.08); }
 .category-card[data-category="tech"] .category-icon { background: rgba(138,158,142,0.08); }
-.category-card[data-category="science"] .category-icon { background: rgba(245,158,11,0.08); }
-.category-card[data-category="knowledge"] .category-icon { background: rgba(124,58,237,0.08); }
+.category-card[data-category="science"] .category-icon { background: rgba(176,155,130,0.08); }
+.category-card[data-category="knowledge"] .category-icon { background: rgba(154,143,166,0.08); }
 .category-card[data-category="sports"] .category-icon { background: rgba(138,158,142,0.08); }
 .category-card[data-category="entertainment"] .category-icon { background: rgba(184,155,160,0.08); }
-.category-card[data-category="international"] .category-icon { background: rgba(59,130,246,0.08); }
-.category-card[data-category="history"] .category-icon { background: rgba(139,115,85,0.08); }
+.category-card[data-category="international"] .category-icon { background: rgba(123,139,154,0.08); }
+.category-card[data-category="history"] .category-icon { background: rgba(160,142,128,0.08); }
 
 .category-info { flex: 1; }
 .category-info h4 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
