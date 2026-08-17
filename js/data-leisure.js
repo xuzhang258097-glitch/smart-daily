@@ -1,25 +1,63 @@
-// 课后时间数据 - 自动生成于 2026-08-16 02:49
+// 课后时间数据 - 自动生成于 2026-08-17 02:49
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-16 02:49',
+  updateTime: '2026-08-17 02:49',
   bilibili: [
   {
-    "bvid": "BV1hbgu66EyA",
-    "title": "【独家】《凡人修仙传之慕兰之战》第11集【总第187集】",
-    "desc": "每周六中午11:00，bilibili独家呈现",
-    "pic": "http://i1.hdslb.com/bfs/archive/e6daf13f40b8168e445491355363206c0c227ca8.jpg",
-    "duration": 1339,
+    "bvid": "BV18Tby67EG9",
+    "title": "自行车被偷后，保安在监控里发现了霸王龙？#SpecialForAAIFF【AI全民制作人】",
+    "desc": "你！给我看完！\n我求你，看完，呜呜呜，求求你看完！我给你跪了！",
+    "pic": "http://i0.hdslb.com/bfs/archive/bee4feba305f4386af069218dbd00cca10cc74f3.jpg",
+    "duration": 3095,
     "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+      "name": "超级神奇的木偶",
+      "face": "https://i2.hdslb.com/bfs/face/eef8f10a4d8761fb3175445a78799576cb12999f.jpg"
     },
     "stat": {
-      "view": 5549195,
-      "like": 176308,
-      "danmaku": 97780
+      "view": 3524528,
+      "like": 182535,
+      "danmaku": 3187
     },
-    "tname": "国产动画",
-    "pubdate": 1786762801,
+    "tname": "手机游戏",
+    "pubdate": 1786800689,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1tMby62EC4",
+    "title": "什么⁉Bye bye baby blue翻译竟然是错的✖！",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/6e444c1468cad37a86715ea905017448efc53b05.jpg",
+    "duration": 308,
+    "owner": {
+      "name": "毛毛qi",
+      "face": "https://i0.hdslb.com/bfs/face/7a40330e7fd9c7d2da6134dd55659ceb0bd9ad42.jpg"
+    },
+    "stat": {
+      "view": 1241798,
+      "like": 177149,
+      "danmaku": 1442
+    },
+    "tname": "娱乐粉丝创作",
+    "pubdate": 1786799366,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1JLgp6oEAs",
+    "title": "热播剧《来自河南的你 》",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/0dccfca567ebd57cf9ae009e817ed883b776b2ff.jpg",
+    "duration": 526,
+    "owner": {
+      "name": "凨胤言生",
+      "face": "https://i1.hdslb.com/bfs/face/077448d77704d12ffab6ebe5e7c7f1e75b8ceabc.jpg"
+    },
+    "stat": {
+      "view": 2883820,
+      "like": 104680,
+      "danmaku": 3067
+    },
+    "tname": "足球",
+    "pubdate": 1786618201,
     "rcmd_reason": "百万播放"
   },
   {
@@ -33,12 +71,69 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/c8c4f9f459849fd4b2b7077b6ed938730e15e626.jpg"
     },
     "stat": {
-      "view": 2971745,
-      "like": 206604,
-      "danmaku": 36460
+      "view": 5469169,
+      "like": 346059,
+      "danmaku": 48160
     },
     "tname": "单机游戏",
     "pubdate": 1786790634,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1VfbR6pEw9",
+    "title": "周处除三害现实版，我们干掉他了！",
+    "desc": "现实中没有陈桂林，但是没关系。\n \n有我们。\n\n画面：《周处除三害》",
+    "pic": "http://i0.hdslb.com/bfs/archive/8ec963e2a06f63e149e11b3f966439e0a6428520.jpg",
+    "duration": 182,
+    "owner": {
+      "name": "温柔JUNZ",
+      "face": "https://i0.hdslb.com/bfs/face/0c0c0b56f31f391a039fb4208314ee47526fab4b.jpg"
+    },
+    "stat": {
+      "view": 412942,
+      "like": 75249,
+      "danmaku": 852
+    },
+    "tname": "社科·法律·心理",
+    "pubdate": 1786891680,
+    "rcmd_reason": "6万点赞"
+  },
+  {
+    "bvid": "BV1LrbU66E1G",
+    "title": "《干噎砒霜》",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/fdf3d91416621c9c2d2195127ca2dc59689962a9.jpg",
+    "duration": 165,
+    "owner": {
+      "name": "伤心欲茄222",
+      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
+    },
+    "stat": {
+      "view": 2243645,
+      "like": 182442,
+      "danmaku": 1880
+    },
+    "tname": "搞笑",
+    "pubdate": 1786853326,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1Mjgg6BEjx",
+    "title": "【独家】牧神记 第96集 延康双雄",
+    "desc": "神血暗藏云散真相，国师继任第四天王！",
+    "pic": "http://i2.hdslb.com/bfs/archive/a2e556c7748dc00bca7adc36be00b3d978ca5e13.png",
+    "duration": 1324,
+    "owner": {
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+    },
+    "stat": {
+      "view": 2340911,
+      "like": 38982,
+      "danmaku": 9075
+    },
+    "tname": "国产动画",
+    "pubdate": 1786849202,
     "rcmd_reason": "百万播放"
   },
   {
@@ -52,184 +147,89 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/ebad87e5f87ea6e988f4134f5ba434c50e620a14.jpg"
     },
     "stat": {
-      "view": 1488777,
-      "like": 119952,
-      "danmaku": 667
+      "view": 3585755,
+      "like": 302909,
+      "danmaku": 1433
     },
     "tname": "网络游戏",
     "pubdate": 1786757400,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV15xgn6GEjH",
-    "title": "赛伯朋克之大圣归来：耗时两年半，精品制作，一口气看完。",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/1f485ed591088bd2c8dbc107ff5cbecc8ade761c.jpg",
-    "duration": 981,
+    "bvid": "BV1gMgM6KEUM",
+    "title": "80后老登，1人，4个月，113分钟AI长片电影《出马仙镇东北》【AI全民制作人】",
+    "desc": "前后断断续续4个月，从剧本打磨到后期完成，全由一个人完成，抽卡预算有限，效果差强人意，穿帮也不少，这次先这样吧，seedance2.5又出来了，没时间回头了。\n感谢@RunningHub 赞助了大部分算力，rhtv在性价比这一块真心高。\n其中用到的神调原唱灰宝宝，婆婆丁原唱灿哥。",
+    "pic": "http://i1.hdslb.com/bfs/archive/06bc5d8c63a9cdc49b34a04f0180fadb17575465.jpg",
+    "duration": 6778,
     "owner": {
-      "name": "里无敌本人",
-      "face": "https://i1.hdslb.com/bfs/face/b6c120cd3fed7f74866cf8f8a1c2572d2ac6effa.jpg"
+      "name": "咩咩是个迷",
+      "face": "https://i2.hdslb.com/bfs/face/c8426b44e8323800e66d5e1a64d7b3f4e3a8f426.jpg"
     },
     "stat": {
-      "view": 6942037,
-      "like": 409008,
-      "danmaku": 6891
+      "view": 560352,
+      "like": 50691,
+      "danmaku": 6159
     },
-    "tname": "国产原创相关",
-    "pubdate": 1786607913,
-    "rcmd_reason": "百万播放"
+    "tname": "影视剪辑",
+    "pubdate": 1786731985,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV14yg36ME81",
-    "title": "穿越战锤20年，你却靠实力登上贵族宝座，你的后半生会如何度过？",
-    "desc": "朋友们关注走起~您的关注是我更新的动力~！",
-    "pic": "http://i0.hdslb.com/bfs/archive/9f08e3768fd5f45ce614c68edbe026289b5e4016.jpg",
-    "duration": 2587,
+    "bvid": "BV1KUbk6rE7q",
+    "title": "第12期：收官之夜！无双唱将集结合唱《小美满》【国乐无双】",
+    "desc": "第12期：收官之夜！无双唱将集结合唱《小美满》【国乐无双】",
+    "pic": "http://i2.hdslb.com/bfs/archive/ceb9ba52d520da430d14630c85cb446a143569a4.png",
+    "duration": 10632,
     "owner": {
-      "name": "克罗罗啊",
-      "face": "http://i0.hdslb.com/bfs/face/50f98f0b296e958c049c05835b73d44bc234bb9a.jpg"
+      "name": "综艺哔哔机",
+      "face": "https://i1.hdslb.com/bfs/face/41fc7a60b92d0f8419b545ff67d74450e870bef2.jpg"
     },
     "stat": {
-      "view": 1033973,
-      "like": 60380,
-      "danmaku": 3005
+      "view": 243564,
+      "like": 802,
+      "danmaku": 730
     },
-    "tname": "桌游棋牌",
-    "pubdate": 1786762800,
+    "tname": "综艺",
+    "pubdate": 1786795502,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV173b16eEPD",
+    "title": "我把全网热梗做成了捏捏乐【B站AI创造公开赛】",
+    "desc": "《万梗捏》- 点开即玩 🔗https://www.bilibili.com/toy/MemeMash/index.html\n后面想捏什么梗，评论区告诉我！",
+    "pic": "http://i0.hdslb.com/bfs/archive/9375027a76e8c3639a765d564fd3ed0a97ffcaf6.jpg",
+    "duration": 146,
+    "owner": {
+      "name": "扎克鸡",
+      "face": "https://i0.hdslb.com/bfs/face/05c42c11b9d42010fda4d2e15ce79fea552d7f50.jpg"
+    },
+    "stat": {
+      "view": 835065,
+      "like": 52117,
+      "danmaku": 244
+    },
+    "tname": "单机游戏",
+    "pubdate": 1786794006,
     "rcmd_reason": "5万点赞"
   },
   {
-    "bvid": "BV1RYbk6QE9o",
-    "title": "难倒100万人的铁球难题，我终于！解！开！了！",
-    "desc": "家人们！久等了！！！剑之大陆也来了！",
-    "pic": "http://i2.hdslb.com/bfs/archive/866ea44074ae33a3dd9a3dd11806c5e7c05af197.jpg",
-    "duration": 889,
-    "owner": {
-      "name": "GM的秘密基地",
-      "face": "https://i0.hdslb.com/bfs/face/66b6dd3aaaf42755094240bd1b183cf0040cc7a8.jpg"
-    },
-    "stat": {
-      "view": 1866659,
-      "like": 150665,
-      "danmaku": 9735
-    },
-    "tname": "手工",
-    "pubdate": 1786783595,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1EWbk6ZE6d",
-    "title": "轮  回  跑  酷",
-    "desc": "终于肝在暑假结束前肝出个大圈外向了)\n制作总用时1星期左右\n最难的部分无疑是1:26的连3墙，高版本都是X轴，过墙会晚1t，导致放方块的时机比低版本难不少，以及第一个方块也需要手动放，手感很怪，肝了我3小时左右((\n感觉最好玩的是1:31那部分，之前没任何搭路底力，导致最开始一直在苦恼怎么在10cps的同时瞄准方块，之后试着用bc+抬手用鼠标玩了半小时，成功率突飞猛进，感觉越玩越好玩，基本上1分钟内能搭出来一次了（刚好使用5个方块且搭到门中间）（这段正常距离无解，为了观赏性加长了交互距离）\np.s. 一开",
-    "pic": "http://i2.hdslb.com/bfs/archive/c2036a413b91216b3cb266ed180fc52c1ff756b5.jpg",
-    "duration": 139,
-    "owner": {
-      "name": "cantnavet",
-      "face": "https://i2.hdslb.com/bfs/face/292253aad738457acec52a770ec3781ef5e5fbba.jpg"
-    },
-    "stat": {
-      "view": 276143,
-      "like": 39795,
-      "danmaku": 325
-    },
-    "tname": "单机游戏",
-    "pubdate": 1786787982,
-    "rcmd_reason": "人气飙升"
-  },
-  {
-    "bvid": "BV1MzGc6UEzT",
-    "title": "制作糖果的流程—解压",
-    "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/29e5c4da787c3cc1c7f5397d425de445afad4792.jpg",
-    "duration": 177,
-    "owner": {
-      "name": "Rocks_Rolls糖果艺术",
-      "face": "https://i0.hdslb.com/bfs/face/87d0030d03d8644a93702697aec9a9828973f545.jpg"
-    },
-    "stat": {
-      "view": 2911025,
-      "like": 123094,
-      "danmaku": 1555
-    },
-    "tname": "美食制作",
-    "pubdate": 1786528800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Bng369Emb",
-    "title": "【驼】只有中国人能拍出的反战片，都是反战，西方在ptsd，中国在让你好好吃饭。 [欢迎来龙餐馆]",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/484b1e62df4fdc4fd984cbeca0a0aa5edfeea527.jpg",
-    "duration": 613,
-    "owner": {
-      "name": "麦驼oat",
-      "face": "https://i0.hdslb.com/bfs/face/c4d0cbcfe93fb60a432b1eda7b00bd0514488104.jpg"
-    },
-    "stat": {
-      "view": 663941,
-      "like": 23237,
-      "danmaku": 1438
-    },
-    "tname": "娱乐杂谈",
-    "pubdate": 1786766400,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV18yuC6eEyM",
-    "title": "【独家】时光代理人 第三季 PartOne 第2集 困兽【8月国创】",
-    "desc": "每周五11:00，哔哩哔哩独家呈现！",
-    "pic": "http://i1.hdslb.com/bfs/archive/87e203dcb570a101845bfb4f389f381dec170bde.png",
-    "duration": 1363,
+    "bvid": "BV1azgP6bEaA",
+    "title": "财神窦占龙 第1集 家宴【8月国创】",
+    "desc": "窦家大宅血色家宴，窦占龙身陷邪物幻境",
+    "pic": "http://i0.hdslb.com/bfs/archive/dc97be9f28dbb12477f596a19f17e39ec1dca6db.jpg",
+    "duration": 1493,
     "owner": {
       "name": "哔哩哔哩国创",
       "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
     },
     "stat": {
-      "view": 1914187,
-      "like": 35727,
-      "danmaku": 84716
+      "view": 1444470,
+      "like": 8209,
+      "danmaku": 2199
     },
     "tname": "国产动画",
-    "pubdate": 1786676402,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1BMgj6MEz4",
-    "title": "【原神一条龙全收集】至冬7.0(成就数345/冰神瞳140/摩拉120/影生翼滴58)古兽冰原+焰羽谷+永凝冻土+霜殛寒峰+白桦雪藏地/玉帛/原神7.0一条龙",
-    "desc": "本视频包含以下任务：\n雪原上的猎手、影域的遗留、时常于水波之下、伟大的心锁于纤细之链、简单零工、为寻一块冰镜的碎片、如汐歌幽诉之地、潮自回声、小小霜精大大烦恼、林场雪原、沉船驶过,没有敲钟、在回环的宁静中、如迷宫囚禁她的奴仆、为她所颂轻柔之歌、未谢幕者、一场特殊的选拔、像一个雪球一样\n宝箱成就总数：345\n13个仙灵，31个限时挑战\n140冰神瞳+58影生翼滴+120摩拉箱+12玉帛+9枪械蓝图\n冰之印升级3聚所满级后剩余153(7.0版本一个都不缺的情况下)\n7.0不在视频内的任务副本冰之印：12个(无",
-    "pic": "http://i2.hdslb.com/bfs/archive/27180b14e7059784f50b68b5023e0634104976f8.jpg",
-    "duration": 24834,
-    "owner": {
-      "name": "你的影月月",
-      "face": "https://i0.hdslb.com/bfs/face/2e32de7b28fc491a28281a22c6ea9f5d195cbdf5.jpg"
-    },
-    "stat": {
-      "view": 8014989,
-      "like": 106431,
-      "danmaku": 52114
-    },
-    "tname": "手机游戏",
-    "pubdate": 1786548684,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1y5gP61E6m",
-    "title": "法国最有松弛感的劫案是哪起？【硬核狠人91】",
-    "desc": "本篇为硬核狠人之斯帕贾里。",
-    "pic": "http://i0.hdslb.com/bfs/archive/095eece333695d1f3df7bb46c8a11d4828a9c4e0.jpg",
-    "duration": 2469,
-    "owner": {
-      "name": "小约翰可汗",
-      "face": "https://i0.hdslb.com/bfs/face/70bb1f1dd49baf187f133ea3902f1303d56c2e11.jpg"
-    },
-    "stat": {
-      "view": 1619982,
-      "like": 119890,
-      "danmaku": 12795
-    },
-    "tname": "人文历史",
-    "pubdate": 1786762800,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1786842001,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1N8gG6qEpm",
@@ -242,51 +242,51 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/b8797cdc161b9ed719a1af7047ceddbf9a8223c0.jpg"
     },
     "stat": {
-      "view": 268038,
-      "like": 42254,
-      "danmaku": 819
+      "view": 1978288,
+      "like": 192167,
+      "danmaku": 2266
     },
     "tname": "演奏",
     "pubdate": 1786791600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1kcgN6VEXC",
-    "title": "那年盖亚的导演选择了弹幕最多的打法！",
-    "desc": "悲伤的沼泽——那年盖亚的导演选择了弹幕最多的打法！",
-    "pic": "http://i1.hdslb.com/bfs/archive/42afc96789b03a5218ed46efde6f6242fdf85344.jpg",
-    "duration": 393,
-    "owner": {
-      "name": "小古侃片",
-      "face": "https://i2.hdslb.com/bfs/face/3f8012b05e18f76deb9c3ce6225687470b76a8dc.jpg"
-    },
-    "stat": {
-      "view": 3299103,
-      "like": 169027,
-      "danmaku": 919
-    },
-    "tname": "特摄",
-    "pubdate": 1786698000,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1oVgN6NEJH",
-    "title": "当我人生第一次体验cosplay..",
-    "desc": "这期视频我体验了人生第一次cosplay并采访了2位职业Coser和1位爱好者Coser",
-    "pic": "http://i1.hdslb.com/bfs/archive/ceb28894cfe0de9f6e069daf22d8821ab3d7fbf6.jpg",
-    "duration": 987,
+    "bvid": "BV1xubk6MEvV",
+    "title": "【隂十娘】第52集",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/6a49f5593e96131c92ec1fb18ec8d752f02d09b6.jpg",
+    "duration": 439,
     "owner": {
-      "name": "杰克小兔",
-      "face": "https://i1.hdslb.com/bfs/face/013a96a5d1dc54a152e87816776eaf88997ea5e7.jpg"
+      "name": "Seven_七哥",
+      "face": "https://i2.hdslb.com/bfs/face/8e4022e4832954cb2b1ea0fa88b3678c11fb8288.jpg"
     },
     "stat": {
-      "view": 785622,
-      "like": 24354,
-      "danmaku": 1435
+      "view": 1388406,
+      "like": 64651,
+      "danmaku": 1121
     },
-    "tname": "出行",
-    "pubdate": 1786698067,
-    "rcmd_reason": ""
+    "tname": "预告·资讯",
+    "pubdate": 1786787631,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1o7bm6TEMY",
+    "title": "三星堆：是谁杀死了他们的神？",
+    "desc": "谁铸就了青铜立人与通天神树？为何又将神器尽数砸毁、分埋黄土？亲手葬送神明的三星堆先民，最终又遁向了何方？\n声明：本片叙事基于真实考古发掘记录。关于“神像毁弃与政变”的推演，综合参考了多位学者的学术假说。历史的真相，仍在等待下一把洛阳铲的解答。\n参考文献\n[1] 冉宏林.三星堆遗址考古研究综述[J].四川文物,2026,(S1):4-17+54.\n[2] 二陈.广汉三星堆遗址二号祭祀坑发掘简报[J].文物,1989,(5):1-20+97-103.\n[3] 赵昊.三星堆器物坑形成过程分析与背景蠡测[J].考",
+    "pic": "http://i2.hdslb.com/bfs/archive/84fd7bb6f1d7c0fc9502efcfe60acd57811d9fa6.jpg",
+    "duration": 438,
+    "owner": {
+      "name": "大圆镜科普",
+      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
+    },
+    "stat": {
+      "view": 2127194,
+      "like": 127780,
+      "danmaku": 2032
+    },
+    "tname": "科学科普",
+    "pubdate": 1786838100,
+    "rcmd_reason": "百万播放"
   }
 ],
   podcast: []
