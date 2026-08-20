@@ -1,8 +1,27 @@
-// 课后时间数据 - 自动生成于 2026-08-19 02:46
+// 课后时间数据 - 自动生成于 2026-08-20 02:45
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-19 02:46',
+  updateTime: '2026-08-20 02:45',
   bilibili: [
+  {
+    "bvid": "BV1kS8H6VERt",
+    "title": "《黑神话：钟馗》15分钟实机演示",
+    "desc": "剑下有血，染作新妆，\n似故人，梦里来访。\n前尘旧事，不知何往，\n偏偏念念不忘。\n红尘易老，正道且长，\n恩仇难定终章。\n谁道黄泉路远？\n正好，再走一趟。\n\n由游戏科学开发的黑神话系列第二部作品《黑神话：钟馗》，今日带来全新15分钟游戏实机演示，首次展示主角战斗与部分剧情片段。\n本视频为开发中版本录制，运行时屏幕宽高比设置为21:9。因产品仍处于研发早期，最终发售内容可能有所不同。\n\n游戏官网：https://gamesci.cn/zhongkui\n游戏各平台官号：黑神话",
+    "pic": "http://i0.hdslb.com/bfs/archive/05d77b6337611727f47d5228d0d027f587c238b4.jpg",
+    "duration": 953,
+    "owner": {
+      "name": "黑神话",
+      "face": "https://i1.hdslb.com/bfs/face/83e2465c27a1afb69316d270a94cbf9ca64a4070.jpg"
+    },
+    "stat": {
+      "view": 898398,
+      "like": 126094,
+      "danmaku": 28545
+    },
+    "tname": "单机游戏",
+    "pubdate": 1787191200,
+    "rcmd_reason": "6万点赞"
+  },
   {
     "bvid": "BV1rHbY6MEB9",
     "title": "我这一生最大的罪，是把人写成了妖……",
@@ -14,9 +33,9 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/946b7bf3f4b6e97df7de8d74d12bbaa8f216eb58.jpg"
     },
     "stat": {
-      "view": 4626631,
-      "like": 488789,
-      "danmaku": 12202
+      "view": 6975061,
+      "like": 729958,
+      "danmaku": 19207
     },
     "tname": "人文历史",
     "pubdate": 1786945197,
@@ -33,127 +52,146 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/161fbe314a72bf6b2657e955548a4719037feff9.jpg"
     },
     "stat": {
-      "view": 3775776,
-      "like": 69620,
-      "danmaku": 13350
+      "view": 6134962,
+      "like": 82663,
+      "danmaku": 14940
     },
     "tname": "单机游戏",
     "pubdate": 1787020200,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1e18u6tEi7",
-    "title": "顺直大改造-反畸形审美，棒打高街帝少萝cp！",
+    "bvid": "BV1hY8g6xEwE",
+    "title": "这几个片段大家可能都听过，但你们知道其实来源于同一首歌吗",
+    "desc": "这几个片段大家可能都听过，但其实来源于同一首歌",
+    "pic": "http://i2.hdslb.com/bfs/archive/9e9504d0198e4158e14fc16abc36c21ce2b72f0a.jpg",
+    "duration": 295,
+    "owner": {
+      "name": "小憩memories",
+      "face": "https://i1.hdslb.com/bfs/face/b092768719c942114e6ca860bd47d082eae5b526.jpg"
+    },
+    "stat": {
+      "view": 3782798,
+      "like": 172745,
+      "danmaku": 1083
+    },
+    "tname": "演奏",
+    "pubdate": 1787037405,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1CUbS69EAs",
+    "title": "时空列车",
     "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/396331d45d0a896297ed1c9164f926b9a0c8b2cc.jpg",
-    "duration": 689,
+    "pic": "http://i2.hdslb.com/bfs/archive/3b6a6a94fe5552a9835e4a68995fe40a9e6a2ba7.jpg",
+    "duration": 116,
     "owner": {
-      "name": "antoxic",
-      "face": "https://i2.hdslb.com/bfs/face/195128d15ea1ab4127a9dc2bfa7f7ba1b3e4fadb.jpg"
+      "name": "浅尝菌",
+      "face": "https://i0.hdslb.com/bfs/face/1fcb2e7db59b0fed1bae151efef9861c7bfa9737.jpg"
     },
     "stat": {
-      "view": 505998,
-      "like": 24995,
-      "danmaku": 811
+      "view": 1504291,
+      "like": 84868,
+      "danmaku": 602
     },
-    "tname": "穿搭",
-    "pubdate": 1787044381,
-    "rcmd_reason": ""
+    "tname": "GMV",
+    "pubdate": 1786939200,
+    "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1ndgp68EVE",
-    "title": "【独家】《百日成王》第17集 每一场应援就像一场战斗！【7月国创】",
-    "desc": "每周二、周五12:00，哔哩哔哩独家呈现！",
-    "pic": "http://i1.hdslb.com/bfs/archive/c3d09f54dfdf5fb3dc13abdf19f0d6a4fd11c236.png",
-    "duration": 649,
+    "bvid": "BV1iv8j6EE77",
+    "title": "怪谈逃生指南第一期：《恶魔法典》",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/50d2ddada686160a704f1bfbbde8eb8d9e250293.jpg",
+    "duration": 2421,
     "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+      "name": "是许木木啊",
+      "face": "https://i0.hdslb.com/bfs/face/dd7af55fc5361c6a343356958efce19fa6326d89.jpg"
     },
     "stat": {
-      "view": 819526,
-      "like": 3519,
-      "danmaku": 1466
-    },
-    "tname": "国产动画",
-    "pubdate": 1787025602,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV12Eb26mEVT",
-    "title": "第一视角看高中生抢饭（夜宵版）",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/e878cc5d7a197a66b7152d92cb61ded9cd774aac.jpg",
-    "duration": 234,
-    "owner": {
-      "name": "嘴一开",
-      "face": "https://i1.hdslb.com/bfs/face/d98911c93e36f93d46bd9375119f6ad107f105bc.jpg"
-    },
-    "stat": {
-      "view": 2337827,
-      "like": 97353,
-      "danmaku": 2478
+      "view": 747919,
+      "like": 84891,
+      "danmaku": 5520
     },
     "tname": "日常",
-    "pubdate": 1786811644,
+    "pubdate": 1787131800,
+    "rcmd_reason": "8万点赞"
+  },
+  {
+    "bvid": "BV1b58u6SEu9",
+    "title": "《岸防炮模拟器》",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/fa0ebf79f42d5c33ee21d440f49a4ab6506d5889.jpg",
+    "duration": 104,
+    "owner": {
+      "name": "电力小子-gtetgeg",
+      "face": "https://i0.hdslb.com/bfs/face/b9ea26b01a28feeaebd810e21b6fa02f597f03d1.jpg"
+    },
+    "stat": {
+      "view": 901617,
+      "like": 57204,
+      "danmaku": 561
+    },
+    "tname": "极客DIY",
+    "pubdate": 1787130000,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV1q28V6VEYU",
+    "title": "七夕节老番茄就和自己玩游戏",
+    "desc": "又到了吗？！那个日子！\n谁能想到森林冰火人今年出续作了？！",
+    "pic": "http://i2.hdslb.com/bfs/archive/d161dd3122f9ae5dd9340a364505c12f65e18c09.jpg",
+    "duration": 1018,
+    "owner": {
+      "name": "老番茄",
+      "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg"
+    },
+    "stat": {
+      "view": 2110509,
+      "like": 230077,
+      "danmaku": 16957
+    },
+    "tname": "单机游戏",
+    "pubdate": 1787110500,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV18obz6BEiR",
-    "title": "一种很“嘉豪”的合成方式",
-    "desc": "资产：\nBV1tu4m1K7YV 4179资产库3代\nBV12GhPzUEs9 ChestnutMC 人模\nBV1Au411b7FV 内UV序列帧动画\nBV1miGH63EJZ\nBV1obCtBEE7X\nBV14u41147YH\n参考了 BV11r4y1L7Vc 5:58\n\n\n\n做动画真的很痛苦，有的镜头观众看急了\n认为k的实在丑陋\n张牙舞爪要跟up分析俄乌局势\n你先别急\nup比你还急\nup急着发视频\n如果上帝把时间调回到8/15凌晨我一定会重新考虑龙娘作为视频收尾的方案\n\n我从网上学了一招",
-    "pic": "http://i1.hdslb.com/bfs/archive/1d27a78840a99b323dc7d24877ee1e07cae8d788.jpg",
-    "duration": 69,
+    "bvid": "BV1NBbe6jEzz",
+    "title": "《鸡来》一个半小时超长电影！！！",
+    "desc": "2023年5月15日，背带侠第一条视频正式和大家见面。背带与铠甲的独特组合，收获了很多观众的喜爱。\n两年半的时间里，“限时理想”产出近百集背带侠系列内容，我们的抖音账号，顺利突破100万粉丝。\n \n一路走来，团队从最初3个人，慢慢扩充到7个人；从只有一台手机起步，一步步搭建起小型工作室。\n我们有幸遇见许许多多同行者：一起出镜拍摄背带侠的伙伴——苏珊、梅狸猫、乔碧萝、泰酷怪；携手共创的博主朋友们——坤骑、夏楠、烟铠、封妖录、程坤、小滕；\n还有曾经只能在屏幕上仰望的前辈：炎龙、风鹰、黑犀、地虎、梅老师。\n回头",
+    "pic": "http://i2.hdslb.com/bfs/archive/012ee8be9b800615248a66483acd9b9578558067.jpg",
+    "duration": 5550,
     "owner": {
-      "name": "一支聪慧鼠",
-      "face": "https://i2.hdslb.com/bfs/face/110f31f132ff821e5bbc5c857349454445723e5d.jpg"
+      "name": "限时理想-背带侠",
+      "face": "https://i1.hdslb.com/bfs/face/c21a92fc1f0c91f1e6821656ede67200c8e37a0c.jpg"
     },
     "stat": {
-      "view": 830281,
-      "like": 133026,
-      "danmaku": 557
+      "view": 1828833,
+      "like": 123937,
+      "danmaku": 3140
     },
-    "tname": "网络游戏",
-    "pubdate": 1787047200,
-    "rcmd_reason": "11万点赞"
+    "tname": "小剧场",
+    "pubdate": 1787045400,
+    "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1cqb86hE8B",
-    "title": "《商务柔道》",
+    "bvid": "BV1Cabr6YEZp",
+    "title": "为什么我们常以怜悯的目光看待年迈者",
     "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/3dc42136a1eebd31ce0f1638aa8c1754fb1bfa43.jpg",
-    "duration": 95,
+    "pic": "http://i1.hdslb.com/bfs/archive/5e2ceaef17a8a64ca1c7686ada21e17831afc5fb.jpg",
+    "duration": 138,
     "owner": {
-      "name": "伤心欲茄222",
-      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
+      "name": "莫氏度",
+      "face": "https://i0.hdslb.com/bfs/face/0f5a3b68a8f227891c7b308e9670882fb0765dd6.jpg"
     },
     "stat": {
-      "view": 4529150,
-      "like": 350477,
-      "danmaku": 1061
+      "view": 280058,
+      "like": 43950,
+      "danmaku": 131
     },
-    "tname": "搞笑",
-    "pubdate": 1787025600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1pN8g6yE7m",
-    "title": "萨特：当所有人都在定义你，你还能怎么做自己？",
-    "desc": "外界眼里的你，凭什么成了你无法辩解的宿命？\n参考文献\n[1]  让-保尔·萨特. 萨特自述[M/OL]. 天津人民出版社, 2008\n[2]  让-保尔·萨特. 恶心[M/OL]. 人民文学出版社, 2023\n[3]  让·保罗·萨特. 存在与虚无[M/OL]. 生活·读书·新知三联书店, 2014\n[4]  SALADIN R. Androids for the Stone Age?[J]. US-Japan Women’s Journal, 2022(61): 98-119.\n[5]  让-保罗·萨特",
-    "pic": "http://i1.hdslb.com/bfs/archive/7fa88e78a4fd79ad8037893e5fbcf9508a406b51.jpg",
-    "duration": 440,
-    "owner": {
-      "name": "大圆镜科普",
-      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
-    },
-    "stat": {
-      "view": 1584577,
-      "like": 114145,
-      "danmaku": 1304
-    },
-    "tname": "科学科普",
-    "pubdate": 1787043600,
-    "rcmd_reason": "百万播放"
+    "tname": "日常",
+    "pubdate": 1787027828,
+    "rcmd_reason": "人气飙升"
   },
   {
     "bvid": "BV1h88g6tEQv",
@@ -166,127 +204,89 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/ebad87e5f87ea6e988f4134f5ba434c50e620a14.jpg"
     },
     "stat": {
-      "view": 688465,
-      "like": 64641,
-      "danmaku": 313
+      "view": 1937224,
+      "like": 148969,
+      "danmaku": 787
     },
     "tname": "网络游戏",
     "pubdate": 1787036942,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1fFbr6sEp9",
-    "title": "我把你们对铜的逆天想法都做到了MC里...?!🤣",
-    "desc": "你说想法，我做模组！\n\nHello~我是认真猫，如果你想玩我做的模组，我已经把模组移植复刻到网易基岩版啦！\n搜索【认真猫】就可以玩到同款啦~\n不过因为这是我第一次开发基岩版模组，大家在游玩时如果遇到什么问题，欢迎在评论区留言反馈哦～\n\n▌特别鸣谢\n\n模型&动画&材质：@汪鎮川_ABraHam_  \n参演：@埋栈Maizhan  \n友情支持：@空栈不是空伐  \n\n评论者：@锡德JorisSid  @一袋熊猫  @菱攸  \n感谢所有参与制作与支持本期视频的朋友们❤️!!",
-    "pic": "http://i1.hdslb.com/bfs/archive/a40ba9ca464a0673cfb146a218a7a621213e1b7e.jpg",
-    "duration": 416,
-    "owner": {
-      "name": "认真猫",
-      "face": "https://i1.hdslb.com/bfs/face/9db435c99a7e74b69f90802eaa3c918f24a4d84a.jpg"
-    },
-    "stat": {
-      "view": 1352793,
-      "like": 62541,
-      "danmaku": 1770
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787034732,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1GNbv6ZE1N",
-    "title": "忍术回战   26分钟沉浸式观看",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/3599363aa0e993e3370e4066993edf305be07d24.jpg",
-    "duration": 1608,
-    "owner": {
-      "name": "牙牙的包裹",
-      "face": "https://i0.hdslb.com/bfs/face/da56cb3b99ce100d46a5d0dfacc540cf376c9b6a.jpg"
-    },
-    "stat": {
-      "view": 2467582,
-      "like": 192944,
-      "danmaku": 6921
-    },
-    "tname": "同人·手书",
-    "pubdate": 1786960915,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1SR8u6HE5h",
-    "title": "一期疯了的读评论！",
-    "desc": "这期真的疯了。",
-    "pic": "http://i0.hdslb.com/bfs/archive/b28b9fc82ed2d1d17b8e99edfb2aeaefc12f0fca.jpg",
-    "duration": 172,
+    "bvid": "BV1Ze8E6oEvs",
+    "title": "全女医生集结！速通医院查体项目！每项都需要暴露到什么程度？",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/e9a7100499da7a785cd9d19a9e802faee52a44f8.jpg",
+    "duration": 2222,
     "owner": {
-      "name": "一串大福",
-      "face": "https://i2.hdslb.com/bfs/face/e6d1cf7df22235495d25d7ae77a4aa185e5d8c7f.jpg"
+      "name": "大物是也",
+      "face": "https://i0.hdslb.com/bfs/face/8a01e29bab16f51fb9c322804b4bf2508c3edbfd.jpg"
     },
     "stat": {
-      "view": 637630,
-      "like": 52003,
-      "danmaku": 1311
+      "view": 567616,
+      "like": 21671,
+      "danmaku": 1914
     },
-    "tname": "搞笑",
-    "pubdate": 1787047986,
-    "rcmd_reason": "5万点赞"
+    "tname": "日常",
+    "pubdate": 1787133600,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1gibB6PEih",
-    "title": "绝境降临！狭小缆车空间怎样熬过危机四伏的一百天！！「缆车惊变100天」",
-    "desc": "三连总和过8w火速更新！！！！！\n\n\n夏天yB站交流群：291049296\n\n感谢作者老师@Q弹的果冻c",
-    "pic": "http://i2.hdslb.com/bfs/archive/e3e3cb87e2362f523f34b064d5f9a0e7d1a6dfec.jpg",
-    "duration": 1501,
+    "bvid": "BV1Vpbo6dEHK",
+    "title": "打了10分钟就我一个在送，这就很尴尬了",
+    "desc": "打了10分钟就我一个在送，这就很尴尬了",
+    "pic": "http://i2.hdslb.com/bfs/archive/2ac53f2ae17ad932deacc15324c1cf9e95d1c065.jpg",
+    "duration": 131,
     "owner": {
-      "name": "夏天y",
-      "face": "https://i0.hdslb.com/bfs/face/2139ba40f33a5977675e209a66896c4c3fe3eeb5.jpg"
+      "name": "磊哥游戏",
+      "face": "https://i0.hdslb.com/bfs/face/538b9090c0862782df0662b2176e726eda1c9980.jpg"
     },
     "stat": {
-      "view": 1011168,
-      "like": 98559,
-      "danmaku": 16039
+      "view": 157101,
+      "like": 16317,
+      "danmaku": 300
     },
     "tname": "单机游戏",
-    "pubdate": 1787011200,
-    "rcmd_reason": "9万点赞"
+    "pubdate": 1787187600,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV14Z8u6JEu4",
-    "title": "我看看谁错字了！",
+    "bvid": "BV1pZ8j6YEHJ",
+    "title": "不是！可她真的不一样！",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/b7051f62e807dfd2fb7e847c3f8e6f35bb96c20a.jpg",
+    "duration": 129,
+    "owner": {
+      "name": "-啊仁-",
+      "face": "https://i2.hdslb.com/bfs/face/3d6e36416287cc3c504d9d32328c4afd371d16af.jpg"
+    },
+    "stat": {
+      "view": 515205,
+      "like": 34396,
+      "danmaku": 561
+    },
+    "tname": "短片",
+    "pubdate": 1787108632,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1u4876CE5w",
+    "title": "你们忍得住不说吗？",
     "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/3c8d40be70bc81dab55590dc91eee9007db9b5d7.jpg",
-    "duration": 279,
+    "pic": "http://i0.hdslb.com/bfs/archive/b7db8ca164d70672f110bd7f618f94c00415697b.jpg",
+    "duration": 241,
     "owner": {
       "name": "脱缰凯Kk",
       "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
     },
     "stat": {
-      "view": 962427,
-      "like": 79249,
-      "danmaku": 4446
+      "view": 1023637,
+      "like": 82594,
+      "danmaku": 3497
     },
     "tname": "小剧场",
-    "pubdate": 1787046677,
-    "rcmd_reason": "7万点赞"
-  },
-  {
-    "bvid": "BV1Neba63EDK",
-    "title": "我们不欢迎这样的客人，也不赚这种米",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/8b62929a51eca7e2b17693c6515a16f65724ceb3.jpg",
-    "duration": 212,
-    "owner": {
-      "name": "谢谢侬陈森",
-      "face": "https://i2.hdslb.com/bfs/face/405218a37c57c3b93b4fa107132dc451573a5dcd.jpg"
-    },
-    "stat": {
-      "view": 3187327,
-      "like": 352689,
-      "danmaku": 4613
-    },
-    "tname": "美食侦探",
-    "pubdate": 1786960800,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1787131528,
+    "rcmd_reason": "8万点赞"
   }
 ],
   podcast: []
