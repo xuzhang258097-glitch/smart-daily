@@ -1,7 +1,7 @@
-// 课后时间数据 - 自动生成于 2026-08-20 02:45
+// 课后时间数据 - 自动生成于 2026-08-21 02:52
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-20 02:45',
+  updateTime: '2026-08-21 02:52',
   bilibili: [
   {
     "bvid": "BV1kS8H6VERt",
@@ -14,18 +14,37 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/83e2465c27a1afb69316d270a94cbf9ca64a4070.jpg"
     },
     "stat": {
-      "view": 898398,
-      "like": 126094,
-      "danmaku": 28545
+      "view": 8119402,
+      "like": 728334,
+      "danmaku": 121158
     },
     "tname": "单机游戏",
     "pubdate": 1787191200,
-    "rcmd_reason": "6万点赞"
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1rTbf6CECX",
+    "title": "假如你是一个诗人",
+    "desc": "假如你是一个诗人，被卷入漩涡之后能撑多久？\n\nBGM: Hans Zimmer - No Time for Caution",
+    "pic": "http://i1.hdslb.com/bfs/archive/2728817283907439bb195c054a8c4def18c29cfb.jpg",
+    "duration": 216,
+    "owner": {
+      "name": "农民伯伯吖",
+      "face": "https://i0.hdslb.com/bfs/face/22bc9ad221bb5af9f4eed3da5258e539e2c9f3f3.jpg"
+    },
+    "stat": {
+      "view": 2829022,
+      "like": 150193,
+      "danmaku": 5100
+    },
+    "tname": "软件应用",
+    "pubdate": 1787183545,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1rHbY6MEB9",
     "title": "我这一生最大的罪，是把人写成了妖……",
-    "desc": "本片故事与人物皆为虚构。\n片中妖异诸事，取材于东晋干宝《搜神记》卷六所载汉代灾异：寺壁黄人、木不曲直、梁伯夏后、草作人状；\n并参考东汉末年黄巾起义史事虚构演绎而成。",
+    "desc": "本片故事与人物皆为虚构。\n片中妖异诸事，取材于东晋干宝的志怪作品所载汉代灾异：寺壁黄人、木不曲直、梁伯夏后、草作人状；\n并参考东汉末年黄巾起义史事虚构演绎而成。",
     "pic": "http://i0.hdslb.com/bfs/archive/6533ca786585f35bbf352cee7cf74c8df25fcb01.jpg",
     "duration": 1574,
     "owner": {
@@ -33,13 +52,32 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/946b7bf3f4b6e97df7de8d74d12bbaa8f216eb58.jpg"
     },
     "stat": {
-      "view": 6975061,
-      "like": 729958,
-      "danmaku": 19207
+      "view": 9011710,
+      "like": 893269,
+      "danmaku": 23869
     },
     "tname": "人文历史",
     "pubdate": 1786945197,
     "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1bX8u6XEWm",
+    "title": "【独家】时光代理人 第三季 PartOne 第3集 血洗缅挝【8月国创】",
+    "desc": "每周五11:00，哔哩哔哩独家呈现。每周四18:00，超大会员抢先看更新集！",
+    "pic": "http://i2.hdslb.com/bfs/archive/c3afc7de50d88869afc7d5d2071e757991dba0e0.png",
+    "duration": 1295,
+    "owner": {
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+    },
+    "stat": {
+      "view": 1966047,
+      "like": 18781,
+      "danmaku": 9648
+    },
+    "tname": "国产动画",
+    "pubdate": 1787220002,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1Zdbi6rER9",
@@ -52,240 +90,202 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/161fbe314a72bf6b2657e955548a4719037feff9.jpg"
     },
     "stat": {
-      "view": 6134962,
-      "like": 82663,
-      "danmaku": 14940
+      "view": 8541458,
+      "like": 92093,
+      "danmaku": 15671
     },
     "tname": "单机游戏",
     "pubdate": 1787020200,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1hY8g6xEwE",
-    "title": "这几个片段大家可能都听过，但你们知道其实来源于同一首歌吗",
-    "desc": "这几个片段大家可能都听过，但其实来源于同一首歌",
-    "pic": "http://i2.hdslb.com/bfs/archive/9e9504d0198e4158e14fc16abc36c21ce2b72f0a.jpg",
-    "duration": 295,
+    "bvid": "BV1Ns8w6fE4k",
+    "title": "全面拆解钟馗隐藏细节！《黑神话钟馗》PV逐帧解析",
+    "desc": "记得给坦子点个关注，我们后续黑神话解析 不见不散！",
+    "pic": "http://i2.hdslb.com/bfs/archive/bdeb2ac993295275ef51412bf75f33d01c05de7f.jpg",
+    "duration": 980,
     "owner": {
-      "name": "小憩memories",
-      "face": "https://i1.hdslb.com/bfs/face/b092768719c942114e6ca860bd47d082eae5b526.jpg"
+      "name": "利维坦mY",
+      "face": "https://i2.hdslb.com/bfs/face/eafd73061a55531503353e7ecf8ff9c184d52241.jpg"
     },
     "stat": {
-      "view": 3782798,
-      "like": 172745,
-      "danmaku": 1083
-    },
-    "tname": "演奏",
-    "pubdate": 1787037405,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1CUbS69EAs",
-    "title": "时空列车",
-    "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/3b6a6a94fe5552a9835e4a68995fe40a9e6a2ba7.jpg",
-    "duration": 116,
-    "owner": {
-      "name": "浅尝菌",
-      "face": "https://i0.hdslb.com/bfs/face/1fcb2e7db59b0fed1bae151efef9861c7bfa9737.jpg"
-    },
-    "stat": {
-      "view": 1504291,
-      "like": 84868,
-      "danmaku": 602
-    },
-    "tname": "GMV",
-    "pubdate": 1786939200,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1iv8j6EE77",
-    "title": "怪谈逃生指南第一期：《恶魔法典》",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/50d2ddada686160a704f1bfbbde8eb8d9e250293.jpg",
-    "duration": 2421,
-    "owner": {
-      "name": "是许木木啊",
-      "face": "https://i0.hdslb.com/bfs/face/dd7af55fc5361c6a343356958efce19fa6326d89.jpg"
-    },
-    "stat": {
-      "view": 747919,
-      "like": 84891,
-      "danmaku": 5520
-    },
-    "tname": "日常",
-    "pubdate": 1787131800,
-    "rcmd_reason": "8万点赞"
-  },
-  {
-    "bvid": "BV1b58u6SEu9",
-    "title": "《岸防炮模拟器》",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/fa0ebf79f42d5c33ee21d440f49a4ab6506d5889.jpg",
-    "duration": 104,
-    "owner": {
-      "name": "电力小子-gtetgeg",
-      "face": "https://i0.hdslb.com/bfs/face/b9ea26b01a28feeaebd810e21b6fa02f597f03d1.jpg"
-    },
-    "stat": {
-      "view": 901617,
-      "like": 57204,
-      "danmaku": 561
-    },
-    "tname": "极客DIY",
-    "pubdate": 1787130000,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1q28V6VEYU",
-    "title": "七夕节老番茄就和自己玩游戏",
-    "desc": "又到了吗？！那个日子！\n谁能想到森林冰火人今年出续作了？！",
-    "pic": "http://i2.hdslb.com/bfs/archive/d161dd3122f9ae5dd9340a364505c12f65e18c09.jpg",
-    "duration": 1018,
-    "owner": {
-      "name": "老番茄",
-      "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg"
-    },
-    "stat": {
-      "view": 2110509,
-      "like": 230077,
-      "danmaku": 16957
+      "view": 1313610,
+      "like": 93205,
+      "danmaku": 3568
     },
     "tname": "单机游戏",
-    "pubdate": 1787110500,
+    "pubdate": 1787217575,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1NBbe6jEzz",
-    "title": "《鸡来》一个半小时超长电影！！！",
-    "desc": "2023年5月15日，背带侠第一条视频正式和大家见面。背带与铠甲的独特组合，收获了很多观众的喜爱。\n两年半的时间里，“限时理想”产出近百集背带侠系列内容，我们的抖音账号，顺利突破100万粉丝。\n \n一路走来，团队从最初3个人，慢慢扩充到7个人；从只有一台手机起步，一步步搭建起小型工作室。\n我们有幸遇见许许多多同行者：一起出镜拍摄背带侠的伙伴——苏珊、梅狸猫、乔碧萝、泰酷怪；携手共创的博主朋友们——坤骑、夏楠、烟铠、封妖录、程坤、小滕；\n还有曾经只能在屏幕上仰望的前辈：炎龙、风鹰、黑犀、地虎、梅老师。\n回头",
-    "pic": "http://i2.hdslb.com/bfs/archive/012ee8be9b800615248a66483acd9b9578558067.jpg",
-    "duration": 5550,
+    "bvid": "BV1akbY69ECQ",
+    "title": "举手之劳 亦是人间微光",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/d4a9e476521a2ee193ededca62fe06dc5a2b1c4b.jpg",
+    "duration": 120,
     "owner": {
-      "name": "限时理想-背带侠",
-      "face": "https://i1.hdslb.com/bfs/face/c21a92fc1f0c91f1e6821656ede67200c8e37a0c.jpg"
+      "name": "二雷外卖",
+      "face": "https://i1.hdslb.com/bfs/face/996b7c5c83239314e243d6629e5b8e06ccbd41c1.jpg"
     },
     "stat": {
-      "view": 1828833,
-      "like": 123937,
-      "danmaku": 3140
-    },
-    "tname": "小剧场",
-    "pubdate": 1787045400,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1Cabr6YEZp",
-    "title": "为什么我们常以怜悯的目光看待年迈者",
-    "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/5e2ceaef17a8a64ca1c7686ada21e17831afc5fb.jpg",
-    "duration": 138,
-    "owner": {
-      "name": "莫氏度",
-      "face": "https://i0.hdslb.com/bfs/face/0f5a3b68a8f227891c7b308e9670882fb0765dd6.jpg"
-    },
-    "stat": {
-      "view": 280058,
-      "like": 43950,
-      "danmaku": 131
+      "view": 1244819,
+      "like": 110723,
+      "danmaku": 740
     },
     "tname": "日常",
-    "pubdate": 1787027828,
-    "rcmd_reason": "人气飙升"
+    "pubdate": 1786961400,
+    "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1h88g6tEQv",
-    "title": "《如常运转｜正常運転》MV：全世界都会震惊于日本的灾后重建速度",
-    "desc": "流程在走了，先不要急。\n本作品为艺术表达与对日本社会讽刺，请勿将画面及角色对应到特定受灾者个体，也不代表对任何具体事件作事实判断。",
-    "pic": "http://i0.hdslb.com/bfs/archive/dd16eadd844518c4be28a7697dabeda13d9313aa.jpg",
-    "duration": 150,
+    "bvid": "BV1A7gP6CEab",
+    "title": "这是我经历过的最恐怖的“形影不离”",
+    "desc": "看完不妨点个赞哦",
+    "pic": "http://i2.hdslb.com/bfs/archive/9b5d0f0ef07b9f3d0799051fc608e870762930cb.jpg",
+    "duration": 680,
     "owner": {
-      "name": "即兴演奏家",
-      "face": "https://i2.hdslb.com/bfs/face/ebad87e5f87ea6e988f4134f5ba434c50e620a14.jpg"
+      "name": "徐大虾咯",
+      "face": "https://i1.hdslb.com/bfs/face/6787192a42ca29aa5f496b8fc471c898ad4c6378.jpg"
     },
     "stat": {
-      "view": 1937224,
-      "like": 148969,
-      "danmaku": 787
+      "view": 3209636,
+      "like": 100157,
+      "danmaku": 1284
+    },
+    "tname": "单机游戏",
+    "pubdate": 1786705014,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1nSbo6TEv4",
+    "title": "动态视频｜火箭降落的全过程，拍到了！",
+    "desc": "这一次我们得到许可，来到了蓝箭朱雀三号遥二运载火箭的发射现场。不仅拍到了火箭降落全过程，还带回了八个月前的珍贵素材……如果你喜欢这期视频，请多多支持我们，并把视频分享给你的朋友们一起看看！",
+    "pic": "http://i2.hdslb.com/bfs/archive/dfde57c6c6ed858937635c5124a63f9103e29032.jpg",
+    "duration": 250,
+    "owner": {
+      "name": "影视飓风",
+      "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg"
+    },
+    "stat": {
+      "view": 1018566,
+      "like": 100842,
+      "danmaku": 4173
+    },
+    "tname": "数码",
+    "pubdate": 1787198400,
+    "rcmd_reason": "9万点赞"
+  },
+  {
+    "bvid": "BV1UE8p6WEP3",
+    "title": "【独家/完结】《将夜》第19集 光明之夜【4月国创】",
+    "desc": "今日收官，结局bilibili独家热播中。",
+    "pic": "http://i1.hdslb.com/bfs/archive/8106c7b8e89ab811754a4dd002ee67a4f5eeff47.png",
+    "duration": 1323,
+    "owner": {
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+    },
+    "stat": {
+      "view": 1227754,
+      "like": 17992,
+      "danmaku": 4635
+    },
+    "tname": "国产动画",
+    "pubdate": 1787194802,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1bQ8u6WEtT",
+    "title": "停更7年，我又以经典的方式玩MC",
+    "desc": "停更了七年的时空小涵我的世界第一季-国服第一探险家生存\n今天我又回来了！\n喜欢这个系列的话一定要多多点赞！！！\n灵感来源:aCookieGod",
+    "pic": "http://i0.hdslb.com/bfs/archive/ca6c70b80222af8521e4d85d26012963ac8f49e4.jpg",
+    "duration": 2004,
+    "owner": {
+      "name": "时空小涵",
+      "face": "https://i1.hdslb.com/bfs/face/052754e2cfa1229a9c17599656fa8a6855cccfe6.jpg"
+    },
+    "stat": {
+      "view": 1433817,
+      "like": 96730,
+      "danmaku": 10047
+    },
+    "tname": "单机游戏",
+    "pubdate": 1787191500,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1vF8n6ZEUz",
+    "title": "知道为啥这乐队没主唱了吧",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/48f093bbe30eba5775aef4d04237acbcd15308a0.jpg",
+    "duration": 90,
+    "owner": {
+      "name": "王老师贵姓",
+      "face": "https://i2.hdslb.com/bfs/face/8786dddb40b5ddbeba405f89df488c6f55acacaa.jpg"
+    },
+    "stat": {
+      "view": 2925578,
+      "like": 196886,
+      "danmaku": 541
+    },
+    "tname": "翻唱",
+    "pubdate": 1787138160,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1HQbf6CEG4",
+    "title": "唐王随手捐闲钱，竟将阿萨拉扶成王！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/d2246f9a68fc2f210fe156ebbf6dce6cd06a76e2.jpg",
+    "duration": 274,
+    "owner": {
+      "name": "六霸会教宗",
+      "face": "https://i1.hdslb.com/bfs/face/0b239bff9f8ed1b9cf96ed96d5bf23b8dbdd3da9.jpg"
+    },
+    "stat": {
+      "view": 585768,
+      "like": 44209,
+      "danmaku": 723
     },
     "tname": "网络游戏",
-    "pubdate": 1787036942,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1787208878,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Ze8E6oEvs",
-    "title": "全女医生集结！速通医院查体项目！每项都需要暴露到什么程度？",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/e9a7100499da7a785cd9d19a9e802faee52a44f8.jpg",
-    "duration": 2222,
+    "bvid": "BV1pn8E6iEEo",
+    "title": "房主反杀非法上门强拆者，陕西判了，无罪",
+    "desc": "凌晨六点，十多个人拿着防暴盾、防暴叉、橡胶棍，开着轮式破碎机直接撞开张恒家大门，张恒选择了还手。结果对方死了一个，他被关了 900 多天。法院今判张，无罪。 #张恒案 #正当防卫 #无罪判决",
+    "pic": "http://i2.hdslb.com/bfs/archive/fb459358f9ed957e054b92bc820b782f4c801a1f.jpg",
+    "duration": 297,
     "owner": {
-      "name": "大物是也",
-      "face": "https://i0.hdslb.com/bfs/face/8a01e29bab16f51fb9c322804b4bf2508c3edbfd.jpg"
+      "name": "慕容律师",
+      "face": "https://i0.hdslb.com/bfs/face/f4f0600aa17ab40afaf782280c53630c848a75b0.jpg"
     },
     "stat": {
-      "view": 567616,
-      "like": 21671,
-      "danmaku": 1914
+      "view": 874233,
+      "like": 35766,
+      "danmaku": 700
+    },
+    "tname": "社科·法律·心理",
+    "pubdate": 1787122127,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1yh8w6RE4b",
+    "title": "终于走回深圳了｜挑战上海走回深圳最后一集！！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/5677910b77a52666e96d7ef4e5e2b66c877ad9e2.jpg",
+    "duration": 705,
+    "owner": {
+      "name": "拉宏桑",
+      "face": "https://i0.hdslb.com/bfs/face/047b747ba0f47353b312a89b4216a04f035ad316.jpg"
+    },
+    "stat": {
+      "view": 689806,
+      "like": 83533,
+      "danmaku": 5128
     },
     "tname": "日常",
-    "pubdate": 1787133600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Vpbo6dEHK",
-    "title": "打了10分钟就我一个在送，这就很尴尬了",
-    "desc": "打了10分钟就我一个在送，这就很尴尬了",
-    "pic": "http://i2.hdslb.com/bfs/archive/2ac53f2ae17ad932deacc15324c1cf9e95d1c065.jpg",
-    "duration": 131,
-    "owner": {
-      "name": "磊哥游戏",
-      "face": "https://i0.hdslb.com/bfs/face/538b9090c0862782df0662b2176e726eda1c9980.jpg"
-    },
-    "stat": {
-      "view": 157101,
-      "like": 16317,
-      "danmaku": 300
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787187600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1pZ8j6YEHJ",
-    "title": "不是！可她真的不一样！",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/b7051f62e807dfd2fb7e847c3f8e6f35bb96c20a.jpg",
-    "duration": 129,
-    "owner": {
-      "name": "-啊仁-",
-      "face": "https://i2.hdslb.com/bfs/face/3d6e36416287cc3c504d9d32328c4afd371d16af.jpg"
-    },
-    "stat": {
-      "view": 515205,
-      "like": 34396,
-      "danmaku": 561
-    },
-    "tname": "短片",
-    "pubdate": 1787108632,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1u4876CE5w",
-    "title": "你们忍得住不说吗？",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/b7db8ca164d70672f110bd7f618f94c00415697b.jpg",
-    "duration": 241,
-    "owner": {
-      "name": "脱缰凯Kk",
-      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
-    },
-    "stat": {
-      "view": 1023637,
-      "like": 82594,
-      "danmaku": 3497
-    },
-    "tname": "小剧场",
-    "pubdate": 1787131528,
+    "pubdate": 1787219459,
     "rcmd_reason": "8万点赞"
   }
 ],
