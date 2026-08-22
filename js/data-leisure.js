@@ -1,45 +1,64 @@
-// 课后时间数据 - 自动生成于 2026-08-21 02:52
+// 课后时间数据 - 自动生成于 2026-08-22 02:43
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-21 02:52',
+  updateTime: '2026-08-22 02:43',
   bilibili: [
   {
-    "bvid": "BV1kS8H6VERt",
-    "title": "《黑神话：钟馗》15分钟实机演示",
-    "desc": "剑下有血，染作新妆，\n似故人，梦里来访。\n前尘旧事，不知何往，\n偏偏念念不忘。\n红尘易老，正道且长，\n恩仇难定终章。\n谁道黄泉路远？\n正好，再走一趟。\n\n由游戏科学开发的黑神话系列第二部作品《黑神话：钟馗》，今日带来全新15分钟游戏实机演示，首次展示主角战斗与部分剧情片段。\n本视频为开发中版本录制，运行时屏幕宽高比设置为21:9。因产品仍处于研发早期，最终发售内容可能有所不同。\n\n游戏官网：https://gamesci.cn/zhongkui\n游戏各平台官号：黑神话",
-    "pic": "http://i0.hdslb.com/bfs/archive/05d77b6337611727f47d5228d0d027f587c238b4.jpg",
-    "duration": 953,
+    "bvid": "BV1G48M6XEBt",
+    "title": "\"复活吧！我的（ ）\"",
+    "desc": "致准星上的微光，重逢的微风和那个夏天。\n2026.8.21",
+    "pic": "http://i0.hdslb.com/bfs/archive/32bd89a388d516e86c9aef3669217f4d9a8b231d.jpg",
+    "duration": 250,
     "owner": {
-      "name": "黑神话",
-      "face": "https://i1.hdslb.com/bfs/face/83e2465c27a1afb69316d270a94cbf9ca64a4070.jpg"
+      "name": "HL-Flame",
+      "face": "https://i2.hdslb.com/bfs/face/167d70b1f0e332b72d3584e405722b5d5766c76c.jpg"
     },
     "stat": {
-      "view": 8119402,
-      "like": 728334,
-      "danmaku": 121158
+      "view": 1803836,
+      "like": 247854,
+      "danmaku": 1902
     },
-    "tname": "单机游戏",
-    "pubdate": 1787191200,
+    "tname": "网络游戏",
+    "pubdate": 1787286645,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1rTbf6CECX",
-    "title": "假如你是一个诗人",
-    "desc": "假如你是一个诗人，被卷入漩涡之后能撑多久？\n\nBGM: Hans Zimmer - No Time for Caution",
-    "pic": "http://i1.hdslb.com/bfs/archive/2728817283907439bb195c054a8c4def18c29cfb.jpg",
-    "duration": 216,
+    "bvid": "BV17N8P6HEVy",
+    "title": "人族少女混入兽人国，还引发了一场猫猫二当家和黄狗侠客的绝世大战",
+    "desc": "《相骨》第01集 与梦工作室出品。\n误入兽人国度的人类少女、藏在酒馆里的相骨、追杀她的夜爪会，以及那个看起来不太像好人的黄狗侠客⋯\n从第一集开始，所有设定、剧情和世界观均以正片为准。\n《相骨》的故事，从这里正式开始…",
+    "pic": "http://i2.hdslb.com/bfs/archive/d897578f027afb00fd98dc9775d87077794047fd.jpg",
+    "duration": 826,
     "owner": {
-      "name": "农民伯伯吖",
-      "face": "https://i0.hdslb.com/bfs/face/22bc9ad221bb5af9f4eed3da5258e539e2c9f3f3.jpg"
+      "name": "wuhu动画人空间",
+      "face": "https://i0.hdslb.com/bfs/face/48469a84187484653a3fb913c7c4ca01df3d1fd7.jpg"
     },
     "stat": {
-      "view": 2829022,
-      "like": 150193,
-      "danmaku": 5100
+      "view": 1111545,
+      "like": 63392,
+      "danmaku": 1741
     },
-    "tname": "软件应用",
-    "pubdate": 1787183545,
-    "rcmd_reason": ""
+    "tname": "预告·资讯",
+    "pubdate": 1787233355,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV1DV8F6bEkz",
+    "title": "我收容了100位粉丝到我的一辈子存档里！",
+    "desc": "感谢所有参与本期内容的观众！\n点赞过19.8W开启比奇堡小区二期！\n喜欢本期内容记得点赞！投币呀！",
+    "pic": "http://i1.hdslb.com/bfs/archive/aa01fede97db851573fd79f37c7e8167ed197eb0.jpg",
+    "duration": 2482,
+    "owner": {
+      "name": "与山0v0",
+      "face": "https://i2.hdslb.com/bfs/face/1dd429855a968c9d22b8ccc000a7aaabe8dbc201.jpg"
+    },
+    "stat": {
+      "view": 1346193,
+      "like": 140343,
+      "danmaku": 9386
+    },
+    "tname": "单机游戏",
+    "pubdate": 1787302800,
+    "rcmd_reason": "百万播放"
   },
   {
     "bvid": "BV1rHbY6MEB9",
@@ -52,32 +71,32 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/946b7bf3f4b6e97df7de8d74d12bbaa8f216eb58.jpg"
     },
     "stat": {
-      "view": 9011710,
-      "like": 893269,
-      "danmaku": 23869
+      "view": 10808114,
+      "like": 1041394,
+      "danmaku": 27701
     },
     "tname": "人文历史",
     "pubdate": 1786945197,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1bX8u6XEWm",
-    "title": "【独家】时光代理人 第三季 PartOne 第3集 血洗缅挝【8月国创】",
-    "desc": "每周五11:00，哔哩哔哩独家呈现。每周四18:00，超大会员抢先看更新集！",
-    "pic": "http://i2.hdslb.com/bfs/archive/c3afc7de50d88869afc7d5d2071e757991dba0e0.png",
-    "duration": 1295,
+    "bvid": "BV1jM8P6EEDy",
+    "title": "吃蜘蛛眼就可以飞去末地外岛？！这个bug简直是艺术品！",
+    "desc": "原理解析！",
+    "pic": "http://i1.hdslb.com/bfs/archive/bc9cf1c8ab723af97f6052fca3c7e92c98d686d1.jpg",
+    "duration": 432,
     "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+      "name": "这里是莱里",
+      "face": "https://i2.hdslb.com/bfs/face/8fc2c5566d77f8989a71b9cd99f13da0b9b0f39e.jpg"
     },
     "stat": {
-      "view": 1966047,
-      "like": 18781,
-      "danmaku": 9648
+      "view": 847419,
+      "like": 55926,
+      "danmaku": 2211
     },
-    "tname": "国产动画",
-    "pubdate": 1787220002,
-    "rcmd_reason": ""
+    "tname": "单机游戏",
+    "pubdate": 1787302800,
+    "rcmd_reason": "5万点赞"
   },
   {
     "bvid": "BV1Zdbi6rER9",
@@ -90,203 +109,184 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/161fbe314a72bf6b2657e955548a4719037feff9.jpg"
     },
     "stat": {
-      "view": 8541458,
-      "like": 92093,
-      "danmaku": 15671
+      "view": 10575989,
+      "like": 97705,
+      "danmaku": 16099
     },
     "tname": "单机游戏",
     "pubdate": 1787020200,
-    "rcmd_reason": "百万播放"
+    "rcmd_reason": "千万播放"
   },
   {
-    "bvid": "BV1Ns8w6fE4k",
-    "title": "全面拆解钟馗隐藏细节！《黑神话钟馗》PV逐帧解析",
-    "desc": "记得给坦子点个关注，我们后续黑神话解析 不见不散！",
-    "pic": "http://i2.hdslb.com/bfs/archive/bdeb2ac993295275ef51412bf75f33d01c05de7f.jpg",
-    "duration": 980,
+    "bvid": "BV1yj8T6zE1N",
+    "title": "《下一个是谁》第七季（3）",
+    "desc": "《下一个是谁》第七季来啦！！\n每期都会抽一台iPhone17 Pro！每期抽奖去主投up主（@啊吗粽  ）的主页抽！\n抽奖资金由本期最后一名倒霉蛋出！所以不涉及剧透！",
+    "pic": "http://i1.hdslb.com/bfs/archive/492f7074f5fd3316e0f651d45adb33f9bd4d235c.jpg",
+    "duration": 5204,
     "owner": {
-      "name": "利维坦mY",
-      "face": "https://i2.hdslb.com/bfs/face/eafd73061a55531503353e7ecf8ff9c184d52241.jpg"
+      "name": "啊吗粽",
+      "face": "https://i1.hdslb.com/bfs/face/40a3cce5ce83edf18ef0d144772fd3d94d6b3d3f.jpg"
     },
     "stat": {
-      "view": 1313610,
-      "like": 93205,
-      "danmaku": 3568
+      "view": 1721860,
+      "like": 232666,
+      "danmaku": 68409
     },
-    "tname": "单机游戏",
-    "pubdate": 1787217575,
+    "tname": "搞笑",
+    "pubdate": 1787284800,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1akbY69ECQ",
-    "title": "举手之劳 亦是人间微光",
+    "bvid": "BV1dS8P6JEha",
+    "title": "《你咋开的车》",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/2a87579aa32e008c9163ce0592327a8a4ae8f171.jpg",
+    "duration": 89,
+    "owner": {
+      "name": "伤心欲茄222",
+      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
+    },
+    "stat": {
+      "view": 3039537,
+      "like": 221051,
+      "danmaku": 1076
+    },
+    "tname": "搞笑",
+    "pubdate": 1787284800,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1UU8q6FEPL",
+    "title": "全球十大餐厅！为吃这顿饭！我们在欧洲被偷5万！到底值不值？",
+    "desc": "小测今天带大家探秘，全球十大餐厅！连续9年获得米其林三星最高荣誉，曾被全球50佳餐厅榜单，评选为世界十大餐厅。为了吃这顿饭，我们在欧洲被偷了，损失了5万多，那这家餐厅到底吃什么？值不值？今天就跟小测一起！前往欧洲！一探究竟！",
+    "pic": "http://i0.hdslb.com/bfs/archive/9c499446932b68d6dafd811a925f7b3e69fb6780.jpg",
+    "duration": 687,
+    "owner": {
+      "name": "HOLA小测佬",
+      "face": "https://i0.hdslb.com/bfs/face/8d076e9dffc6457c18d050b20195aba05c9996ea.jpg"
+    },
+    "stat": {
+      "view": 1105442,
+      "like": 54874,
+      "danmaku": 4972
+    },
+    "tname": "出行",
+    "pubdate": 1787306497,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1JDbo6iEaR",
+    "title": "《晒足一百ber天3.0》",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/6f7fa777c889a374ebdab41cde30ec5c4fa9186e.jpg",
+    "duration": 176,
+    "owner": {
+      "name": "嘞是唐孃孃",
+      "face": "https://i0.hdslb.com/bfs/face/f27bb746ea22f1048bdf8a3922b619ba18e9f1a5.jpg"
+    },
+    "stat": {
+      "view": 745196,
+      "like": 61203,
+      "danmaku": 495
+    },
+    "tname": "搞笑",
+    "pubdate": 1787306400,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Xg8F6hEMr",
+    "title": "混子哥边走边画边讲：神秘的核电站",
     "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/d4a9e476521a2ee193ededca62fe06dc5a2b1c4b.jpg",
-    "duration": 120,
+    "pic": "http://i0.hdslb.com/bfs/archive/8fd8db61d10159c4c0f48a74bbf96ca14744b53e.jpg",
+    "duration": 710,
     "owner": {
-      "name": "二雷外卖",
-      "face": "https://i1.hdslb.com/bfs/face/996b7c5c83239314e243d6629e5b8e06ccbd41c1.jpg"
+      "name": "中核集团",
+      "face": "https://i1.hdslb.com/bfs/face/5a7d7bf49b2a9c32e98185b2936988432463c586.jpg"
     },
     "stat": {
-      "view": 1244819,
-      "like": 110723,
-      "danmaku": 740
+      "view": 526186,
+      "like": 27585,
+      "danmaku": 1471
     },
-    "tname": "日常",
-    "pubdate": 1786961400,
-    "rcmd_reason": "百万播放"
+    "tname": "科学科普",
+    "pubdate": 1787210037,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1A7gP6CEab",
-    "title": "这是我经历过的最恐怖的“形影不离”",
-    "desc": "看完不妨点个赞哦",
-    "pic": "http://i2.hdslb.com/bfs/archive/9b5d0f0ef07b9f3d0799051fc608e870762930cb.jpg",
-    "duration": 680,
+    "bvid": "BV1rL8q6QEk1",
+    "title": "【二维动画】画二渲三，但是渲出来一堆BUG",
+    "desc": "BGM：Movin' To The Sun—HUGEL/Imael Angel/Ultra Naté\n画二渲三太投入以至于把BUG也复刻了\n除去后面的靶场背景是在mental canvas预渲的，其余动画都是用procreate dream默画的，没有三维辅助，没有三维辅助，没有三维辅助！重要的事情说三遍\n喜欢的话不要忘记一键三连哦",
+    "pic": "http://i1.hdslb.com/bfs/archive/c2bcdfb94c2ed9938d51686ac057f89e2a8ff8eb.jpg",
+    "duration": 128,
     "owner": {
-      "name": "徐大虾咯",
-      "face": "https://i1.hdslb.com/bfs/face/6787192a42ca29aa5f496b8fc471c898ad4c6378.jpg"
+      "name": "宇宙无敌汪师傅",
+      "face": "https://i0.hdslb.com/bfs/face/312bd6b92b4b945cd21573d0f18b35ed3cbfe546.jpg"
     },
     "stat": {
-      "view": 3209636,
-      "like": 100157,
-      "danmaku": 1284
+      "view": 344760,
+      "like": 55116,
+      "danmaku": 686
+    },
+    "tname": "同人·手书",
+    "pubdate": 1787303161,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1xz8M6CEdi",
+    "title": "渣渣辉没更新在干嘛：结婚！生小孩！",
+    "desc": "不知不觉已经做视频六年了，你们都成年了吗，都毕业了吗，都结婚了吗，都生小孩了吗？都还好吗？",
+    "pic": "http://i1.hdslb.com/bfs/archive/e80879e517eb2a71287fcc8090af4ba7cf282234.jpg",
+    "duration": 46,
+    "owner": {
+      "name": "渣渣辉TD",
+      "face": "https://i0.hdslb.com/bfs/face/f3a76e7e003769af3ae1bab46f94742101ee2826.jpg"
+    },
+    "stat": {
+      "view": 861282,
+      "like": 162035,
+      "danmaku": 6591
+    },
+    "tname": "搞笑",
+    "pubdate": 1787288716,
+    "rcmd_reason": "14万点赞"
+  },
+  {
+    "bvid": "BV1yM8A6bErQ",
+    "title": "时隔一年！久违的整合包生存，缆车末日惊变 100 天！绝不烂尾！！！",
+    "desc": "点赞过 5万 火速更新下一期！！！\n时隔一年重启整合包生存，这次直接把 flag 焊死保证绝不烂尾！\n宝宝们如果喜欢这期缆车惊变100天生存多多点赞啊！",
+    "pic": "http://i0.hdslb.com/bfs/archive/8d7aad0d1a693e39f974a2fcebb36168aa15d8ea.jpg",
+    "duration": 1649,
+    "owner": {
+      "name": "大橙橙橙子",
+      "face": "https://i1.hdslb.com/bfs/face/662a233cf1f685f63d9654a7f0ff47d739eee181.jpg"
+    },
+    "stat": {
+      "view": 1157068,
+      "like": 98212,
+      "danmaku": 5701
     },
     "tname": "单机游戏",
-    "pubdate": 1786705014,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1nSbo6TEv4",
-    "title": "动态视频｜火箭降落的全过程，拍到了！",
-    "desc": "这一次我们得到许可，来到了蓝箭朱雀三号遥二运载火箭的发射现场。不仅拍到了火箭降落全过程，还带回了八个月前的珍贵素材……如果你喜欢这期视频，请多多支持我们，并把视频分享给你的朋友们一起看看！",
-    "pic": "http://i2.hdslb.com/bfs/archive/dfde57c6c6ed858937635c5124a63f9103e29032.jpg",
-    "duration": 250,
-    "owner": {
-      "name": "影视飓风",
-      "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg"
-    },
-    "stat": {
-      "view": 1018566,
-      "like": 100842,
-      "danmaku": 4173
-    },
-    "tname": "数码",
-    "pubdate": 1787198400,
+    "pubdate": 1787270400,
     "rcmd_reason": "9万点赞"
   },
   {
-    "bvid": "BV1UE8p6WEP3",
-    "title": "【独家/完结】《将夜》第19集 光明之夜【4月国创】",
-    "desc": "今日收官，结局bilibili独家热播中。",
-    "pic": "http://i1.hdslb.com/bfs/archive/8106c7b8e89ab811754a4dd002ee67a4f5eeff47.png",
-    "duration": 1323,
-    "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
-    },
-    "stat": {
-      "view": 1227754,
-      "like": 17992,
-      "danmaku": 4635
-    },
-    "tname": "国产动画",
-    "pubdate": 1787194802,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1bQ8u6WEtT",
-    "title": "停更7年，我又以经典的方式玩MC",
-    "desc": "停更了七年的时空小涵我的世界第一季-国服第一探险家生存\n今天我又回来了！\n喜欢这个系列的话一定要多多点赞！！！\n灵感来源:aCookieGod",
-    "pic": "http://i0.hdslb.com/bfs/archive/ca6c70b80222af8521e4d85d26012963ac8f49e4.jpg",
-    "duration": 2004,
-    "owner": {
-      "name": "时空小涵",
-      "face": "https://i1.hdslb.com/bfs/face/052754e2cfa1229a9c17599656fa8a6855cccfe6.jpg"
-    },
-    "stat": {
-      "view": 1433817,
-      "like": 96730,
-      "danmaku": 10047
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787191500,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1vF8n6ZEUz",
-    "title": "知道为啥这乐队没主唱了吧",
+    "bvid": "BV1kA8M6MEMa",
+    "title": "当你穿进老钱班33",
     "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/48f093bbe30eba5775aef4d04237acbcd15308a0.jpg",
-    "duration": 90,
+    "pic": "http://i0.hdslb.com/bfs/archive/2d3351b7cfa43229576fda146c194e5ff78e98e5.jpg",
+    "duration": 172,
     "owner": {
-      "name": "王老师贵姓",
-      "face": "https://i2.hdslb.com/bfs/face/8786dddb40b5ddbeba405f89df488c6f55acacaa.jpg"
+      "name": "侯绿萝",
+      "face": "https://i0.hdslb.com/bfs/face/b444cf0fe0f32dd7d2960ceb8b830c873a5da7c2.jpg"
     },
     "stat": {
-      "view": 2925578,
-      "like": 196886,
-      "danmaku": 541
+      "view": 925911,
+      "like": 61975,
+      "danmaku": 552
     },
-    "tname": "翻唱",
-    "pubdate": 1787138160,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1HQbf6CEG4",
-    "title": "唐王随手捐闲钱，竟将阿萨拉扶成王！",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/d2246f9a68fc2f210fe156ebbf6dce6cd06a76e2.jpg",
-    "duration": 274,
-    "owner": {
-      "name": "六霸会教宗",
-      "face": "https://i1.hdslb.com/bfs/face/0b239bff9f8ed1b9cf96ed96d5bf23b8dbdd3da9.jpg"
-    },
-    "stat": {
-      "view": 585768,
-      "like": 44209,
-      "danmaku": 723
-    },
-    "tname": "网络游戏",
-    "pubdate": 1787208878,
+    "tname": "小剧场",
+    "pubdate": 1787290764,
     "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1pn8E6iEEo",
-    "title": "房主反杀非法上门强拆者，陕西判了，无罪",
-    "desc": "凌晨六点，十多个人拿着防暴盾、防暴叉、橡胶棍，开着轮式破碎机直接撞开张恒家大门，张恒选择了还手。结果对方死了一个，他被关了 900 多天。法院今判张，无罪。 #张恒案 #正当防卫 #无罪判决",
-    "pic": "http://i2.hdslb.com/bfs/archive/fb459358f9ed957e054b92bc820b782f4c801a1f.jpg",
-    "duration": 297,
-    "owner": {
-      "name": "慕容律师",
-      "face": "https://i0.hdslb.com/bfs/face/f4f0600aa17ab40afaf782280c53630c848a75b0.jpg"
-    },
-    "stat": {
-      "view": 874233,
-      "like": 35766,
-      "danmaku": 700
-    },
-    "tname": "社科·法律·心理",
-    "pubdate": 1787122127,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1yh8w6RE4b",
-    "title": "终于走回深圳了｜挑战上海走回深圳最后一集！！",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/5677910b77a52666e96d7ef4e5e2b66c877ad9e2.jpg",
-    "duration": 705,
-    "owner": {
-      "name": "拉宏桑",
-      "face": "https://i0.hdslb.com/bfs/face/047b747ba0f47353b312a89b4216a04f035ad316.jpg"
-    },
-    "stat": {
-      "view": 689806,
-      "like": 83533,
-      "danmaku": 5128
-    },
-    "tname": "日常",
-    "pubdate": 1787219459,
-    "rcmd_reason": "8万点赞"
   }
 ],
   podcast: []
