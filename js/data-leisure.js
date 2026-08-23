@@ -1,8 +1,27 @@
-// 课后时间数据 - 自动生成于 2026-08-22 02:43
+// 课后时间数据 - 自动生成于 2026-08-23 02:51
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-22 02:43',
+  updateTime: '2026-08-23 02:51',
   bilibili: [
+  {
+    "bvid": "BV1RT816FEYe",
+    "title": "我正在烧烤…哦不是..思考..",
+    "desc": "在集训，久等了！\n也许还有涂鸦躲猫猫？",
+    "pic": "http://i2.hdslb.com/bfs/archive/40940992b5ecd995ed4dbf4daae2608e2eb529aa.jpg",
+    "duration": 226,
+    "owner": {
+      "name": "青浦模子",
+      "face": "https://i1.hdslb.com/bfs/face/f106bcebc6f6e368108848a57e8e252460abfc3b.jpg"
+    },
+    "stat": {
+      "view": 1206419,
+      "like": 62309,
+      "danmaku": 1227
+    },
+    "tname": "绘画",
+    "pubdate": 1787394600,
+    "rcmd_reason": "百万播放"
+  },
   {
     "bvid": "BV1G48M6XEBt",
     "title": "\"复活吧！我的（ ）\"",
@@ -14,50 +33,69 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/167d70b1f0e332b72d3584e405722b5d5766c76c.jpg"
     },
     "stat": {
-      "view": 1803836,
-      "like": 247854,
-      "danmaku": 1902
+      "view": 3982202,
+      "like": 474827,
+      "danmaku": 3230
     },
     "tname": "网络游戏",
     "pubdate": 1787286645,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV17N8P6HEVy",
-    "title": "人族少女混入兽人国，还引发了一场猫猫二当家和黄狗侠客的绝世大战",
-    "desc": "《相骨》第01集 与梦工作室出品。\n误入兽人国度的人类少女、藏在酒馆里的相骨、追杀她的夜爪会，以及那个看起来不太像好人的黄狗侠客⋯\n从第一集开始，所有设定、剧情和世界观均以正片为准。\n《相骨》的故事，从这里正式开始…",
-    "pic": "http://i2.hdslb.com/bfs/archive/d897578f027afb00fd98dc9775d87077794047fd.jpg",
-    "duration": 826,
+    "bvid": "BV1VH8K67ENH",
+    "title": "【战双帕弥什】「于频率中相汇」全球线上音乐会回顾",
+    "desc": "旧日的乐章，在今夜焕发新生；相同的频率，在此刻交汇，共同奔往明日新的征程。\n《战双帕弥什》「于频率中相汇」全球线上音乐会完美结束，感谢指挥官今晚的陪伴！\n回顾视频已上传，一起再次回顾那些美好瞬间吧！",
+    "pic": "http://i0.hdslb.com/bfs/archive/f739f267f9a277157d83e12cd89cfb7847e5a20d.jpg",
+    "duration": 6346,
     "owner": {
-      "name": "wuhu动画人空间",
-      "face": "https://i0.hdslb.com/bfs/face/48469a84187484653a3fb913c7c4ca01df3d1fd7.jpg"
+      "name": "战双帕弥什",
+      "face": "https://i2.hdslb.com/bfs/face/29d40886bc649fd2b81793c17077728820d411b6.jpg"
     },
     "stat": {
-      "view": 1111545,
-      "like": 63392,
-      "danmaku": 1741
+      "view": 786193,
+      "like": 43650,
+      "danmaku": 3942
     },
-    "tname": "预告·资讯",
-    "pubdate": 1787233355,
-    "rcmd_reason": "5万点赞"
+    "tname": "手机游戏",
+    "pubdate": 1787403600,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1DV8F6bEkz",
-    "title": "我收容了100位粉丝到我的一辈子存档里！",
-    "desc": "感谢所有参与本期内容的观众！\n点赞过19.8W开启比奇堡小区二期！\n喜欢本期内容记得点赞！投币呀！",
-    "pic": "http://i1.hdslb.com/bfs/archive/aa01fede97db851573fd79f37c7e8167ed197eb0.jpg",
-    "duration": 2482,
+    "bvid": "BV1Ka866BEo8",
+    "title": "【独家】《凡人修仙传之慕兰之战》第12集【总第188集】",
+    "desc": "每周六中午11:00，bilibili独家呈现",
+    "pic": "http://i2.hdslb.com/bfs/archive/8525304c37682ba1cf339b3c2ef7990bed4e411f.jpg",
+    "duration": 1168,
     "owner": {
-      "name": "与山0v0",
-      "face": "https://i2.hdslb.com/bfs/face/1dd429855a968c9d22b8ccc000a7aaabe8dbc201.jpg"
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
     },
     "stat": {
-      "view": 1346193,
-      "like": 140343,
-      "danmaku": 9386
+      "view": 5841923,
+      "like": 167608,
+      "danmaku": 104109
     },
-    "tname": "单机游戏",
-    "pubdate": 1787302800,
+    "tname": "国产动画",
+    "pubdate": 1787367602,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1Vy8r6JE9z",
+    "title": "严肃观看儿子的历史记录",
+    "desc": "没有不老的人生，只有不老的心态\n谢谢大家收看我的互联网教程【花】【花】【花】\n我正在学习奶狗音 期待实现在互联网上减龄的效果\n下期分享【合掌】【抱抱】\n【合掌】【合掌】【合掌】【合掌】\n感谢各位学员的支持！",
+    "pic": "http://i2.hdslb.com/bfs/archive/28c24920d68bd97718f88201f7fdbc401b7506a4.jpg",
+    "duration": 394,
+    "owner": {
+      "name": "逗比的雀巢",
+      "face": "https://i0.hdslb.com/bfs/face/e56d8c14d3b74b4e32fbaf2ac4af119328c56c93.jpg"
+    },
+    "stat": {
+      "view": 1672588,
+      "like": 236881,
+      "danmaku": 7286
+    },
+    "tname": "搞笑",
+    "pubdate": 1787386562,
     "rcmd_reason": "百万播放"
   },
   {
@@ -71,222 +109,184 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/946b7bf3f4b6e97df7de8d74d12bbaa8f216eb58.jpg"
     },
     "stat": {
-      "view": 10808114,
-      "like": 1041394,
-      "danmaku": 27701
+      "view": 12409017,
+      "like": 1160516,
+      "danmaku": 30984
     },
     "tname": "人文历史",
     "pubdate": 1786945197,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1jM8P6EEDy",
-    "title": "吃蜘蛛眼就可以飞去末地外岛？！这个bug简直是艺术品！",
-    "desc": "原理解析！",
-    "pic": "http://i1.hdslb.com/bfs/archive/bc9cf1c8ab723af97f6052fca3c7e92c98d686d1.jpg",
-    "duration": 432,
-    "owner": {
-      "name": "这里是莱里",
-      "face": "https://i2.hdslb.com/bfs/face/8fc2c5566d77f8989a71b9cd99f13da0b9b0f39e.jpg"
-    },
-    "stat": {
-      "view": 847419,
-      "like": 55926,
-      "danmaku": 2211
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787302800,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1Zdbi6rER9",
-    "title": "《影之刃零》专场 State of Play 全程回顾",
-    "desc": "8月18 日《影之刃零》专场 State of Play全球直播的完整版回放，创意监制甄子丹开场，制作人梁其伟讲述，带领玩家深入游戏的故事、世界与战斗系统，以及深度结合 PS5和 DualSense 无线控制器特性的沉浸体验功能。\n《影之刃零》的终极目标，是从原汁原味的中国武术文化中汲取深厚养分，将其融入S-GAME称之为“功夫朋克”的那种凌厉，直击感官的美学之中。\nPS5版《影之刃零》现已开启预购，标准版售价268元，豪华版售价328元。",
-    "pic": "http://i2.hdslb.com/bfs/archive/04efbab08a961b3bb3d9c36ef4d7ca11bb7bfcfe.jpg",
-    "duration": 1192,
-    "owner": {
-      "name": "PlayStation",
-      "face": "https://i0.hdslb.com/bfs/face/161fbe314a72bf6b2657e955548a4719037feff9.jpg"
-    },
-    "stat": {
-      "view": 10575989,
-      "like": 97705,
-      "danmaku": 16099
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787020200,
     "rcmd_reason": "千万播放"
   },
   {
-    "bvid": "BV1yj8T6zE1N",
-    "title": "《下一个是谁》第七季（3）",
-    "desc": "《下一个是谁》第七季来啦！！\n每期都会抽一台iPhone17 Pro！每期抽奖去主投up主（@啊吗粽  ）的主页抽！\n抽奖资金由本期最后一名倒霉蛋出！所以不涉及剧透！",
-    "pic": "http://i1.hdslb.com/bfs/archive/492f7074f5fd3316e0f651d45adb33f9bd4d235c.jpg",
-    "duration": 5204,
+    "bvid": "BV1UL8169EUX",
+    "title": "上学都被没收过哪些东西？",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/311286e22c08def4cf3e917135dd7ad409573515.jpg",
+    "duration": 310,
     "owner": {
-      "name": "啊吗粽",
-      "face": "https://i1.hdslb.com/bfs/face/40a3cce5ce83edf18ef0d144772fd3d94d6b3d3f.jpg"
+      "name": "脱缰凯Kk",
+      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
     },
     "stat": {
-      "view": 1721860,
-      "like": 232666,
-      "danmaku": 68409
+      "view": 1145008,
+      "like": 77484,
+      "danmaku": 3624
     },
-    "tname": "搞笑",
-    "pubdate": 1787284800,
+    "tname": "小剧场",
+    "pubdate": 1787392342,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1dS8P6JEha",
-    "title": "《你咋开的车》",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/2a87579aa32e008c9163ce0592327a8a4ae8f171.jpg",
-    "duration": 89,
+    "bvid": "BV14R8r6rE3C",
+    "title": "加缪：如果正义必须伤害无辜，它还是正义吗？",
+    "desc": "当你确信自己站在正义的一边，谁来限制你的正义？\n参考文献\n[1]  CAMUS A. Oeuvres completes tome IV[M]. Paris: French and European Publications Inc, 2008.\n[2]  阿尔贝·加缪. 正义者[M/OL]. 上海译文出版社, 2013.\n[3]  奥利维·托德. 加缪传[M/OL]. 2010\n[4]  阿尔贝·加缪. 西西弗神话[M/OL]. 上海译文出版社, 2013.\n[5]  CAMUS A, BADINTER",
+    "pic": "http://i2.hdslb.com/bfs/archive/8a97ad5a11da07924aca3605d6ecb4e66486bcf6.jpg",
+    "duration": 477,
     "owner": {
-      "name": "伤心欲茄222",
-      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
+      "name": "大圆镜科普",
+      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
     },
     "stat": {
-      "view": 3039537,
-      "like": 221051,
-      "danmaku": 1076
-    },
-    "tname": "搞笑",
-    "pubdate": 1787284800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1UU8q6FEPL",
-    "title": "全球十大餐厅！为吃这顿饭！我们在欧洲被偷5万！到底值不值？",
-    "desc": "小测今天带大家探秘，全球十大餐厅！连续9年获得米其林三星最高荣誉，曾被全球50佳餐厅榜单，评选为世界十大餐厅。为了吃这顿饭，我们在欧洲被偷了，损失了5万多，那这家餐厅到底吃什么？值不值？今天就跟小测一起！前往欧洲！一探究竟！",
-    "pic": "http://i0.hdslb.com/bfs/archive/9c499446932b68d6dafd811a925f7b3e69fb6780.jpg",
-    "duration": 687,
-    "owner": {
-      "name": "HOLA小测佬",
-      "face": "https://i0.hdslb.com/bfs/face/8d076e9dffc6457c18d050b20195aba05c9996ea.jpg"
-    },
-    "stat": {
-      "view": 1105442,
-      "like": 54874,
-      "danmaku": 4972
-    },
-    "tname": "出行",
-    "pubdate": 1787306497,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1JDbo6iEaR",
-    "title": "《晒足一百ber天3.0》",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/6f7fa777c889a374ebdab41cde30ec5c4fa9186e.jpg",
-    "duration": 176,
-    "owner": {
-      "name": "嘞是唐孃孃",
-      "face": "https://i0.hdslb.com/bfs/face/f27bb746ea22f1048bdf8a3922b619ba18e9f1a5.jpg"
-    },
-    "stat": {
-      "view": 745196,
-      "like": 61203,
-      "danmaku": 495
-    },
-    "tname": "搞笑",
-    "pubdate": 1787306400,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Xg8F6hEMr",
-    "title": "混子哥边走边画边讲：神秘的核电站",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/8fd8db61d10159c4c0f48a74bbf96ca14744b53e.jpg",
-    "duration": 710,
-    "owner": {
-      "name": "中核集团",
-      "face": "https://i1.hdslb.com/bfs/face/5a7d7bf49b2a9c32e98185b2936988432463c586.jpg"
-    },
-    "stat": {
-      "view": 526186,
-      "like": 27585,
-      "danmaku": 1471
+      "view": 1566586,
+      "like": 119594,
+      "danmaku": 2756
     },
     "tname": "科学科普",
-    "pubdate": 1787210037,
+    "pubdate": 1787356500,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1RS8i6zExk",
+    "title": "【短的发布会】雷鸟iO眼镜化身物理外挂！我和天才之间只差 2000 块？",
+    "desc": "中国眼镜能飞",
+    "pic": "http://i2.hdslb.com/bfs/archive/8cfbf6e3810e29e10f1901808510688e0a0c55cf.jpg",
+    "duration": 309,
+    "owner": {
+      "name": "短的发布会",
+      "face": "https://i2.hdslb.com/bfs/face/e455079f6c4cc76b2736fdf0417513c29c127d50.jpg"
+    },
+    "stat": {
+      "view": 814615,
+      "like": 15253,
+      "danmaku": 175
+    },
+    "tname": "数码",
+    "pubdate": 1787307927,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1rL8q6QEk1",
-    "title": "【二维动画】画二渲三，但是渲出来一堆BUG",
-    "desc": "BGM：Movin' To The Sun—HUGEL/Imael Angel/Ultra Naté\n画二渲三太投入以至于把BUG也复刻了\n除去后面的靶场背景是在mental canvas预渲的，其余动画都是用procreate dream默画的，没有三维辅助，没有三维辅助，没有三维辅助！重要的事情说三遍\n喜欢的话不要忘记一键三连哦",
-    "pic": "http://i1.hdslb.com/bfs/archive/c2bcdfb94c2ed9938d51686ac057f89e2a8ff8eb.jpg",
-    "duration": 128,
+    "bvid": "BV1ET8K6oETN",
+    "title": "【纪录片】守护解放西·探案季 第十集  难以“置信”",
+    "desc": "一男子利用”军人“人设诈骗多名女子巨额钱财",
+    "pic": "http://i2.hdslb.com/bfs/archive/7f58f4656d4b9d829f32ce389cf98e6b1b03fe00.jpg",
+    "duration": 1969,
     "owner": {
-      "name": "宇宙无敌汪师傅",
-      "face": "https://i0.hdslb.com/bfs/face/312bd6b92b4b945cd21573d0f18b35ed3cbfe546.jpg"
+      "name": "哔哩哔哩纪录片",
+      "face": "https://i2.hdslb.com/bfs/face/d655b5efeb97cb4ca5d4926bc53cddee66f429a5.jpg"
     },
     "stat": {
-      "view": 344760,
-      "like": 55116,
-      "danmaku": 686
+      "view": 1868348,
+      "like": 7079,
+      "danmaku": 1876
     },
-    "tname": "同人·手书",
-    "pubdate": 1787303161,
+    "tname": "社会·美食·旅行",
+    "pubdate": 1787313602,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1xz8M6CEdi",
-    "title": "渣渣辉没更新在干嘛：结婚！生小孩！",
-    "desc": "不知不觉已经做视频六年了，你们都成年了吗，都毕业了吗，都结婚了吗，都生小孩了吗？都还好吗？",
-    "pic": "http://i1.hdslb.com/bfs/archive/e80879e517eb2a71287fcc8090af4ba7cf282234.jpg",
-    "duration": 46,
+    "bvid": "BV1ra8C6NEDh",
+    "title": "商家绝不会告诉你的真相！历经394天，我们终于揭开了防晒喷雾行业的漏洞！",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/d2d5e23de6695d03f2d8ae50b22b02988fb5a3bd.jpg",
+    "duration": 210,
     "owner": {
-      "name": "渣渣辉TD",
-      "face": "https://i0.hdslb.com/bfs/face/f3a76e7e003769af3ae1bab46f94742101ee2826.jpg"
+      "name": "老爸评测",
+      "face": "https://i2.hdslb.com/bfs/face/3785da2465d92c8595350c33b4c688ff3c005ebe.jpg"
     },
     "stat": {
-      "view": 861282,
-      "like": 162035,
-      "danmaku": 6591
+      "view": 986186,
+      "like": 59984,
+      "danmaku": 237
     },
-    "tname": "搞笑",
-    "pubdate": 1787288716,
-    "rcmd_reason": "14万点赞"
+    "tname": "日常",
+    "pubdate": 1787372464,
+    "rcmd_reason": "5万点赞"
   },
   {
-    "bvid": "BV1yM8A6bErQ",
-    "title": "时隔一年！久违的整合包生存，缆车末日惊变 100 天！绝不烂尾！！！",
-    "desc": "点赞过 5万 火速更新下一期！！！\n时隔一年重启整合包生存，这次直接把 flag 焊死保证绝不烂尾！\n宝宝们如果喜欢这期缆车惊变100天生存多多点赞啊！",
-    "pic": "http://i0.hdslb.com/bfs/archive/8d7aad0d1a693e39f974a2fcebb36168aa15d8ea.jpg",
-    "duration": 1649,
+    "bvid": "BV1DV8F6bEkz",
+    "title": "我收容了100位粉丝到我的一辈子存档里！",
+    "desc": "感谢所有参与本期内容的观众！\n点赞过19.8W开启比奇堡小区二期！\n喜欢本期内容记得点赞！投币呀！",
+    "pic": "http://i1.hdslb.com/bfs/archive/aa01fede97db851573fd79f37c7e8167ed197eb0.jpg",
+    "duration": 2482,
     "owner": {
-      "name": "大橙橙橙子",
-      "face": "https://i1.hdslb.com/bfs/face/662a233cf1f685f63d9654a7f0ff47d739eee181.jpg"
+      "name": "与山0v0",
+      "face": "https://i2.hdslb.com/bfs/face/1dd429855a968c9d22b8ccc000a7aaabe8dbc201.jpg"
     },
     "stat": {
-      "view": 1157068,
-      "like": 98212,
-      "danmaku": 5701
+      "view": 3445134,
+      "like": 252255,
+      "danmaku": 14821
     },
     "tname": "单机游戏",
-    "pubdate": 1787270400,
-    "rcmd_reason": "9万点赞"
+    "pubdate": 1787302800,
+    "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1kA8M6MEMa",
-    "title": "当你穿进老钱班33",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/2d3351b7cfa43229576fda146c194e5ff78e98e5.jpg",
-    "duration": 172,
+    "bvid": "BV1ES876dErp",
+    "title": "全网疯传深圳某炸鸡店“窒息45秒”事件，暴露年轻人的悲哀困境",
+    "desc": "如果小伙伴有更多的看法，可以在评论区给我留言哦。\n下期想看什么热点事件，也可以跟椰子说说呀。\n感谢大家的一键三连，你们的鼓励是我做视频的动力～\n也可以看看椰子的课程《普通人逆袭必备的30个认知模型》，在椰子的主页就可以看到哦。",
+    "pic": "http://i2.hdslb.com/bfs/archive/7c0602d88b99a5c79251b5d0725fb55610d6149d.jpg",
+    "duration": 366,
     "owner": {
-      "name": "侯绿萝",
-      "face": "https://i0.hdslb.com/bfs/face/b444cf0fe0f32dd7d2960ceb8b830c873a5da7c2.jpg"
+      "name": "小椰子专栏",
+      "face": "https://i2.hdslb.com/bfs/face/5ba41ef9f7792c166d5f60d9758b29d33cf682b0.jpg"
     },
     "stat": {
-      "view": 925911,
-      "like": 61975,
-      "danmaku": 552
+      "view": 437082,
+      "like": 20968,
+      "danmaku": 1366
     },
-    "tname": "小剧场",
-    "pubdate": 1787290764,
+    "tname": "社科·法律·心理",
+    "pubdate": 1787388600,
     "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1r88C6iEPo",
+    "title": "黑乌龟历险记vol.1",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/9f62faadd7ac238edf2e2d4bc10b450679430377.jpg",
+    "duration": 165,
+    "owner": {
+      "name": "小博博三角洲行动",
+      "face": "https://i1.hdslb.com/bfs/face/86e38a091f7d96f871b0fe1f0640ab782c179940.jpg"
+    },
+    "stat": {
+      "view": 981176,
+      "like": 48497,
+      "danmaku": 857
+    },
+    "tname": "网络游戏",
+    "pubdate": 1787371868,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1vj8K6DE8D",
+    "title": "《牛莱》",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/d7006dc7d25b18d38d5ec9b90eee4b4e83cb89ad.jpg",
+    "duration": 100,
+    "owner": {
+      "name": "言吾言_",
+      "face": "https://i2.hdslb.com/bfs/face/93a3ea3b1c81ec77fd601dbf9fd9bea37e854bb7.jpg"
+    },
+    "stat": {
+      "view": 2491423,
+      "like": 146866,
+      "danmaku": 3212
+    },
+    "tname": "鬼畜剧场",
+    "pubdate": 1787279737,
+    "rcmd_reason": "百万播放"
   }
 ],
   podcast: []
