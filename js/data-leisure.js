@@ -1,45 +1,140 @@
-// 课后时间数据 - 自动生成于 2026-08-24 02:53
+// 课后时间数据 - 自动生成于 2026-08-25 02:48
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-24 02:53',
+  updateTime: '2026-08-25 02:48',
   bilibili: [
   {
-    "bvid": "BV1j38B65Eyw",
-    "title": "搞笑疯人院：满级病友竟是大佬！大家都有病的时候，楚闻野张口闭口就喊桑九舅舅，桑九也觉得楚闻野是个好孩子，就是脑子不太好。",
-    "desc": "标题：搞笑疯人院：满级病友竟是大佬\n\n简介：\n大家都有病的时候，楚闻野张口闭口就喊桑九舅舅，桑九也觉得楚闻野是个好孩子，就是脑子不太好。直到有一天桑九当着楚闻野的面，把几个渣渣打的满地找牙。桑九骗楚闻野“我其实是个隐世高人，身负光复武林和发扬武林绝学的重任，我只告诉了你，你别告诉别人。”楚闻野嘴角一抽“你当我瞎？”说着就要扑倒桑九，桑九迅速躲远，总有刁民想泡朕！",
-    "pic": "http://i0.hdslb.com/bfs/archive/22adb8b0da98dee24b9da4dd29d8cc74ebea6bec.jpg",
-    "duration": 9403,
+    "bvid": "BV1gLhK6LEcb",
+    "title": "贱谍过家家（8）",
+    "desc": "我会突破瓶颈，一定会努力做好未来的视频！感谢你一直的支持！\n\n希望观众朋友们可以喜欢这个系列！\n（希望你们喜欢，记得一键三连！）",
+    "pic": "http://i1.hdslb.com/bfs/archive/9bda56f1a45fd9ed421ea1c18451a962f8345029.jpg",
+    "duration": 1566,
     "owner": {
-      "name": "修仙摆烂王",
-      "face": "https://i0.hdslb.com/bfs/face/ad602522f84e1fe9c112ff640983ecbbd72e010f.jpg"
+      "name": "小潮院长",
+      "face": "https://i1.hdslb.com/bfs/face/16420925b50153f99935c5415bddb2acecfea877.jpg"
     },
     "stat": {
-      "view": 893363,
-      "like": 59071,
-      "danmaku": 3205
+      "view": 1044753,
+      "like": 156722,
+      "danmaku": 19323
     },
-    "tname": "国产原创相关",
-    "pubdate": 1787356800,
-    "rcmd_reason": "5万点赞"
+    "tname": "搞笑",
+    "pubdate": 1787587200,
+    "rcmd_reason": "14万点赞"
   },
   {
-    "bvid": "BV1Jv8p6kEJw",
-    "title": "护理：一把斩向死亡的温柔刀",
-    "desc": "从暗室孤灯到无影灯，不变的是为医学守灯的人。 两百年前，她提一盏灯走进战地炼狱，千年暗室，一灯即明；两百年后，他们守着无影灯与ICU，数着毫厘，调着微克，寸步不让。医生负责创造奇迹，而他们，负责让奇迹活下去。\n参考文献：\n[1]TURKOWSKI Y, TURKOWSKI V. Florence Nightingale (1820-1910): The Founder of Modern Nursing[J/OL]. Cureus, 2024. \n[2]PATTISON N, DEATON C, MCCA",
-    "pic": "http://i0.hdslb.com/bfs/archive/727eb69bd061ea85e3d174395cae41df0d0132a7.jpg",
-    "duration": 421,
+    "bvid": "BV1PEhP6vERe",
+    "title": "王中王夺冠自战解说",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/dff6e9ccc224bbf49cd62806dc620ae1e0b66014.jpg",
+    "duration": 2746,
     "owner": {
-      "name": "大圆镜科普",
-      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
+      "name": "柯洁",
+      "face": "https://i2.hdslb.com/bfs/face/7c2103f936383451c15866bf4097d62c045845ce.jpg"
     },
     "stat": {
-      "view": 2518343,
-      "like": 253133,
-      "danmaku": 3837
+      "view": 2028296,
+      "like": 248038,
+      "danmaku": 8053
     },
-    "tname": "科学科普",
-    "pubdate": 1787445525,
+    "tname": "影视剪辑",
+    "pubdate": 1787571194,
     "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1S9hP66EK1",
+    "title": "那个被当成毛泽东的人，日本人认错了他，但我们应该认识他！",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/85a0487dcbb5d8edaecebf4991210482d58e99ea.jpg",
+    "duration": 179,
+    "owner": {
+      "name": "了不起De中国人",
+      "face": "https://i2.hdslb.com/bfs/face/1b1f8ef7427502ead39a9af2498c9616c6c164ff.jpg"
+    },
+    "stat": {
+      "view": 1273979,
+      "like": 86241,
+      "danmaku": 714
+    },
+    "tname": "人文历史",
+    "pubdate": 1787561891,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1or8e6TEte",
+    "title": "《海阔天空》一个人的乐队",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/3a3b8e494c909dfdba62d24175746e1ecd41f052.jpg",
+    "duration": 90,
+    "owner": {
+      "name": "罗应星一个人的乐队",
+      "face": "https://i1.hdslb.com/bfs/face/72cd6928757cde14fd7c9a2f642a00e2a7426081.jpg"
+    },
+    "stat": {
+      "view": 808937,
+      "like": 162885,
+      "danmaku": 305
+    },
+    "tname": "演奏",
+    "pubdate": 1787529643,
+    "rcmd_reason": "14万点赞"
+  },
+  {
+    "bvid": "BV1Uy8x6AETG",
+    "title": "高中生逃离原生家庭过程（下）",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/8f7017d8c1e807a739f0c60a5eef17df7585e5a1.jpg",
+    "duration": 460,
+    "owner": {
+      "name": "王哈哈B站版",
+      "face": "https://i1.hdslb.com/bfs/face/f8da7c10587bfa1ca9e28c969e48df1db63142c1.jpg"
+    },
+    "stat": {
+      "view": 794642,
+      "like": 86618,
+      "danmaku": 1123
+    },
+    "tname": "日常",
+    "pubdate": 1787474401,
+    "rcmd_reason": "8万点赞"
+  },
+  {
+    "bvid": "BV1fhhP6xEMp",
+    "title": "小米玄戒O3芯片前瞻上手：外星科技！",
+    "desc": "又一年新机潮开始了，这次登场的首个旗舰手机芯片是小米的玄戒O3！它的表现到底有多强？一起来看看吧……",
+    "pic": "http://i1.hdslb.com/bfs/archive/b78896f946b651f83cd437d55ccdbb945a1f3531.jpg",
+    "duration": 978,
+    "owner": {
+      "name": "极客湾Geekerwan",
+      "face": "http://i1.hdslb.com/bfs/face/d0f7a7ee34a4a45c8390eb3a07e4d7f2d70bae91.jpg"
+    },
+    "stat": {
+      "view": 1262085,
+      "like": 81407,
+      "danmaku": 13926
+    },
+    "tname": "数码",
+    "pubdate": 1787564943,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1f38b6pE5x",
+    "title": "放弃一切，只为等你",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/5626a802f321c6cb4add2957b1be973e17f3f189.jpg",
+    "duration": 124,
+    "owner": {
+      "name": "三金啊GC",
+      "face": "https://i1.hdslb.com/bfs/face/3d38f73e6a5e1fa2681a969e52f0925241514925.jpg"
+    },
+    "stat": {
+      "view": 2567115,
+      "like": 114749,
+      "danmaku": 1287
+    },
+    "tname": "搞笑",
+    "pubdate": 1787482631,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1G48M6XEBt",
@@ -52,108 +147,51 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/167d70b1f0e332b72d3584e405722b5d5766c76c.jpg"
     },
     "stat": {
-      "view": 5645008,
-      "like": 594124,
-      "danmaku": 4938
+      "view": 6579990,
+      "like": 667540,
+      "danmaku": 7574
     },
     "tname": "网络游戏",
     "pubdate": 1787286645,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1rg8y6uEtG",
-    "title": "【独家】牧神记 第97集 登基",
-    "desc": "新皇登基祭天，圣地魁首降旨",
-    "pic": "http://i0.hdslb.com/bfs/archive/8d4838d42c3bbec124ce015003c8bb654e0d5d75.png",
-    "duration": 1258,
+    "bvid": "BV11whN6NEW1",
+    "title": "第四集 | 🐧雷斯：“我变成御姐了？！”🐧",
+    "desc": "‼️禁止其他人转载到其他平台，发现请向UP主举报‼️\n————STAFF————\n监制：徐Toso\n动画导演：巴巴Boyei\nAIGC生成师：旁可PANKO\n编剧：皓天斯威特\n——————————\n本视频由Ai平台OiiOii制作\n体验链接：www.oiioii.ai\n注册时填写UP主的邀请码：MIVJ41DIATMSNAT\n可以获得额外的积分奖励哦！",
+    "pic": "http://i2.hdslb.com/bfs/archive/926853b2c153d31aa702090f5eca6d7f2420096f.jpg",
+    "duration": 310,
     "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+      "name": "徐Toso",
+      "face": "https://i0.hdslb.com/bfs/face/5779df7e2182bba5160fd813e4cba02b8e13e9d4.jpg"
     },
     "stat": {
-      "view": 2709508,
-      "like": 42393,
-      "danmaku": 12424
+      "view": 570603,
+      "like": 48376,
+      "danmaku": 1156
     },
-    "tname": "国产动画",
-    "pubdate": 1787454001,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1db8x6VE73",
-    "title": "【纪录片TV】大乾乾被撞成两半了……",
-    "desc": "孤独不是一个人待着，是把好几个自己都弄丢了。",
-    "pic": "http://i2.hdslb.com/bfs/archive/35af6a33d947498227703aa692870cefb0207d7d.jpg",
-    "duration": 136,
-    "owner": {
-      "name": "大乾乾是顾乾宇",
-      "face": "https://i0.hdslb.com/bfs/face/f42f8da945b08e70351a03b26f409c048135ad93.jpg"
-    },
-    "stat": {
-      "view": 3000123,
-      "like": 251996,
-      "danmaku": 2255
-    },
-    "tname": "小剧场",
-    "pubdate": 1787449214,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1yp8C63E2R",
-    "title": "【短的发布会】牛X！华为首款“X”车智界RX，来了！",
-    "desc": "为驾驶而生～",
-    "pic": "http://i2.hdslb.com/bfs/archive/e24ce5628249cbbc53c77103cf8da75f52977d6d.jpg",
-    "duration": 285,
-    "owner": {
-      "name": "短的发布会",
-      "face": "https://i2.hdslb.com/bfs/face/e455079f6c4cc76b2736fdf0417513c29c127d50.jpg"
-    },
-    "stat": {
-      "view": 666072,
-      "like": 14314,
-      "danmaku": 677
-    },
-    "tname": "新能源车",
-    "pubdate": 1787389200,
+    "tname": "影视剪辑",
+    "pubdate": 1787563397,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1rHbY6MEB9",
-    "title": "我这一生最大的罪，是把人写成了妖……",
-    "desc": "本片故事与人物皆为虚构。\n片中妖异诸事，取材于东晋干宝的志怪作品所载汉代灾异：寺壁黄人、木不曲直、梁伯夏后、草作人状；\n并参考东汉末年黄巾起义史事虚构演绎而成。",
-    "pic": "http://i0.hdslb.com/bfs/archive/6533ca786585f35bbf352cee7cf74c8df25fcb01.jpg",
-    "duration": 1574,
+    "bvid": "BV1hN8t6BEMs",
+    "title": "《新数码宝贝 · 全面战争》【8分钟管饱】",
+    "desc": "烧5000r，让我回回血，帮我推给你的朋友~\n希望大家喜欢我的作品~\n\n8月24日00:30分 视频源已更换，增加了15秒。",
+    "pic": "http://i0.hdslb.com/bfs/archive/afebb29008be9cc7acb6001e4cc58c6b1ccab697.jpg",
+    "duration": 514,
     "owner": {
-      "name": "青瓜蛋丶",
-      "face": "https://i2.hdslb.com/bfs/face/946b7bf3f4b6e97df7de8d74d12bbaa8f216eb58.jpg"
+      "name": "不睡的彻",
+      "face": "https://i2.hdslb.com/bfs/face/53d7403d313d3cf674677e9e8df48c9e5ce1259c.jpg"
     },
     "stat": {
-      "view": 13646093,
-      "like": 1248406,
-      "danmaku": 33338
+      "view": 919229,
+      "like": 49312,
+      "danmaku": 2860
     },
-    "tname": "人文历史",
-    "pubdate": 1786945197,
-    "rcmd_reason": "千万播放"
-  },
-  {
-    "bvid": "BV15B8z61EbV",
-    "title": "原创民俗AI短片《槐灯》",
-    "desc": "这天，槐荫村来了一个逃兵",
-    "pic": "http://i1.hdslb.com/bfs/archive/8e5f936c76d2402f664ce0d09fcd9dd39df174d4.jpg",
-    "duration": 1098,
-    "owner": {
-      "name": "二白午",
-      "face": "https://i1.hdslb.com/bfs/face/0cc137f0eca821d9fe6fab3ec20b2b30755a6581.jpg"
-    },
-    "stat": {
-      "view": 868298,
-      "like": 116521,
-      "danmaku": 3908
-    },
-    "tname": "短片",
-    "pubdate": 1787317308,
-    "rcmd_reason": "11万点赞"
+    "tname": "职业职场",
+    "pubdate": 1787465639,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1Vy8r6JE9z",
@@ -166,127 +204,89 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/e56d8c14d3b74b4e32fbaf2ac4af119328c56c93.jpg"
     },
     "stat": {
-      "view": 3282985,
-      "like": 398588,
-      "danmaku": 9804
+      "view": 4383386,
+      "like": 483626,
+      "danmaku": 11130
     },
     "tname": "搞笑",
     "pubdate": 1787386562,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1GT8F6YEKY",
-    "title": "【独家】《记忆管理局》第6集 空洞【8月国创】",
-    "desc": "如果能回到生命的任何一天，你会回到哪一天？",
-    "pic": "http://i0.hdslb.com/bfs/archive/eb0ba1da8946c142745a643343f9391ca4b124fd.png",
-    "duration": 2105,
+    "bvid": "BV1eFhP6mEpv",
+    "title": "一双手，一夜晚，____",
+    "desc": "让我在评论区康康兄弟们几号开学？？？",
+    "pic": "http://i0.hdslb.com/bfs/archive/ff17b9fe8be400c9b3d0bf725b7306b5638862bf.jpg",
+    "duration": 259,
     "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+      "name": "进击的金厂长",
+      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
     },
     "stat": {
-      "view": 862054,
-      "like": 17703,
-      "danmaku": 12262
-    },
-    "tname": "国产动画",
-    "pubdate": 1787457600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Wq846oExx",
-    "title": "325",
-    "desc": "我也不知道在燃什么\n图片素材均来自网友分享\n视频素材来自百度和b站\n剪了很久，视频制作不易，求各位多多点赞转发!\n本来想着明年3月25日再发的，但估计那个时候黄花菜都凉了，就提前发了",
-    "pic": "http://i1.hdslb.com/bfs/archive/088a4f7229aba6b980bf7adea44ea961a3737a0a.jpg",
-    "duration": 205,
-    "owner": {
-      "name": "我才不是嘉年",
-      "face": "https://i2.hdslb.com/bfs/face/b1ee55b8764de3cd73b184424fee2168ff5a37a8.jpg"
-    },
-    "stat": {
-      "view": 279319,
-      "like": 38018,
-      "danmaku": 284
+      "view": 323708,
+      "like": 29311,
+      "danmaku": 519
     },
     "tname": "搞笑",
-    "pubdate": 1787469900,
+    "pubdate": 1787569651,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1ES876dErp",
-    "title": "全网疯传深圳某炸鸡店“窒息45秒”事件，暴露年轻人的悲哀困境",
-    "desc": "如果小伙伴有更多的看法，可以在评论区给我留言哦。\n下期想看什么热点事件，也可以跟椰子说说呀。\n感谢大家的一键三连，你们的鼓励是我做视频的动力～\n也可以看看椰子的课程《普通人逆袭必备的30个认知模型》，在椰子的主页就可以看到哦。",
-    "pic": "http://i2.hdslb.com/bfs/archive/7c0602d88b99a5c79251b5d0725fb55610d6149d.jpg",
-    "duration": 366,
+    "bvid": "BV15B8z61EbV",
+    "title": "原创民俗AI短片《槐灯》",
+    "desc": "这天，槐荫村来了一个逃兵",
+    "pic": "http://i1.hdslb.com/bfs/archive/8e5f936c76d2402f664ce0d09fcd9dd39df174d4.jpg",
+    "duration": 1098,
     "owner": {
-      "name": "小椰子专栏",
-      "face": "https://i2.hdslb.com/bfs/face/5ba41ef9f7792c166d5f60d9758b29d33cf682b0.jpg"
+      "name": "二白午",
+      "face": "https://i1.hdslb.com/bfs/face/0cc137f0eca821d9fe6fab3ec20b2b30755a6581.jpg"
     },
     "stat": {
-      "view": 3030479,
-      "like": 99009,
-      "danmaku": 5514
+      "view": 1924312,
+      "like": 200684,
+      "danmaku": 6096
     },
-    "tname": "社科·法律·心理",
-    "pubdate": 1787388600,
+    "tname": "短片",
+    "pubdate": 1787317308,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1j38B65ERd",
-    "title": "神坛之下06｜金碧妖庭歌舞盛，觥筹交错人为宴！",
-    "desc": "金碧妖庭，歌舞不休，三名轮回者撞破高老庄万妖盛宴，瑶瑶： “妖孽，胆敢吃人取乐！”",
-    "pic": "http://i2.hdslb.com/bfs/archive/eda33e8038e197bc79ecc341d68c2e370e25fc83.jpg",
-    "duration": 324,
+    "bvid": "BV1t5886gEBL",
+    "title": "这德穆兰技能组真官方外挂吧？来感受一下牢太在航天的统治力！诶？这里怎么有堵墙？",
+    "desc": "这是之前测试服玩的第一把牢太，摸索阶段！不过确实好玩啊，对面一直是亮的\n签约B站了！有KPI了！大家点点赞感谢",
+    "pic": "http://i1.hdslb.com/bfs/archive/79ac07b5d4b878c35537ad6af89a64e4690f6258.jpg",
+    "duration": 476,
     "owner": {
-      "name": "阿墩的AI小剧场",
-      "face": "https://i0.hdslb.com/bfs/face/bc8f42b9176ef406f1a02bac54a59b99d59c8fd9.jpg"
+      "name": "Key725",
+      "face": "https://i0.hdslb.com/bfs/face/3277f6baa9848d46fd48adecaed65301209d1dba.jpg"
     },
     "stat": {
-      "view": 945149,
-      "like": 27373,
-      "danmaku": 524
+      "view": 573912,
+      "like": 26454,
+      "danmaku": 824
     },
-    "tname": "影视剪辑",
-    "pubdate": 1787327013,
+    "tname": "网络游戏",
+    "pubdate": 1787565600,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1P38x6dET4",
-    "title": "警员执法遇F-18战机坠落，6700万战损，飞行员报警求助！",
-    "desc": "警员执法遇F-18战机坠落，6700万战损，飞行员报警求助！",
-    "pic": "http://i2.hdslb.com/bfs/archive/983c940d63c3e1f6439b3d86ad9be376a3ab32ed.jpg",
-    "duration": 694,
+    "bvid": "BV1j38B65Eyw",
+    "title": "搞笑疯人院：满级病友竟是大佬！大家都有病的时候，楚闻野张口闭口就喊桑九舅舅，桑九也觉得楚闻野是个好孩子，就是脑子不太好。",
+    "desc": "标题：搞笑疯人院：满级病友竟是大佬\n\n简介：\n大家都有病的时候，楚闻野张口闭口就喊桑九舅舅，桑九也觉得楚闻野是个好孩子，就是脑子不太好。直到有一天桑九当着楚闻野的面，把几个渣渣打的满地找牙。桑九骗楚闻野“我其实是个隐世高人，身负光复武林和发扬武林绝学的重任，我只告诉了你，你别告诉别人。”楚闻野嘴角一抽“你当我瞎？”说着就要扑倒桑九，桑九迅速躲远，总有刁民想泡朕！",
+    "pic": "http://i0.hdslb.com/bfs/archive/22adb8b0da98dee24b9da4dd29d8cc74ebea6bec.jpg",
+    "duration": 9403,
     "owner": {
-      "name": "爱看热闹的大鹏",
-      "face": "https://i0.hdslb.com/bfs/face/999d403d5fc9dc2e102aa0a3a7428d7b56e78de5.jpg"
+      "name": "修仙摆烂王",
+      "face": "https://i0.hdslb.com/bfs/face/ad602522f84e1fe9c112ff640983ecbbd72e010f.jpg"
     },
     "stat": {
-      "view": 632030,
-      "like": 32414,
-      "danmaku": 4518
+      "view": 2530740,
+      "like": 166266,
+      "danmaku": 10447
     },
-    "tname": "日常",
-    "pubdate": 1787477400,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1tA8U68ESF",
-    "title": "我做了两个一模一样的视频，你被分配到的是——真人手搓版",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/9909e42c2ba8b277907edb8ebb8baa4aa628f9c9.jpg",
-    "duration": 129,
-    "owner": {
-      "name": "阿星and阿奇",
-      "face": "https://i0.hdslb.com/bfs/face/bdf3288dd751d6a4e567c8342b9e855ac8f47bcd.jpg"
-    },
-    "stat": {
-      "view": 610282,
-      "like": 36405,
-      "danmaku": 135
-    },
-    "tname": "搞笑",
-    "pubdate": 1787457600,
-    "rcmd_reason": ""
+    "tname": "国产原创相关",
+    "pubdate": 1787356800,
+    "rcmd_reason": "百万播放"
   }
 ],
   podcast: []
