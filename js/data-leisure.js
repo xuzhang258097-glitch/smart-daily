@@ -1,139 +1,196 @@
-// 课后时间数据 - 自动生成于 2026-08-27 12:04
+// 课后时间数据 - 自动生成于 2026-08-28 13:25
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-27 12:04',
+  updateTime: '2026-08-28 13:25',
   bilibili: [
   {
-    "bvid": "BV1KMhF6dEt1",
-    "title": "《背心尊者》",
-    "desc": "原视频：朱游侠",
-    "pic": "http://i1.hdslb.com/bfs/archive/d26ebd2645d38aa365596d536b7b89b1c396ef42.jpg",
-    "duration": 128,
-    "owner": {
-      "name": "伤心欲茄222",
-      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
-    },
-    "stat": {
-      "view": 1700909,
-      "like": 171894,
-      "danmaku": 914
-    },
-    "tname": "搞笑",
-    "pubdate": 1787803200,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1wwhG6JEnc",
-    "title": "世界伊始——《伊莫》全球上线定档：PC端9月16日 移动端9月23日！",
-    "desc": "《伊莫》全球上线定档：PC端9月16日，移动端9月23日！\n广袤的天地，神奇的生物，奇妙的旅途。\n和伊莫联结合体，用全新的视角开启你的冒险之旅吧！\n\n伊莫最大的心愿就是和你一起冒险！\n现在预约《伊莫》，公测上线即可免费领取自选虹光伊莫、多套外观、稀有伊莫蛋等丰厚福利\n期待和你在艾德尔大陆相见ฅ(๑˙o˙๑)ฅ",
-    "pic": "http://i0.hdslb.com/bfs/archive/f48b84c29f43159caa84b40d2ee65dda06dee6ba.jpg",
-    "duration": 426,
-    "owner": {
-      "name": "伊莫",
-      "face": "https://i1.hdslb.com/bfs/face/9ca04892baae8d140181a03f86850e7f4f63612f.jpg"
-    },
-    "stat": {
-      "view": 5509360,
-      "like": 184753,
-      "danmaku": 1162
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787702400,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1SuhV6aE77",
-    "title": "打卡！打工！打钱！《异克斯小队》首曝PV",
-    "desc": "别人不敢接的活，你来接！\n\n《异克斯小队》是由 Behaviour Interactive 研发的第三人称 PvE 合作射击新游。\n\n在这里，你将和两个靠谱的工友组成三人小队，用工业工具改装成的武器、搭配疯狂的科学装备，一边扫清肆虐的外星异种，一边维持天穹星设施的正常运转。\n\n记得互相照应、算清开销，一起活着熬到收工，安全撤离。\n\n别忘了，你们是闻名宇宙的专业团队，也是每天最后撤离现场的劳模——别人挣不到的钱，只有你们能拿下。\n\n记住口号：打卡！打工！打钱！",
-    "pic": "http://i2.hdslb.com/bfs/archive/949d59aa0892406c9ec8f333331ba29da0d7f8a3.jpg",
-    "duration": 182,
-    "owner": {
-      "name": "异克斯小队",
-      "face": "https://i0.hdslb.com/bfs/face/29bd5509996e62f59f832e3aac4d1ffa8c0b4dc3.jpg"
-    },
-    "stat": {
-      "view": 5629424,
-      "like": 139076,
-      "danmaku": 2561
-    },
-    "tname": "日常",
-    "pubdate": 1787686200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1YfhG6gEEc",
-    "title": "【独家】时光代理人 第三季 PartOne 第4集 JAE【8月国创】",
-    "desc": "每周五11:00，哔哩哔哩独家呈现。每周四18:00，超大会员抢先看更新集！",
-    "pic": "http://i2.hdslb.com/bfs/archive/c41b07af7cef63fb9b4edf6ef50ba5696507b655.png",
-    "duration": 1482,
-    "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
-    },
-    "stat": {
-      "view": 326520,
-      "like": 7144,
-      "danmaku": 7365
-    },
-    "tname": "国产动画",
-    "pubdate": 1787824802,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Uf8R6jEoC",
-    "title": "杭州电梯猥亵案反转：法律给了男邻居清白，但网络舆论的私刑已经执行完了，别让真相的迟到 成为常态",
+    "bvid": "BV1N1tF6SE2S",
+    "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
     "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/970b748deb40b30caedaacbf2f2c71122e92b0b2.jpg",
+    "pic": "http://i0.hdslb.com/bfs/archive/4f7e70b7e9fb44d2710adfe7414ff396f43ca1cb.jpg",
+    "duration": 728,
+    "owner": {
+      "name": "一只吐槽圆",
+      "face": "https://i1.hdslb.com/bfs/face/bc2f05efa553aa28def1cc1198bb7920993730bd.jpg"
+    },
+    "stat": {
+      "view": 2978889,
+      "like": 75399,
+      "danmaku": 20524
+    },
+    "tname": "娱乐杂谈",
+    "pubdate": 1787875498,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1CEhV6xEjG",
+    "title": "一个人出奥黛塔来至冬快闪竟然被当成官方coser了！",
+    "desc": "自己坐高铁跑来深圳的美团x原神快闪玩了！出了奥黛塔的cos回至冬看看（）快闪超级好玩爱玩！！",
+    "pic": "http://i2.hdslb.com/bfs/archive/1871babb340f2f94e0231d74c391084be1e52527.jpg",
     "duration": 115,
     "owner": {
-      "name": "大象新闻",
-      "face": "https://i0.hdslb.com/bfs/face/004082fc2ecfba940f63416685741aad721a37be.jpg"
+      "name": "林带鱼w",
+      "face": "https://i0.hdslb.com/bfs/face/f0b3eb98f75ded6937ed41e31e30b1bc9a34fc41.jpg"
     },
     "stat": {
-      "view": 1406356,
-      "like": 188742,
-      "danmaku": 2775
+      "view": 1397790,
+      "like": 211253,
+      "danmaku": 265
     },
-    "tname": "社会",
-    "pubdate": 1787749419,
+    "tname": "日常",
+    "pubdate": 1787652000,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1uth56uEz3",
-    "title": "星际外卖员：你只迟到了3秒，也被扇了一巴掌",
-    "desc": "自从地球普及了星级跃迁。星际送外卖成为了风口。而你，今天接了三单外卖...",
-    "pic": "http://i0.hdslb.com/bfs/archive/2c5be6a588546e5ac86cea39abf63d4858f1254c.jpg",
-    "duration": 309,
+    "bvid": "BV1M3hw6aEbQ",
+    "title": "三缺一，快@你的好友！",
+    "desc": "《雀神战队-连庄者》将不会在复仇者联盟中登场！",
+    "pic": "http://i0.hdslb.com/bfs/archive/320c9b7b02b3d4e878d309c665b3a8c03bef1a41.jpg",
+    "duration": 113,
     "owner": {
-      "name": "科学宇宙锋轮",
-      "face": "https://i2.hdslb.com/bfs/face/d03317f5d21652b644730a68464faf9c79403d5e.jpg"
+      "name": "限时理想-背带侠",
+      "face": "https://i1.hdslb.com/bfs/face/c21a92fc1f0c91f1e6821656ede67200c8e37a0c.jpg"
     },
     "stat": {
-      "view": 4497869,
-      "like": 120093,
-      "danmaku": 1182
+      "view": 1135445,
+      "like": 50062,
+      "danmaku": 667
     },
-    "tname": "科学科普",
-    "pubdate": 1787670000,
+    "tname": "小剧场",
+    "pubdate": 1787821357,
+    "rcmd_reason": "1万分享"
+  },
+  {
+    "bvid": "BV1doh56EE1c",
+    "title": "蒙眼挑战之泥坑剪绳子恐惧版！",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/eb048c0807ee00dbf0c26dce9a1773d2f063964f.jpg",
+    "duration": 150,
+    "owner": {
+      "name": "三一八本人",
+      "face": "https://i2.hdslb.com/bfs/face/f3042ec213e893123bb820cad91e372bc43bcf5d.jpg"
+    },
+    "stat": {
+      "view": 1489700,
+      "like": 78791,
+      "danmaku": 642
+    },
+    "tname": "搞笑",
+    "pubdate": 1787660773,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1JJtF6qEgn",
+    "title": "吃瓜必看！一个视频带你全面复盘景甜、孙宇晨炸裂大瓜！娱乐圈还是太乱了",
+    "desc": "娱乐圈还是太乱了……",
+    "pic": "http://i2.hdslb.com/bfs/archive/aced4a288e75a5ed634c39620d17fb7bb19233db.jpg",
+    "duration": 433,
+    "owner": {
+      "name": "三代鹿人",
+      "face": "https://i0.hdslb.com/bfs/face/a915d1a1ff921cd418e74c5711c91b23e2a18c11.jpg"
+    },
+    "stat": {
+      "view": 1669788,
+      "like": 40443,
+      "danmaku": 3584
+    },
+    "tname": "影视杂谈",
+    "pubdate": 1787878881,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1XT4f6dED8",
+    "title": "炸了！3亿代孕费！片场互相睡！2026头号大瓜新鲜出炉！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/57894e2496ee9c3e1ea1201b8e2038465aaf19bf.jpg",
+    "duration": 282,
+    "owner": {
+      "name": "LexBurner",
+      "face": "https://i2.hdslb.com/bfs/face/27e06996840a7cb3ee0fee52f6b4616cd6567def.jpg"
+    },
+    "stat": {
+      "view": 1417298,
+      "like": 40937,
+      "danmaku": 940
+    },
+    "tname": "影视杂谈",
+    "pubdate": 1787877000,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1Rs8d6tEJ1",
+    "title": "案件出现了重大反转！",
+    "desc": "对不起，我消失了一段时间，不过现在我和甲方达成了和解。",
+    "pic": "http://i0.hdslb.com/bfs/archive/af0a33dfab5e79810a989c836c5de94b7b1b5584.jpg",
+    "duration": 332,
+    "owner": {
+      "name": "一只大哈鱼",
+      "face": "https://i2.hdslb.com/bfs/face/ddb74bc270af46884301fe3ea498580d8afe73de.jpg"
+    },
+    "stat": {
+      "view": 1381985,
+      "like": 56810,
+      "danmaku": 695
+    },
+    "tname": "日常",
+    "pubdate": 1787746302,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1eVtc6hEhn",
+    "title": "看了10年网络热门生物，无穷小亮能看出AI吗？",
+    "desc": "你现在还能一眼分辨出AI和真实视频吗？这次，我们和有着多年生物鉴定经验的无穷小亮老师，一起进行了一次AI和真实视频的鉴别！如果你喜欢这期视频，请多多支持我们，并把视频分享给你的朋友们一起看看～",
+    "pic": "http://i1.hdslb.com/bfs/archive/e441244fa5052d5129c86e554b0c6e15c8d0d194.jpg",
+    "duration": 734,
+    "owner": {
+      "name": "影视飓风",
+      "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg"
+    },
+    "stat": {
+      "view": 403080,
+      "like": 39810,
+      "danmaku": 4508
+    },
+    "tname": "数码",
+    "pubdate": 1787907600,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1wwhA6tEUg",
-    "title": "【英雄联盟】邓紫棋｜心之歌，唱给我们的15年",
-    "desc": "欢迎英雄联盟IP系列星籁合伙人 @GEM鄧紫棋   来到峡谷🎵 \n\n十五年，有并肩时的热烈，也有戴上耳机后开局前的平静，每一种真实的感受，都是属于召唤师自己的【心之歌】。\n\n今天，【心之歌 萨勒芬妮】与三款全新臻彩正式上线。和 @GEM鄧紫棋   一起，继续勇敢表达，也自在闪耀✨ \n\n这份心意，也想传递得更远。【心之歌 萨勒芬妮】皮肤与【晴彩泡沫】、【我会走向你】、【光年之约】臻彩项目将向“暖心行动”公益专项捐赠总计不低于1000万元善款，回应召唤师的善意。\n\n心之歌，唱给我们的15年。",
-    "pic": "http://i2.hdslb.com/bfs/archive/740048ca94b14f25357a8e89291441bd89c5e449.jpg",
-    "duration": 99,
+    "bvid": "BV1vm4f6bETN",
+    "title": "Grand Theft Auto VI：分量十足的一瞥",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/ca971949f738fe0c9d0455fdeeda4f89b1652911.jpg",
+    "duration": 1609,
     "owner": {
-      "name": "英雄联盟",
-      "face": "https://i0.hdslb.com/bfs/face/ca44f9e334049f9894be914b96fa47b4715de619.jpg"
+      "name": "RockstarGames",
+      "face": "https://i1.hdslb.com/bfs/face/e06c24e4674b90734a58e2bf821058fed79ea4e9.jpg"
     },
     "stat": {
-      "view": 684587,
-      "like": 41938,
-      "danmaku": 329
+      "view": 719541,
+      "like": 50135,
+      "danmaku": 0
     },
-    "tname": "MV",
-    "pubdate": 1787817600,
+    "tname": "单机游戏",
+    "pubdate": 1787883000,
+    "rcmd_reason": "2万分享"
+  },
+  {
+    "bvid": "BV1NC4Z6VEUQ",
+    "title": "美术展里的假人模型，为何变成了真人尸体...？",
+    "desc": "游戏：非自愿摄入",
+    "pic": "http://i1.hdslb.com/bfs/archive/bb3b20ba89b826261e657fd9ace457a44dedf7a2.jpg",
+    "duration": 4800,
+    "owner": {
+      "name": "某幻君",
+      "face": "https://i2.hdslb.com/bfs/face/a7eda2f97431d13f89a43b310262d1b19be83c01.jpg"
+    },
+    "stat": {
+      "view": 459061,
+      "like": 46304,
+      "danmaku": 12153
+    },
+    "tname": "影视剪辑",
+    "pubdate": 1787889600,
     "rcmd_reason": ""
   },
   {
@@ -147,145 +204,88 @@ const leisureData = {
       "face": "https://i0.hdslb.com/bfs/face/e4af5f71b6b5f3f3676617064aeae8a5163821c0.jpg"
     },
     "stat": {
-      "view": 4440345,
-      "like": 71147,
-      "danmaku": 1602
+      "view": 6124944,
+      "like": 82715,
+      "danmaku": 1822
     },
     "tname": "单机游戏",
     "pubdate": 1787683225,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV17oh56JEcH",
-    "title": "《阴阳师》「一瞬刹那，拾光永恒」前瞻回顾",
-    "desc": "#十周年十全十美回馈礼# ☆《阴阳师》「一瞬刹那，拾光永恒」前瞻回顾！☆\n相逢十载，朝暮与共，无数细碎的点滴汇聚成河，见证这份情谊亘古长存。\n《阴阳师》十周年永恒庆典将于9月9日正式开启！扫地工在此奉上特别前瞻回顾！\n\n全新式神即将降临平安京，全新篇章「影之国篇·永恒之章」即将开启！“十全十美”福利庆典系列活动上线——\n※十年相伴同行，为感谢各位大人的信任与支持，9月9日登录即送——全新式神SSR石长姬！\n※登录即送免费典藏礼券，全新十周年限定外观「晴明·灵狐新梦」免费领取，百次召唤“十连十金”。\n※拾光",
-    "pic": "http://i1.hdslb.com/bfs/archive/ba7dbb8160f9d8a79ee2ecea0fbddd9343a24e39.jpg",
-    "duration": 1430,
+    "bvid": "BV1bMhV6PEtE",
+    "title": "我被100名警察追捕，抓到我赢50万美金！",
+    "desc": "这次我和我的兄弟要挑战逃过100名警察的追捕！只要警察抓到我，就能赢走50万美元！记得一键三连！别忘了下载《使命召唤手游》，在第7赛季期间你可以免费领取MrBeast名片🤩 https://codm.qq.com/zlkdatasys/mct/d/play.shtml",
+    "pic": "http://i0.hdslb.com/bfs/archive/8d417f4476382f277e8bb32678cc825329ef5e02.jpg",
+    "duration": 1229,
     "owner": {
-      "name": "网易阴阳师手游",
-      "face": "https://i1.hdslb.com/bfs/face/caa4cd25e78d7264aecb19bf4bb6914bc1111453.jpg"
+      "name": "野兽先生MrBeast",
+      "face": "https://i1.hdslb.com/bfs/face/d85295bc576e059c1a549d89d405f22311571898.jpg"
     },
     "stat": {
-      "view": 1565190,
-      "like": 23632,
-      "danmaku": 7616
+      "view": 3351071,
+      "like": 199920,
+      "danmaku": 6508
     },
-    "tname": "手机游戏",
-    "pubdate": 1787660602,
+    "tname": "日常",
+    "pubdate": 1787799063,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1RH896QE2n",
-    "title": "臣妾要自己私通自己【B站笑点大赛】",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/ba0c8b009561d86ae9b15734ad094bcde8f4f561.jpg",
-    "duration": 144,
+    "bvid": "BV1DNhw6iE1V",
+    "title": "怪兽中 出了一个...不对！是一群奥特曼的卧底！【AI全民制作人】",
+    "desc": "没想到，怪兽中出了一个...不对，是一群奥特曼的卧底！",
+    "pic": "http://i1.hdslb.com/bfs/archive/c3500b545e7ab1879170cb4e0dea8ed2cd2011cb.jpg",
+    "duration": 209,
     "owner": {
-      "name": "岩罗Crv",
-      "face": "https://i0.hdslb.com/bfs/face/3f702a05259a61c744ff68653443bc3fa02fed3c.jpg"
+      "name": "istupidpig",
+      "face": "https://i2.hdslb.com/bfs/face/9de9eebb76d1cdc879c19b56931778384e656993.jpg"
     },
     "stat": {
-      "view": 1030128,
-      "like": 54325,
-      "danmaku": 618
+      "view": 2288501,
+      "like": 93992,
+      "danmaku": 1288
+    },
+    "tname": "日常",
+    "pubdate": 1787818094,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1DR8e6tE3P",
+    "title": "这盘棋已经赢不了，只能把对面打死了！",
+    "desc": "假如围棋下不赢对面，把对方棋手打死也算是一种胜利吧，至于代价你别管！",
+    "pic": "http://i1.hdslb.com/bfs/archive/6383755ab715c42416c7a061db0d195fd15ff95f.jpg",
+    "duration": 127,
+    "owner": {
+      "name": "修2",
+      "face": "https://i1.hdslb.com/bfs/face/15225a9f7e6c9b2163b01c35c8c9b70e7269be06.jpg"
+    },
+    "stat": {
+      "view": 3334380,
+      "like": 142216,
+      "danmaku": 3231
     },
     "tname": "鬼畜剧场",
-    "pubdate": 1787732824,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1erhL6EE6k",
-    "title": "源初之结首曝PV「诸神入刃，斩尽死结」",
-    "desc": "创世的神明缄默，只余破碎的秩序丝缕飘散天际。为寻劫难之源，神塑造了「织者」——却未及启迪，便坠落人间。\n你便是那迷失的“织者”。\n行走于神话尚未写就的蛮荒时代，探索诡谲奇观，结识各路英杰，对抗凶神恶兽。在诸神陨落的余晖下，追寻真相，拼凑破碎真我，直至揭开那被遗忘的秘密。\n \n本预告片包含实机演示与引擎内过场动画混合画面，均使用Unreal Engine 5 录制。\n该作品目前仍处于开发阶段，所展示的内容不代表游戏最终形态。\n\n后续更多信息，欢迎大家关注各平台游戏官方账号：@源初之结",
-    "pic": "http://i1.hdslb.com/bfs/archive/47d0bde2d984a86a369032ed8fbe8feea51d67ed.jpg",
-    "duration": 347,
-    "owner": {
-      "name": "源初之结",
-      "face": "https://i0.hdslb.com/bfs/face/acf39beb56780b7ee96ca9b60674343672e48bd3.jpg"
-    },
-    "stat": {
-      "view": 4384319,
-      "like": 228916,
-      "danmaku": 25985
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787686222,
+    "pubdate": 1787556051,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV18Q8X6VEw3",
-    "title": "舒服",
+    "bvid": "BV17r8o6iEPd",
+    "title": "猫儿这个视频制作",
     "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/9e5d3dc2bb91c01774866c89e82628bf296aaee8.jpg",
-    "duration": 294,
+    "pic": "http://i2.hdslb.com/bfs/archive/b66fb30cdc7a25dfc63c4dcaf1379092b92dca59.jpg",
+    "duration": 137,
     "owner": {
-      "name": "脱缰凯Kk",
-      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
+      "name": "股神巴雷特",
+      "face": "https://i0.hdslb.com/bfs/face/3be0bf7827d62c003f5e0a435e38a8d59f3aa8c5.jpg"
     },
     "stat": {
-      "view": 1988304,
-      "like": 156689,
-      "danmaku": 5263
+      "view": 743775,
+      "like": 43912,
+      "danmaku": 259
     },
-    "tname": "小剧场",
-    "pubdate": 1787738225,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV12R4R6MEV2",
-    "title": "缆车脱轨！极寒来袭？！四姐妹还能撑过这场末日吗？！缆车末日惊变 100 天！",
-    "desc": "谢谢大家的耐心等待，第二集来啦！！上一集居然有这么好的数据，OMG，真吓到我了~\n这期我们还加了一个让角色会眨眼睛的模组，但是好像有点诡异的BUG，大家无时无刻不在练习深蹲……下期不加了ORZ……\n整合包作者是@Q弹的果冻c   请大家也多多支持~",
-    "pic": "http://i1.hdslb.com/bfs/archive/37970c3c15de5c4bdf619535039d6810a2fc4e27.jpg",
-    "duration": 2111,
-    "owner": {
-      "name": "大橙橙橙子",
-      "face": "https://i1.hdslb.com/bfs/face/662a233cf1f685f63d9654a7f0ff47d739eee181.jpg"
-    },
-    "stat": {
-      "view": 91593,
-      "like": 19624,
-      "danmaku": 2804
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787824996,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1y74R6YEcR",
-    "title": "如果舰队被虫海淹没，那就亮出光刃，弃船冲锋！【DogCraft80】",
-    "desc": "星际争霸2《DogCraft》80期！拿出了1000%的制作水准。\n新版本神族没有获得明显的经济加成，目前天梯上神族玩家数量减少，而且部分对抗处于劣势。\n所以是时候再尝试一期神族的视频了，神族强不强倒是其次，但帅和魂是最关键的！\n这盘带来一场有趣的美服天梯大师组神族vs虫族，双方用出了各种神奇战术有来有回，相互博弈！简介就不剧透了！\n星际2种族之间玩法差距极大，再加上新版本，为了尽量打出好看的对局，这次我专门练了许久！\n仔细调整了文案，音乐，音效，使用不少新音乐！背景音乐列表在最后，感谢大家观看！\n我猜播",
-    "pic": "http://i0.hdslb.com/bfs/archive/2bee53a7debff989185548d471707c3f34318b20.jpg",
-    "duration": 852,
-    "owner": {
-      "name": "DarkCarrot",
-      "face": "https://i0.hdslb.com/bfs/face/8673d4d96b11471c658c3366034ef86984078464.jpg"
-    },
-    "stat": {
-      "view": 116929,
-      "like": 14833,
-      "danmaku": 1460
-    },
-    "tname": "电子竞技",
-    "pubdate": 1787826765,
-    "rcmd_reason": "人气飙升"
-  },
-  {
-    "bvid": "BV1jfhA6EEMw",
-    "title": "《动物朋克》最新预告&实机演示 | 国产动作新游登陆科隆展",
-    "desc": "打碎枷锁，夺回家园！\n兔子雷顿率领动物小队深入神秘的獭獭村，机械军团的铁蹄已悄然踏进这片宁静的水泽秘境。世代栖居的獭獭居民、兵刃相向的水獭与旱獭勇士，都将卷入未知的命运漩涡......\n\n《动物朋克》是由《暗影火炬城》原班团队钛核工作室打造的国产动作游戏，本次带来全新的游戏实机演示内容，展示了新的战斗画面与场景。\n\n本视频所有画面均为研发中引擎内实录，画面不代表最终品质。\n\n游戏官网：https://playzoopunk.com \n游戏全平台官号：@动物朋克Zoopunk",
-    "pic": "http://i1.hdslb.com/bfs/archive/eb7b9d83c49ec5179ed1656dd4a8daf6b80ba05c.jpg",
-    "duration": 616,
-    "owner": {
-      "name": "动物朋克Zoopunk",
-      "face": "https://i2.hdslb.com/bfs/face/c795e868dd9f97ae6391d00e3bd77cad27091d88.jpg"
-    },
-    "stat": {
-      "view": 6260230,
-      "like": 136641,
-      "danmaku": 2671
-    },
-    "tname": "单机游戏",
-    "pubdate": 1787687100,
+    "tname": "喵星人",
+    "pubdate": 1787767887,
     "rcmd_reason": ""
   }
 ],
