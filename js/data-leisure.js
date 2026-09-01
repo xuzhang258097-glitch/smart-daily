@@ -1,292 +1,292 @@
-// 课后时间数据 - 自动生成于 2026-08-31 07:45
+// 课后时间数据 - 自动生成于 2026-09-01 06:50
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-08-31 07:45',
+  updateTime: '2026-09-01 06:50',
   bilibili: [
   {
-    "bvid": "BV1xttH6rEKu",
-    "title": "【我在现代当幽差】EP02 神仙？妖怪？谢谢【UP动画】",
-    "desc": "久等了各位，做这么久是因为一直在打磨剧本T.T",
-    "pic": "http://i1.hdslb.com/bfs/archive/26584a1ae9d38b8cb94c8ca600dc7637d2bf43bb.jpg",
-    "duration": 564,
-    "owner": {
-      "name": "红豆稀饭中",
-      "face": "https://i2.hdslb.com/bfs/face/3dc6737d4ab6e8d0390409af88e9d24c3056a53b.jpg"
-    },
-    "stat": {
-      "view": 771608,
-      "like": 46697,
-      "danmaku": 980
-    },
-    "tname": "小剧场",
-    "pubdate": 1788091156,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV16E4D6jE9K",
-    "title": "我的世界，但所有人共享背包！？",
-    "desc": "暑假作业都做完了吧？",
-    "pic": "http://i2.hdslb.com/bfs/archive/64c2b84490bb5da4d19e3f5cd0bd9c9ac96bd48e.jpg",
-    "duration": 1120,
-    "owner": {
-      "name": "大橙橙橙子",
-      "face": "https://i1.hdslb.com/bfs/face/662a233cf1f685f63d9654a7f0ff47d739eee181.jpg"
-    },
-    "stat": {
-      "view": 1357322,
-      "like": 80310,
-      "danmaku": 4588
-    },
-    "tname": "单机游戏",
-    "pubdate": 1788067321,
-    "rcmd_reason": "7万点赞"
-  },
-  {
-    "bvid": "BV1xT4D6REah",
-    "title": "我有不能输的理由",
+    "bvid": "BV1YNtb66ErA",
+    "title": "当广告挡住关键时刻，可能就是生死之间",
     "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/e2cd31835f5a4fde16dd6d34b26712e9b7e45912.jpg",
-    "duration": 123,
+    "pic": "http://i0.hdslb.com/bfs/archive/b40c7614fdb2e18c3a29e096e69227ae80716711.jpg",
+    "duration": 89,
     "owner": {
-      "name": "浅笑微微U",
-      "face": "http://i1.hdslb.com/bfs/face/a0936a4c5088a17f505f286034bc4b786d77ab77.jpg"
+      "name": "中国新闻网",
+      "face": "https://i2.hdslb.com/bfs/face/efdfd1366afa11bc2de4881b6de5d6eff97f3747.jpg"
     },
     "stat": {
-      "view": 1156129,
-      "like": 85144,
-      "danmaku": 936
+      "view": 1252842,
+      "like": 167943,
+      "danmaku": 1025
+    },
+    "tname": "日常",
+    "pubdate": 1788154588,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1WPt86FETB",
+    "title": "《安心安全 | 安心安全》MV ：日本制造最重视的就是企业形象",
+    "desc": "日本制造安心安全。\n本作品为只针对日本制造的黑色幽默讽刺歌曲。\n不针对普通个体，也不代表对任何具体事件作事实判断。\n歌词与动画中的人物、机构、数据、公告和事件均为虚构或艺术化处理，不构成新闻、事实陈述或政治主张。",
+    "pic": "http://i0.hdslb.com/bfs/archive/a42fb27a5ba9e67c95acf894b7f5f78892c940a0.jpg",
+    "duration": 151,
+    "owner": {
+      "name": "即兴演奏家",
+      "face": "https://i2.hdslb.com/bfs/face/ebad87e5f87ea6e988f4134f5ba434c50e620a14.jpg"
+    },
+    "stat": {
+      "view": 646276,
+      "like": 50310,
+      "danmaku": 624
     },
     "tname": "网络游戏",
-    "pubdate": 1788065222,
-    "rcmd_reason": ""
+    "pubdate": 1788180617,
+    "rcmd_reason": "人气飙升"
   },
   {
-    "bvid": "BV1BYtb6nEEt",
-    "title": "恐怖版新植物：寒冰上尉",
-    "desc": "如果丛林丢失是我的责任，那和睦小镇丢失又是谁的责任呢？\n\n第41关核弹菇没爆炸的用这个新链接下新版\nv1.0.1\n主菜单显示1.1的是旧版\n安卓：https://pan.quark.cn/s/9065bc24fc5d \n电脑 ：https://pan.quark.cn/s/8b949883a562  \nIOS：https://pan.quark.cn/s/d486d71d3fa8",
-    "pic": "http://i0.hdslb.com/bfs/archive/7a18f264da19be8339c5eda1a6e1eabf0058cc96.jpg",
-    "duration": 494,
-    "owner": {
-      "name": "对不起贱笑了",
-      "face": "https://i1.hdslb.com/bfs/face/efbb0926bdb6c44a0ea0daac0ab843ec74503c33.jpg"
-    },
-    "stat": {
-      "view": 118224,
-      "like": 9322,
-      "danmaku": 1523
-    },
-    "tname": "单机游戏",
-    "pubdate": 1788156220,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1i84X62Eqv",
-    "title": "老妈以为的1500元生活费",
-    "desc": "“全球物价下降一万倍，我靠1500元生活费在大学当皇帝”[doge]",
-    "pic": "http://i0.hdslb.com/bfs/archive/d3b148f429c0604fb6bc34b8ed9bf06e795fb484.jpg",
-    "duration": 154,
+    "bvid": "BV1eHt86mErz",
+    "title": "三年之期已到，恭迎世一上归位！【第6集】",
+    "desc": "AI生成视频，非真实事件，台词和动作基于短剧模仿设计，并非针对选手，各位选手仅作为演员出场，请勿上纲上线。",
+    "pic": "http://i1.hdslb.com/bfs/archive/1de578cb70c3cbe423f64652d38700d71165ce14.jpg",
+    "duration": 386,
     "owner": {
       "name": "九夜听风",
       "face": "https://i1.hdslb.com/bfs/face/bd1aaaafb2733c203ae32e869c49bb7bd717d7fc.jpg"
     },
     "stat": {
-      "view": 512479,
-      "like": 11134,
-      "danmaku": 278
+      "view": 1022859,
+      "like": 42803,
+      "danmaku": 5786
+    },
+    "tname": "影视剪辑",
+    "pubdate": 1788177710,
+    "rcmd_reason": "1万分享"
+  },
+  {
+    "bvid": "BV19o4k6EEXD",
+    "title": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
+    "desc": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
+    "pic": "http://i1.hdslb.com/bfs/archive/430272316ee0d8604a5efdaabe7767b3d2400448.png",
+    "duration": 2152,
+    "owner": {
+      "name": "综艺哔哔机",
+      "face": "https://i1.hdslb.com/bfs/face/41fc7a60b92d0f8419b545ff67d74450e870bef2.jpg"
+    },
+    "stat": {
+      "view": 1357548,
+      "like": 9912,
+      "danmaku": 37963
+    },
+    "tname": "综艺",
+    "pubdate": 1788148802,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1dMtA6rEoJ",
+    "title": "鸿蒙这些底层套件，才是穿戴App的“开挂”密码",
+    "desc": "在被迫控制饮食、坚持运动、偷偷自律惊艳所有人的时候，竟意外发现了穿戴赛道的开发机会！做出一款体验优秀的穿戴健康 App 需要几步？一起来拆解这几款健康应用，看鸿蒙穿戴底座如何简化开发，助力开发者打造流畅的手表端健康体验。",
+    "pic": "http://i1.hdslb.com/bfs/archive/09e9c408f734147a6d332bea1cf38e85c5cde051.jpg",
+    "duration": 313,
+    "owner": {
+      "name": "玄离199",
+      "face": "https://i0.hdslb.com/bfs/face/8a70069e1dc9ab89c1d688c2cefd3596864315ea.jpg"
+    },
+    "stat": {
+      "view": 514596,
+      "like": 17541,
+      "danmaku": 112
+    },
+    "tname": "软件应用",
+    "pubdate": 1787913249,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1u4tt6iEvf",
+    "title": "李炮儿在李炮儿模仿大赛中获得了第二名",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/2f527d80d1a0ae14e0656804eeb73ff1b9f7cd4a.jpg",
+    "duration": 247,
+    "owner": {
+      "name": "李炮炮儿",
+      "face": "https://i1.hdslb.com/bfs/face/912830c3828a5f17960a16783d8e7f9687bddd6d.jpg"
+    },
+    "stat": {
+      "view": 1311148,
+      "like": 77792,
+      "danmaku": 818
     },
     "tname": "搞笑",
-    "pubdate": 1788084000,
+    "pubdate": 1788168600,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Hj4D6UEw4",
-    "title": "穿越原始社会必备技能之制作——石臼",
+    "bvid": "BV1aTtb6uEZW",
+    "title": "和龙龙录一次猜英雄。太好玩了",
     "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/151d0eceac32c88ac1adbbdb35a3575245bc49d9.jpg",
-    "duration": 244,
+    "pic": "http://i0.hdslb.com/bfs/archive/5f881e41c67208d382fcac8cb9e42c55862d7d1f.jpg",
+    "duration": 426,
     "owner": {
-      "name": "w疯狂现代人",
-      "face": "https://i0.hdslb.com/bfs/face/c04006b716f4e0f0a2f54840db34bfd9f3c6e929.jpg"
+      "name": "骚男丶注意马叉虫",
+      "face": "http://i1.hdslb.com/bfs/face/e219b2c0b22ba6e5322e3ae9b9f3d995a99adf95.jpg"
     },
     "stat": {
-      "view": 473124,
-      "like": 24745,
-      "danmaku": 341
+      "view": 705737,
+      "like": 31469,
+      "danmaku": 955
+    },
+    "tname": "搞笑",
+    "pubdate": 1788157923,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1KxtY6kEwY",
+    "title": "【铁豆钢蛋】你好 斌斌！",
+    "desc": "【铁豆钢蛋】就你叫胡彦斌啊",
+    "pic": "http://i2.hdslb.com/bfs/archive/af05cefedbe384cc49a1f0432f04fd73bdb6066e.jpg",
+    "duration": 3560,
+    "owner": {
+      "name": "铁豆钢蛋",
+      "face": "https://i1.hdslb.com/bfs/face/569265fc866f986a85d542067c5298f954aab4fd.jpg"
+    },
+    "stat": {
+      "view": 121388,
+      "like": 12761,
+      "danmaku": 5421
+    },
+    "tname": "乐评盘点",
+    "pubdate": 1788235200,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1matt6AEqt",
+    "title": "南方开学 vs 北方开学",
+    "desc": "让我在评论区康康兄弟们都开学了吗？",
+    "pic": "http://i1.hdslb.com/bfs/archive/0f6b832860d1edd73dca306f175005ea953a82db.jpg",
+    "duration": 125,
+    "owner": {
+      "name": "进击的金厂长",
+      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
+    },
+    "stat": {
+      "view": 503790,
+      "like": 33687,
+      "danmaku": 594
+    },
+    "tname": "搞笑",
+    "pubdate": 1788168600,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Aj4D6UEHB",
+    "title": "漂亮的恶意01|误入充满恶意的顶级财阀校园，川渝转学生表示，她真的只想好好学习！",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/d3b5a7cf7224e85f8af46308962f199d34cf599f.jpg",
+    "duration": 396,
+    "owner": {
+      "name": "海底蟹黄堡007",
+      "face": "https://i1.hdslb.com/bfs/face/4b864c16b8b771d6b4a21c7ea548cc065489d04a.jpg"
+    },
+    "stat": {
+      "view": 864775,
+      "like": 45950,
+      "danmaku": 1314
+    },
+    "tname": "影视剪辑",
+    "pubdate": 1788064638,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1swt86hE64",
+    "title": "带精神小妹买衣服，并回复评论区的一些评论",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/c1511b5c21b87cd478cdd258df3af4b229a3737e.jpg",
+    "duration": 679,
+    "owner": {
+      "name": "旺卡_Wonka",
+      "face": "https://i1.hdslb.com/bfs/face/c2f46ad6369d26cc53b1552c12ae810ac3697b08.jpg"
+    },
+    "stat": {
+      "view": 602175,
+      "like": 26408,
+      "danmaku": 3971
     },
     "tname": "日常",
-    "pubdate": 1788080700,
+    "pubdate": 1788181357,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1CGtp66EEM",
-    "title": "全程高能！队友接连失踪？活着并逃离这里！！！「逃离疯人院」",
-    "desc": "三连总和过8w火速更新！！！！！\n\n\n夏天yB站交流群：291049296\n\n原曲：Like A Star / Youngso Kim",
-    "pic": "http://i0.hdslb.com/bfs/archive/a3663f39a80b3fcbe61c009a8e01b21a4d61f765.jpg",
-    "duration": 1297,
+    "bvid": "BV1y3tp63ET8",
+    "title": "这是个辅助万豪！？",
+    "desc": "这是个辅助万豪！？",
+    "pic": "http://i2.hdslb.com/bfs/archive/2251302dd5b660b8c64aa18940929ad32aec9a2d.jpg",
+    "duration": 187,
     "owner": {
-      "name": "夏天y",
-      "face": "https://i0.hdslb.com/bfs/face/2139ba40f33a5977675e209a66896c4c3fe3eeb5.jpg"
+      "name": "BBGG丶狮子喵",
+      "face": "https://i0.hdslb.com/bfs/face/1ae5db2b8ec7da8162234e9a5879d74bfc7e9448.jpg"
     },
     "stat": {
-      "view": 329085,
-      "like": 51628,
-      "danmaku": 24285
+      "view": 894523,
+      "like": 41437,
+      "danmaku": 594
     },
-    "tname": "单机游戏",
-    "pubdate": 1788134400,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1AG4U6CEhZ",
-    "title": "《不能歪曲事实 我当什么媒体》",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/5738766a389536e326915bfc05c30fc25c2124ce.jpg",
-    "duration": 1271,
-    "owner": {
-      "name": "龙三条",
-      "face": "https://i0.hdslb.com/bfs/face/cda8fcf0a9c279d462e918fe273f008772c3c73e.jpg"
-    },
-    "stat": {
-      "view": 1119288,
-      "like": 39991,
-      "danmaku": 939
-    },
-    "tname": "综合",
-    "pubdate": 1788060600,
+    "tname": "电子竞技",
+    "pubdate": 1788145200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1it4D6gED7",
-    "title": "猫狗超燃大乱斗！",
-    "desc": "一千只猫vs一千只狗！",
-    "pic": "http://i1.hdslb.com/bfs/archive/733d39e8201efd227a37a24d7b84fc745d221d7b.jpg",
-    "duration": 242,
-    "owner": {
-      "name": "神奇的老皮",
-      "face": "https://i1.hdslb.com/bfs/face/e7c191e9be6764107415069b36f7d9564f149c86.gif"
-    },
-    "stat": {
-      "view": 454999,
-      "like": 35172,
-      "danmaku": 712
-    },
-    "tname": "喵星人",
-    "pubdate": 1788066668,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV11btW6UEEC",
-    "title": "《洛克王国：世界》 S4赛季「月涌棱镜球」实机效果展示",
-    "desc": "「月涌棱镜球」获取方式：\n这枚以月面星尘为灵感设计的赛季棱镜球，可通过以下方式获取：\n1.  月涌通行证：解锁契约礼券 / 闪耀契约礼券后，随通行证等级提升即可领取；\n2.  全新18元「S4赛季传说助力」礼包：S4赛季期间，可购买专属组合包，获取「月涌棱镜球」*1、「幽系灵碎」*6、「幻系灵碎」*6、「魔法粉尘」*100。每个账号限购1次；\n3.  洛克钻商城：S4赛季期间「月涌棱镜球」限时上架，售价800洛克钻。\n「月涌棱镜球」是S4赛季棱镜球，能十分轻易地捕捉精灵，会将精灵外观转化为S4赛季的限定炫",
-    "pic": "http://i1.hdslb.com/bfs/archive/a58b51f0621d6773c48ea46d686ebd9817474d64.jpg",
-    "duration": 94,
-    "owner": {
-      "name": "洛克王国世界",
-      "face": "https://i1.hdslb.com/bfs/face/471e5b6c7024c5caff82109e26145c7ccc73661d.jpg"
-    },
-    "stat": {
-      "view": 318989,
-      "like": 12765,
-      "danmaku": 614
-    },
-    "tname": "网络游戏",
-    "pubdate": 1788141600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV16T4y68Erv",
-    "title": "凝空破蹋千光寂，凌虚纵步万籁息",
+    "bvid": "BV1Sntc6REMU",
+    "title": "乡村大集，乡村打铁，感受不一样的打击乐",
     "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/510ae0d8936952509e78548bb8cfd5fd824cccf0.jpg",
-    "duration": 77,
+    "pic": "http://i1.hdslb.com/bfs/archive/8a25fe9aa1a7a0d2ec51bc38cab60c81f1fc2a93.jpg",
+    "duration": 46,
     "owner": {
-      "name": "我大意啊没闪",
-      "face": "https://i0.hdslb.com/bfs/face/443b189623684451770b30c57bd5fa63e21d3984.jpg"
+      "name": "山里木匠人",
+      "face": "https://i1.hdslb.com/bfs/face/a738ae05dc8c9f0a11964730a1fdc934a0b916c9.jpg"
     },
     "stat": {
-      "view": 526666,
-      "like": 53076,
-      "danmaku": 176
+      "view": 2455624,
+      "like": 129135,
+      "danmaku": 682
     },
-    "tname": "手机游戏",
-    "pubdate": 1788048360,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1mK4X6AE1A",
-    "title": "“佯作畏生惧死，身担太行脊梁”【赤伶DJ-变速】【少年脊梁の小曲】",
-    "desc": "------------",
-    "pic": "http://i2.hdslb.com/bfs/archive/b93645f3eb6034f8b32b890ef289bb99b7ef1390.jpg",
-    "duration": 257,
-    "owner": {
-      "name": "早睡起大王",
-      "face": "https://i1.hdslb.com/bfs/face/ff92ee2eabf8a0a17bb83581476b84beb86692bd.jpg"
-    },
-    "stat": {
-      "view": 500913,
-      "like": 44761,
-      "danmaku": 277
-    },
-    "tname": "音乐综合",
-    "pubdate": 1788084000,
+    "tname": "手工",
+    "pubdate": 1787897130,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Hy4k64Erk",
-    "title": "华强见宋老虎 但是唱跳RAP 【多梦综合征】【AI音乐宇宙】",
-    "desc": "忙了许久，华强再次回归。\n研究了许久的Minimax H3这次是主力。全片没有使用闭源视频平台。",
-    "pic": "http://i2.hdslb.com/bfs/archive/9d403164087ae95338497c94080ad91d0915b8f5.jpg",
-    "duration": 330,
+    "bvid": "BV1a3th65EQb",
+    "title": "西西弗斯推的石头，居然是孙悟空......【AI全民制作人】#SpecialForAAIFF",
+    "desc": "这谁又能想得到呢？西西弗斯推的石头，居然是孙悟空……",
+    "pic": "http://i0.hdslb.com/bfs/archive/f6deea4b2be71c9cb7bba80264abcaed8b33c318.jpg",
+    "duration": 295,
     "owner": {
-      "name": "多梦综合征",
-      "face": "https://i0.hdslb.com/bfs/face/aa6fa35a4996e67ef8055849c11c319ebde49182.jpg"
+      "name": "张拉灯",
+      "face": "https://i2.hdslb.com/bfs/face/5d9c167c1f9615735647f60a972e79e6f2ff01d8.jpg"
     },
     "stat": {
-      "view": 2186078,
-      "like": 148450,
-      "danmaku": 2655
-    },
-    "tname": "鬼畜剧场",
-    "pubdate": 1787975057,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1uG4o61EJi",
-    "title": "锻刀大赛：威力加强版",
-    "desc": "又是你没看过的锻刀大赛，ai制作的最新一集",
-    "pic": "http://i2.hdslb.com/bfs/archive/82fb3fcfe46b2ded3ad1a93c6f8be0e767e00cbc.jpg",
-    "duration": 460,
-    "owner": {
-      "name": "旧梦断成空",
-      "face": "https://i0.hdslb.com/bfs/face/6b897bd308331f05ccd77cc66b8053d239fbc4df.jpg"
-    },
-    "stat": {
-      "view": 493457,
-      "like": 65029,
-      "danmaku": 578
+      "view": 234438,
+      "like": 21675,
+      "danmaku": 275
     },
     "tname": "同人·手书",
-    "pubdate": 1787902455,
-    "rcmd_reason": "6万点赞"
+    "pubdate": 1788169368,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Na4Q64Eos",
-    "title": "去了一趟西班牙2.0（日全食篇）",
-    "desc": "时隔两个月，荒岛四兄弟又聚在了一起，这一次我们来到了西班牙的巴塞罗那，想带你一起追逐一场罕见的天文奇观 —— 日落日全食。如果你喜欢这期视频，请多多支持我们，并把视频分享给你的朋友们一起看看～",
-    "pic": "http://i0.hdslb.com/bfs/archive/b0b220f1953c34b1ed89888c18450cf94ef0480e.jpg",
-    "duration": 1474,
+    "bvid": "BV1dRtx6BE7z",
+    "title": "广安.第二顿 厨子探店¥33",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/e4e0e834817b7020757afec4a707224c78c3b5d0.jpg",
+    "duration": 158,
     "owner": {
-      "name": "影视飓风",
-      "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg"
+      "name": "真探唐仁杰",
+      "face": "https://i1.hdslb.com/bfs/face/f82b7cb6e6b9e2351bb201f668af10b66b4d0d5c.jpg"
     },
     "stat": {
-      "view": 1547366,
-      "like": 121988,
-      "danmaku": 28744
+      "view": 805954,
+      "like": 73070,
+      "danmaku": 275
     },
-    "tname": "出行",
-    "pubdate": 1788058800,
-    "rcmd_reason": "百万播放"
+    "tname": "美食侦探",
+    "pubdate": 1788147000,
+    "rcmd_reason": "7万点赞"
   }
 ],
   podcast: []
