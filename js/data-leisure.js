@@ -1,253 +1,120 @@
-// 课后时间数据 - 自动生成于 2026-09-01 06:50
+// 课后时间数据 - 自动生成于 2026-09-02 06:29
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-09-01 06:50',
+  updateTime: '2026-09-02 06:29',
   bilibili: [
   {
-    "bvid": "BV1YNtb66ErA",
-    "title": "当广告挡住关键时刻，可能就是生死之间",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/b40c7614fdb2e18c3a29e096e69227ae80716711.jpg",
-    "duration": 89,
+    "bvid": "BV1jVtt6LEjP",
+    "title": "《异环》灵可角色PV丨宇宙的频段",
+    "desc": "超自然都市开放世界RPG《异环》全新版本「雾中朔望星回」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n「宇宙像一个电台，每个生命都有独属于自己的电波频段……」\n「……不论是人、异象、还是我的宠物小贞，都不例外。」\n「哈？！臭小鬼！你说谁是宠物？！」",
+    "pic": "http://i2.hdslb.com/bfs/archive/e60a611c784be94c9bc855bfb8d053a3aece2015.jpg",
+    "duration": 794,
     "owner": {
-      "name": "中国新闻网",
-      "face": "https://i2.hdslb.com/bfs/face/efdfd1366afa11bc2de4881b6de5d6eff97f3747.jpg"
+      "name": "异环",
+      "face": "https://i2.hdslb.com/bfs/face/5790579b2517b237df23d765719157ddf3537091.jpg"
     },
     "stat": {
-      "view": 1252842,
-      "like": 167943,
-      "danmaku": 1025
+      "view": 823216,
+      "like": 12387,
+      "danmaku": 612
+    },
+    "tname": "同人·手书",
+    "pubdate": 1788318000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1RhtV6iEt3",
+    "title": "《明日方舟》干员「结城理」技能展示PV",
+    "desc": "《明日方舟》干员「结城理」技能展示PV\n\n————————————\n【明日方舟 × 女神异闻录３ Reload】SideStory「月行水上」限时活动即将开启\n\n更多活动详情内容详见游戏内公告。",
+    "pic": "http://i2.hdslb.com/bfs/archive/b0fd9b63cd9449f0e82153a787595a63b4075915.jpg",
+    "duration": 173,
+    "owner": {
+      "name": "明日方舟",
+      "face": "https://i0.hdslb.com/bfs/face/d4005a0f9b898d8bb049caf9c6355f8e8f772a8f.jpg"
+    },
+    "stat": {
+      "view": 777128,
+      "like": 56126,
+      "danmaku": 4410
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788318000,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV1Vot56BEHd",
+    "title": "《明日方舟：终末地》提弗洛斯EP - Fragmented Dreams",
+    "desc": "《明日方舟：终末地》干员提弗洛斯专属单曲《Fragmented Dreams》MV现已公开。\n歌曲完整版音源同步上架QQ音乐、网易云音乐、酷狗音乐等平台，欢迎管理员们前往收听。\n\n【专辑介绍】\n风雪循着古老的指引，覆上梦境的碎片。\n照亮遥远归途的微光，拼凑出光景流转。\n【歌曲列表】\nFragmented Dreams\nFragmented Dreams (Instrumental)",
+    "pic": "http://i2.hdslb.com/bfs/archive/a13f14af7f87a137a729ba9f0cc1782c4611678a.jpg",
+    "duration": 130,
+    "owner": {
+      "name": "明日方舟终末地",
+      "face": "https://i2.hdslb.com/bfs/face/84152816c725e6d38128336d0f99d7c7c258cfa4.jpg"
+    },
+    "stat": {
+      "view": 431773,
+      "like": 29529,
+      "danmaku": 772
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788318000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1VRtG6wErp",
+    "title": "爆款AI短剧/AI漫剧是怎么做出来的？0-1保姆级教程",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/2eaf377b45a2d66aa671b4247dca325d5908462f.jpg",
+    "duration": 575,
+    "owner": {
+      "name": "AI视次方",
+      "face": "https://i1.hdslb.com/bfs/face/0ede97a5a129529e0651549e53397b19dc1975f6.jpg"
+    },
+    "stat": {
+      "view": 779906,
+      "like": 26238,
+      "danmaku": 111
     },
     "tname": "日常",
-    "pubdate": 1788154588,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1WPt86FETB",
-    "title": "《安心安全 | 安心安全》MV ：日本制造最重视的就是企业形象",
-    "desc": "日本制造安心安全。\n本作品为只针对日本制造的黑色幽默讽刺歌曲。\n不针对普通个体，也不代表对任何具体事件作事实判断。\n歌词与动画中的人物、机构、数据、公告和事件均为虚构或艺术化处理，不构成新闻、事实陈述或政治主张。",
-    "pic": "http://i0.hdslb.com/bfs/archive/a42fb27a5ba9e67c95acf894b7f5f78892c940a0.jpg",
-    "duration": 151,
-    "owner": {
-      "name": "即兴演奏家",
-      "face": "https://i2.hdslb.com/bfs/face/ebad87e5f87ea6e988f4134f5ba434c50e620a14.jpg"
-    },
-    "stat": {
-      "view": 646276,
-      "like": 50310,
-      "danmaku": 624
-    },
-    "tname": "网络游戏",
-    "pubdate": 1788180617,
-    "rcmd_reason": "人气飙升"
-  },
-  {
-    "bvid": "BV1eHt86mErz",
-    "title": "三年之期已到，恭迎世一上归位！【第6集】",
-    "desc": "AI生成视频，非真实事件，台词和动作基于短剧模仿设计，并非针对选手，各位选手仅作为演员出场，请勿上纲上线。",
-    "pic": "http://i1.hdslb.com/bfs/archive/1de578cb70c3cbe423f64652d38700d71165ce14.jpg",
-    "duration": 386,
-    "owner": {
-      "name": "九夜听风",
-      "face": "https://i1.hdslb.com/bfs/face/bd1aaaafb2733c203ae32e869c49bb7bd717d7fc.jpg"
-    },
-    "stat": {
-      "view": 1022859,
-      "like": 42803,
-      "danmaku": 5786
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1788177710,
-    "rcmd_reason": "1万分享"
-  },
-  {
-    "bvid": "BV19o4k6EEXD",
-    "title": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
-    "desc": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
-    "pic": "http://i1.hdslb.com/bfs/archive/430272316ee0d8604a5efdaabe7767b3d2400448.png",
-    "duration": 2152,
-    "owner": {
-      "name": "综艺哔哔机",
-      "face": "https://i1.hdslb.com/bfs/face/41fc7a60b92d0f8419b545ff67d74450e870bef2.jpg"
-    },
-    "stat": {
-      "view": 1357548,
-      "like": 9912,
-      "danmaku": 37963
-    },
-    "tname": "综艺",
-    "pubdate": 1788148802,
+    "pubdate": 1788273087,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1dMtA6rEoJ",
-    "title": "鸿蒙这些底层套件，才是穿戴App的“开挂”密码",
-    "desc": "在被迫控制饮食、坚持运动、偷偷自律惊艳所有人的时候，竟意外发现了穿戴赛道的开发机会！做出一款体验优秀的穿戴健康 App 需要几步？一起来拆解这几款健康应用，看鸿蒙穿戴底座如何简化开发，助力开发者打造流畅的手表端健康体验。",
-    "pic": "http://i1.hdslb.com/bfs/archive/09e9c408f734147a6d332bea1cf38e85c5cde051.jpg",
-    "duration": 313,
-    "owner": {
-      "name": "玄离199",
-      "face": "https://i0.hdslb.com/bfs/face/8a70069e1dc9ab89c1d688c2cefd3596864315ea.jpg"
-    },
-    "stat": {
-      "view": 514596,
-      "like": 17541,
-      "danmaku": 112
-    },
-    "tname": "软件应用",
-    "pubdate": 1787913249,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1u4tt6iEvf",
-    "title": "李炮儿在李炮儿模仿大赛中获得了第二名",
+    "bvid": "BV1h3tg6XEHz",
+    "title": "《带兄弟火一把》",
     "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/2f527d80d1a0ae14e0656804eeb73ff1b9f7cd4a.jpg",
-    "duration": 247,
+    "pic": "http://i0.hdslb.com/bfs/archive/f136183960dd9033a92f80a6877c4909a00b4035.jpg",
+    "duration": 129,
     "owner": {
-      "name": "李炮炮儿",
-      "face": "https://i1.hdslb.com/bfs/face/912830c3828a5f17960a16783d8e7f9687bddd6d.jpg"
+      "name": "伤心欲茄222",
+      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
     },
     "stat": {
-      "view": 1311148,
-      "like": 77792,
-      "danmaku": 818
+      "view": 180325,
+      "like": 21034,
+      "danmaku": 312
     },
     "tname": "搞笑",
-    "pubdate": 1788168600,
+    "pubdate": 1788321600,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1aTtb6uEZW",
-    "title": "和龙龙录一次猜英雄。太好玩了",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/5f881e41c67208d382fcac8cb9e42c55862d7d1f.jpg",
-    "duration": 426,
+    "bvid": "BV1eGtG6fEJe",
+    "title": "全面战场新地图【摩格旧城区】实录｜9月4日，战至终点！",
+    "desc": "掌握天网核心机密的哈夫克科学家叛逃，引发了两大阵营在摩格市的血腥巷战，随着哈夫克的伏击部队在G.T.I.撤离路线上就位，一场沿着公路展开的生死突围已然打响。",
+    "pic": "http://i0.hdslb.com/bfs/archive/dd0ec1771f4be841ad1cd4e765b4c6c1dba4d532.jpg",
+    "duration": 105,
     "owner": {
-      "name": "骚男丶注意马叉虫",
-      "face": "http://i1.hdslb.com/bfs/face/e219b2c0b22ba6e5322e3ae9b9f3d995a99adf95.jpg"
+      "name": "三角洲行动",
+      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
     },
     "stat": {
-      "view": 705737,
-      "like": 31469,
-      "danmaku": 955
+      "view": 426875,
+      "like": 18577,
+      "danmaku": 368
     },
-    "tname": "搞笑",
-    "pubdate": 1788157923,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1KxtY6kEwY",
-    "title": "【铁豆钢蛋】你好 斌斌！",
-    "desc": "【铁豆钢蛋】就你叫胡彦斌啊",
-    "pic": "http://i2.hdslb.com/bfs/archive/af05cefedbe384cc49a1f0432f04fd73bdb6066e.jpg",
-    "duration": 3560,
-    "owner": {
-      "name": "铁豆钢蛋",
-      "face": "https://i1.hdslb.com/bfs/face/569265fc866f986a85d542067c5298f954aab4fd.jpg"
-    },
-    "stat": {
-      "view": 121388,
-      "like": 12761,
-      "danmaku": 5421
-    },
-    "tname": "乐评盘点",
-    "pubdate": 1788235200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1matt6AEqt",
-    "title": "南方开学 vs 北方开学",
-    "desc": "让我在评论区康康兄弟们都开学了吗？",
-    "pic": "http://i1.hdslb.com/bfs/archive/0f6b832860d1edd73dca306f175005ea953a82db.jpg",
-    "duration": 125,
-    "owner": {
-      "name": "进击的金厂长",
-      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
-    },
-    "stat": {
-      "view": 503790,
-      "like": 33687,
-      "danmaku": 594
-    },
-    "tname": "搞笑",
-    "pubdate": 1788168600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Aj4D6UEHB",
-    "title": "漂亮的恶意01|误入充满恶意的顶级财阀校园，川渝转学生表示，她真的只想好好学习！",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/d3b5a7cf7224e85f8af46308962f199d34cf599f.jpg",
-    "duration": 396,
-    "owner": {
-      "name": "海底蟹黄堡007",
-      "face": "https://i1.hdslb.com/bfs/face/4b864c16b8b771d6b4a21c7ea548cc065489d04a.jpg"
-    },
-    "stat": {
-      "view": 864775,
-      "like": 45950,
-      "danmaku": 1314
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1788064638,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1swt86hE64",
-    "title": "带精神小妹买衣服，并回复评论区的一些评论",
-    "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/c1511b5c21b87cd478cdd258df3af4b229a3737e.jpg",
-    "duration": 679,
-    "owner": {
-      "name": "旺卡_Wonka",
-      "face": "https://i1.hdslb.com/bfs/face/c2f46ad6369d26cc53b1552c12ae810ac3697b08.jpg"
-    },
-    "stat": {
-      "view": 602175,
-      "like": 26408,
-      "danmaku": 3971
-    },
-    "tname": "日常",
-    "pubdate": 1788181357,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1y3tp63ET8",
-    "title": "这是个辅助万豪！？",
-    "desc": "这是个辅助万豪！？",
-    "pic": "http://i2.hdslb.com/bfs/archive/2251302dd5b660b8c64aa18940929ad32aec9a2d.jpg",
-    "duration": 187,
-    "owner": {
-      "name": "BBGG丶狮子喵",
-      "face": "https://i0.hdslb.com/bfs/face/1ae5db2b8ec7da8162234e9a5879d74bfc7e9448.jpg"
-    },
-    "stat": {
-      "view": 894523,
-      "like": 41437,
-      "danmaku": 594
-    },
-    "tname": "电子竞技",
-    "pubdate": 1788145200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Sntc6REMU",
-    "title": "乡村大集，乡村打铁，感受不一样的打击乐",
-    "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/8a25fe9aa1a7a0d2ec51bc38cab60c81f1fc2a93.jpg",
-    "duration": 46,
-    "owner": {
-      "name": "山里木匠人",
-      "face": "https://i1.hdslb.com/bfs/face/a738ae05dc8c9f0a11964730a1fdc934a0b916c9.jpg"
-    },
-    "stat": {
-      "view": 2455624,
-      "like": 129135,
-      "danmaku": 682
-    },
-    "tname": "手工",
-    "pubdate": 1787897130,
+    "tname": "GMV",
+    "pubdate": 1788264000,
     "rcmd_reason": ""
   },
   {
@@ -261,32 +128,165 @@ const leisureData = {
       "face": "https://i2.hdslb.com/bfs/face/5d9c167c1f9615735647f60a972e79e6f2ff01d8.jpg"
     },
     "stat": {
-      "view": 234438,
-      "like": 21675,
-      "danmaku": 275
+      "view": 2819653,
+      "like": 163488,
+      "danmaku": 1398
     },
     "tname": "同人·手书",
     "pubdate": 1788169368,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV19Utg6tEJm",
+    "title": "这制作水平，当C忍是不是太屈才了",
+    "desc": "阿茨伊签到免费得，我是提前购买测评，长相如此像佐助们来点三连呗",
+    "pic": "http://i1.hdslb.com/bfs/archive/52808cac88b8562621a404c9b4d0feaaae092e90.jpg",
+    "duration": 316,
+    "owner": {
+      "name": "叶忍菌",
+      "face": "https://i1.hdslb.com/bfs/face/8a4f920bf07dd312f45ca637d0ac1b8e30f87f6b.jpg"
+    },
+    "stat": {
+      "view": 470523,
+      "like": 13961,
+      "danmaku": 393
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788262121,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1dRtx6BE7z",
-    "title": "广安.第二顿 厨子探店¥33",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/e4e0e834817b7020757afec4a707224c78c3b5d0.jpg",
-    "duration": 158,
+    "bvid": "BV1wHtL6HEL2",
+    "title": "少↗TM↗飞↗滑↗，给↘我↘打↗，使↘↗劲↘打↗（使人震撼的分镜）（挨了一滑板）呃（捂头）",
+    "desc": "很荣幸能够客串电影《数到三》\n总而言之少↗TM↗飞↗滑↗，给↘我↘打↗，使↘↗劲↘打↗（使人震撼的分镜）（挨了一滑板）呃（捂头）",
+    "pic": "http://i1.hdslb.com/bfs/archive/08d6d3563c693a716e478d484747368508b9d516.jpg",
+    "duration": 677,
     "owner": {
-      "name": "真探唐仁杰",
-      "face": "https://i1.hdslb.com/bfs/face/f82b7cb6e6b9e2351bb201f668af10b66b4d0d5c.jpg"
+      "name": "某幻君",
+      "face": "https://i2.hdslb.com/bfs/face/a7eda2f97431d13f89a43b310262d1b19be83c01.jpg"
     },
     "stat": {
-      "view": 805954,
-      "like": 73070,
-      "danmaku": 275
+      "view": 88189,
+      "like": 10818,
+      "danmaku": 1069
     },
-    "tname": "美食侦探",
-    "pubdate": 1788147000,
-    "rcmd_reason": "7万点赞"
+    "tname": "日常",
+    "pubdate": 1788321600,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1n1tA67EsT",
+    "title": "把公司当成主题乐园",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/a621db649f4c9e9f4c495416eb8ca9d57757813b.jpg",
+    "duration": 183,
+    "owner": {
+      "name": "papi酱",
+      "face": "https://i2.hdslb.com/bfs/face/e45a7b248f496fad8b32d3b9cfa0335339331798.jpg"
+    },
+    "stat": {
+      "view": 900984,
+      "like": 94747,
+      "danmaku": 1213
+    },
+    "tname": "短片",
+    "pubdate": 1788256800,
+    "rcmd_reason": "9万点赞"
+  },
+  {
+    "bvid": "BV1bLth6rE1T",
+    "title": "【蕾米埃尔】：入木三分，原来是字面意思？",
+    "desc": "材质：香樟木",
+    "pic": "http://i2.hdslb.com/bfs/archive/259c520165891305d3b49140ec2a3911d756a1f2.jpg",
+    "duration": 6891,
+    "owner": {
+      "name": "木姬空语",
+      "face": "https://i2.hdslb.com/bfs/face/5a6e204606caa77c4906255fe21fb90fd0869f1a.jpg"
+    },
+    "stat": {
+      "view": 1247912,
+      "like": 79761,
+      "danmaku": 1372
+    },
+    "tname": "日常",
+    "pubdate": 1788169737,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1GStg6oEQe",
+    "title": "绝活",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/f366fb9ffbbe06420fa8a9b4cd97c3660c8ada1e.jpg",
+    "duration": 216,
+    "owner": {
+      "name": "脱缰凯Kk",
+      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
+    },
+    "stat": {
+      "view": 1194081,
+      "like": 82216,
+      "danmaku": 1454
+    },
+    "tname": "小剧场",
+    "pubdate": 1788261320,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1reth6tEFm",
+    "title": "华强买瓜，但郝哥能控制AI",
+    "desc": "郝哥偶然间发现了AI世界的内幕，有了自由操控AI的能力，想必一定能逃离华强的魔爪。",
+    "pic": "http://i0.hdslb.com/bfs/archive/c6a46080031546e3dd9717e628293993d998279f.jpg",
+    "duration": 438,
+    "owner": {
+      "name": "伊介书生",
+      "face": "https://i1.hdslb.com/bfs/face/13c550fb549a533ce01182e5699f5efedcccf75a.jpg"
+    },
+    "stat": {
+      "view": 492720,
+      "like": 18884,
+      "danmaku": 910
+    },
+    "tname": "鬼畜剧场",
+    "pubdate": 1788198425,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Este6wExx",
+    "title": "08年美国讽刺金曲《朋友的酒》（英语填词cover）“空城计の小曲”",
+    "desc": "AI生成，仅供娱乐",
+    "pic": "http://i1.hdslb.com/bfs/archive/1204c897ffd6499dd62ceab4ab78aba563cb769b.jpg",
+    "duration": 258,
+    "owner": {
+      "name": "梨茗子",
+      "face": "https://i0.hdslb.com/bfs/face/69558a5a7180f3ba0d5395f64a0bdcf5cc4b3ea1.jpg"
+    },
+    "stat": {
+      "view": 527470,
+      "like": 31760,
+      "danmaku": 266
+    },
+    "tname": "MV",
+    "pubdate": 1788226200,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Zpt36PE2n",
+    "title": "曾经最成功的游戏类型，为什么没人做了？",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/5ff17c9504ec3cbf493ece06c385473d7141acd6.jpg",
+    "duration": 549,
+    "owner": {
+      "name": "智能路障",
+      "face": "https://i0.hdslb.com/bfs/face/d202a8d50beb1670bff9c65c359fc7d2c5da9408.jpg"
+    },
+    "stat": {
+      "view": 802580,
+      "like": 13455,
+      "danmaku": 1403
+    },
+    "tname": "网络游戏",
+    "pubdate": 1788259618,
+    "rcmd_reason": ""
   }
 ],
   podcast: []
