@@ -1,8 +1,255 @@
-// 课后时间数据 - 自动生成于 2026-09-03 06:33
+// 课后时间数据 - 自动生成于 2026-09-04 06:36
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-09-03 06:33',
+  updateTime: '2026-09-04 06:36',
   bilibili: [
+  {
+    "bvid": "BV15VtZ6oEk7",
+    "title": "《三角洲行动》全新【群星】赛季故事短片",
+    "desc": "罗温与四叶在度假途中来到了阿萨拉边陲小镇，本以为只是一次普通的旅行，却不想四叶发现这片宁静之下，战争已在悄然蔓延……",
+    "pic": "http://i1.hdslb.com/bfs/archive/1241d14f82468884f582057fe0377a2ad1494542.jpg",
+    "duration": 655,
+    "owner": {
+      "name": "三角洲行动",
+      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
+    },
+    "stat": {
+      "view": 1149005,
+      "like": 56409,
+      "danmaku": 1585
+    },
+    "tname": "GMV",
+    "pubdate": 1788451200,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV1U8tq6sEb2",
+    "title": "【月行水上】SR-1至SR-8 摆完挂机 简单好抄",
+    "desc": "干员均专三60级带1级模组，逻各斯3级Δ模组，维什戴尔3级X模组，歌蒂3级X模组（给乌尔比安减伤回血，很重要）\n本视频为为懒人向挂机流攻略，不排斥手动开启的技能但少用，视频里大多数情况都是携带挂机技能的快速摆完的打法，少部分难打的关卡会选择简单好抄的手动打法，用一些决战技等手动技能，非低配攻略。\n\n视频里常用的干员及技能:\nps：视频绝大多数情况都是用的都是永续/点燃/强力击类的挂机技能，手动技能用的非常少。\n【先锋】桃金娘1、异格银灰13、德克萨斯1、伊内斯1\n【近卫】拉普兰德2、山2、煌2、乌尔比安2",
+    "pic": "http://i1.hdslb.com/bfs/archive/92dee497a2d02cf741b923e23114a9361287f100.jpg",
+    "duration": 1236,
+    "owner": {
+      "name": "萧然Q",
+      "face": "https://i2.hdslb.com/bfs/face/dca58d7a5a1cd34b8bd152c0bf8784c1555dcd30.jpg"
+    },
+    "stat": {
+      "view": 288872,
+      "like": 6275,
+      "danmaku": 126
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788495328,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1bHtd6CESR",
+    "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
+    "desc": "本篇为神奇组织之1977纽约大停电。",
+    "pic": "http://i2.hdslb.com/bfs/archive/8136c66675bf9b68ac93c4473d9c34b801d005dd.jpg",
+    "duration": 2410,
+    "owner": {
+      "name": "小约翰可汗",
+      "face": "https://i0.hdslb.com/bfs/face/d95138d8640849b58be01c5dd8dc5f40414ee077.jpg"
+    },
+    "stat": {
+      "view": 527241,
+      "like": 46099,
+      "danmaku": 4963
+    },
+    "tname": "人文历史",
+    "pubdate": 1788490800,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1RgtG6wEJx",
+    "title": "【独家】时光代理人 第三季 PartOne 第5集 接风宴【8月国创】",
+    "desc": "每周五11:00，哔哩哔哩独家呈现。每周四18:00，超大会员抢先看更新集！",
+    "pic": "http://i2.hdslb.com/bfs/archive/c526fda120a80f392dd43897a8758c87e1ebfeaf.png",
+    "duration": 1406,
+    "owner": {
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
+    },
+    "stat": {
+      "view": 820664,
+      "like": 12983,
+      "danmaku": 6532
+    },
+    "tname": "国产动画",
+    "pubdate": 1788429602,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1wote6gEQ1",
+    "title": "《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好",
+    "desc": "家主大人！\n家主大人！\n家主大人！\n家主大人！\n家主大人！\n家主大人！\n\n「你们有完没完啊！」\n\n克拉蕾CV\n中：柳知萧\n日：植田佳奈\n\n洛克茜CV\n中：刘一蕾\n日：赤﨑千夏\n\n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.2版本「她与她的隐秘往事」将于9月9日上线！\n版本期间，参与活动可免费领取妄想天使全新时装！\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434 \nbilibiliPC端下载地址：https://www.biligam",
+    "pic": "http://i0.hdslb.com/bfs/archive/78c7032651157d88e625a196d2ed51c9c7a62622.jpg",
+    "duration": 706,
+    "owner": {
+      "name": "绝区零",
+      "face": "https://i0.hdslb.com/bfs/face/75ad0ecdbf7c6a5c801e4f3945457bc961da3c9f.jpg"
+    },
+    "stat": {
+      "view": 271365,
+      "like": 36417,
+      "danmaku": 2775
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788494400,
+    "rcmd_reason": "很多人分享"
+  },
+  {
+    "bvid": "BV12Sto6VEnH",
+    "title": "这只猫，性格好到让我无语",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/125cb602d82eca567f3d4843b5d8e7cd016acb84.jpg",
+    "duration": 115,
+    "owner": {
+      "name": "萌宠指南",
+      "face": "https://i2.hdslb.com/bfs/face/b83e105c97b63d9872c7c7c69993b4a2b6213c43.jpg"
+    },
+    "stat": {
+      "view": 434495,
+      "like": 57010,
+      "danmaku": 764
+    },
+    "tname": "喵星人",
+    "pubdate": 1788432774,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV12PtR6KE1q",
+    "title": "二游最豪自行车，随时站起来蹬拉爆保时捷，见证异环超级体育生",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/6ba63d004b7c5dbe1ff417ac65dd85e308d035c6.jpg",
+    "duration": 160,
+    "owner": {
+      "name": "奈落_Abyss",
+      "face": "https://i2.hdslb.com/bfs/face/74e272a5de1f1cfe10c997c2956316b55b56ce2b.jpg"
+    },
+    "stat": {
+      "view": 584547,
+      "like": 17041,
+      "danmaku": 341
+    },
+    "tname": "单机游戏",
+    "pubdate": 1788399125,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1NhtZ6LE8d",
+    "title": "《崩坏：星穹铁道》走近星穹——「砂金•戏浪：苏乐达给了你多少广告费？」",
+    "desc": "据《狸狸周刊》报道：近日，面对「来千星城是否真只是度假」的疑问，\n「石心十人」砂金回应称，此次出行的主要目的，是参与苏乐达的宣传活动，\n但对他来说，这种没有勾心斗角，又有朋友相伴的活动，绝对算是难得的假期了。\n \n※战斗演示具体数值仅供参考，请开拓者以上线版本为准。\n \n中文CV：\n叽米——刘北辰\n翡翠——张若瑜",
+    "pic": "http://i0.hdslb.com/bfs/archive/a8e6e501d47d5d74cd83228a1795d624d44b5802.jpg",
+    "duration": 388,
+    "owner": {
+      "name": "崩坏星穹铁道",
+      "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg"
+    },
+    "stat": {
+      "view": 264990,
+      "like": 32276,
+      "danmaku": 3143
+    },
+    "tname": "手机游戏",
+    "pubdate": 1788494400,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV16Hto6aE4v",
+    "title": "桃花源记",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/45a811a701bd6b3777080e205d0f5704073f41a3.jpg",
+    "duration": 127,
+    "owner": {
+      "name": "累渠_",
+      "face": "https://i0.hdslb.com/bfs/face/067ac3f4bc58044a8dc4571d273591c6d3ab6e3f.jpg"
+    },
+    "stat": {
+      "view": 499293,
+      "like": 54432,
+      "danmaku": 310
+    },
+    "tname": "日常",
+    "pubdate": 1788438535,
+    "rcmd_reason": "5万点赞"
+  },
+  {
+    "bvid": "BV1gptZ6DExF",
+    "title": "《马老师：这世上还是好人多呀》",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/0f0e829c2b76d2f548ce6176a5a715d0e4ffb441.jpg",
+    "duration": 78,
+    "owner": {
+      "name": "嘞是唐孃孃",
+      "face": "https://i0.hdslb.com/bfs/face/f27bb746ea22f1048bdf8a3922b619ba18e9f1a5.jpg"
+    },
+    "stat": {
+      "view": 1349067,
+      "like": 92070,
+      "danmaku": 289
+    },
+    "tname": "搞笑",
+    "pubdate": 1788432369,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1aGtd6SEfh",
+    "title": "笑死~日本新发现一名铁血精中！！比98%的中国人都愿意爱中国！！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/5b00866d36e6988144f63bc30ac1672af85dd7f5.jpg",
+    "duration": 411,
+    "owner": {
+      "name": "文同学文案",
+      "face": "https://i1.hdslb.com/bfs/face/82ae2d57bd6309c90b748d5ff58f9b37de5dadd9.jpg"
+    },
+    "stat": {
+      "view": 514960,
+      "like": 21367,
+      "danmaku": 2448
+    },
+    "tname": "人文历史",
+    "pubdate": 1788429000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Y8tn6nE9L",
+    "title": "还没擦掉嘴角伊朗儿童的血，他们又来吃中国的“人血馒头”",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/e6eec9976694117500b056640470aaf3f8d4c82d.png",
+    "duration": 224,
+    "owner": {
+      "name": "环球网",
+      "face": "https://i1.hdslb.com/bfs/face/51dadbf0e52388fd8e1d27e2b32b1d17a52ac301.jpg"
+    },
+    "stat": {
+      "view": 1266025,
+      "like": 64240,
+      "danmaku": 58
+    },
+    "tname": "日常",
+    "pubdate": 1788333259,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1i5tU6NEAd",
+    "title": "我在日本，找到了被李白杀死的遣唐使",
+    "desc": "不仅中国，古代日本、朝鲜、安南、琉球等国皆使用汉字。这期我们前往了关西地区（日本历史文化中心），开启备受青睐的汉字文化圈系列视频第三期——日本篇。\n日本文字分为“平假名”和“片假名”。它们的创制，与汉字有直接关系。隋唐时期日本派遣大量使者来华学习。而日本汉诗更是周边国家里独领风骚的存在。\n白云苍狗，日月变换，进入中华民族伟大复兴的21世纪，对汉字文化圈诗词进行整体研究及建设相关学科正逢其时，中国学者主导其役责无旁贷。我将不惜成本，深入亚洲诸地，并敢断言，在全网所有自媒体中，唯有我具备足够的积淀、视野与执行",
+    "pic": "http://i2.hdslb.com/bfs/archive/71e9e1613f67c4f09d47170467765f46586b1df2.jpg",
+    "duration": 1854,
+    "owner": {
+      "name": "有山先生",
+      "face": "https://i1.hdslb.com/bfs/face/2991fb4983518ab32f80f9c488d8d3946a93f1a3.jpg"
+    },
+    "stat": {
+      "view": 365824,
+      "like": 39643,
+      "danmaku": 4802
+    },
+    "tname": "人文历史",
+    "pubdate": 1788426000,
+    "rcmd_reason": ""
+  },
   {
     "bvid": "BV12ctX68Ex6",
     "title": "致热爱捉宠的你——《伊莫》幕后制作纪录片",
@@ -14,278 +261,31 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/9ca04892baae8d140181a03f86850e7f4f63612f.jpg"
     },
     "stat": {
-      "view": 719489,
-      "like": 22958,
-      "danmaku": 463
+      "view": 2428030,
+      "like": 78871,
+      "danmaku": 742
     },
     "tname": "同人·手书",
     "pubdate": 1788400800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Q5tG6bEX3",
-    "title": "【IGN独家】《鸣潮》共鸣者「心」、「锁暝」演示",
-    "desc": "《鸣潮》即将登场的全新共鸣者「心」、「锁暝」的部分战斗效果实机演示。在即将到来的新版本中，《鸣潮》玄方篇即将迎来终章。演示内容为游戏测试版本，不代表最终效果。",
-    "pic": "http://i0.hdslb.com/bfs/archive/063978f926ae5a0cadc289c02681e972f25cb7e4.jpg",
-    "duration": 95,
-    "owner": {
-      "name": "IGN中国",
-      "face": "https://i2.hdslb.com/bfs/face/4c9095a6fc7d6ef7bf97ee1c65767f537763c60c.jpg"
-    },
-    "stat": {
-      "view": 1660020,
-      "like": 130438,
-      "danmaku": 14928
-    },
-    "tname": "单机游戏",
-    "pubdate": 1788404400,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1Pxt96AETY",
-    "title": "吓哭了！电影级大招，心月狐直接给我干到无限城了！！！？",
-    "desc": "太震撼了！！！",
-    "pic": "http://i1.hdslb.com/bfs/archive/d3b158a0487b56bd1d8f5fe71559d844f753dbe4.jpg",
-    "duration": 596,
+    "bvid": "BV1noto6BE1M",
+    "title": "《夜幕之下》主线活动版本PV：隐秘的归属",
+    "desc": "葡萄藤沿着过去的痕迹生长，\n酒香漫过故乡的山丘，也封存着旧日的秘密。\n\n姓氏决定来处，埋藏多年的渴望，不会永远沉默于阴影。\n\n有人取下面具，\n穿过漫长的过去，再一次向你走来。\n\n——“希望与你坦诚相见那日，我能骄傲地献上自己的……真名。”\n\n>>>\n漫长的等待，足以让一束百合在记忆里生根。\n9月10日，主线活动版本「共举昨日之酒·上」即将开启，主线剧情第6章同步更新。\n\n————\n游戏下载：https://www.biligame.com/detail/?id=114605&spm_id_from=333",
+    "pic": "http://i2.hdslb.com/bfs/archive/aeb484c558fb1af5181161db70cdaa9421f86c57.jpg",
+    "duration": 244,
     "owner": {
-      "name": "棉花大哥哥",
-      "face": "https://i0.hdslb.com/bfs/face/f784e30eb7b61a99ac8a704a59547994c285a4b7.jpg"
+      "name": "夜幕之下_代号砰砰",
+      "face": "https://i1.hdslb.com/bfs/face/edf2cd35b5e8a1cb02e2a7b9dd5b13d6a8aae2e6.jpg"
     },
     "stat": {
-      "view": 297036,
-      "like": 9917,
-      "danmaku": 369
+      "view": 132263,
+      "like": 5315,
+      "danmaku": 427
     },
     "tname": "手机游戏",
-    "pubdate": 1788406564,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1KjtS6XEWy",
-    "title": "不同年代气血很足的美！这是一条气血很足的视频哦",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/d3d8daabbd23b00ec4a28b916488f32aa02a6b1a.jpg",
-    "duration": 137,
-    "owner": {
-      "name": "李如儒也是李蠕蠕",
-      "face": "https://i2.hdslb.com/bfs/face/8da8eac46ef637b771efeabf4b7b4b093d34dea5.jpg"
-    },
-    "stat": {
-      "view": 746773,
-      "like": 63402,
-      "danmaku": 966
-    },
-    "tname": "小剧场",
-    "pubdate": 1788349151,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1kktD69EaX",
-    "title": "欢迎来到霍格沃茨的新学年",
-    "desc": "HBO原创系列剧集《哈利·波特与魔法石》即将播出。",
-    "pic": "http://i2.hdslb.com/bfs/archive/ca108f1d36038d7ad93d37bbdcdacb371a3557f9.jpg",
-    "duration": 148,
-    "owner": {
-      "name": "哈利波特",
-      "face": "https://i2.hdslb.com/bfs/face/23d5285d72d28b5a5f489a63c633512255fd7595.jpg"
-    },
-    "stat": {
-      "view": 455295,
-      "like": 18743,
-      "danmaku": 1523
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1788362852,
-    "rcmd_reason": "1万分享"
-  },
-  {
-    "bvid": "BV1SQt76BEzS",
-    "title": "“误闯天家，天黑了”",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/2947103f018ad08be5d3b19aa0a137ab22eee1b5.jpg",
-    "duration": 6032,
-    "owner": {
-      "name": "倩倩漫说_",
-      "face": "https://i1.hdslb.com/bfs/face/7f9de58cc1fac308ad9235fafaa065ffd325c8f3.jpg"
-    },
-    "stat": {
-      "view": 1034835,
-      "like": 12904,
-      "danmaku": 4214
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1788322473,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1BjtE6HExq",
-    "title": "极限挑战——时光大桥",
-    "desc": "重游时光大桥，又想起当年桥上的一幕幕场景。",
-    "pic": "http://i0.hdslb.com/bfs/archive/5673bc30876627c21534d03ed2dda73db74e72e1.jpg",
-    "duration": 184,
-    "owner": {
-      "name": "王迅",
-      "face": "https://i1.hdslb.com/bfs/face/141b2a6205127f55c47c9a99d8d9af3a2b59cce2.jpg"
-    },
-    "stat": {
-      "view": 1406786,
-      "like": 124544,
-      "danmaku": 779
-    },
-    "tname": "美食侦探",
-    "pubdate": 1788318274,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1h3tg6XEHz",
-    "title": "《国服安琪拉》",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/f136183960dd9033a92f80a6877c4909a00b4035.jpg",
-    "duration": 129,
-    "owner": {
-      "name": "伤心欲茄222",
-      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
-    },
-    "stat": {
-      "view": 814478,
-      "like": 72511,
-      "danmaku": 960
-    },
-    "tname": "搞笑",
-    "pubdate": 1788321600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Ugtb6TE9R",
-    "title": "“修仙也爱拍照”",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/6f85f6a8540ab927b7e6c13925121147b42567d4.jpg",
-    "duration": 153,
-    "owner": {
-      "name": "剑上一寸雪",
-      "face": "https://i1.hdslb.com/bfs/face/b3a878bbf481a2802d454c8c06ee9b65a3d29a58.jpg"
-    },
-    "stat": {
-      "view": 655643,
-      "like": 65169,
-      "danmaku": 320
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1788157934,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1pqtG6CE59",
-    "title": "韩语版《朋友的酒》【韩国大叔Trot版】（空城计の小曲）",
-    "desc": "尝试做了一个Trot版\n如果《朋友的酒》发行于70年代的韩国……\n\n日语男声完整版制作中~",
-    "pic": "http://i1.hdslb.com/bfs/archive/54dc4a03a7b1db15f1299d6a5d5c319c90a9ff4b.jpg",
-    "duration": 248,
-    "owner": {
-      "name": "181319",
-      "face": "https://i2.hdslb.com/bfs/face/c720efad4a4766e4a64b3e2bed7d0391cab4ebf3.jpg"
-    },
-    "stat": {
-      "view": 550847,
-      "like": 16150,
-      "danmaku": 352
-    },
-    "tname": "音乐综合",
-    "pubdate": 1788281076,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1fytx6LEB5",
-    "title": "哥哥说找到了流量的密码！！",
-    "desc": "这一期视频和我之前的有点不一样，想做一个新的尝试，写不出剧本是真的，吃泡面也是真的，写不出所以吃泡面也是真的！不知道大家会不会喜欢这一期有一点生活向没那么搞笑的视频…做的时候很虚啊～～毕竟是拿一期商单做实验…诶嘿～但不管如何我汇继续尝试下去的，努力做出更有意思的视频是我的追求！希望大家喜欢！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！求三连！！\n杉杉：@小草莓林杉杉",
-    "pic": "http://i1.hdslb.com/bfs/archive/e2eceedeb6be098ea3d77be767353a1531b3997b.jpg",
-    "duration": 454,
-    "owner": {
-      "name": "非自然苏打",
-      "face": "https://i1.hdslb.com/bfs/face/ff71ef035b06f9d24b22a631d9166a967ec740b1.jpg"
-    },
-    "stat": {
-      "view": 1717207,
-      "like": 58127,
-      "danmaku": 663
-    },
-    "tname": "日常",
-    "pubdate": 1788149677,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1P4th6PE81",
-    "title": "“用最温柔的方式，体面的告别了这个世界”｜听歌/小曲",
-    "desc": "“用最温柔的方式，体面的告别了这个世界”｜听歌/小曲",
-    "pic": "http://i2.hdslb.com/bfs/archive/b5027afea3493166397f1de7786bdf915ea1c6a9.jpg",
-    "duration": 287,
-    "owner": {
-      "name": "我爱吃派大星",
-      "face": "https://i2.hdslb.com/bfs/face/6853fa3af2f07acdcf19bcb6fd62631876fe46e5.jpg"
-    },
-    "stat": {
-      "view": 1662306,
-      "like": 147461,
-      "danmaku": 3340
-    },
-    "tname": "音乐综合",
-    "pubdate": 1788222000,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1p3t36kEEj",
-    "title": "一个外挂100块，从零挑战四款FPS，会遇到多少挂？",
-    "desc": "本次挑战规则如下：每次确认遇到外挂奖励 100 元，总奖金=外挂奖励+击杀奖励+排名/撤离奖励+段位/资产结算奖励。\n三角洲行动：普坝无奖，机密/绝密按击杀、撤离和结算资产发奖；跑刀另按净利润、真实玩家击杀、高价值摸金和连续撤离结算。\nAPEX 英雄：解锁排位后只打排位，普通匹配无击杀奖。奖金由最终段位、排位击杀、当局名次倍率，以及限时解锁排位奖励组成。\nCS2：完美、5E、官匹三个平台分开测试，只打等有分数结算的模式。奖金由平台段位/分数、击杀奖励、高杀翻倍奖励和刀杀奖励组成。\nPUBG：解锁排位后只打",
-    "pic": "http://i0.hdslb.com/bfs/archive/5ef7cb862392fb0df216de029395fbd2184b9b0f.jpg",
-    "duration": 1454,
-    "owner": {
-      "name": "搞机所",
-      "face": "https://i2.hdslb.com/bfs/face/1d04316b1eb19a97d950a368af672421ff6224ee.jpg"
-    },
-    "stat": {
-      "view": 1163602,
-      "like": 49555,
-      "danmaku": 2903
-    },
-    "tname": "数码",
-    "pubdate": 1788328800,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1Gft56TEja",
-    "title": "强行给二哈做体检，那场面比杀猪现场还狠！",
-    "desc": "强行给二哈做体检，那场面比杀猪现场还狠！",
-    "pic": "http://i1.hdslb.com/bfs/archive/21b316da3d6f7b7f9bc3da71397b5804ea8f4d09.jpg",
-    "duration": 655,
-    "owner": {
-      "name": "哈仔十一",
-      "face": "https://i2.hdslb.com/bfs/face/4c4f01fe482e61655e8f13b1bbc5a2a7346b5610.jpg"
-    },
-    "stat": {
-      "view": 691545,
-      "like": 20452,
-      "danmaku": 2423
-    },
-    "tname": "汪星人",
-    "pubdate": 1788318000,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1e4tn6pEg6",
-    "title": "黄 毛 抢 钱 记",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/c6ce534ce24d871c91574db30a1b095f2578c8d1.jpg",
-    "duration": 497,
-    "owner": {
-      "name": "马哥巨离谱",
-      "face": "https://i2.hdslb.com/bfs/face/e36386dee63a713cb1cb47c4bbd3b60532bb9e70.jpg"
-    },
-    "stat": {
-      "view": 596829,
-      "like": 29872,
-      "danmaku": 1307
-    },
-    "tname": "搞笑",
-    "pubdate": 1788341119,
+    "pubdate": 1788490800,
     "rcmd_reason": ""
   }
 ],
