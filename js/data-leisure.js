@@ -1,292 +1,292 @@
-// 课后时间数据 - 自动生成于 2026-09-26 06:44
+// 课后时间数据 - 自动生成于 2026-09-27 07:14
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-09-26 06:44',
+  updateTime: '2026-09-27 07:14',
   bilibili: [
   {
-    "bvid": "BV1GahD6GEjC",
-    "title": "《鸣潮》共鸣者战斗演示 | 心",
-    "desc": "诸方俯首……朝月凌空！\n \n中文CV\n心：菊花花\n\n日文CV\n心：能登麻美子\n\n英文CV\n心：Suzie Yeung\n\n韩文CV\n心：소연",
-    "pic": "http://i1.hdslb.com/bfs/archive/f796a7911dbc39c157cf44c6cfb7adb6557c56f8.jpg",
-    "duration": 402,
+    "bvid": "BV1Rmh96ZEXh",
+    "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
+    "desc": "母题：什么是完美的艺术？\n为世界存亡挥笔时，她忘记了问题，却得到了答案。\n \n中文CV：\n真珠——苏婉\n ‌\n日文CV：\n真珠——安野希世乃\n ‌\n英文CV：\n真珠——Cat Protano\n ‌\n韩文CV：\n真珠——여윤미",
+    "pic": "http://i0.hdslb.com/bfs/archive/54bde642fdd0a0a0a78b3a63bbc075e6fa71146d.jpg",
+    "duration": 531,
     "owner": {
-      "name": "鸣潮",
-      "face": "https://i2.hdslb.com/bfs/face/0abd6b9df304334a9388e968740b5b9b7d1a84be.jpg"
+      "name": "崩坏星穹铁道",
+      "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg"
     },
     "stat": {
-      "view": 595520,
-      "like": 34392,
-      "danmaku": 3662
+      "view": 942616,
+      "like": 88538,
+      "danmaku": 3172
     },
     "tname": "手机游戏",
-    "pubdate": 1790391600,
+    "pubdate": 1790481600,
+    "rcmd_reason": "8万点赞"
+  },
+  {
+    "bvid": "BV1sghX6KEkX",
+    "title": "《三角洲行动》群星计划—代号：深蓝",
+    "desc": "盾的骨髓里流淌着两个使命，一个是守护，一个是牺牲。\n但当盾的身后空无一人，盾的使命也将不复存在。\n所以，盾选择重新站在前方。",
+    "pic": "http://i2.hdslb.com/bfs/archive/61755f1d86b66a1f32f9c3e605bfe6e8818cfc66.jpg",
+    "duration": 1026,
+    "owner": {
+      "name": "三角洲行动",
+      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
+    },
+    "stat": {
+      "view": 1510250,
+      "like": 99724,
+      "danmaku": 2786
+    },
+    "tname": "GMV",
+    "pubdate": 1790411400,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1HRa46AER2",
+    "title": "溶酶体：细胞里为什么藏着一颗自毁炸弹？",
+    "desc": "pH 7.2的细胞中，悬浮着一个pH 5.0的酸性深渊。溶酶体包裹着数十种“致命”的水解酶，随时准备启动自噬，拆解衰老的自己。可是，生命的对立面从来不是破坏，每一次彻底的自我瓦解，都是新生的前奏。\n参考文献：\n[1]Sabatini D D, Adesnik M. Christian de Duve: Explorer of the cell who discovered new organelles by using a centrifuge[J]. Proceedings of the Nationa",
+    "pic": "http://i0.hdslb.com/bfs/archive/8d47a4f916c618a92e14addd5d4d4701205749f6.jpg",
+    "duration": 456,
+    "owner": {
+      "name": "大圆镜科普",
+      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
+    },
+    "stat": {
+      "view": 463822,
+      "like": 39975,
+      "danmaku": 773
+    },
+    "tname": "科学科普",
+    "pubdate": 1790467200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1JSau6kEou",
-    "title": "《以片换物- -洗剪吹》 再不疯狂就老了  借一场大笑，释放藏起来的自己。",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/85d749139b2bce8ca92e2e895cdb749e30faa427.jpg",
-    "duration": 119,
-    "owner": {
-      "name": "拍照的阿甘",
-      "face": "https://i1.hdslb.com/bfs/face/d37a72bb0bcc8cddc13ad1c15031cd7db4b396d2.jpg"
-    },
-    "stat": {
-      "view": 650943,
-      "like": 75327,
-      "danmaku": 407
-    },
-    "tname": "日常",
-    "pubdate": 1790305480,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV17BaA6dERY",
-    "title": "【独家】《凡人修仙传之慕兰之战》第17集【总第193集】",
-    "desc": "每周六中午11:00，bilibili独家呈现",
-    "pic": "http://i2.hdslb.com/bfs/archive/04c4e32d0f106a78d2caef7da5139371cb2ce252.jpg",
-    "duration": 1711,
+    "bvid": "BV152aA6nEz4",
+    "title": "【独家】牧神记 第102集 大尊",
+    "desc": "班公措品酒论往事，大尊历代转世风云",
+    "pic": "http://i1.hdslb.com/bfs/archive/f2810832c26f581dcd5b6ccf491ec3f74606fd02.png",
+    "duration": 1250,
     "owner": {
       "name": "哔哩哔哩国创",
       "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
     },
     "stat": {
-      "view": 2234576,
-      "like": 84016,
-      "danmaku": 53801
+      "view": 973818,
+      "like": 17625,
+      "danmaku": 2894
     },
     "tname": "国产动画",
-    "pubdate": 1790391602,
+    "pubdate": 1790478002,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1AyhU64EFH",
+    "title": "硬核，不是说说而已",
+    "desc": "各位特遣，在卡莫纳，硬核不是说说而已！\nS19赛季黄金周福利即将上线，众多福利等你领取！",
+    "pic": "http://i1.hdslb.com/bfs/archive/51e343654023d7b89ad26f039092d39190282737.jpg",
+    "duration": 257,
+    "owner": {
+      "name": "暗区突围",
+      "face": "https://i0.hdslb.com/bfs/face/1b88357baa2eb4e024925757955b9819a2217827.jpg"
+    },
+    "stat": {
+      "view": 309570,
+      "like": 20741,
+      "danmaku": 579
+    },
+    "tname": "网络游戏",
+    "pubdate": 1790476200,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1ZfhD6XEGk",
+    "title": "甜瓜琵琶曲#高质量手搓 🤓",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/b114001ca098f2d84f98d1f01337c2956cf6cd30.jpg",
+    "duration": 75,
+    "owner": {
+      "name": "Tuogengpigeon",
+      "face": "https://i0.hdslb.com/bfs/face/0d8c6e00606f686311e19ed54652299156882d57.jpg"
+    },
+    "stat": {
+      "view": 1618686,
+      "like": 133659,
+      "danmaku": 427
+    },
+    "tname": "日常",
+    "pubdate": 1790386768,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1rYh76aEaV",
-    "title": "查理斯《绝命糖猪-chalice》",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/b8b55cb739120c6b20365d4162133d9074e6e14c.jpg",
-    "duration": 159,
+    "bvid": "BV1fAh96ZELn",
+    "title": "《三角洲行动》群星计划—代号：威龙",
+    "desc": "他一直相信一件事：飞得越高，就能护住越多的东西。\n\n直到某次任务，他几乎失去了一切，又一次从零开始站起——他才明白，真正托住他的，从来不是哪一张面孔。是他从废墟中被曙光救出后，再也没有熄灭过的那颗叫 “守护”的赤子之心。",
+    "pic": "http://i2.hdslb.com/bfs/archive/67a46169420d507f3f1846d282d59be3472acb98.jpg",
+    "duration": 836,
     "owner": {
-      "name": "无奈の老王君",
-      "face": "https://i1.hdslb.com/bfs/face/01525bf74d4780adee002a8d5737482659ed0796.jpg"
+      "name": "三角洲行动",
+      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
     },
     "stat": {
-      "view": 657430,
-      "like": 33782,
-      "danmaku": 221
+      "view": 856099,
+      "like": 50093,
+      "danmaku": 7213
     },
-    "tname": "影视剪辑",
-    "pubdate": 1790301600,
+    "tname": "GMV",
+    "pubdate": 1790439124,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1y6au6UEJp",
-    "title": "今天抄家 人民的兔娘",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/c2ac144e0462102f85e8c464b6b31924885054cd.jpg",
-    "duration": 644,
+    "bvid": "BV1JnhX6tEWP",
+    "title": "【说唱】不是，酒保怎么比我先醉啊…",
+    "desc": "好久不见！大家可好？\n\n歌曲by：Spylent\n视频制作：@爱黄瓜的楼主 \n手绘：@比克七七 \n\n微博/全音乐平台：Spylent\n歌曲即将上线",
+    "pic": "http://i0.hdslb.com/bfs/archive/7701366a5168fb0923b42dd1cf39ad08d8e04307.jpg",
+    "duration": 148,
     "owner": {
-      "name": "野生鱼白",
-      "face": "https://i1.hdslb.com/bfs/face/6237c423a25e6f6e79d78c738911e39c2d26bac9.jpg"
+      "name": "Spylent",
+      "face": "https://i0.hdslb.com/bfs/face/e2d0ad68dc7fff24e10ef1e954c8dcaa93289c0b.jpg"
     },
     "stat": {
-      "view": 2311642,
-      "like": 103389,
-      "danmaku": 3696
+      "view": 439481,
+      "like": 38190,
+      "danmaku": 714
     },
-    "tname": "搞笑",
-    "pubdate": 1790312182,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1DvaP62ECv",
-    "title": "依旧双子星来个小哲摇",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/f923b756d7179e85735c2c6397205452cbcba43a.jpg",
-    "duration": 39,
-    "owner": {
-      "name": "小恩boy",
-      "face": "https://i1.hdslb.com/bfs/face/b01816ea5cb919162dbb6380881542b4dcd5926a.jpg"
-    },
-    "stat": {
-      "view": 1395051,
-      "like": 147664,
-      "danmaku": 15884
-    },
-    "tname": "健身",
-    "pubdate": 1790259649,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1aAhm6vEA6",
-    "title": "【E-girl】谁是互联网最“亚”的女孩？这个称呼到底是怎么来的？",
-    "desc": "中秋快乐",
-    "pic": "http://i0.hdslb.com/bfs/archive/33b74927244e7c3f735ef43dc58c21d3807548d9.jpg",
-    "duration": 654,
-    "owner": {
-      "name": "单春蛋治",
-      "face": "https://i0.hdslb.com/bfs/face/065d6eec7d4f1dc1296dbe41174ae35925e9f666.jpg"
-    },
-    "stat": {
-      "view": 455727,
-      "like": 40094,
-      "danmaku": 1268
-    },
-    "tname": "综合",
-    "pubdate": 1790331145,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Zch96FEof",
-    "title": "奥特钥匙!!国庆定档预告",
-    "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/5338c0ce7d7af1a572bc00d4784757cb43e87891.jpg",
-    "duration": 94,
-    "owner": {
-      "name": "百火哥斯拉",
-      "face": "https://i1.hdslb.com/bfs/face/b3be8167c650ab14ef82a33fe43d302472453cbd.jpg"
-    },
-    "stat": {
-      "view": 98722,
-      "like": 19827,
-      "danmaku": 2273
-    },
-    "tname": "特摄",
-    "pubdate": 1790399951,
+    "tname": "原创音乐",
+    "pubdate": 1790417100,
     "rcmd_reason": "人气飙升"
   },
   {
-    "bvid": "BV1A7h167EEc",
-    "title": "“让我用泥头车宽恕你”",
-    "desc": "异世界直通车来了\n\n新专辑《东方巴黎》链接：https://music.163.com/album?id=393658750&uct2=U2FsdGVkX19zP25cRnxD6cWIL8ZIFjTD/+tI85RdI/k=\n歌手/作词/作曲: 卦者灵风\n制作人: 闹闹丶\n编曲/混音：小绵羊magens\n母带: 欧Ohm\n人声后期：SoilFo_yuan\n视频：银色の猫先生",
-    "pic": "http://i2.hdslb.com/bfs/archive/5cc837196afd41070825ea5ed8be5630f584a191.jpg",
-    "duration": 175,
+    "bvid": "BV17WhX6xEWn",
+    "title": "戒赌吧覆灭！1400万赌徒抱团救赎，吧主将他们卖给赌场！【神奇组织17】",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/97725becad0be91c7db909e6ef60501f7e098b78.jpg",
+    "duration": 405,
     "owner": {
-      "name": "卦者那啥子靈風",
-      "face": "https://i1.hdslb.com/bfs/face/74bdc0269926ad15035baf516191da4de094ec81.jpg"
+      "name": "喵喵即正义",
+      "face": "https://i1.hdslb.com/bfs/face/80511fa44f3145485b35c1549de14bde991c64e0.jpg"
     },
     "stat": {
-      "view": 529503,
-      "like": 49769,
-      "danmaku": 964
+      "view": 1039027,
+      "like": 36573,
+      "danmaku": 1659
     },
-    "tname": "同人·手书",
-    "pubdate": 1790330400,
+    "tname": "日常",
+    "pubdate": 1790410696,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1MahU6eESN",
-    "title": "【纪录片】中国救护2 02 向未明处去",
-    "desc": "被称作“万事兜底”的医生赵建华和护士张华琴接连遇上心脏骤停。同样是心跳停止，患者的情况、现场条件和留给抢救的时间却各不相同。一次次胸外按压、除颤、判断，再重新出发，“能不能救回来”这个问题，也在一次次抢救中变得越来越具体。另一边，“人机医生”杨子悦和护士梁磊面对的是另一种现场。在高速公路的货车相撞事故中，他们又要在混乱的现场迅速判断伤者情况，决定下一步处置。",
-    "pic": "http://i1.hdslb.com/bfs/archive/2aa8b8bbe07c35b87c58bb94bb8e884fe6911fab.jpg",
-    "duration": 2262,
+    "bvid": "BV1aUem6yEur",
+    "title": "【剧情】长生契（2026）07【方逸伦 / 谢可寅】",
+    "desc": "《长生契》讲述了宁长樾与宋亦秋跨越三千年的深沉羁绊。他们在无尽时光中相守，遍历人间烟火，成为彼此唯一的坐标。步入现代，他们开始重新审视永恒的意义，在追寻内心归宿时，一段被漫长岁月尘封的过往与复杂的未解之缘逐渐浮现。面对历史的涟漪与当下的波澜，他们必须做出关于爱与归宿的最终抉择，完成一场与时间和自我的对话。",
+    "pic": "http://i0.hdslb.com/bfs/archive/51d3f427946208b8acf24efbf6ad1184fc1c5b0e.png",
+    "duration": 1240,
     "owner": {
-      "name": "哔哩哔哩纪录片",
-      "face": "https://i2.hdslb.com/bfs/face/d655b5efeb97cb4ca5d4926bc53cddee66f429a5.jpg"
+      "name": "迷影社",
+      "face": "https://i0.hdslb.com/bfs/face/c6d1a6222df921bcd8a7fc1c39efa35eb29ef163.jpg"
     },
     "stat": {
-      "view": 269643,
-      "like": 1130,
-      "danmaku": 328
+      "view": 444848,
+      "like": 1071,
+      "danmaku": 3969
     },
-    "tname": "社会·美食·旅行",
-    "pubdate": 1790391602,
+    "tname": "国产剧",
+    "pubdate": 1790395201,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV119h16QEGD",
-    "title": "斑铜",
-    "desc": "焚香，是东方人生活的仪式——传统线香与香具制作。",
-    "pic": "http://i2.hdslb.com/bfs/archive/f1dfbcf170f0a97c8f5b384b6ed5ae9b9e1c3709.jpg",
-    "duration": 633,
+    "bvid": "BV1LxaP69EJy",
+    "title": "中国古代陵墓物理防盗的巅峰之作",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/d795521e6faaab89282c2112efe2523fae3af762.jpg",
+    "duration": 129,
     "owner": {
-      "name": "归乡人山白",
-      "face": "https://i0.hdslb.com/bfs/face/653d82d6df100d75ce798bdff2cd3c9902847db0.jpg"
+      "name": "趣味百科L",
+      "face": "https://i2.hdslb.com/bfs/face/ef615e7b6c2507c8396e4d3fd3fbd018811581a7.jpg"
     },
     "stat": {
-      "view": 469999,
-      "like": 54029,
-      "danmaku": 1327
+      "view": 1417272,
+      "like": 77948,
+      "danmaku": 557
     },
-    "tname": "手工",
-    "pubdate": 1790344800,
+    "tname": "科学科普",
+    "pubdate": 1790233601,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1xuhR6yEM3",
+    "title": "时间不多喽",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/77172820934de0d1c16b30b1c29edfb68f0f9d09.jpg",
+    "duration": 296,
+    "owner": {
+      "name": "脱缰凯Kk",
+      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
+    },
+    "stat": {
+      "view": 1261087,
+      "like": 99189,
+      "danmaku": 1785
+    },
+    "tname": "小剧场",
+    "pubdate": 1790421090,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1j3hd6wE1w",
+    "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/0a9dc4df47d796c6f7543fa3dd90dfe53b5b2d92.jpg",
+    "duration": 417,
+    "owner": {
+      "name": "立志成为恶兽",
+      "face": "https://i0.hdslb.com/bfs/face/c883f90671944ef6a2822fc4727544f019705095.jpg"
+    },
+    "stat": {
+      "view": 883616,
+      "like": 52529,
+      "danmaku": 1497
+    },
+    "tname": "小剧场",
+    "pubdate": 1790415776,
     "rcmd_reason": "5万点赞"
   },
   {
-    "bvid": "BV1nmh261E4j",
-    "title": "配音大赛！！一开口直接全场爆笑！！！",
-    "desc": "三连总和过8w火速更新！！！！！\n夏天yB站交流群:1035044923",
-    "pic": "http://i2.hdslb.com/bfs/archive/01881c5d8a1629a49aa307ae31f9a42249cc3958.jpg",
-    "duration": 596,
+    "bvid": "BV1m2aP6uELa",
+    "title": "当你遇到两年前的自己.......",
+    "desc": "两年以后，我仍会想起走进集装箱被夺舍的那一天。",
+    "pic": "http://i1.hdslb.com/bfs/archive/c002010f09d65cd599724efebd64fc3744da19c0.jpg",
+    "duration": 118,
     "owner": {
-      "name": "夏天y",
-      "face": "https://i0.hdslb.com/bfs/face/2139ba40f33a5977675e209a66896c4c3fe3eeb5.jpg"
+      "name": "小普-三角洲重生版",
+      "face": "https://i1.hdslb.com/bfs/face/92d22c5050a522c49e898b31c1bb4e4fb2007299.jpg"
     },
     "stat": {
-      "view": 510273,
-      "like": 40066,
-      "danmaku": 2670
+      "view": 1370192,
+      "like": 73537,
+      "danmaku": 481
     },
-    "tname": "单机游戏",
-    "pubdate": 1790330744,
-    "rcmd_reason": "人气飙升"
+    "tname": "网络游戏",
+    "pubdate": 1790413200,
+    "rcmd_reason": "7万点赞"
   },
   {
-    "bvid": "BV185ac6eEEa",
-    "title": "听声音知强度！当年最强的战绩竟然是同一个人打出来的？",
-    "desc": "首先祝大家中秋快乐！\n很偶然的一个机会，刷视频刷到了李团老师说自己回国给新一季喜灰配音，当时的我就像莉莉得知阿波罗在玄冰星系一样，目标瞬间就明确了，联系声优音画的配音导演成功和李团老师建联上了，只是没想到这次的采访能这么酣畅淋漓，主要是他真的就跟他配过的那些角色一样，尤其是天下无贼，也怪不得李团老师对这个角色的印象是最深刻的，油然而生的自信又带着点幽默，断层的强度却又平易近人。",
-    "pic": "http://i1.hdslb.com/bfs/archive/79fefe953f9f0712aab7fc7953dcd5c79aee2fe8.jpg",
-    "duration": 1014,
+    "bvid": "BV1vyaA6QE2X",
+    "title": "《 假 期 热 梗 现 状 》",
+    "desc": "长按点赞后，果然有好运BUFF加成～",
+    "pic": "http://i1.hdslb.com/bfs/archive/5593760fa4767490a51c2699d25ca48590f6102c.jpg",
+    "duration": 150,
     "owner": {
-      "name": "The梁某人",
-      "face": "https://i2.hdslb.com/bfs/face/20a2bea9a0568c614e1decac58f77fcb7525fa33.jpg"
+      "name": "进击的金厂长",
+      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
     },
     "stat": {
-      "view": 571908,
-      "like": 45077,
-      "danmaku": 597
-    },
-    "tname": "动漫杂谈",
-    "pubdate": 1790335800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1iZau6TEvH",
-    "title": "你们说我像谁我就模仿谁！这一期下料有点猛啊哈哈哈哈",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/1ee4c8e6a0975d705cd65509754f148a12493bde.jpg",
-    "duration": 175,
-    "owner": {
-      "name": "李如儒也是李蠕蠕",
-      "face": "https://i2.hdslb.com/bfs/face/8da8eac46ef637b771efeabf4b7b4b093d34dea5.jpg"
-    },
-    "stat": {
-      "view": 680893,
-      "like": 67641,
-      "danmaku": 1367
-    },
-    "tname": "小剧场",
-    "pubdate": 1790332500,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1Ycag6NEmc",
-    "title": "躲闪摇究极进化闪身步",
-    "desc": "《实践与应用》",
-    "pic": "http://i1.hdslb.com/bfs/archive/0e048dbc09cc939b12219d70c996f99431da5440.jpg",
-    "duration": 38,
-    "owner": {
-      "name": "王七叶-",
-      "face": "https://i1.hdslb.com/bfs/face/78728942da61180ff0393908e24ded29dc55c6ca.jpg"
-    },
-    "stat": {
-      "view": 2322919,
-      "like": 116593,
-      "danmaku": 330
+      "view": 1123468,
+      "like": 74980,
+      "danmaku": 406
     },
     "tname": "搞笑",
-    "pubdate": 1790308034,
-    "rcmd_reason": ""
+    "pubdate": 1790415000,
+    "rcmd_reason": "百万播放"
   }
 ],
   podcast: []
