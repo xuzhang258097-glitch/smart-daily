@@ -1,159 +1,26 @@
-// 课后时间数据 - 自动生成于 2026-09-27 07:14
+// 课后时间数据 - 自动生成于 2026-09-28 07:48
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-09-27 07:14',
+  updateTime: '2026-09-28 07:48',
   bilibili: [
   {
-    "bvid": "BV1Rmh96ZEXh",
-    "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
-    "desc": "母题：什么是完美的艺术？\n为世界存亡挥笔时，她忘记了问题，却得到了答案。\n \n中文CV：\n真珠——苏婉\n ‌\n日文CV：\n真珠——安野希世乃\n ‌\n英文CV：\n真珠——Cat Protano\n ‌\n韩文CV：\n真珠——여윤미",
-    "pic": "http://i0.hdslb.com/bfs/archive/54bde642fdd0a0a0a78b3a63bbc075e6fa71146d.jpg",
-    "duration": 531,
+    "bvid": "BV14Baa6JENd",
+    "title": "《原神》六周年主题曲《风的来信》",
+    "desc": "旅途有你，就是意义。\n——————————————————\n音乐出品：HOYO-MiX\n作曲：赵鑫（HOYO-MiX）\n \n中文演唱：孙晔\n英文演唱：Griffin Burns\n日文演唱：西川贵教\n韩文演唱：南度亨\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+    "pic": "http://i2.hdslb.com/bfs/archive/e0fff47818224cf8016d5743fb8b35a2c3812eb8.jpg",
+    "duration": 878,
     "owner": {
-      "name": "崩坏星穹铁道",
-      "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg"
+      "name": "原神",
+      "face": "https://i2.hdslb.com/bfs/face/e63bacc8b9e68f59f401cc41728a99262ba661a3.jpg"
     },
     "stat": {
-      "view": 942616,
-      "like": 88538,
-      "danmaku": 3172
+      "view": 872727,
+      "like": 155444,
+      "danmaku": 18082
     },
     "tname": "手机游戏",
-    "pubdate": 1790481600,
-    "rcmd_reason": "8万点赞"
-  },
-  {
-    "bvid": "BV1sghX6KEkX",
-    "title": "《三角洲行动》群星计划—代号：深蓝",
-    "desc": "盾的骨髓里流淌着两个使命，一个是守护，一个是牺牲。\n但当盾的身后空无一人，盾的使命也将不复存在。\n所以，盾选择重新站在前方。",
-    "pic": "http://i2.hdslb.com/bfs/archive/61755f1d86b66a1f32f9c3e605bfe6e8818cfc66.jpg",
-    "duration": 1026,
-    "owner": {
-      "name": "三角洲行动",
-      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
-    },
-    "stat": {
-      "view": 1510250,
-      "like": 99724,
-      "danmaku": 2786
-    },
-    "tname": "GMV",
-    "pubdate": 1790411400,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1HRa46AER2",
-    "title": "溶酶体：细胞里为什么藏着一颗自毁炸弹？",
-    "desc": "pH 7.2的细胞中，悬浮着一个pH 5.0的酸性深渊。溶酶体包裹着数十种“致命”的水解酶，随时准备启动自噬，拆解衰老的自己。可是，生命的对立面从来不是破坏，每一次彻底的自我瓦解，都是新生的前奏。\n参考文献：\n[1]Sabatini D D, Adesnik M. Christian de Duve: Explorer of the cell who discovered new organelles by using a centrifuge[J]. Proceedings of the Nationa",
-    "pic": "http://i0.hdslb.com/bfs/archive/8d47a4f916c618a92e14addd5d4d4701205749f6.jpg",
-    "duration": 456,
-    "owner": {
-      "name": "大圆镜科普",
-      "face": "https://i0.hdslb.com/bfs/face/9c34ee4b8041dd6f2139c52287c8d34a0a42f230.jpg"
-    },
-    "stat": {
-      "view": 463822,
-      "like": 39975,
-      "danmaku": 773
-    },
-    "tname": "科学科普",
-    "pubdate": 1790467200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV152aA6nEz4",
-    "title": "【独家】牧神记 第102集 大尊",
-    "desc": "班公措品酒论往事，大尊历代转世风云",
-    "pic": "http://i1.hdslb.com/bfs/archive/f2810832c26f581dcd5b6ccf491ec3f74606fd02.png",
-    "duration": 1250,
-    "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
-    },
-    "stat": {
-      "view": 973818,
-      "like": 17625,
-      "danmaku": 2894
-    },
-    "tname": "国产动画",
-    "pubdate": 1790478002,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1AyhU64EFH",
-    "title": "硬核，不是说说而已",
-    "desc": "各位特遣，在卡莫纳，硬核不是说说而已！\nS19赛季黄金周福利即将上线，众多福利等你领取！",
-    "pic": "http://i1.hdslb.com/bfs/archive/51e343654023d7b89ad26f039092d39190282737.jpg",
-    "duration": 257,
-    "owner": {
-      "name": "暗区突围",
-      "face": "https://i0.hdslb.com/bfs/face/1b88357baa2eb4e024925757955b9819a2217827.jpg"
-    },
-    "stat": {
-      "view": 309570,
-      "like": 20741,
-      "danmaku": 579
-    },
-    "tname": "网络游戏",
-    "pubdate": 1790476200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1ZfhD6XEGk",
-    "title": "甜瓜琵琶曲#高质量手搓 🤓",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/b114001ca098f2d84f98d1f01337c2956cf6cd30.jpg",
-    "duration": 75,
-    "owner": {
-      "name": "Tuogengpigeon",
-      "face": "https://i0.hdslb.com/bfs/face/0d8c6e00606f686311e19ed54652299156882d57.jpg"
-    },
-    "stat": {
-      "view": 1618686,
-      "like": 133659,
-      "danmaku": 427
-    },
-    "tname": "日常",
-    "pubdate": 1790386768,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1fAh96ZELn",
-    "title": "《三角洲行动》群星计划—代号：威龙",
-    "desc": "他一直相信一件事：飞得越高，就能护住越多的东西。\n\n直到某次任务，他几乎失去了一切，又一次从零开始站起——他才明白，真正托住他的，从来不是哪一张面孔。是他从废墟中被曙光救出后，再也没有熄灭过的那颗叫 “守护”的赤子之心。",
-    "pic": "http://i2.hdslb.com/bfs/archive/67a46169420d507f3f1846d282d59be3472acb98.jpg",
-    "duration": 836,
-    "owner": {
-      "name": "三角洲行动",
-      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
-    },
-    "stat": {
-      "view": 856099,
-      "like": 50093,
-      "danmaku": 7213
-    },
-    "tname": "GMV",
-    "pubdate": 1790439124,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1JnhX6tEWP",
-    "title": "【说唱】不是，酒保怎么比我先醉啊…",
-    "desc": "好久不见！大家可好？\n\n歌曲by：Spylent\n视频制作：@爱黄瓜的楼主 \n手绘：@比克七七 \n\n微博/全音乐平台：Spylent\n歌曲即将上线",
-    "pic": "http://i0.hdslb.com/bfs/archive/7701366a5168fb0923b42dd1cf39ad08d8e04307.jpg",
-    "duration": 148,
-    "owner": {
-      "name": "Spylent",
-      "face": "https://i0.hdslb.com/bfs/face/e2d0ad68dc7fff24e10ef1e954c8dcaa93289c0b.jpg"
-    },
-    "stat": {
-      "view": 439481,
-      "like": 38190,
-      "danmaku": 714
-    },
-    "tname": "原创音乐",
-    "pubdate": 1790417100,
-    "rcmd_reason": "人气飙升"
+    "pubdate": 1790568000,
+    "rcmd_reason": "14万点赞"
   },
   {
     "bvid": "BV17WhX6xEWn",
@@ -166,127 +33,260 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/80511fa44f3145485b35c1549de14bde991c64e0.jpg"
     },
     "stat": {
-      "view": 1039027,
-      "like": 36573,
-      "danmaku": 1659
+      "view": 2165208,
+      "like": 66972,
+      "danmaku": 2285
     },
     "tname": "日常",
     "pubdate": 1790410696,
-    "rcmd_reason": ""
+    "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1aUem6yEur",
-    "title": "【剧情】长生契（2026）07【方逸伦 / 谢可寅】",
-    "desc": "《长生契》讲述了宁长樾与宋亦秋跨越三千年的深沉羁绊。他们在无尽时光中相守，遍历人间烟火，成为彼此唯一的坐标。步入现代，他们开始重新审视永恒的意义，在追寻内心归宿时，一段被漫长岁月尘封的过往与复杂的未解之缘逐渐浮现。面对历史的涟漪与当下的波澜，他们必须做出关于爱与归宿的最终抉择，完成一场与时间和自我的对话。",
-    "pic": "http://i0.hdslb.com/bfs/archive/51d3f427946208b8acf24efbf6ad1184fc1c5b0e.png",
-    "duration": 1240,
+    "bvid": "BV1s8aq6FEfJ",
+    "title": "《鸣潮》共鸣者「心」PV | 梦阑珊",
+    "desc": "你已能独行至此……\n不必再沉溺此梦了。\n \n中文CV\n心：菊花花\n角：黄莺\n\n日文CV\n心：能登麻美子\n角：恒松步\n\n英文CV\n心：Suzie Yeung\n角：Lourdes Faberes\n\n韩文CV\n心：소연\n角：이소영",
+    "pic": "http://i1.hdslb.com/bfs/archive/7954e3d0a642d8b1b2347d3b2a8620dc9d164df4.jpg",
+    "duration": 1162,
+    "owner": {
+      "name": "鸣潮",
+      "face": "https://i2.hdslb.com/bfs/face/0abd6b9df304334a9388e968740b5b9b7d1a84be.jpg"
+    },
+    "stat": {
+      "view": 784615,
+      "like": 51544,
+      "danmaku": 4029
+    },
+    "tname": "手机游戏",
+    "pubdate": 1790564400,
+    "rcmd_reason": "1万分享"
+  },
+  {
+    "bvid": "BV15ieC6TEq3",
+    "title": "【剧情】终极恶女（2014）01【那维勋 / 蔡函岑】",
+    "desc": "不管是在哪个时空，善与恶的战争，永远都不会结束，有光的地方就有黑暗，在光明遮蔽时，黑暗就会产生…\n　　铜时空的战士们与黑暗对抗，出生入死，默默守护着铜时空，如果最后的希望…\n",
+    "pic": "http://i1.hdslb.com/bfs/archive/eb2a4924101b09502c66a92526a8a66ca7e500cd.jpg",
+    "duration": 2513,
     "owner": {
       "name": "迷影社",
       "face": "https://i0.hdslb.com/bfs/face/c6d1a6222df921bcd8a7fc1c39efa35eb29ef163.jpg"
     },
     "stat": {
-      "view": 444848,
-      "like": 1071,
-      "danmaku": 3969
+      "view": 1043829,
+      "like": 2308,
+      "danmaku": 632
     },
     "tname": "国产剧",
-    "pubdate": 1790395201,
+    "pubdate": 1790301606,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1LxaP69EJy",
-    "title": "中国古代陵墓物理防盗的巅峰之作",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/d795521e6faaab89282c2112efe2523fae3af762.jpg",
-    "duration": 129,
+    "bvid": "BV1fWab6wEqp",
+    "title": "特别企划｜跨越山海，为逐梦亚运的选手们应援！第五人格群星合唱",
+    "desc": "第五人格亚运版本项目助威曲《追光逐梦》群星合唱版，现已上线~\n\n这一次，我们邀约庄园的创作者们，用歌声为亚运选手们加油助威。\n而来自天南海北的声音，跨越屏幕在此交汇，微光汇聚点亮逐梦之路。\n也感谢每一位倾情献声的创作者，是你们让这份应援有了温度。\n戴上耳机，一起来聆听吧！\n#2026亚运会第五人格亚运版本项目##第五人格亚运会##第五人格##第五人格追光逐梦#",
+    "pic": "http://i0.hdslb.com/bfs/archive/fb8f841bd487cd72ded1506833468f9004b8b59d.jpg",
+    "duration": 287,
     "owner": {
-      "name": "趣味百科L",
-      "face": "https://i2.hdslb.com/bfs/face/ef615e7b6c2507c8396e4d3fd3fbd018811581a7.jpg"
+      "name": "网易第五人格手游",
+      "face": "https://i0.hdslb.com/bfs/face/276345b81b94bcbbf7c7c95510f02226c5bdd696.jpg"
     },
     "stat": {
-      "view": 1417272,
-      "like": 77948,
-      "danmaku": 557
+      "view": 708976,
+      "like": 16826,
+      "danmaku": 1454
     },
-    "tname": "科学科普",
-    "pubdate": 1790233601,
-    "rcmd_reason": "百万播放"
+    "tname": "手机游戏",
+    "pubdate": 1790483400,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1xuhR6yEM3",
-    "title": "时间不多喽",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/77172820934de0d1c16b30b1c29edfb68f0f9d09.jpg",
-    "duration": 296,
-    "owner": {
-      "name": "脱缰凯Kk",
-      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
-    },
-    "stat": {
-      "view": 1261087,
-      "like": 99189,
-      "danmaku": 1785
-    },
-    "tname": "小剧场",
-    "pubdate": 1790421090,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1j3hd6wE1w",
-    "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
+    "bvid": "BV1V6ho6cEQw",
+    "title": "《坦克模拟器-增强版》",
     "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/0a9dc4df47d796c6f7543fa3dd90dfe53b5b2d92.jpg",
-    "duration": 417,
+    "pic": "http://i1.hdslb.com/bfs/archive/4e98dff2a9636c3adfd2026e14cf756b874e73e2.jpg",
+    "duration": 110,
     "owner": {
-      "name": "立志成为恶兽",
-      "face": "https://i0.hdslb.com/bfs/face/c883f90671944ef6a2822fc4727544f019705095.jpg"
+      "name": "马鹿blyat",
+      "face": "https://i0.hdslb.com/bfs/face/e777e2bf0239173cc2029508ca073081cc37402e.jpg"
     },
     "stat": {
-      "view": 883616,
-      "like": 52529,
-      "danmaku": 1497
+      "view": 259801,
+      "like": 29071,
+      "danmaku": 777
     },
-    "tname": "小剧场",
-    "pubdate": 1790415776,
-    "rcmd_reason": "5万点赞"
+    "tname": "极客DIY",
+    "pubdate": 1790560800,
+    "rcmd_reason": "人气飙升"
   },
   {
-    "bvid": "BV1m2aP6uELa",
-    "title": "当你遇到两年前的自己.......",
-    "desc": "两年以后，我仍会想起走进集装箱被夺舍的那一天。",
-    "pic": "http://i1.hdslb.com/bfs/archive/c002010f09d65cd599724efebd64fc3744da19c0.jpg",
-    "duration": 118,
+    "bvid": "BV1TZac6NEmK",
+    "title": "当双方互相以为对方是同行3",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/1b53484c6afb2884fbe505740523433aa5269762.jpg",
+    "duration": 113,
     "owner": {
-      "name": "小普-三角洲重生版",
-      "face": "https://i1.hdslb.com/bfs/face/92d22c5050a522c49e898b31c1bb4e4fb2007299.jpg"
+      "name": "黄东耶",
+      "face": "https://i2.hdslb.com/bfs/face/48f08c673a940b3c1313e1e9330ec2f10867959f.jpg"
     },
     "stat": {
-      "view": 1370192,
-      "like": 73537,
-      "danmaku": 481
+      "view": 1066923,
+      "like": 78505,
+      "danmaku": 188
     },
-    "tname": "网络游戏",
-    "pubdate": 1790413200,
+    "tname": "人文历史",
+    "pubdate": 1790496000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1dsai6CErz",
+    "title": "【新宿决战】DeepSeek娘VS豆包",
+    "desc": "原作：咒术回战\n原视频：\nhttps://www.youtube.com/watch?v=X8xLl_802UU\n[MMV] Gojo vs Sukuna | Jujutsu Kaisen x coldrain\n作者：NinjaristicNinja\n除豆包外的AI娘形象来自@ZipZipPipe  \n片段中加入了许多小巧思\n我做这类视频往往会加入角色相应的特色片段，而不是单纯的复制角色，因为那样会失去角色的灵魂\nPS：不清楚这会不会是第二次ai渲染大赛，总之我先做一个试试",
+    "pic": "http://i2.hdslb.com/bfs/archive/84d20abad9d5704d1c0fb59326463273b7a89ebb.jpg",
+    "duration": 101,
+    "owner": {
+      "name": "明末召唤师",
+      "face": "https://i0.hdslb.com/bfs/face/54cd7c42074b3ecb9cc6799cea8855430a41ab3f.webp"
+    },
+    "stat": {
+      "view": 169760,
+      "like": 17487,
+      "danmaku": 186
+    },
+    "tname": "MAD·AMV",
+    "pubdate": 1790551800,
+    "rcmd_reason": "很多人分享"
+  },
+  {
+    "bvid": "BV11Cht6vE47",
+    "title": "抄袭者如何把原创者熬成山寨？奥利奥：这事儿我熟",
+    "desc": "Hydrox，一个奥利奥最不想让人们听说过的饼干品牌",
+    "pic": "http://i1.hdslb.com/bfs/archive/d7633e911cca16e9565f9eeac62d7cfc71411f5a.jpg",
+    "duration": 841,
+    "owner": {
+      "name": "伯格慢",
+      "face": "https://i1.hdslb.com/bfs/face/97fee3fd4c0f652f63953b6681d1fb0a4bf65e46.jpg"
+    },
+    "stat": {
+      "view": 1702368,
+      "like": 72328,
+      "danmaku": 3195
+    },
+    "tname": "财经商业",
+    "pubdate": 1790154000,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1Hxah6BEGy",
+    "title": "蛙跳爬泰山",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/7352ffb6b3855ae481e3588fccfc0b436e315119.jpg",
+    "duration": 560,
+    "owner": {
+      "name": "爱健身小庞",
+      "face": "https://i1.hdslb.com/bfs/face/bfc664245597273a58d99e66645c27ccc2d1fc4a.jpg"
+    },
+    "stat": {
+      "view": 872136,
+      "like": 133469,
+      "danmaku": 4838
+    },
+    "tname": "出行",
+    "pubdate": 1790494160,
+    "rcmd_reason": "13万点赞"
+  },
+  {
+    "bvid": "BV161aa6CERA",
+    "title": "【特效向】蔡徐坤vs全明星 第二季",
+    "desc": "人数过多 姑且分为几个章节\n最后一部目前暂定是终鸡之战",
+    "pic": "http://i1.hdslb.com/bfs/archive/3a47a88b4a60c373e9cda13b58513eda53cd7b40.jpg",
+    "duration": 177,
+    "owner": {
+      "name": "豪言の经理",
+      "face": "https://i1.hdslb.com/bfs/face/56ec3c5f0a34b8d8f79c6b004f556f5993641fd4.jpg"
+    },
+    "stat": {
+      "view": 287349,
+      "like": 23809,
+      "danmaku": 626
+    },
+    "tname": "鬼畜剧场",
+    "pubdate": 1790517145,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Usat6rEm1",
+    "title": "钓鱼被鱼揍了",
+    "desc": "朋友们！看完不妨点赞、投币、收藏啊！下次再整个恐怖联机游戏练练胆！",
+    "pic": "http://i1.hdslb.com/bfs/archive/569bfea24ff8fe4a2fd60b434b18c95f8cbbe758.jpg",
+    "duration": 2120,
+    "owner": {
+      "name": "徐大虾咯",
+      "face": "https://i1.hdslb.com/bfs/face/e03e2f30618cf7f279c8e801d254ebb132761c94.jpg"
+    },
+    "stat": {
+      "view": 982575,
+      "like": 89934,
+      "danmaku": 7323
+    },
+    "tname": "单机游戏",
+    "pubdate": 1790499600,
+    "rcmd_reason": "8万点赞"
+  },
+  {
+    "bvid": "BV1Dbaa6sEez",
+    "title": "迈克尔.韩立 《不凡》天南巡回演唱会【AI MV大赛】",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/44b56e5cc06b9e810c7384535e5577ec74ae9a92.jpg",
+    "duration": 105,
+    "owner": {
+      "name": "韩历飞羽666",
+      "face": "https://i0.hdslb.com/bfs/face/8ea3018ab0b44fa0f78646f2a0cbd80b78221daa.jpg"
+    },
+    "stat": {
+      "view": 279042,
+      "like": 14808,
+      "danmaku": 357
+    },
+    "tname": "影视剪辑",
+    "pubdate": 1790514675,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1fwh96bEfH",
+    "title": "《三角洲行动》群星计划—代号：蝶",
+    "desc": "命运给她的时间，比任何人都要短。\n\n一场无法治愈的病，悄悄给她的生命按下了倒计时。但她没有倒下——她脱下外袍，走进炮火与废墟，从顶尖的研究者，变成战场上的医者。\n\n她救下的每一个人，都是她对命运的一次反驳。",
+    "pic": "http://i2.hdslb.com/bfs/archive/bc6f7d311f4fbe7b4afba6a7dac0b2bd4d2e6993.jpg",
+    "duration": 245,
+    "owner": {
+      "name": "三角洲行动",
+      "face": "https://i2.hdslb.com/bfs/face/d990fa3fa3efd36282de2cf0b9da75874ce95e69.jpg"
+    },
+    "stat": {
+      "view": 1114243,
+      "like": 71821,
+      "danmaku": 1158
+    },
+    "tname": "GMV",
+    "pubdate": 1790438320,
     "rcmd_reason": "7万点赞"
   },
   {
-    "bvid": "BV1vyaA6QE2X",
-    "title": "《 假 期 热 梗 现 状 》",
-    "desc": "长按点赞后，果然有好运BUFF加成～",
-    "pic": "http://i1.hdslb.com/bfs/archive/5593760fa4767490a51c2699d25ca48590f6102c.jpg",
-    "duration": 150,
+    "bvid": "BV1Dxa86UEpg",
+    "title": "这机器人有点东西",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/0073eefa90d9675cd90ad913d23a10d91c282e21.jpg",
+    "duration": 155,
     "owner": {
-      "name": "进击的金厂长",
-      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
+      "name": "许主任啊啊啊啊",
+      "face": "https://i1.hdslb.com/bfs/face/f9b89d257b79799bcf66498d295bb6f1a6d95181.jpg"
     },
     "stat": {
-      "view": 1123468,
-      "like": 74980,
-      "danmaku": 406
+      "view": 491465,
+      "like": 29289,
+      "danmaku": 225
     },
     "tname": "搞笑",
-    "pubdate": 1790415000,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1790502540,
+    "rcmd_reason": ""
   }
 ],
   podcast: []
