@@ -1,197 +1,273 @@
-// 课后时间数据 - 自动生成于 2026-10-07 07:47
+// 课后时间数据 - 自动生成于 2026-10-08 08:04
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-10-07 07:47',
+  updateTime: '2026-10-08 08:04',
   bilibili: [
   {
-    "bvid": "BV1C4Hx6KEvf",
-    "title": "全站首个恰饭对决！百万UP主真会做视频吗？",
-    "desc": "【谁是恰饭王】是一档甲方真实下单给UP主，让他们限时创作，并真的上传一期恰饭视频的PK节目。旨在让大家看到一期商业合作背后的真实过程和故事，感受不同风格UP主如何把同一个brief做出不同的感觉\n\n本届恰饭王的创作周期是10.6~11.5号，一个月后五位选手会在自己的频道投稿成片，到时候也将开启投票页面，欢迎各位持续关注并投出你心中的king！",
-    "pic": "http://i2.hdslb.com/bfs/archive/66dd31e39c39af48be2ae45d0138061406c0ca5e.jpg",
-    "duration": 1569,
+    "bvid": "BV1XXHU62EHm",
+    "title": "3台尊界V800  刹车踏板支架断裂",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/48fb7eb1414b81422dd02c3189c560e2cfbebcc9.jpg",
+    "duration": 1150,
     "owner": {
-      "name": "-LKs-",
-      "face": "https://i0.hdslb.com/bfs/baselabs/36b604fe51629dd111d129fa4e7d95937e72442e.jpg"
+      "name": "汽车大侦探东门",
+      "face": "https://i2.hdslb.com/bfs/face/a55b47b891fe58ef58395e19344cf03692debb97.jpg"
     },
     "stat": {
-      "view": 2156357,
-      "like": 74516,
-      "danmaku": 4202
+      "view": 953018,
+      "like": 54819,
+      "danmaku": 9698
     },
-    "tname": "短片",
-    "pubdate": 1791259348,
-    "rcmd_reason": "百万播放"
+    "tname": "汽车生活",
+    "pubdate": 1791414000,
+    "rcmd_reason": "5万点赞"
   },
   {
-    "bvid": "BV1QuHx6mE4e",
-    "title": "反向旅游 陕西铜川！这次我要把铜川拍透…",
-    "desc": "挑战反向旅游一百个城市 铜川 \n如何用一个词来形容他，我想应该是“蜡烛”\n#秦人村落#中国耀州窑#玉壶春瓶#陕西#铜川\n#铜川旅游攻略",
-    "pic": "http://i0.hdslb.com/bfs/archive/3cb9ed87a05f9b9dd7f54fdf5c78921af9443017.jpg",
-    "duration": 1638,
+    "bvid": "BV1BuHC6rEuX",
+    "title": "【男巫ZachKing】2026最佳魔术！",
+    "desc": "嘿，伙计们！这是今年一些最好的魔术视频的汇编。希望你玩得开心",
+    "pic": "http://i1.hdslb.com/bfs/archive/25d34ea2a1e8717dccdcb0c9fbf9a3d39f62209b.jpg",
+    "duration": 592,
     "owner": {
-      "name": "杨一垚1",
-      "face": "https://i0.hdslb.com/bfs/face/63977161fc9ccac5fad9eecde1e7e4d1773cf45b.jpg"
+      "name": "男巫ZachKing官方",
+      "face": "https://i0.hdslb.com/bfs/face/9464c075c9b2edaf9ea49a101ced85391fa8236e.jpg"
     },
     "stat": {
-      "view": 1156849,
-      "like": 42181,
-      "danmaku": 815
+      "view": 541783,
+      "like": 33802,
+      "danmaku": 225
     },
-    "tname": "出行",
-    "pubdate": 1791210526,
+    "tname": "搞笑",
+    "pubdate": 1791372032,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Uppw6yEMr",
-    "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
-    "desc": "嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊2026年七月新番完结吐槽嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是2026年7月新番完结吐槽想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊",
-    "pic": "http://i0.hdslb.com/bfs/archive/763e6cd735f2b8669fd1c0f85ced644de9a213ac.jpg",
-    "duration": 962,
+    "bvid": "BV1Yapc6SEZ5",
+    "title": "【断网补全计划149】太阳之子，闪身步，不烧心，农大科比，雨中霸王龙，超长蛋挞，疯狂水世界，冰冰冰，咕咕嘎嘎小孩，野人先生罗永浩风波，钟薛高复活",
+    "desc": "无广，水世界和蛋挞都是热点或梗。",
+    "pic": "http://i0.hdslb.com/bfs/archive/351a1333427d0f8b84525b6f4fb1c8197f52e169.jpg",
+    "duration": 685,
     "owner": {
-      "name": "泛式",
-      "face": "https://i0.hdslb.com/bfs/face/2608aaa45309c77ac88fbfaa40e160b8c7892985.jpg"
+      "name": "瞎问虾猜丶",
+      "face": "https://i2.hdslb.com/bfs/face/1fd58c517958dafb696e23b97881e8663ac8daec.jpg"
     },
     "stat": {
-      "view": 1208102,
-      "like": 159594,
-      "danmaku": 7235
+      "view": 694031,
+      "like": 25906,
+      "danmaku": 2263
     },
-    "tname": "动漫杂谈",
-    "pubdate": 1791286688,
-    "rcmd_reason": "百万播放"
+    "tname": "搞笑",
+    "pubdate": 1791367200,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1SJpw62E5y",
-    "title": "破案",
+    "bvid": "BV1S9H26MEAT",
+    "title": "矿山上的铜火锅？！特厨来一个沉浸式吃播！",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/341b70d1322a3287402d004798afde5fe98dc75a.jpg",
+    "duration": 277,
+    "owner": {
+      "name": "特厨隋坡",
+      "face": "https://i2.hdslb.com/bfs/face/4a6a6e459f71080664d3952957f2eafc02418b85.jpg"
+    },
+    "stat": {
+      "view": 345233,
+      "like": 32463,
+      "danmaku": 563
+    },
+    "tname": "美食侦探",
+    "pubdate": 1791430200,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1USHk6sEwY",
+    "title": "《人类的沟通根本不需要语言》",
     "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/1fb6967bf1a3c9dd55b9fcf379b63bd46d2d65fb.jpg",
-    "duration": 304,
+    "pic": "http://i2.hdslb.com/bfs/archive/31397bc9c8a1c34efe9fa1ff84c844d5856368fb.jpg",
+    "duration": 77,
     "owner": {
-      "name": "脱缰凯Kk",
-      "face": "https://i1.hdslb.com/bfs/face/1367615bfd41b079eae1ac1225dbefcc260acbbb.jpg"
+      "name": "嘞是唐孃孃",
+      "face": "https://i0.hdslb.com/bfs/face/f27bb746ea22f1048bdf8a3922b619ba18e9f1a5.jpg"
     },
     "stat": {
-      "view": 1572809,
-      "like": 111992,
-      "danmaku": 4520
+      "view": 1315457,
+      "like": 107326,
+      "danmaku": 170
     },
-    "tname": "小剧场",
-    "pubdate": 1791284631,
-    "rcmd_reason": "百万播放"
+    "tname": "搞笑",
+    "pubdate": 1791371280,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1hvpc6mELd",
-    "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
-    "desc": "原曲：《朝天门》\n原唱：GAI周延\n剪辑：-阿銀- \n填词：蔚蓝边际 -阿銀-\n混音：益辉\n翻唱/和声：蔚蓝边际",
-    "pic": "http://i2.hdslb.com/bfs/archive/36ea95a41aa0b1590321d01fb4f57d1d6b33bf51.jpg",
-    "duration": 203,
+    "bvid": "BV1aWHC6wEP5",
+    "title": "在大山支教 学校宿舍水太小又冷，已经半个月没洗澡了，扛不住了抓住假期的尾巴出山进城开房洗澡 买菜 拿物资..",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/0d03ce9eb817c2ce3d0a16270c098c41944459d1.jpg",
+    "duration": 129,
     "owner": {
-      "name": "蔚蓝边际",
-      "face": "https://i2.hdslb.com/bfs/face/f27615ae72c9ee51b893b9cb70f6fc8e6ba38750.jpg"
+      "name": "媛媛老师77",
+      "face": "https://i0.hdslb.com/bfs/face/28a462b9d01ef4b96e4c2410e9b083e7c09376ae.jpg"
     },
     "stat": {
-      "view": 1213025,
-      "like": 112934,
-      "danmaku": 2715
+      "view": 900298,
+      "like": 55857,
+      "danmaku": 632
     },
-    "tname": "电子竞技",
-    "pubdate": 1791294718,
-    "rcmd_reason": "百万播放"
+    "tname": "亲子",
+    "pubdate": 1791368944,
+    "rcmd_reason": "5万点赞"
   },
   {
-    "bvid": "BV1xNH46gEkv",
-    "title": "烧 心 大 赛 ！【AI全民制作人】",
-    "desc": "不烧心的视频我不看😡",
-    "pic": "http://i0.hdslb.com/bfs/archive/b8d7fa5f84d0a98dfbde4bc9bc5616ad4652a655.jpg",
+    "bvid": "BV1TZH26iEj3",
+    "title": "《我到底要怎么救你》",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/ce21a1bc94a922b516c9a71a84eeb41fd090177e.jpg",
     "duration": 93,
     "owner": {
-      "name": "伊介书生",
-      "face": "https://i1.hdslb.com/bfs/face/13c550fb549a533ce01182e5699f5efedcccf75a.jpg"
+      "name": "伤心欲茄222",
+      "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
     },
     "stat": {
-      "view": 2275664,
-      "like": 106118,
-      "danmaku": 966
+      "view": 365910,
+      "like": 33291,
+      "danmaku": 264
+    },
+    "tname": "搞笑",
+    "pubdate": 1791432000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1rgap62Ez5",
+    "title": "《原神》过场动画-「生与死的流速」",
+    "desc": "若生与死无法互相牵制，那么只会带来一方的肆意妄为。\n这是不为规则允许的僭越，必将招致惩戒。\n\n中文CV：\n空——鹿喑\n「死之执政」若娜瓦——Selene\n戴因斯雷布——孙晔\n「丑角」皮耶罗——符冲\n「黄金」莱茵多特——狄菲菲\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——刘校妤\n\n日文CV：\n空——堀江瞬\n「死之执政」若娜瓦——折笠富美子\n戴因斯雷布——津田健次郎\n「丑角」皮耶罗——间宫康弘\n「黄金」莱茵多特——山口由里子\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——户松遥\n\n《原神》bilibili服下载地址： ",
+    "pic": "http://i1.hdslb.com/bfs/archive/c87e3b4668342d2a33322b0a3242f66926042cee.jpg",
+    "duration": 1134,
+    "owner": {
+      "name": "原神",
+      "face": "https://i2.hdslb.com/bfs/face/e63bacc8b9e68f59f401cc41728a99262ba661a3.jpg"
+    },
+    "stat": {
+      "view": 268201,
+      "like": 37879,
+      "danmaku": 1547
+    },
+    "tname": "手机游戏",
+    "pubdate": 1791432000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1VRHr6AEZ6",
+    "title": "⚡️黄仁勋 世界巡演⚡️【AI MV大赛】",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/e3cf3db69e88409839a7d5a7d44d8c86e872fbbe.jpg",
+    "duration": 86,
+    "owner": {
+      "name": "王与也行",
+      "face": "https://i0.hdslb.com/bfs/face/9b663251e7844d32f9c22d8beca1e3f0e7c63c81.jpg"
+    },
+    "stat": {
+      "view": 3293001,
+      "like": 139015,
+      "danmaku": 2571
     },
     "tname": "鬼畜剧场",
-    "pubdate": 1791205232,
+    "pubdate": 1791089709,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1Hqpw6KEw7",
-    "title": "【算命TV】反封建迷信第一人重拳出击（字面意思）",
-    "desc": "荒诞万岁 相信科学",
-    "pic": "http://i2.hdslb.com/bfs/archive/32a846ab17e95a22ad9f42fcc6137bb05cda546c.jpg",
-    "duration": 119,
+    "bvid": "BV13Dem6VEp5",
+    "title": "【剧情】长生契（2026）20【方逸伦 / 谢可寅】",
+    "desc": "《长生契》讲述了宁长樾与宋亦秋跨越三千年的深沉羁绊。他们在无尽时光中相守，遍历人间烟火，成为彼此唯一的坐标。步入现代，他们开始重新审视永恒的意义，在追寻内心归宿时，一段被漫长岁月尘封的过往与复杂的未解之缘逐渐浮现。面对历史的涟漪与当下的波澜，他们必须做出关于爱与归宿的最终抉择，完成一场与时间和自我的对话。",
+    "pic": "http://i0.hdslb.com/bfs/archive/2007d45ea5916ee968b27731bdc84ac8b4fd2687.jpg",
+    "duration": 1227,
     "owner": {
-      "name": "大乾乾是顾乾宇",
-      "face": "https://i0.hdslb.com/bfs/face/f42f8da945b08e70351a03b26f409c048135ad93.jpg"
+      "name": "迷影社",
+      "face": "https://i0.hdslb.com/bfs/face/c6d1a6222df921bcd8a7fc1c39efa35eb29ef163.jpg"
     },
     "stat": {
-      "view": 1464754,
-      "like": 121043,
-      "danmaku": 848
+      "view": 475685,
+      "like": 1462,
+      "danmaku": 1965
     },
-    "tname": "小剧场",
-    "pubdate": 1791280341,
-    "rcmd_reason": "百万播放"
+    "tname": "国产剧",
+    "pubdate": 1791346066,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1aZpw6DEKJ",
-    "title": "第一次去美国，被吓到了……",
-    "desc": "暴雪嘉年华真好玩！！",
-    "pic": "http://i0.hdslb.com/bfs/archive/ebc616f717a9c799243e57c2129f095ddec81eab.jpg",
-    "duration": 689,
+    "bvid": "BV1EDHC6CEDJ",
+    "title": "【完整版】纪录片《缅北电诈覆灭纪实》第三集《共筑天网》",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/7319c08334d189c224842abaf332177f43ff032f.jpg",
+    "duration": 2608,
     "owner": {
-      "name": "老番茄",
-      "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg"
+      "name": "央视新闻",
+      "face": "https://i1.hdslb.com/bfs/face/58a736c94a78f4dd46309f6818d7c8de0566ca6a.jpg"
     },
     "stat": {
-      "view": 1396063,
-      "like": 62869,
-      "danmaku": 2936
+      "view": 629358,
+      "like": 43043,
+      "danmaku": 2320
     },
-    "tname": "单机游戏",
-    "pubdate": 1791289731,
+    "tname": "日常",
+    "pubdate": 1791382200,
+    "rcmd_reason": "人气飙升"
+  },
+  {
+    "bvid": "BV1f5pM65EE6",
+    "title": "【春物语】我的婚后生活果然有问题 第3话：雪之下雪乃说，要做就正式地做。",
+    "desc": "晚饭桌上，八幡忽然说：“打个比方，一个人写三个署名交上去，算不算一组？”\n雪乃头也没抬：“这个歪主意，你今天传授给谁了？”\n给人鱼吃，还是教人钓鱼，两人谁也不让谁。\n“那就比赛吧。输的人，要听赢的人一个命令。”\n侍奉部，要重新办起来了——\n\n原作：《我的青春恋爱物语果然有问题》渡航\n制作监督：冰尖の霜语\n文本模型：Opus-5.5\n图片模型：Image-2.5\n音乐模型：Suno-V6 mini\n视频模型：Seedance-2.5",
+    "pic": "http://i0.hdslb.com/bfs/archive/46a237619e7dc0dd772f1c7c295dee4522a7e915.jpg",
+    "duration": 327,
+    "owner": {
+      "name": "冰尖の霜语",
+      "face": "https://i0.hdslb.com/bfs/face/8746514587a04aed831c7118c81abdd80a4e38d4.jpg"
+    },
+    "stat": {
+      "view": 633180,
+      "like": 26882,
+      "danmaku": 598
+    },
+    "tname": "MAD·AMV",
+    "pubdate": 1791359141,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV175Hp6mE3Y",
+    "title": "中国模特勇闯欧洲时装周|面试实录第七集",
+    "desc": "好消息终于来啦！！\n抱歉这几天太忙更新慢了些，希望这期加长版你可以喜欢！！已经开始剪下一集上秀vlog～会很快！！\n谢谢你喜欢我的视频，后面有时间会准备礼物给你",
+    "pic": "http://i1.hdslb.com/bfs/archive/c97a4c8743c07f5b4090b68ea69296c9a631ee1a.jpg",
+    "duration": 837,
+    "owner": {
+      "name": "李东恒z",
+      "face": "https://i2.hdslb.com/bfs/face/a48e806dfff1d45869dde6a805c088577f23d8e7.jpg"
+    },
+    "stat": {
+      "view": 731677,
+      "like": 69116,
+      "danmaku": 1325
+    },
+    "tname": "日常",
+    "pubdate": 1791173815,
     "rcmd_reason": "6万点赞"
   },
   {
-    "bvid": "BV1XGpF6CEwq",
-    "title": "去台湾地区管辖的马祖列岛旅行...",
-    "desc": "这是距离大陆最近点仅9公里的一片群岛，马祖列岛。它地处福建省福州市的连江县，但因为历史原因，70多年来一直是由TW地区管辖。岛上面写繁体字，用新台币，物资也大多是从TW本岛海运过来的。跟它有着相同命运的还有福建泉州的金门岛（县）。TW地区的最高电影奖项金马奖，名称就来源于金门和马祖。马祖列岛上的居民，祖辈大多来自福州长乐、连江一带的沿海渔民。上世纪四十年代末因为两岸历史变局，便被留在了这片群岛之上。在此后长达半个多世纪里，两岸海上往来被完全隔断，直到1987 年，他们才可以辗转港澳回到福建老家。 2001",
-    "pic": "http://i0.hdslb.com/bfs/archive/1954151f4b7fc343379b41785d9d621c2bbe364a.jpg",
-    "duration": 6656,
+    "bvid": "BV1X6Hk6hE8v",
+    "title": "带班主任体验黄毛的一天",
+    "desc": "本视频记录了在一天夜里凌晨12点多，一群“黄毛”说想见见我。日后惹出事情来，不要说是我教的。",
+    "pic": "http://i2.hdslb.com/bfs/archive/283292f983214236c1e237cc66bffdb7032643ad.jpg",
+    "duration": 485,
     "owner": {
-      "name": "赖导AboutLai",
-      "face": "https://i2.hdslb.com/bfs/face/681490e6600ee52089320ed4e5bc6cae7771b4cb.jpg"
+      "name": "乡村教师日记",
+      "face": "http://i0.hdslb.com/bfs/face/29d8edb9746f5d748c82a13f55fc062c5f891fa5.jpg"
     },
     "stat": {
-      "view": 1392433,
-      "like": 73420,
-      "danmaku": 13102
+      "view": 408679,
+      "like": 20260,
+      "danmaku": 1320
     },
-    "tname": "出行",
-    "pubdate": 1791280800,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1bFpc6rEUQ",
-    "title": "【PVZ小动画】硬 币 劫 案",
-    "desc": "燃尽了，工作量最大的一集\n谁能懂本来想用AE做一堆酷炫拽帅的五毛钱特效结果忙一上午发现做了坨大的做后重新删掉用五分钱特效的无力感qwq",
-    "pic": "http://i2.hdslb.com/bfs/archive/69088ab2b76dc1e8930e198c459af6b7a62804ea.jpg",
-    "duration": 571,
-    "owner": {
-      "name": "Binxie921",
-      "face": "https://i2.hdslb.com/bfs/face/83b46616da0aa7ec82dccd3366b02f8f0d0285a7.jpg"
-    },
-    "stat": {
-      "view": 637433,
-      "like": 51566,
-      "danmaku": 764
-    },
-    "tname": "单机游戏",
-    "pubdate": 1791264717,
-    "rcmd_reason": "5万点赞"
+    "tname": "三农",
+    "pubdate": 1791376016,
+    "rcmd_reason": ""
   },
   {
     "bvid": "BV1ZfHs6sEHf",
@@ -204,89 +280,13 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/f6a860fe7b844b4fa0d23582ef512ea8c6fe98be.jpg"
     },
     "stat": {
-      "view": 940157,
-      "like": 14886,
-      "danmaku": 3455
+      "view": 1781357,
+      "like": 27308,
+      "danmaku": 6171
     },
     "tname": "三农",
     "pubdate": 1791253800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1EFpF6XEPf",
-    "title": "假期提前返校到底好了谁",
-    "desc": "-",
-    "pic": "http://i2.hdslb.com/bfs/archive/c5ed515bfbc7af2a6ef7662a18bff610028ccc70.jpg",
-    "duration": 110,
-    "owner": {
-      "name": "同桌团子",
-      "face": "https://i1.hdslb.com/bfs/face/a00085661642311a1ab55b411c0133218993b970.jpg"
-    },
-    "stat": {
-      "view": 231533,
-      "like": 52080,
-      "danmaku": 1224
-    },
-    "tname": "日常",
-    "pubdate": 1791278750,
-    "rcmd_reason": "人气飙升"
-  },
-  {
-    "bvid": "BV1VRpw69E6V",
-    "title": "【我在现代当幽差】：赶着去投胎啊！！！！【UP动画】",
-    "desc": "我真是一天都没歇啊，累死我了这集",
-    "pic": "http://i2.hdslb.com/bfs/archive/3a57e28f92e14593882572547c26833ed5fcd14e.jpg",
-    "duration": 696,
-    "owner": {
-      "name": "红豆稀饭中",
-      "face": "https://i2.hdslb.com/bfs/face/3dc6737d4ab6e8d0390409af88e9d24c3056a53b.jpg"
-    },
-    "stat": {
-      "view": 557149,
-      "like": 28025,
-      "danmaku": 1674
-    },
-    "tname": "小剧场",
-    "pubdate": 1791281774,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Yopw6HEwt",
-    "title": "玩我呢？",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/d96bca2b6720076b2368b4849e57d3cdf81bcf01.jpg",
-    "duration": 396,
-    "owner": {
-      "name": "潘宏爱玩狗",
-      "face": "https://i1.hdslb.com/bfs/face/6901b20532c94ac01e3f63dc40afd2545dcd51e1.jpg"
-    },
-    "stat": {
-      "view": 579963,
-      "like": 60591,
-      "danmaku": 1551
-    },
-    "tname": "汪星人",
-    "pubdate": 1791282949,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1aSHZ66ErJ",
-    "title": "对面牢玩家一整局都在偷塔，怎么把我的活干了",
-    "desc": "对面牢玩家一整局都在偷塔，怎么把我的活干了",
-    "pic": "http://i1.hdslb.com/bfs/archive/25f175c95df83e64f34e4c9ba727ff317bca951a.jpg",
-    "duration": 203,
-    "owner": {
-      "name": "磊哥游戏",
-      "face": "https://i0.hdslb.com/bfs/face/538b9090c0862782df0662b2176e726eda1c9980.jpg"
-    },
-    "stat": {
-      "view": 436177,
-      "like": 32789,
-      "danmaku": 453
-    },
-    "tname": "单机游戏",
-    "pubdate": 1791334800,
-    "rcmd_reason": ""
+    "rcmd_reason": "百万播放"
   }
 ],
   podcast: []
