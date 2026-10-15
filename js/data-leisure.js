@@ -1,64 +1,235 @@
-// 课后时间数据 - 自动生成于 2026-10-14 06:48
+// 课后时间数据 - 自动生成于 2026-10-15 06:35
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-10-14 06:48',
+  updateTime: '2026-10-15 06:35',
   bilibili: [
   {
-    "bvid": "BV1hJp469Eo4",
-    "title": "《异环》明音凛角色PV丨Letters to me",
-    "desc": "只因连一句「谢谢」我都迟迟说不出口\n至今 也依然找寻不到答案\n就让我将无处安放的话语 连缀成歌\n唱给未来的我…\n\n作曲编曲：曲扬\n作词：ジョキン/Jyokin\n演唱：明音 凛（CV：长谷川育美）",
-    "pic": "http://i2.hdslb.com/bfs/archive/1f33212f173882956d961bb53bc5bcdcbd580ce4.jpg",
-    "duration": 346,
+    "bvid": "BV1gHp46pER8",
+    "title": "《异环》剧情过场丨「God Knows…（异环Cover ver.）」特别动画",
+    "desc": "「God Knows…（异环Cover ver.）」特别动画正式公开，某传奇乐队的故事仍在继续！\n*「God Knows…（异环Cover ver.）」已经在《异环》1.4版本中实装！\n\n「God Knows…（异环Cover ver.）」\n作词：畑 亜貴\n作曲：神前 暁\n翻唱：明音 凛（CV：长谷川育美）\n原唱：平野綾",
+    "pic": "http://i0.hdslb.com/bfs/archive/dc3f2409b10f6189a354f89fad71c7b8859c65b0.jpg",
+    "duration": 386,
     "owner": {
       "name": "异环",
       "face": "https://i2.hdslb.com/bfs/face/5790579b2517b237df23d765719157ddf3537091.jpg"
     },
     "stat": {
-      "view": 841271,
-      "like": 28943,
-      "danmaku": 948
+      "view": 436410,
+      "like": 23021,
+      "danmaku": 354
     },
     "tname": "网络游戏",
-    "pubdate": 1791946800,
+    "pubdate": 1792033200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV18RpR6eExi",
-    "title": "盾山·一塔千年皮肤CG《光阴的旅程》| 天柱地轴",
-    "desc": "应县木塔下守塔的小猫本以为，这又是吃饭睡觉抓鼠鼠的普通一天。直到——\n谁家小猫能忍住不去追飞在脸上的相片啊！\n \n上世纪30年代，中国古建的研究尚在一片迷雾之中。\n有人质疑它们是过时的老古董，有人相信研究它们只能去海外。\n这时，梁思成、林徽因等所在的中国营造学社偶然得知，在那时偏僻的山西应县，藏着一座木制巨塔……\n \n由于资料匮乏，营造学社抱着应县也许有照相馆的心态，给“应县最高等照相馆”寄了一封信，希望获得一张木塔的相片。\n我们的故事就从真实历史的这一瞬中展开……\n \n误入木塔世界的小猫，沉默寡言的守塔",
-    "pic": "http://i0.hdslb.com/bfs/archive/9441634f9d932efebbd861abb48f0a47a9405c8f.jpg",
-    "duration": 404,
+    "bvid": "BV19ZJ66sEYZ",
+    "title": "《明日方舟：终末地》祀EP - 花祀时 & 何处山海万象生",
+    "desc": "蝶入画境，花有四时。\n万物枯荣相续，似蝶破茧而生。\n《明日方舟：终末地》干员祀专属单曲《花祀时》及《何处山海万象生》MV现已公开。\n《花祀时》完整版音源同步上架QQ音乐、网易云音乐、酷狗音乐等平台，欢迎管理员们前往收听。\n\n《何处山海万象生》收录于 丹青渡OST，后续将上架各音乐平台。",
+    "pic": "http://i2.hdslb.com/bfs/archive/b6a7fc55c4d35f77e0416aba62c539250eac8f6d.jpg",
+    "duration": 711,
     "owner": {
-      "name": "王者荣耀",
-      "face": "https://i0.hdslb.com/bfs/face/ee54c4776e38fcad7da2a3489e4b7566880443ea.jpg"
+      "name": "明日方舟终末地",
+      "face": "https://i2.hdslb.com/bfs/face/84152816c725e6d38128336d0f99d7c7c258cfa4.jpg"
     },
     "stat": {
-      "view": 976156,
-      "like": 39113,
-      "danmaku": 1560
+      "view": 454668,
+      "like": 40355,
+      "danmaku": 1985
     },
     "tname": "手机游戏",
-    "pubdate": 1791856800,
+    "pubdate": 1792033200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1kKWA6uEyr",
-    "title": "我去当司机大家觉得有搞头嘛！",
-    "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/6e5a8288e02427dd41c9b10f56056cf6fbec2448.jpg",
-    "duration": 331,
+    "bvid": "BV1gEps62E1e",
+    "title": "《啦嗒铛》1.0正式发售宣传片 | GSE",
+    "desc": "开发团队 Ratata Arts 与发行商 Game Source Entertainment 今日正式宣布，备受期待的节奏 Roguelike 动作游戏《啦嗒噹》于今日起正式上市！ \n\n在本作中，玩家将率领魅力十足的角色“啦嗒噹”与可靠的伙伴“歌宝”，随着音乐节奏踏入未知的世界。游戏结合了节奏指挥与 Roguelike 动作的独特系统，玩家可以通过输入指令，享受不断迈向更远大冒险之旅的乐趣。 \n\nhttps://linktr.ee/ratatanstores",
+    "pic": "http://i2.hdslb.com/bfs/archive/c31df13d24886d515145112e3f9d2c316e3d3b17.jpg",
+    "duration": 159,
     "owner": {
-      "name": "永琪吗",
-      "face": "https://i2.hdslb.com/bfs/face/97f3dfee444826304bea638369cebbdcb48193ac.jpg"
+      "name": "香港GSE",
+      "face": "https://i0.hdslb.com/bfs/face/8514131a7a737721b8ae12bf483153153794ffb6.jpg"
     },
     "stat": {
-      "view": 1522750,
-      "like": 79838,
-      "danmaku": 751
+      "view": 554000,
+      "like": 12784,
+      "danmaku": 219
+    },
+    "tname": "单机游戏",
+    "pubdate": 1791990000,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Nppn6tEhW",
+    "title": "百斤玉米 擒巨物",
+    "desc": "-",
+    "pic": "http://i0.hdslb.com/bfs/archive/a6cdac6b0b599cef90520c5411652fb366eb6b4d.jpg",
+    "duration": 536,
+    "owner": {
+      "name": "三叶草钓鱼",
+      "face": "https://i1.hdslb.com/bfs/face/87e349546e0a8c9ec841ccd3405cdcf6e4212992.jpg"
+    },
+    "stat": {
+      "view": 714363,
+      "like": 46660,
+      "danmaku": 2598
+    },
+    "tname": "运动综合",
+    "pubdate": 1791968400,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1d4p26SExE",
+    "title": "也是当上外卖大法官了【第二集】",
+    "desc": "勤于政务！\n第一集：BV1Vtpg65EnA",
+    "pic": "http://i0.hdslb.com/bfs/archive/76b017534ea41a62be44c73ae3449246ff277e34.jpg",
+    "duration": 341,
+    "owner": {
+      "name": "阿萨Aza",
+      "face": "https://i0.hdslb.com/bfs/face/75ed00a7111cb3e33822cb1cc311c00980563d4b.jpg"
+    },
+    "stat": {
+      "view": 1255661,
+      "like": 44783,
+      "danmaku": 1137
+    },
+    "tname": "综合",
+    "pubdate": 1791969609,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1d4p26SE5n",
+    "title": "《绿梦：时空之声》公测PV | 时序的回响",
+    "desc": "迎战侵蚀，守护明天。\n蚀务官，欢迎来到哈洛星球！\n《绿梦：时空之声》全平台公测将于10月15日10:00正式开启！",
+    "pic": "http://i2.hdslb.com/bfs/archive/5920d23627be9cc489d23ecf2792833bb9e73659.jpg",
+    "duration": 262,
+    "owner": {
+      "name": "绿梦时空之声",
+      "face": "https://i1.hdslb.com/bfs/face/75542147d989d9b2eb7976e2d73d1e8d58407610.jpg"
+    },
+    "stat": {
+      "view": 865290,
+      "like": 46921,
+      "danmaku": 189
+    },
+    "tname": "手机游戏",
+    "pubdate": 1792022400,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1Mopr6REu3",
+    "title": "热烈欢迎袁咏仪！超级爱买的靓靓姐最近又乱买了什么呢？（恭喜靓靓终于演上警察了👏",
+    "desc": "加更在@papi热烈欢迎",
+    "pic": "http://i0.hdslb.com/bfs/archive/6fa9f96ccc6c74a1ab186c4cfacbaf679aee1935.jpg",
+    "duration": 2055,
+    "owner": {
+      "name": "papi酱",
+      "face": "https://i2.hdslb.com/bfs/face/e45a7b248f496fad8b32d3b9cfa0335339331798.jpg"
+    },
+    "stat": {
+      "view": 178448,
+      "like": 22453,
+      "danmaku": 2731
+    },
+    "tname": "短片",
+    "pubdate": 1792036800,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1xZWw6yEix",
+    "title": "《复联5》前必看！《复联4》后到底发生了啥？",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/d8e8e11a55bb9e748917632d95a28fd670ed4b3e.jpg",
+    "duration": 1369,
+    "owner": {
+      "name": "BuriedAlien",
+      "face": "https://i0.hdslb.com/bfs/face/e41d2f3901e156f708be59a3b4f593779a9adda1.jpg"
+    },
+    "stat": {
+      "view": 1134869,
+      "like": 44219,
+      "danmaku": 7388
+    },
+    "tname": "影视杂谈",
+    "pubdate": 1791885600,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1fjpy6UEiN",
+    "title": "《各 地 人 刻 板 印 象》",
+    "desc": "视频仅为看后一乐，让我在评论区康康兄弟们都是哪里人哈哈哈～",
+    "pic": "http://i1.hdslb.com/bfs/archive/1135f64173cce8c716b647c3db4da086f66d205c.jpg",
+    "duration": 125,
+    "owner": {
+      "name": "进击的金厂长",
+      "face": "https://i2.hdslb.com/bfs/face/d3cc4b2909707fcf31e943e9970bf2e621483ef3.jpg"
+    },
+    "stat": {
+      "view": 537554,
+      "like": 35820,
+      "danmaku": 812
     },
     "tname": "搞笑",
-    "pubdate": 1791883800,
+    "pubdate": 1791970200,
+    "rcmd_reason": "人气飙升"
+  },
+  {
+    "bvid": "BV1Pupy6sExt",
+    "title": "大庆，一座孤独的城市",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/71033aa60fb27f003b5341389e71cb09cc6c7d73.jpg",
+    "duration": 1045,
+    "owner": {
+      "name": "杀心成焚酱",
+      "face": "https://i1.hdslb.com/bfs/face/9ec5048c46361dd69bbeec126532ca684933b76a.jpg"
+    },
+    "stat": {
+      "view": 618722,
+      "like": 74396,
+      "danmaku": 3699
+    },
+    "tname": "日常",
+    "pubdate": 1791956621,
+    "rcmd_reason": "7万点赞"
+  },
+  {
+    "bvid": "BV1kZp26bEzS",
+    "title": "异人之下游戏 | 「终局测试」前瞻PV | 测试定档11月4日",
+    "desc": "异人之下游戏「终局测试」正式定档11月4日，招募已开启！\n关注@异人之下游戏   ，获取「终局测试」最新信息！\n \n*视频展示内容为测试版本，不代表最终游戏品质\n \n——异人之下游戏「终局测试」招募已开启——\n \n▶可查看置顶公告获取更多测试信息及资格获取信息：https://www.bilibili.com/opus/1259246615533715494?spm_id_from=333.1387.0.0\n \n▶异人之下游戏现已开启预约，预约里程碑已突破3000万！即刻预约，上线即可领取异人【夏禾】及【",
+    "pic": "http://i0.hdslb.com/bfs/archive/4f23085591ee3e60e85b24cb9bd59e41df25e69f.jpg",
+    "duration": 158,
+    "owner": {
+      "name": "异人之下游戏",
+      "face": "https://i2.hdslb.com/bfs/face/bb3cf0be4cf3df3841f74410fc375e97335c3b28.jpg"
+    },
+    "stat": {
+      "view": 244962,
+      "like": 10319,
+      "danmaku": 233
+    },
+    "tname": "手机游戏",
+    "pubdate": 1792029600,
     "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV19gp16kEAV",
+    "title": "婚礼摄影师记录下婚礼后感人一幕……喧闹落幕，新人相视一笑便红了眼眶",
+    "desc": "（素材来源：志伟的拍摄日记）",
+    "pic": "http://i1.hdslb.com/bfs/archive/fc7d669188dfe6ad53cd6fb5aff7e5ec50477bb8.jpg",
+    "duration": 53,
+    "owner": {
+      "name": "人民日报",
+      "face": "https://i2.hdslb.com/bfs/face/19a041ba0e78ed43b7a3eab35edfc998eaa7db8e.jpg"
+    },
+    "stat": {
+      "view": 582916,
+      "like": 58768,
+      "danmaku": 389
+    },
+    "tname": "日常",
+    "pubdate": 1791983256,
+    "rcmd_reason": "5万点赞"
   },
   {
     "bvid": "BV1tvp96tEZN",
@@ -71,222 +242,51 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/6ec724a9cccb64d4e93dc1c25aea6608ac72abde.gif"
     },
     "stat": {
-      "view": 1135439,
-      "like": 79225,
-      "danmaku": 1459
+      "view": 2016841,
+      "like": 170011,
+      "danmaku": 1896
     },
     "tname": "娱乐粉丝创作",
     "pubdate": 1791797483,
-    "rcmd_reason": "7万点赞"
-  },
-  {
-    "bvid": "BV1ezWw6oETf",
-    "title": "印度排位对局👳🏽绝活天残脚vs丝滑半截山！😱从来没有见过这等招式！",
-    "desc": "一年前的稿子 翻了出来",
-    "pic": "http://i2.hdslb.com/bfs/archive/0ccb91b36c671480caad5ad8075507a7ee224eae.jpg",
-    "duration": 267,
-    "owner": {
-      "name": "-超级小能猫-",
-      "face": "https://i1.hdslb.com/bfs/face/9ba5a55b282a55ac2eb29267ad9ccab381678934.jpg"
-    },
-    "stat": {
-      "view": 693727,
-      "like": 32500,
-      "danmaku": 769
-    },
-    "tname": "搞笑",
-    "pubdate": 1791878582,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1mRWw62ErA",
-    "title": "原来502胶水是这么来的！致敬伟大的科研人员！",
-    "desc": "",
-    "pic": "http://i2.hdslb.com/bfs/archive/36db108dc459f8ae5e157e1173c451fc9899ed5d.jpg",
-    "duration": 330,
-    "owner": {
-      "name": "老爸评测",
-      "face": "https://i2.hdslb.com/bfs/face/3785da2465d92c8595350c33b4c688ff3c005ebe.jpg"
-    },
-    "stat": {
-      "view": 475412,
-      "like": 25542,
-      "danmaku": 218
-    },
-    "tname": "日常",
-    "pubdate": 1791883800,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1fspq6cEty",
-    "title": "《明日方舟：终末地》干员叙事 [祀：洒扫庭除]",
-    "desc": "缘缘庄，可是塔卫二最好的客栈。作为掌柜，自然要操很多心。",
-    "pic": "http://i2.hdslb.com/bfs/archive/6275367fd9f6cf5e990fde3e4562e02505514587.jpg",
-    "duration": 814,
-    "owner": {
-      "name": "明日方舟终末地",
-      "face": "https://i2.hdslb.com/bfs/face/84152816c725e6d38128336d0f99d7c7c258cfa4.jpg"
-    },
-    "stat": {
-      "view": 381720,
-      "like": 33040,
-      "danmaku": 2384
-    },
-    "tname": "手机游戏",
-    "pubdate": 1791948600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1F2Wc6PE5X",
-    "title": "当你和百万人一起挤景区【AI全民制作人】",
-    "desc": "本期是平行世界中，阿丸的假期旅程。\n（声明：本系列视频内容纯属虚构世界观，所有人物、情节、场景均为艺术创作，不影射任何现实中的个人、团体、机构或事件。请勿对号入座。视频中“十万人宿舍”及衍生环境的极端人数及规则仅为夸张表达，无任何现实指涉。本作品仅供娱乐，无不良引导。）",
-    "pic": "http://i2.hdslb.com/bfs/archive/2c379a33c00961d9a0445e1be03f9c3f89e03878.jpg",
-    "duration": 225,
-    "owner": {
-      "name": "阿丸焖居",
-      "face": "https://i0.hdslb.com/bfs/face/bd0422bc9e32af2f0375ee392d908807382a8bec.jpg"
-    },
-    "stat": {
-      "view": 496709,
-      "like": 42688,
-      "danmaku": 714
-    },
-    "tname": "同人·手书",
-    "pubdate": 1791885600,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1uYWA6DEVV",
-    "title": "在冬夜，一块蛋糕，两个冻人",
-    "desc": "喜欢你的人，不论你生日送ta什么礼物，对方都会很开心，也会为没能实现的惊喜感到遗憾。但那份遗憾，不会盖过收到你心意时的欢喜。\n\n空把亲手做的生日蛋糕藏进星星，想在芙宁娜许愿时，让它划过夜空，成为一颗为她而来的流星。可他算好了惊喜，却忘了保护里面的蛋糕。星星落进雪地，那份小惊喜也被震得七零八落。\n芙芙当然觉得可惜。但比起蛋糕碎掉的模样，她更心疼空低下头时，那副以为自己搞砸了一切的神情。\n她还是很开心。开心有人亲手为她做了蛋糕，开心两年前那个想去至冬看极光的愿望能被记住，开心在这么冷的夜里，有人陪她站在雪地上",
-    "pic": "http://i0.hdslb.com/bfs/archive/b3dbead02b4166f2d0bed68265c135a71ca649ca.jpg",
-    "duration": 128,
-    "owner": {
-      "name": "叶玲秋雨",
-      "face": "https://i0.hdslb.com/bfs/face/39418591fe2c7d1ce4152f74eab5c830b8a93977.jpg"
-    },
-    "stat": {
-      "view": 522061,
-      "like": 92686,
-      "danmaku": 4894
-    },
-    "tname": "手机游戏",
-    "pubdate": 1791887400,
-    "rcmd_reason": "9万点赞"
-  },
-  {
-    "bvid": "BV149WF6zEw2",
-    "title": "再访",
-    "desc": "“人不会憎恨自己轻视的人，只会憎恨与自己相等或更胜的人。”——尼采《善恶的彼岸》 ps：视频非官方制作，为爱发电自制",
-    "pic": "http://i0.hdslb.com/bfs/archive/72762d144338a711a18100d6202dcf33c6ee3a63.jpg",
-    "duration": 217,
-    "owner": {
-      "name": "安吉-AnJ",
-      "face": "https://i0.hdslb.com/bfs/face/470c7f3ad21daad094d41924b18b679936aa825b.jpg"
-    },
-    "stat": {
-      "view": 998375,
-      "like": 51876,
-      "danmaku": 829
-    },
-    "tname": "影视剪辑",
-    "pubdate": 1791868530,
-    "rcmd_reason": "5万点赞"
-  },
-  {
-    "bvid": "BV1utWc6jEo5",
-    "title": "护:哥你这不是给我俩送钱吗？护：不对！我掉进陷阱了！打了两天还是零进度的护子终于发现事情的严重性了",
-    "desc": "感谢各位义父的支持",
-    "pic": "http://i2.hdslb.com/bfs/archive/c6422fb7b58ed9dc47111a432ef3c9d577d58337.jpg",
-    "duration": 1946,
-    "owner": {
-      "name": "高城-三角洲",
-      "face": "https://i0.hdslb.com/bfs/face/85cac5758e0b4d6d0ebc2bc93ec228652967e73e.jpg"
-    },
-    "stat": {
-      "view": 660847,
-      "like": 31704,
-      "danmaku": 901
-    },
-    "tname": "网络游戏",
-    "pubdate": 1791862200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Fspj66E66",
-    "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
-    "desc": "“这波秒开仙人，直接把六小龄童看呆了！”",
-    "pic": "http://i0.hdslb.com/bfs/archive/f21672f24cca6cde29055f7b5051d2ccef68de51.jpg",
-    "duration": 111,
-    "owner": {
-      "name": "荒草音乐",
-      "face": "https://i0.hdslb.com/bfs/face/d7b9ec37a9b159318cbf09d9d2ce43eba6cfaa12.jpg"
-    },
-    "stat": {
-      "view": 1270979,
-      "like": 124938,
-      "danmaku": 601
-    },
-    "tname": "搞笑",
-    "pubdate": 1791703203,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1CPWA66EHq",
-    "title": "我对不同假期的态度",
-    "desc": "假期也有鄙视链！",
-    "pic": "http://i0.hdslb.com/bfs/archive/53c6226a33aa158e5f92ef366c5a53d9a33fac63.jpg",
-    "duration": 388,
+    "bvid": "BV15pWA6tEYd",
+    "title": "【抢先版】温柔刀天花板！没有生离狗血，只有跨物种安静又心碎的告别！",
+    "desc": "诺恩是空间站普通陨石清理员，触手族，月薪仅有 800 星币。在宠物店蹲守三日，倾尽全部积蓄，分期买下被当作珍稀宠物贩卖的地球人。 所有人都劝他放弃，地球人很难存活，上一个买家仅仅饲养三个月就迎来死亡。 诺恩捧着厚厚的饲养手册，笨拙学着照顾这个弱小的生命。薅绿化带的叶子，反复试做食物团子，淘来旧画册、发光玩具，给他买柔软的毛绒外套。 没有语言交流，一人一外星生物在狭小房间彼此陪伴。远会轻轻抚摸诺恩温热的触手，把触手当成依靠；诺恩的核心，一次次因为他泛起粉色。\n可远体内藏着星际旅途带来的慢性辐射旧伤",
+    "pic": "http://i2.hdslb.com/bfs/archive/49a7c85a56baf97b4d68f2eef11bf9f1e4edee2d.jpg",
+    "duration": 4219,
     "owner": {
-      "name": "粤知一二",
-      "face": "https://i1.hdslb.com/bfs/face/fb3a80ad6579a50c24b12a4921f7c81187a8e480.jpg"
+      "name": "波波追漫",
+      "face": "https://i2.hdslb.com/bfs/face/2895e6aa1eb30f5383b884e833103d06046fb92c.jpg"
     },
     "stat": {
-      "view": 452744,
-      "like": 28673,
-      "danmaku": 476
+      "view": 1759573,
+      "like": 43078,
+      "danmaku": 1144
     },
-    "tname": "搞笑",
-    "pubdate": 1791885600,
+    "tname": "同人·手书",
+    "pubdate": 1791875605,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1NGpx66EBh",
-    "title": "睁眼就是豪赌！炒股买房婚恋整容，韩国普通人的人生只能有一种答案？｜地球观察局EP03【视频播客】",
-    "desc": "韩国——K-POP、医美、三星，凌晨不睡觉，大家卷容貌，这就是全部了吗？\n \n《地球观察局》第3期，@功必扬队长 和 @小萨666 请来韩国自媒体创作者太宇，聊聊一个普通韩国年轻人的真实生活有多高压。\n \n黄金时代这些年，韩国的大学里都开始流行“炒股社团”？股票、期货、加密货币，加杠杆“不行就汉江见”，投资怎么变成了一种寻找刺激的方式？从匪夷所思的全租租房制度，到打营养针上补习班，再到几乎无处不在的容貌焦虑和医美文化——韩国年轻人的生活，好像一直在“卷”和“刺激”之间反复横跳。\n \n我们熟悉韩剧、韩综和首",
-    "pic": "http://i1.hdslb.com/bfs/archive/271f3aa87c4d4fda148aead8ebe6761286e148f1.jpg",
-    "duration": 7914,
+    "bvid": "BV1YGp163E4j",
+    "title": "现在种菜都直接种绳子了？啥绳子？适合哪些菜？阳台能种吗？【主播说三农】",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/8e071cffa339da2c62b1785fe2f46f35fc05db4d.jpg",
+    "duration": 304,
     "owner": {
-      "name": "必沙记",
-      "face": "https://i0.hdslb.com/bfs/face/d688a8a58a923db81ba86c0e2f246560acb99217.jpg"
+      "name": "央视农业",
+      "face": "https://i1.hdslb.com/bfs/face/c9e24623ccc91cd26c2894d2a1880dc6dc6a28c4.jpg"
     },
     "stat": {
-      "view": 506561,
-      "like": 7309,
-      "danmaku": 1745
+      "view": 365130,
+      "like": 31195,
+      "danmaku": 958
     },
-    "tname": "日常",
-    "pubdate": 1791864000,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1EKWc6hEmQ",
-    "title": "传奇历史人物志——普朗克",
-    "desc": "这样的一生，真的值得来一遭吗？",
-    "pic": "http://i2.hdslb.com/bfs/archive/ae6911aa23bb0631dce62033ef58244a3f9943e0.jpg",
-    "duration": 131,
-    "owner": {
-      "name": "抽象历史人物志",
-      "face": "https://i2.hdslb.com/bfs/face/5823a5da5ba3a81c932481401ea0d73ed10929fa.jpg"
-    },
-    "stat": {
-      "view": 901150,
-      "like": 72868,
-      "danmaku": 735
-    },
-    "tname": "人文历史",
-    "pubdate": 1791862815,
-    "rcmd_reason": "7万点赞"
+    "tname": "三农",
+    "pubdate": 1791982080,
+    "rcmd_reason": "人气飙升"
   }
 ],
   podcast: []
