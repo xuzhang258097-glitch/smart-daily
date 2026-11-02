@@ -1,121 +1,197 @@
-// 课后时间数据 - 自动生成于 2026-11-01 08:16
+// 课后时间数据 - 自动生成于 2026-11-02 08:28
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-11-01 08:16',
+  updateTime: '2026-11-02 08:28',
   bilibili: [
   {
-    "bvid": "BV1C8xn6YEDA",
-    "title": "【2026全球总决赛】11月1日 HLE vs BLG",
-    "desc": "【2026全球总决赛】11月1日 HLE vs BLG",
-    "pic": "http://i2.hdslb.com/bfs/archive/9ed76ef38bde2543f7cfe0b7edcf6bcc2d90855e.jpg",
-    "duration": 7860,
+    "bvid": "BV1Lrxt6uEuR",
+    "title": "你爸回你消息了",
+    "desc": "视频内容仅供娱乐，不代表对任何AI产品的商业评价或技术评测。角色形象参考来自b站up：﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿@ZipZipPipe  ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿  ﻿ ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿@这个刀子真甜  ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿  ﻿ ﻿﻿﻿ ﻿ ﻿ ﻿ ﻿",
+    "pic": "http://i1.hdslb.com/bfs/archive/a60703f2455d95a907f0a6cc8eed2564c7cbc5e2.jpg",
+    "duration": 206,
     "owner": {
-      "name": "哔哩哔哩英雄联盟赛事",
-      "face": "https://i2.hdslb.com/bfs/face/544c89e68f2b1f12ffcbb8b3c062a3328e8692d9.jpg"
+      "name": "冬冰",
+      "face": "https://i1.hdslb.com/bfs/face/e11401d7d7cc97ee445d65617b48644b44f7fc42.jpg"
     },
     "stat": {
-      "view": 5555217,
-      "like": 58704,
-      "danmaku": 74066
+      "view": 386600,
+      "like": 29168,
+      "danmaku": 241
+    },
+    "tname": "MAD·AMV",
+    "pubdate": 1793577600,
+    "rcmd_reason": "人气飙升"
+  },
+  {
+    "bvid": "BV1JLxh69EgU",
+    "title": "MSI冠军16强回家！万字解析BLG零封HLE背后的原因！",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/20ece9fd7265e75af5f02a2c820e354b9358b2ab.jpg",
+    "duration": 1307,
+    "owner": {
+      "name": "分析师蓝宝石",
+      "face": "https://i0.hdslb.com/bfs/baselabs/187ab068372228cb3b9cc2e83df6c02499df697b.jpg"
+    },
+    "stat": {
+      "view": 430061,
+      "like": 19399,
+      "danmaku": 1783
     },
     "tname": "电子竞技",
-    "pubdate": 1793487388,
+    "pubdate": 1793587778,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1ZAnd6gE8C",
-    "title": "\"从今天起，无论系统是否崩溃，我都不会按下Ctrl+C\"【AI全民制作人】",
-    "desc": "Shift妈有两个键帽孩子——哥哥小肯（Ctrl）和妹妹小C，从小被教育绝对不能碰，一碰就是死机。空格为博小C关注，故意制造车祸逼小肯抱妹妹救人，结果Brother-妹妹同时触发，小肯深度昏迷醒来还失忆了。\n\n更炸裂的是亲子鉴定：小肯根本不是亲生的，小V才是。三人手牵手瞬间触发Ctrl+C+V，整张病床无限复制差点淹没地球。最终Delete键赶来一键清除，转转回收队收场——\"你们几个键帽，偷偷跑出来演雷霆短剧还上瘾了是吧？\"",
-    "pic": "http://i0.hdslb.com/bfs/archive/fb6c1a02c4f785ec3b87f694f4db3c3af582a635.jpg",
-    "duration": 561,
+    "bvid": "BV1PFx46EEWs",
+    "title": "BLG八强结算珍贵录像《朝你韩华捏一把》",
+    "desc": "AI生成视频，非真实事件，无不良导向。",
+    "pic": "http://i2.hdslb.com/bfs/archive/4f1f43bba6fb6ac747850304f2a554465a51e25b.jpg",
+    "duration": 117,
     "owner": {
-      "name": "AIGC-Aiboss",
-      "face": "https://i1.hdslb.com/bfs/face/4fe5d787ab72c4e4320ef159b87585749d6a7803.jpg"
+      "name": "九夜听风",
+      "face": "https://i1.hdslb.com/bfs/face/bd1aaaafb2733c203ae32e869c49bb7bd717d7fc.jpg"
     },
     "stat": {
-      "view": 1296074,
-      "like": 33840,
-      "danmaku": 1398
+      "view": 865486,
+      "like": 36419,
+      "danmaku": 901
     },
     "tname": "日常",
-    "pubdate": 1793009732,
+    "pubdate": 1793535896,
+    "rcmd_reason": "1万分享"
+  },
+  {
+    "bvid": "BV1xjxx6mEzK",
+    "title": "致敬传奇抗压王——塔露拉",
+    "desc": "我了90庇护\n塔露拉练度2903 0信赖 宿主群，爱国者，熊大带了天时，其余素材均为无拐，满信赖应该可以优化，非常非常硬\n\nok了塔露拉信赖刷了一半了，目前已实测爱国者和宿主群完全可以优化掉天时，熊大目前还是优化不掉天时，但是可以从满血直接打到跑路，其实熊大想不要天时只要给个三星奶就能奶住了",
+    "pic": "http://i2.hdslb.com/bfs/archive/d1e4ce4e10d715c9a24931b5d77f5d20bbf08385.jpg",
+    "duration": 125,
+    "owner": {
+      "name": "努力睡觉的斌子",
+      "face": "https://i0.hdslb.com/bfs/face/5a70ebbfeb3f92e562e4e4def09ae45b9d1f7e0f.jpg"
+    },
+    "stat": {
+      "view": 974933,
+      "like": 32629,
+      "danmaku": 1770
+    },
+    "tname": "日常",
+    "pubdate": 1793510017,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Ssxp6yEur",
-    "title": "【时间啊，向前！】TL-1至TL-10 摆完挂机 简单好抄",
-    "desc": "干员均专三60级带1级模组，逻各斯3级Δ模组，维什戴尔3级X模组，歌蒂3级X模组（给乌尔比安减伤回血，很重要）\n本视频为为懒人向挂机流攻略。\n\n视频里常用的干员及技能:\nps：视频绝大多数情况都是用的都是永续/点燃/强力击类的挂机技能，比较难打的关卡会用冻河用手动干员。\n【先锋】异格银灰13、德克萨斯1、伊内斯1\n【近卫】山2、乌尔比安2、怒潮凛冬2\n【重装】谷米1/黍1/塞雷娅12 斩业星熊12\n【狙击】维什戴尔13、蕾缪安12、娜仁图亚1\n【术士】初雪2、逻各斯1\n【医疗】纯烬艾雅法拉1、华法林1、天",
-    "pic": "http://i0.hdslb.com/bfs/archive/eba9d7768270bb413e8e605c2c7a23bdba74c97a.jpg",
-    "duration": 1335,
+    "bvid": "BV1REx46NEc4",
+    "title": "【全网最全】DeepSeek Harness超详细教程！50分钟吃透DSH，让SuperAgent给你干活！",
+    "desc": "DeepSeek Harness超详细教程！\n大家可以速速收藏啦~\n耗时60天制作！感谢大家的三联\n未来还会出其他AI教程，大家可以关注一下~",
+    "pic": "http://i1.hdslb.com/bfs/archive/d6e478f06fea59f1515c3fd613845ab232b46e5b.jpg",
+    "duration": 3041,
     "owner": {
-      "name": "萧然Q",
-      "face": "https://i2.hdslb.com/bfs/face/dca58d7a5a1cd34b8bd152c0bf8784c1555dcd30.jpg"
+      "name": "Git源宝",
+      "face": "https://i0.hdslb.com/bfs/face/1e342336068320c3e43ad2769ce6df1d47fd15c4.jpg"
     },
     "stat": {
-      "view": 713968,
-      "like": 14354,
-      "danmaku": 380
+      "view": 338419,
+      "like": 19590,
+      "danmaku": 432
+    },
+    "tname": "数码",
+    "pubdate": 1793528522,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1y5xW63EVq",
+    "title": "大肥鱼适合做女朋友吗？（2）",
+    "desc": "女友不适合，因为女友关系不够确定。\n适合当老婆！中不中？！\n\n谈不到这样的大肥鱼我就不死[傲娇]\n\n\n蓝色大肥鱼形象来源:@这个刀子真甜   @ZipZipPipe",
+    "pic": "http://i2.hdslb.com/bfs/archive/1ee444a5e9dd31d9c146eb73254e8f6d5f06fba8.jpg",
+    "duration": 193,
+    "owner": {
+      "name": "学姐圆",
+      "face": "https://i2.hdslb.com/bfs/face/2e0e47571d612323fdd1991a01d5e4fefa4dd8ad.webp"
+    },
+    "stat": {
+      "view": 1043848,
+      "like": 61732,
+      "danmaku": 995
+    },
+    "tname": "MAD·AMV",
+    "pubdate": 1793498400,
+    "rcmd_reason": "6万点赞"
+  },
+  {
+    "bvid": "BV13CxW6HECV",
+    "title": "【一百日】第八日:未知通讯",
+    "desc": "可算是可以喘口气了...",
+    "pic": "http://i1.hdslb.com/bfs/archive/fffa5bc1df2dd1a024211f51a0cdc8baf6f2c720.jpg",
+    "duration": 297,
+    "owner": {
+      "name": "时空go蛙",
+      "face": "https://i1.hdslb.com/bfs/face/f046d82d497d89c2afd1519cea3575edee7d4da1.jpg"
+    },
+    "stat": {
+      "view": 606875,
+      "like": 39712,
+      "danmaku": 821
+    },
+    "tname": "单机游戏",
+    "pubdate": 1793521807,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1VVxe6XE9n",
+    "title": "老法师把自己当馒头蒸，结果蒸成了中微子",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/6d994d6678cf666729df5ea209884ba69830b47b.jpg",
+    "duration": 453,
+    "owner": {
+      "name": "糟糕的历史-听文知",
+      "face": "https://i2.hdslb.com/bfs/face/d03a5a4be891d9d4dfd5fdce5e34c3a53d46d7aa.jpg"
+    },
+    "stat": {
+      "view": 2154255,
+      "like": 82201,
+      "danmaku": 3352
+    },
+    "tname": "人文历史",
+    "pubdate": 1793401200,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1V4xb6BEzN",
+    "title": "韩网炸了！BLG淘汰HLE送全队十六强，韩国人怎么评价韩华突然回家？Viper Gumayusi Bin 左手",
+    "desc": "素材若有问题会修改/문제시 삭제",
+    "pic": "http://i1.hdslb.com/bfs/archive/33613e70abba54bde6002a385c0f99119f556225.jpg",
+    "duration": 278,
+    "owner": {
+      "name": "辉锅_",
+      "face": "https://i0.hdslb.com/bfs/face/a5cf828c9ed3d56be452541f8520fcd3eab1728c.jpg"
+    },
+    "stat": {
+      "view": 519594,
+      "like": 14191,
+      "danmaku": 1342
+    },
+    "tname": "日常",
+    "pubdate": 1793544006,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV19H4c6cEXi",
+    "title": "《明日方舟》「卫戍协议：规程」宣传PV",
+    "desc": "《明日方舟》「卫戍协议：规程」宣传PV\n\n在模拟中，有无数种可能的境遇，即便身处最恶劣的那一种，您也从未放弃过对胜利的追求。\n\n———————————— \n详细活动内容敬请关注《明日方舟》游戏内相关公告。",
+    "pic": "http://i2.hdslb.com/bfs/archive/b50b32b1d33e86cfd725b1e7399390766dccd5bd.jpg",
+    "duration": 88,
+    "owner": {
+      "name": "明日方舟",
+      "face": "https://i0.hdslb.com/bfs/face/d4005a0f9b898d8bb049caf9c6355f8e8f772a8f.jpg"
+    },
+    "stat": {
+      "view": 450754,
+      "like": 41904,
+      "danmaku": 4026
     },
     "tname": "手机游戏",
-    "pubdate": 1793506256,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1QMxz6hEV5",
-    "title": "【独家】牧神记 第107集 上苍",
-    "desc": "老人皇剑退上苍神祇，神秘来客虚生花下界",
-    "pic": "http://i1.hdslb.com/bfs/archive/bc8c8fa39a676ffa4f161ef3bac6d80b4d4d795a.png",
-    "duration": 1251,
-    "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
-    },
-    "stat": {
-      "view": 1161923,
-      "like": 18922,
-      "danmaku": 5532
-    },
-    "tname": "国产动画",
-    "pubdate": 1793502002,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Nax16uEHm",
-    "title": "选一条路，决定你接下来的旅途",
-    "desc": "你在一间废弃很久的工厂里醒来，眼前有三条路。选一条路，决定接下来的旅途。\n\n背景音乐：\n1.麒麟光谱 - 遗失的梦（开头选择）\n2.麒麟光谱 - 云端的扶梯（前往电扶梯）\n3.麒麟光谱 - 与白鲸一起做梦（选择1）\n4.麒麟光谱 - 被遗忘的走廊（前往爬梯）\n5.麒麟光谱 - 亿象流转（选择2）\n6.麒麟光谱 - 足迹回响（前往电梯）\n7.麒麟光谱 - 我的家没有边际（选择3）\n8.麒麟光谱 - 繁花盛开的故乡（选择4都不选）",
-    "pic": "http://i2.hdslb.com/bfs/archive/83265a422d7d00d4a87e342a78b02c1610f79ad4.jpg",
-    "duration": 742,
-    "owner": {
-      "name": "麒麟光谱",
-      "face": "https://i1.hdslb.com/bfs/face/73b5e79ed824a50cc451aed82d8c4f1539efb5e6.jpg"
-    },
-    "stat": {
-      "view": 1112796,
-      "like": 76238,
-      "danmaku": 7348
-    },
-    "tname": "设计·创意",
-    "pubdate": 1793443764,
-    "rcmd_reason": "7万点赞"
-  },
-  {
-    "bvid": "BV1TxxC6vEo4",
-    "title": "全球笑点下降2000倍而我不变【第二集】",
-    "desc": "这一集等于我做三个视频了...我要去睡觉了\n不过，很多朋友不知道怎么看完整版，关注雀巢\n搞笑人才断代，龙国岌岌可危，雀巢被推上擂台。全民嘲笑他长这么帅根本不会搞笑，樱花国笑出眼泪。下一秒，雀巢讲出核弹级地狱笑话。当雀巢获胜，全网跪了。世人终于颤栗，龙国的搞笑大王，终于诞生！",
-    "pic": "http://i2.hdslb.com/bfs/archive/b469c3f10f8498c42cd3a29741fe501fc9aad287.jpg",
-    "duration": 968,
-    "owner": {
-      "name": "逗比的雀巢",
-      "face": "https://i0.hdslb.com/bfs/face/e56d8c14d3b74b4e32fbaf2ac4af119328c56c93.jpg"
-    },
-    "stat": {
-      "view": 3739518,
-      "like": 330988,
-      "danmaku": 14537
-    },
-    "tname": "搞笑",
-    "pubdate": 1793436980,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1793592000,
+    "rcmd_reason": "3万分享"
   },
   {
     "bvid": "BV15YxH6nEku",
@@ -128,165 +204,89 @@ const leisureData = {
       "face": "https://i1.hdslb.com/bfs/face/16420925b50153f99935c5415bddb2acecfea877.jpg"
     },
     "stat": {
-      "view": 486275,
-      "like": 67695,
-      "danmaku": 6615
+      "view": 1804811,
+      "like": 159885,
+      "danmaku": 9034
     },
     "tname": "搞笑",
     "pubdate": 1793505600,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1LRxi6aEtj",
-    "title": "筋角弓制作",
-    "desc": "冬析干，春液角，夏治筋，秋合三材—筋角弓",
-    "pic": "http://i1.hdslb.com/bfs/archive/736d5d137a8272c46fc5ca4717c520324ad55596.jpg",
-    "duration": 916,
-    "owner": {
-      "name": "归乡人山白",
-      "face": "https://i0.hdslb.com/bfs/face/653d82d6df100d75ce798bdff2cd3c9902847db0.jpg"
-    },
-    "stat": {
-      "view": 899894,
-      "like": 68714,
-      "danmaku": 1973
-    },
-    "tname": "手工",
-    "pubdate": 1793455200,
-    "rcmd_reason": "6万点赞"
-  },
-  {
-    "bvid": "BV1dRx16pEPw",
-    "title": "【OC动画】馆长大人，请消消气！🌙酒魔女与她的贵客【魔女夜话小剧场】【手搓动画大赛】",
-    "desc": "#1\n欢迎光临永夜的魔女酒吧「月光开关」！\n今天似乎也是没有客人的一天>-<|||……诶？\n等等！今晚的特别来客是——通天塔图书馆的馆长！\n\n++++++++++++++++++++++\n@魔女夜话MajoTale   ←欢迎关注官号！\n导演|绘制：莉莉莉莉尔\n剧本：@魔女书记诗易  \n配音：酒魔女-@烟囱下的楚越  小女仆-@银子宝宝吃兔兔  图书馆魔女-@啃话筒的姜英俊小朋友  费加罗-@阿盐AyanMusic  \n\n《片尾曲-欢迎光临月光开关》\n作编曲：@阿盐AyanMusic  \n作词：@魔女书记",
-    "pic": "http://i0.hdslb.com/bfs/archive/37ffbecde4197d52fe29da9175d151d0dbb433df.jpg",
-    "duration": 147,
-    "owner": {
-      "name": "莉莉莉莉尔",
-      "face": "https://i0.hdslb.com/bfs/face/ee5d1715133182df35126785c05fd6fd3f8e3161.jpg"
-    },
-    "stat": {
-      "view": 822507,
-      "like": 132481,
-      "danmaku": 266
-    },
-    "tname": "同人·手书",
-    "pubdate": 1793444477,
-    "rcmd_reason": "12万点赞"
-  },
-  {
-    "bvid": "BV1GMxz6hEHT",
-    "title": "灭霸跑早操时鞋被踩掉了",
-    "desc": "前几天灵光出问题了生成不了视频，今天终于恢复正常了。赶紧熬夜更新一期",
-    "pic": "http://i0.hdslb.com/bfs/archive/c2a85727eea4441390b2476f027650164818bd55.jpg",
-    "duration": 145,
-    "owner": {
-      "name": "只因寄太美哦",
-      "face": "https://i1.hdslb.com/bfs/face/d42020b0258e55a07e5f568c9a5faebe28e5fac6.jpg"
-    },
-    "stat": {
-      "view": 1121938,
-      "like": 71243,
-      "danmaku": 685
-    },
-    "tname": "搞笑",
-    "pubdate": 1793377286,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV15Mxn6UEnt",
-    "title": "美国中期选举大斗法",
-    "desc": "本视频提及事件以及信息来源如下：\n《特朗普：成为第51个州，委内瑞拉将再次伟大》来自：上观新闻，2026-10-28 14:53发布\n《深度丨特朗普连跑红州20次，奥巴马出山压阵，美国中期选举攻防战怎么打？》来自：上观新闻，2026-10-29 19:20发布\n《特朗普发布百万美金悬赏：成功举报选举舞弊、促成舞弊者被定罪，将获得100万美元奖励》来自：威海新闻网，2026-10-27 10:02发布\n《美媒爆料：绑架马杜罗前，特朗普特地问了AI数小时；AI告诉特朗普，“马杜罗是极不受欢迎的独裁者，许多委内",
-    "pic": "http://i1.hdslb.com/bfs/archive/b87a2d6adb8e86c80d46bc2e3e0084be5f080f72.jpg",
-    "duration": 2440,
+    "bvid": "BV1rJxG6ME5x",
+    "title": "⚡️⚡️⚡️猫咖倒闭，救救我们⚡️⚡️⚡️",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/a8f42e5cc0550410f1b808681570eb7a90e30b15.jpg",
+    "duration": 130,
     "owner": {
-      "name": "燕三嘤嘤嘤",
-      "face": "https://i2.hdslb.com/bfs/face/dc4d4dee16c8f19340ec3d880b456c8677c7ff09.jpg"
+      "name": "加美拉一号",
+      "face": "https://i0.hdslb.com/bfs/face/0c0799b7a44ed67af5857119ba17040ad7431e4b.webp"
     },
     "stat": {
-      "view": 491458,
-      "like": 44088,
-      "danmaku": 3241
+      "view": 460968,
+      "like": 101965,
+      "danmaku": 1887
     },
-    "tname": "人文历史",
-    "pubdate": 1793505000,
+    "tname": "喵星人",
+    "pubdate": 1793143207,
+    "rcmd_reason": "10万点赞"
+  },
+  {
+    "bvid": "BV1i4xy6XE8y",
+    "title": "年度综艺！恨海情天！这个《后会友期》真的太好品了！！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/22e2fe33d0157ae393a7fd6a7d192faf1dddb243.jpg",
+    "duration": 1896,
+    "owner": {
+      "name": "low君热剧",
+      "face": "https://i2.hdslb.com/bfs/face/fabe17ef4b344336b872e3ded46a4a4b11140e7f.jpg"
+    },
+    "stat": {
+      "view": 1134215,
+      "like": 35347,
+      "danmaku": 7638
+    },
+    "tname": "影视杂谈",
+    "pubdate": 1793455012,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1Yfxs6cESY",
+    "title": "创业五十天如何破产",
+    "desc": "游戏：《深空当铺：可能是偷的》",
+    "pic": "http://i2.hdslb.com/bfs/archive/66dd016bd4989f53a167bb9796acfe8810db802a.jpg",
+    "duration": 2410,
+    "owner": {
+      "name": "某幻君",
+      "face": "https://i2.hdslb.com/bfs/face/a7eda2f97431d13f89a43b310262d1b19be83c01.jpg"
+    },
+    "stat": {
+      "view": 721919,
+      "like": 45267,
+      "danmaku": 1782
+    },
+    "tname": "单机游戏",
+    "pubdate": 1793515787,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1upx16LErq",
-    "title": "玩具熊：模仿者的秘密，第5期，全结局",
-    "desc": "玩具熊：模仿者之谜，第五期，全结局，隐藏结局\nFive Nights at Freddy's Secret of the Mimic - Part 5",
-    "pic": "http://i2.hdslb.com/bfs/archive/a17b4c2e8df0878f0884055a6d3d441423ef74b5.jpg",
-    "duration": 4520,
+    "bvid": "BV15UxC6SEiR",
+    "title": "她拽住了全城的人，可谁来拽住她？【反乌托邦】",
+    "desc": "片名【引力】\n音乐【反乌托邦】@Utopia_乌托邦P \n \n制作过程\n动画关键帧：deepseek-v4.1 + oups5.5 + 手搓修改\n角色和场景：手搓贝塞尔曲线 + gpt-6-astra\n剧情：手写大致 +  deepseek-v4.1 补全\n角色参考图： gemini-image + gpt-image2 \n文本模型做复杂动画还是太勉强了，复杂点的拥抱就要调整很久，最终还是手搓的关键帧。\n精细的角色也做不出来，是我手画的svg。\n地图，场景，运镜，简单动作，这些90%都是deepseek和",
+    "pic": "http://i1.hdslb.com/bfs/archive/76a939f8d5d7b200342b28b91f7f6ea22673cf10.jpg",
+    "duration": 154,
     "owner": {
-      "name": "鲤鱼Ace",
-      "face": "https://i0.hdslb.com/bfs/face/c8c4f9f459849fd4b2b7077b6ed938730e15e626.jpg"
+      "name": "简简aw",
+      "face": "https://i2.hdslb.com/bfs/face/6f49a6ae7ed39a0a6e16c96d8b72de16e0395ae8.jpg"
     },
     "stat": {
-      "view": 1673731,
-      "like": 124295,
-      "danmaku": 23785
+      "view": 680032,
+      "like": 67303,
+      "danmaku": 200
     },
     "tname": "单机游戏",
-    "pubdate": 1793450688,
-    "rcmd_reason": "12万点赞"
-  },
-  {
-    "bvid": "BV1q8x56uEDU",
-    "title": "1944滇缅竹林：远征军教盟军吃虎皮笋，油手把风笛吹成妖笛【AI全民制作人】",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/aefc2d1e10fc068a04e4df1f2d96ff3a4c3f3623.jpg",
-    "duration": 136,
-    "owner": {
-      "name": "墨八分钱",
-      "face": "https://i1.hdslb.com/bfs/face/d4539697f3f3595349c28029a25114b4466a19db.jpg"
-    },
-    "stat": {
-      "view": 5422558,
-      "like": 141606,
-      "danmaku": 678
-    },
-    "tname": "美食侦探",
-    "pubdate": 1793158589,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1Ntxr6xE7Y",
-    "title": "【漫士】这可能是人类提出最深刻的数学/计算机问题",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/e9ec866844e65aafdea59260e181dfa65962c11c.jpg",
-    "duration": 4223,
-    "owner": {
-      "name": "漫士沉思录",
-      "face": "https://i0.hdslb.com/bfs/face/726060100f7b80f3ab17889aa9fb8f380a53b9da.jpg"
-    },
-    "stat": {
-      "view": 1450306,
-      "like": 75652,
-      "danmaku": 4111
-    },
-    "tname": "科学科普",
-    "pubdate": 1793418817,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1BJnR66Eij",
-    "title": "12月14日全球公测 |《白银之城》角色PV - 库拉蒂：愚者与勇者",
-    "desc": "值得称颂的骑士，该是副怎样的面貌？ \n兔子骑士耷拉着耳朵，想破了脑筋。\n跟随智者的引领，她试探前行、步步寻觅。\n\n直到——城市上空响起尖啸，风暴骤临。\n她来不及思量，驭马腾空、挥剑直去。\n再一次。以行动、以本心，库拉蒂给出了答案。 \n\n----------------------------------\n《白银之城》全球公测正式定档2026年12月14日！\n预约里程碑活动同步开启中，解锁至对应阶段且官方社区与渠道关注数达标后，即可获得全新四星角色、【演绎弹】×20 等奖励。\n点击前往预约>>>https:",
-    "pic": "http://i1.hdslb.com/bfs/archive/f415efd51b0b48b2d2e5a7f335d624e0b6ed88d7.jpg",
-    "duration": 735,
-    "owner": {
-      "name": "白银之城",
-      "face": "https://i0.hdslb.com/bfs/face/3363af2fc3f0dd891ea4674c0ae1b8bfd79f51d2.jpg"
-    },
-    "stat": {
-      "view": 3621923,
-      "like": 58416,
-      "danmaku": 2334
-    },
-    "tname": "单机游戏",
-    "pubdate": 1793419200,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1793431992,
+    "rcmd_reason": "6万点赞"
   }
 ],
   podcast: []
