@@ -1,292 +1,292 @@
-// 课后时间数据 - 自动生成于 2026-11-08 08:08
+// 课后时间数据 - 自动生成于 2026-11-09 08:46
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-11-08 08:08',
+  updateTime: '2026-11-09 08:46',
   bilibili: [
   {
-    "bvid": "BV1tS4n6CEoJ",
-    "title": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」",
-    "desc": "「你这妙计叫什么名字？」\n「打BOSS，直接用BOSS打——此计名为BOSS直拼。」\n \n中文CV：\n星神★阿哈——子音\n男开拓者——秦且歌\n来古士——赵君毅\n银狼——Hanser\n黄泉——菊花花\n ‌\n日文CV：\n星神★阿哈——户松遥\n男开拓者——榎木淳弥\n来古士——唐户俊太郎\n银狼——阿澄佳奈\n黄泉——泽城美雪\n ‌\n英文CV：\n星神★阿哈——Amber Lee Connors\n男开拓者——Shaun Mendum\n来古士——Blythe Melin\n银狼——Melissa Fahn\n黄泉——Alle",
-    "pic": "http://i1.hdslb.com/bfs/archive/d4305c122263017f3eb24fdcf34b352d08af4a36.jpg",
-    "duration": 759,
-    "owner": {
-      "name": "崩坏星穹铁道",
-      "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg"
-    },
-    "stat": {
-      "view": 2053024,
-      "like": 204032,
-      "danmaku": 18259
-    },
-    "tname": "手机游戏",
-    "pubdate": 1794110400,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1Wx4i6LEmf",
-    "title": "“这是给孩子的，不是给你的”",
-    "desc": "“这是给孩子的 不是给你的”\n无名的人 - 毛不易.flac [00:03:40-00:08:22]\n我记得 - 赵雷.flac [00:08:22-00:13:52]\n鼓楼 - 赵雷.flac [00:13:52-00:18:33]\n虚拟 - 陈粒.flac [00:18:33-00:22:34]\n南方姑娘 - 赵雷.flac [00:22:34-00:28:08]\n理想三旬 - 陈鸿宇.flac [00:28:08-00:31:39]\n南山南 - 马頔.flac [00:31:39-00:37:04]",
-    "pic": "http://i2.hdslb.com/bfs/archive/a7e8aa0f0dc89a96e19e06fce845cfe3d70d51ef.jpg",
-    "duration": 2933,
-    "owner": {
-      "name": "上邪aa",
-      "face": "https://i1.hdslb.com/bfs/face/4a6fb564a6dd69e8abe69dda91f543a792ad6532.jpg"
-    },
-    "stat": {
-      "view": 2935336,
-      "like": 89976,
-      "danmaku": 701
-    },
-    "tname": "音乐综合",
-    "pubdate": 1793940714,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1Cn4n6YE29",
-    "title": "人类饲养指南",
-    "desc": "BGM作者已授权@神秘天洛元  十分感谢。这篇算是一个尝试、原创性高一点的同时页数也算破纪录了，对我而言是一种锻炼，希望大家喜欢。当然如果你因为这篇觉得我以后就不会画史了，那你可惨了。最后，再宣传一手绿泡泡表情包。",
-    "pic": "http://i1.hdslb.com/bfs/archive/93f2a017770685b35cabebd9bd1441a315ed0865.jpg",
-    "duration": 138,
-    "owner": {
-      "name": "抽象生活先生",
-      "face": "https://i2.hdslb.com/bfs/face/a6f2b18c3f4b1bdd1d042d1d898b6edbccf0290a.jpg"
-    },
-    "stat": {
-      "view": 1256416,
-      "like": 141938,
-      "danmaku": 357
-    },
-    "tname": "绘画",
-    "pubdate": 1794060027,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1xt476wEp7",
-    "title": "【独家】牧神记 第108集 相逢何必曾相识",
-    "desc": "江上人如玉，霸体世无双",
-    "pic": "http://i0.hdslb.com/bfs/archive/b98fff6520470c70755470a064c7d49527831b4e.png",
-    "duration": 1260,
-    "owner": {
-      "name": "哔哩哔哩国创",
-      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
-    },
-    "stat": {
-      "view": 1186244,
-      "like": 21787,
-      "danmaku": 5594
-    },
-    "tname": "国产动画",
-    "pubdate": 1794106802,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1ua4W6XEJd",
-    "title": "【2026全球总决赛】11月8日 IG vs GEN",
-    "desc": "【2026全球总决赛】11月8日 IG vs GEN",
-    "pic": "http://i2.hdslb.com/bfs/archive/55459b9573032d5d483dd495201a510af189b351.jpg",
-    "duration": 12058,
+    "bvid": "BV1TgWp6MEHJ",
+    "title": "【2026全球总决赛】11月9日 BLG vs T1",
+    "desc": "【2026全球总决赛】11月9日 BLG vs T1",
+    "pic": "http://i0.hdslb.com/bfs/archive/342a910266c83a5ebaa76e9a04f6c684f672b5cb.jpg",
+    "duration": 15510,
     "owner": {
       "name": "哔哩哔哩英雄联盟赛事",
       "face": "https://i2.hdslb.com/bfs/face/544c89e68f2b1f12ffcbb8b3c062a3328e8692d9.jpg"
     },
     "stat": {
-      "view": 2805109,
-      "like": 9103,
-      "danmaku": 19548
+      "view": 7404704,
+      "like": 92432,
+      "danmaku": 86389
     },
     "tname": "电子竞技",
-    "pubdate": 1794092492,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1GS4i6fEww",
-    "title": "地平线6这样漂能上首页吗",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/c38172e2c60329350ea4c7bc3a085479793ad15a.jpg",
-    "duration": 112,
-    "owner": {
-      "name": "帆江海FJH",
-      "face": "https://i0.hdslb.com/bfs/face/f9d2f3f7f22f51d8930bad439fbe4ea8c00b6b4c.jpg"
-    },
-    "stat": {
-      "view": 1168177,
-      "like": 99572,
-      "danmaku": 335
-    },
-    "tname": "日常",
-    "pubdate": 1793936508,
-    "rcmd_reason": "9万点赞"
-  },
-  {
-    "bvid": "BV1iU4B6MEzT",
-    "title": "居里家族400年传奇：原来智商真的会遗传？",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/778a5defea31bfac4a3f9d10d9d2ea91ae6476e5.jpg",
-    "duration": 554,
-    "owner": {
-      "name": "洋哥在德国",
-      "face": "https://i0.hdslb.com/bfs/face/9294eff76b7d04382908e310591f885ac0e803c4.jpg"
-    },
-    "stat": {
-      "view": 861160,
-      "like": 40884,
-      "danmaku": 640
-    },
-    "tname": "家居房产",
-    "pubdate": 1794042000,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV11S4z6xEpc",
-    "title": "农村大片! 大战外星人! 好莱坞都不敢这么拍",
-    "desc": "怪兽入侵村子，村民们奋起反抗！",
-    "pic": "http://i0.hdslb.com/bfs/archive/f04aa692f420f825c1cc94975433375b05511bf1.jpg",
-    "duration": 312,
-    "owner": {
-      "name": "神奇的老皮",
-      "face": "https://i1.hdslb.com/bfs/face/e7c191e9be6764107415069b36f7d9564f149c86.gif"
-    },
-    "stat": {
-      "view": 1400737,
-      "like": 94877,
-      "danmaku": 1733
-    },
-    "tname": "日常",
-    "pubdate": 1793973182,
+    "pubdate": 1794178689,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1xK4x6EETN",
-    "title": "《鸣潮》共鸣者战斗演示 | 莉莉",
-    "desc": "“晚安，我的噩梦。”\n\n中文CV \n莉莉：醋醋\n\n日文CV \n莉莉：高森奈津美\n\n英文CV \n莉莉：Yasmine Meaden\n\n韩文CV \n莉莉：김이안",
-    "pic": "http://i2.hdslb.com/bfs/archive/d6f8871dfcb13789b83176dc6bfc93636217318d.jpg",
-    "duration": 446,
+    "bvid": "BV1JdWx6PEc3",
+    "title": "锐评BLG战胜T1晋级决赛：创造历史！BLG做到了淘汰T1！",
+    "desc": "求求你给个3连吧！",
+    "pic": "http://i0.hdslb.com/bfs/archive/8089eb3dd283d99b4ecc87da8d7378cf6b31e70d.jpg",
+    "duration": 765,
     "owner": {
-      "name": "鸣潮",
-      "face": "https://i2.hdslb.com/bfs/face/0abd6b9df304334a9388e968740b5b9b7d1a84be.jpg"
+      "name": "喵仙人ovo",
+      "face": "https://i1.hdslb.com/bfs/face/c6e40f5d60f3f888563445cb424a3c9684b4ed5d.jpg"
     },
     "stat": {
-      "view": 469220,
-      "like": 25556,
-      "danmaku": 1615
+      "view": 313549,
+      "like": 15265,
+      "danmaku": 2916
     },
-    "tname": "手机游戏",
-    "pubdate": 1794106800,
+    "tname": "电子竞技",
+    "pubdate": 1794207445,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1oUn26mEHP",
-    "title": "【纪录片】威尔史密斯的极地纵横 06中配版 北极点",
-    "desc": "本集中，威尔·史密斯的极地纵横之旅将迎来最终章，也是整个旅程中最大胆、最危险的挑战——潜入北极冰层之下。威尔与海洋学家艾莉森一同登上破冰船，向北极挺进。艾莉森坚信，北极冰层下隐藏着地球上最高效的生物——浮游植物。这些微小的单细胞生物能通过光合作用吸收二氧化碳、释放氧气，堪称“地球之肺”。如果她的理论正确，破解浮游植物在极夜环境下的生存机制，可能为应对气候变化带来重大突破。然而，要验证理论，必须在冰层下采集样本。",
-    "pic": "http://i2.hdslb.com/bfs/archive/c591b6af326937fe9554c6e59139606a00c5e7c0.jpg",
-    "duration": 2197,
+    "bvid": "BV1iLWx6hEzo",
+    "title": "【真实锐评】BLG战胜T1晋级决赛 BLG就是LPL外战天花板战队！bin虐爆多兰 交出你的偷来的皮肤！",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/4f488793e9531d11b847ab02d089878df9c38dae.jpg",
+    "duration": 601,
     "owner": {
-      "name": "哔哩哔哩纪录片",
-      "face": "https://i2.hdslb.com/bfs/face/d655b5efeb97cb4ca5d4926bc53cddee66f429a5.jpg"
+      "name": "真实电竞",
+      "face": "https://i2.hdslb.com/bfs/face/e9a7d6f8af8e11c30bde4e3a398c251560d19984.jpg"
     },
     "stat": {
-      "view": 526947,
-      "like": 900,
-      "danmaku": 8
+      "view": 231577,
+      "like": 10576,
+      "danmaku": 1041
     },
-    "tname": "科学·探索·自然",
-    "pubdate": 1793937603,
+    "tname": "美食测评",
+    "pubdate": 1794208646,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1mK4E6NE82",
-    "title": "S赛怀旧金曲《BLG带带我》",
-    "desc": "AI生成视频，非真实事件，无不良导向",
-    "pic": "http://i0.hdslb.com/bfs/archive/1ebb201cd6656eda9ffe2f7786e40f943fadea32.jpg",
-    "duration": 121,
+    "bvid": "BV1BdWx6PE9z",
+    "title": "楚钧：Nice！这样我才能看到左右手大战！",
+    "desc": "OK了XDM主要切了最后一局，因为很多判断比较精彩，这次切的比较长~（山神切的）",
+    "pic": "http://i1.hdslb.com/bfs/archive/46ae37b8e945c86c36e4a8a80d0659c40951fb3a.jpg",
+    "duration": 545,
     "owner": {
-      "name": "九夜听风",
-      "face": "https://i1.hdslb.com/bfs/face/bd1aaaafb2733c203ae32e869c49bb7bd717d7fc.jpg"
+      "name": "楚钧艾克",
+      "face": "https://i2.hdslb.com/bfs/face/f963e71ee3e14487cf6c907d095c44b5794af60c.jpg"
     },
     "stat": {
-      "view": 912903,
-      "like": 50560,
-      "danmaku": 732
+      "view": 202532,
+      "like": 10194,
+      "danmaku": 540
+    },
+    "tname": "电子竞技",
+    "pubdate": 1794206878,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1R1W46fEjU",
+    "title": "Bin：世一上只是玩梗，我认为T1比GEN更强！",
+    "desc": "Bin：世一上只是玩梗，我认为T1比GEN更强！",
+    "pic": "http://i0.hdslb.com/bfs/archive/66187a067be5b67b2a8e8401af51358a99bad498.jpg",
+    "duration": 201,
+    "owner": {
+      "name": "暴龙电竞",
+      "face": "https://i0.hdslb.com/bfs/face/e7f903c5c4627c15b2be3c21b2ce68afaf120085.jpg"
+    },
+    "stat": {
+      "view": 342874,
+      "like": 10054,
+      "danmaku": 1842
+    },
+    "tname": "电子竞技",
+    "pubdate": 1794198242,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1h4WW6LEEv",
+    "title": "《虚环》PV03｜致过去与未来的歌",
+    "desc": "我们希望书写的，不仅是屏幕中偶像的故事，也是你与V圈共同经历、笑过哭过串过的故事。\n回旋——让散落的回音聚拢，让旧日的承诺兑现，也让一路相遇的人，都能找到属于自己的陪伴。\n加入《虚环》，为故事续写传奇👉🏻https://www.bilibili.com/blackboard/era/Bxc4ALgnSDC4OWXS.html \n\n演唱：张韶涵\n参演：白神遥Haruka、东爱璃Lovely、Lulu、七海Nana7mi、扇宝、恬豆发芽了、星瞳、宣小纸不怕火、雪糕cheese、伊万酱哒油、永雏塔菲、早稻叽、折",
+    "pic": "http://i0.hdslb.com/bfs/archive/9212b1401ca3e4f2bcaf5d6e0e2e60b35d73c024.jpg",
+    "duration": 227,
+    "owner": {
+      "name": "虚环",
+      "face": "https://i1.hdslb.com/bfs/face/03a934aefe4d871e8b4bb50c45dabd7101e12cc9.jpg"
+    },
+    "stat": {
+      "view": 1122499,
+      "like": 30599,
+      "danmaku": 815
+    },
+    "tname": "MAD·AMV",
+    "pubdate": 1794189600,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1kkWW6NEDW",
+    "title": "BO5战胜Faker！ BLG战胜T1挺进决赛！BLG决赛加油！【2026英雄联盟全球总决赛】",
+    "desc": "视频来源：哔哩哔哩英雄联盟赛事",
+    "pic": "http://i1.hdslb.com/bfs/archive/bbfaf2b22392f5d63acb9707de452f1b4c96a696.jpg",
+    "duration": 296,
+    "owner": {
+      "name": "新华社",
+      "face": "https://i1.hdslb.com/bfs/face/396b93a7f619882afa711879dbf2cb98a40e7367.jpg"
+    },
+    "stat": {
+      "view": 666508,
+      "like": 47061,
+      "danmaku": 1951
     },
     "tname": "日常",
-    "pubdate": 1794046744,
-    "rcmd_reason": "2万分享"
-  },
-  {
-    "bvid": "BV1qW456TE3b",
-    "title": "一条很长很长很长很长的人......",
-    "desc": "我要举办转椅竞速赛。",
-    "pic": "http://i2.hdslb.com/bfs/archive/79b8917309beb32d415965ad6d364a8a24ec1860.jpg",
-    "duration": 252,
-    "owner": {
-      "name": "青浦模子",
-      "face": "https://i1.hdslb.com/bfs/face/f106bcebc6f6e368108848a57e8e252460abfc3b.jpg"
-    },
-    "stat": {
-      "view": 789371,
-      "like": 42018,
-      "danmaku": 863
-    },
-    "tname": "绘画",
-    "pubdate": 1794049200,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1MH476KEUs",
-    "title": "五秒定律",
-    "desc": "五秒之内捡起来可以吃吗",
-    "pic": "http://i1.hdslb.com/bfs/archive/5fa8149c6f3ea329bdb0b09779909fc2f231ff95.jpg",
-    "duration": 210,
-    "owner": {
-      "name": "白日筑梦Super",
-      "face": "https://i1.hdslb.com/bfs/face/1e4de2b560b6d8a0ea2d9929b15e90cbffcae0f0.jpg"
-    },
-    "stat": {
-      "view": 319148,
-      "like": 32466,
-      "danmaku": 125
-    },
-    "tname": "翻唱",
-    "pubdate": 1794020211,
+    "pubdate": 1794192099,
     "rcmd_reason": "人气飙升"
   },
   {
-    "bvid": "BV1xa4J6TEGX",
-    "title": "二相乐园到底是什么？",
-    "desc": "二相乐园天上那个长得像月亮的玩意儿是什么？\n幻月游戏几天更新一个版本？\n谁是二相乐园的第一个周本Boss？\n\n以上问题在本节目中均没有得到解答。",
-    "pic": "http://i0.hdslb.com/bfs/archive/2ef6cd2b9d5dd2b478022afa3e73917791b020a0.jpg",
-    "duration": 167,
+    "bvid": "BV1gcWn6iE9C",
+    "title": "【神人短剧】🔥最新力作🔥农村大席之抽象盛宴，联动mj宇宙【AI全民制作人】",
+    "desc": "看我干嘛看视频啊",
+    "pic": "http://i2.hdslb.com/bfs/archive/301b0607ffa9f874e54dcd0944e7539e2eef3932.jpg",
+    "duration": 1049,
     "owner": {
-      "name": "帕姆的收藏夹",
-      "face": "https://i2.hdslb.com/bfs/face/df94fc7fefe34ecafbd700621948484d25b32402.jpg"
+      "name": "闲夜空茫",
+      "face": "https://i2.hdslb.com/bfs/face/3e8d62e6a693d3348e73b5feda6897dd29fe04fb.jpg"
     },
     "stat": {
-      "view": 119623,
-      "like": 21738,
-      "danmaku": 218
+      "view": 1749729,
+      "like": 69517,
+      "danmaku": 2227
     },
-    "tname": "娱乐粉丝创作",
-    "pubdate": 1794117600,
+    "tname": "同人·手书",
+    "pubdate": 1794130683,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV13oWJ6uE49",
+    "title": "【失传媒体/已还原】全网首发！命运石之门经典梗图，完整出处考证",
+    "desc": "原本我还有找一些当年KFC论坛的活跃成员来多方验证真实性，但在考证过程中，了解到关于KFC所呈现的老一辈ACG爱好者跨越时间的故事，顿感验证该梗图的真实性貌似已经并不重要了\n至于有关现在的KIDFans Club，HIKARI-FIELD以及GloriaWorks之间曾经还有过什么故事，现在又是怎样的一种关系，我也无意多问多冒犯。对于我们来说是封神的梗图，是叹服的往事，而对于前辈们来说，只不过十多年前正年轻时每天所经历的日常",
+    "pic": "http://i2.hdslb.com/bfs/archive/95f47a958f5512b13f5f157b505fb07d42065668.jpg",
+    "duration": 231,
+    "owner": {
+      "name": "我的悲伤是洛水做的",
+      "face": "https://i0.hdslb.com/bfs/face/a8156b2e5741b2ba04a842a6ad5042795809cc88.jpg"
+    },
+    "stat": {
+      "view": 533784,
+      "like": 24208,
+      "danmaku": 192
+    },
+    "tname": "日常",
+    "pubdate": 1794130273,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV17s486QERM",
-    "title": "⚡弟子扫荡异界诡校⚡",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/32eb55486b0501170b5c881ca4b3ce321c354dd1.jpg",
-    "duration": 107,
+    "bvid": "BV1J54W6NELg",
+    "title": "这游戏是很多人的一辈子",
+    "desc": "游戏：人生行者",
+    "pic": "http://i2.hdslb.com/bfs/archive/b42cacc1dd4471b0fe1c6ea55f8103f7121ed487.jpg",
+    "duration": 118,
     "owner": {
-      "name": "玄山道长李翠花",
-      "face": "https://i0.hdslb.com/bfs/face/244a78949e20f31f76f3b5c20f397b270390a100.jpg"
+      "name": "拧不动啊真拧不动",
+      "face": "https://i0.hdslb.com/bfs/face/126e91d0492ef95f1a480c9678c74ff01dd3cc57.jpg"
     },
     "stat": {
-      "view": 1028759,
-      "like": 67886,
-      "danmaku": 565
+      "view": 1697639,
+      "like": 107461,
+      "danmaku": 1162
+    },
+    "tname": "单机游戏",
+    "pubdate": 1794103200,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1WEWs66EBP",
+    "title": "选举大败特朗普和马斯克这下惨了",
+    "desc": "本视频提及事件以及信息来源如下：\n《观天下丨中期选举日 特朗普“意外”宣布即将结束对以援助》来自：新华网，2026-11-04 18:36:31发布\n《美国在政治极化与民生困境中迎来中期选举》来自：新浪财经（来源辽沈晚报），2026-11-04 07:10发布\n《美国中期选举：一场史诗级“清算”》来自：新浪财经（来源光明日报），2026-11-05 21:05发布\n《美国中期选举倒计时：谁能拿下国会？六大看点解析》来自：海报新闻，2026-10-31 14:49发布\n《特朗普：有一点惊讶》来自：北京日报客",
+    "pic": "http://i2.hdslb.com/bfs/archive/c0be5b731d4162fd8652a221d41a623606d8ae79.jpg",
+    "duration": 1290,
+    "owner": {
+      "name": "燕三嘤嘤嘤",
+      "face": "https://i2.hdslb.com/bfs/face/dc4d4dee16c8f19340ec3d880b456c8677c7ff09.jpg"
+    },
+    "stat": {
+      "view": 600669,
+      "like": 50593,
+      "danmaku": 2961
+    },
+    "tname": "日常",
+    "pubdate": 1794196215,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1yQWE6XEK7",
+    "title": "生蚝肚子里这坨黄绿色的是啥？能吃吗？【主播说三农】",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/dbfdd184b9e9c7e264934c4768febbcc8464bc66.jpg",
+    "duration": 229,
+    "owner": {
+      "name": "央视农业",
+      "face": "https://i1.hdslb.com/bfs/face/c9e24623ccc91cd26c2894d2a1880dc6dc6a28c4.jpg"
+    },
+    "stat": {
+      "view": 722636,
+      "like": 43641,
+      "danmaku": 1263
+    },
+    "tname": "三农",
+    "pubdate": 1794146306,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV12vWx6mEyX",
+    "title": "【S16今朝速递】十四年的等待！终于翻过了Faker这座大山！",
+    "desc": "欢迎收看全球总决赛全新节目《今朝速递》第十四期，本期给大家带来2026全球总决赛半决赛第二日的赛果速递和赛况简析，还有现场选手采访等更多精彩内容，敬请收看本期视频。",
+    "pic": "http://i0.hdslb.com/bfs/archive/ac0424f5cb2c981445053c08f7ddad970e036b45.jpg",
+    "duration": 608,
+    "owner": {
+      "name": "英雄联盟赛事",
+      "face": "https://i2.hdslb.com/bfs/face/38ff9cd344e679393eb3b3789a3a986c92acdfc3.jpg"
+    },
+    "stat": {
+      "view": 200473,
+      "like": 8007,
+      "danmaku": 706
+    },
+    "tname": "电子竞技",
+    "pubdate": 1794204958,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1xiWW6uESZ",
+    "title": "《绝区零》赛维里安EP | Gambit",
+    "desc": "对手还未落子\n胜负已定在我方\n我仍循自己的信念向前\n\n▼ 制作名单\n制作人：周斌\n作曲：周斌\n编曲：周斌\n作词：Mishon\n演唱：Mishon\n混音：周斌\n母带：周斌\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.3版本「重返天空的旅程」现已上线！\n限定S级代理人「菲欧妮」&「维琳娜」现已加入调频&复刻。\n版本期间，参与活动可免费领取妄想天使时装！\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：",
+    "pic": "http://i2.hdslb.com/bfs/archive/21895396c10b379f44589b0c4615546864cf5361.jpg",
+    "duration": 897,
+    "owner": {
+      "name": "绝区零",
+      "face": "https://i0.hdslb.com/bfs/face/f013e3aacdc4e3254a476648e1cec3f39b7df097.jpg"
+    },
+    "stat": {
+      "view": 272768,
+      "like": 44080,
+      "danmaku": 1351
+    },
+    "tname": "手机游戏",
+    "pubdate": 1794196800,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1vmWJ6LEmW",
+    "title": "当我死去，群山不会震颤，河水不会倒流｜AI长片《汤症》【AI全民制作人】",
+    "desc": "剧情简介：马周误把孟婆汤当成热水喝下，才被告知自己还没死。他坚信，人间还有一个人在等他。于是，在阴差马面的陪同下，他带着尚未消散的记忆，踏上了重返人间的旅程。然而，草原上的往事与陌生的城市不断交错，他越想回到熟悉的生活，眼前的一切就越难以辨认。关于死亡和遗忘的话题，始终萦绕着他……\n导演/编剧/制作：@SillyZ_Official  \n制作周期：60天（全片由即梦AI制作 ）\n积分消耗：13w积分（按18积分/1s的720p seedance2.5计算）\n灵感与素材来源：\n电影《困在时间里的父亲》《我想",
+    "pic": "http://i1.hdslb.com/bfs/archive/d3c63ce4e99f4c48a6808a534d4aa88eb9a962a6.jpg",
+    "duration": 2014,
+    "owner": {
+      "name": "SillyZ_Official",
+      "face": "https://i1.hdslb.com/bfs/face/f36fdd4f5b8934d7330eaafcf25c36ce8f7b7f75.jpg"
+    },
+    "stat": {
+      "view": 284127,
+      "like": 8485,
+      "danmaku": 209
     },
     "tname": "影视剪辑",
-    "pubdate": 1794042000,
-    "rcmd_reason": "6万点赞"
+    "pubdate": 1794136969,
+    "rcmd_reason": ""
   }
 ],
   podcast: []
