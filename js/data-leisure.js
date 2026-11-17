@@ -1,292 +1,292 @@
-// 课后时间数据 - 自动生成于 2026-11-16 08:40
+// 课后时间数据 - 自动生成于 2026-11-17 09:48
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-11-16 08:40',
+  updateTime: '2026-11-17 09:48',
   bilibili: [
   {
-    "bvid": "BV1Uesp6yEsM",
-    "title": "【伪纪录片】镜 化",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/5a202db2daa18fc4ffbdef57b233b587dad063e7.jpg",
-    "duration": 528,
+    "bvid": "BV1kYsW6NE6E",
+    "title": "EUV光刻机 | \"上帝的手术刀\"",
+    "desc": "EUV 光刻机，它用激光每秒 5 万次轰击锡滴，打出 50 万度的等离子体，从中得到 13.5 纳米的极紫外光；光在真空里经过世界上最平滑的反射镜，穿过掩模，把电路图缩小投到硅片上。一台约 180 吨、十万多个零件，背后约 5100 家供应商，运一次要装满 40 个集装箱、3 架货机。目前，全世界只有荷兰 ASML 能造它。",
+    "pic": "http://i0.hdslb.com/bfs/archive/5bceed38e919a0a94000efd367d7965a71aa85ce.jpg",
+    "duration": 302,
     "owner": {
-      "name": "虚构柠檬",
-      "face": "https://i1.hdslb.com/bfs/face/b86e0ad1159079886e40e304d508840ebf8f62f7.jpg"
+      "name": "Vibe-SCI",
+      "face": "https://i2.hdslb.com/bfs/face/d4c8306478bcbedc8a63078fe44681da463dab5a.jpg"
     },
     "stat": {
-      "view": 2764376,
-      "like": 169082,
-      "danmaku": 2945
+      "view": 700532,
+      "like": 43572,
+      "danmaku": 323
     },
-    "tname": "短片",
-    "pubdate": 1794739679,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1VBs76qE16",
-    "title": "“46块3，问清一条规则。”",
-    "desc": "“46块3，问清一条规则。”",
-    "pic": "http://i1.hdslb.com/bfs/archive/7155219e45baa29b68001b7e0ff43cbcb7d4a679.jpg",
-    "duration": 358,
-    "owner": {
-      "name": "我爱吃派大星",
-      "face": "https://i2.hdslb.com/bfs/face/6853fa3af2f07acdcf19bcb6fd62631876fe46e5.jpg"
-    },
-    "stat": {
-      "view": 1496298,
-      "like": 97973,
-      "danmaku": 1505
-    },
-    "tname": "音乐综合",
-    "pubdate": 1794702000,
-    "rcmd_reason": "9万点赞"
-  },
-  {
-    "bvid": "BV1jHsp69Ekg",
-    "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
-    "desc": "",
-    "pic": "http://i1.hdslb.com/bfs/archive/d1b39f1368dea0224896b0e10e20ed1cb4f4b7a6.jpg",
-    "duration": 630,
-    "owner": {
-      "name": "Foyege弗曳哥",
-      "face": "https://i1.hdslb.com/bfs/face/82c60fb9eda7304104d2a68ed523421ddb623741.jpg"
-    },
-    "stat": {
-      "view": 1805071,
-      "like": 153789,
-      "danmaku": 10750
-    },
-    "tname": "财经商业",
-    "pubdate": 1794738051,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1BDsE67Eom",
-    "title": "“成华大道没有「烂奇迹」”",
-    "desc": "原曲：《烂奇迹》- 杨羊烊\n翻填/调音/混音/视频：@Dieorite",
-    "pic": "http://i1.hdslb.com/bfs/archive/e327eda58967b129c77f8a6733c973386cc2ba0c.jpg",
-    "duration": 208,
-    "owner": {
-      "name": "Dieorite",
-      "face": "https://i0.hdslb.com/bfs/face/4310aaa3b84f52fef1efbad71bab5799274d1f6c.jpg"
-    },
-    "stat": {
-      "view": 226130,
-      "like": 35853,
-      "danmaku": 576
-    },
-    "tname": "鬼畜剧场",
-    "pubdate": 1794708607,
+    "tname": "科工机械",
+    "pubdate": 1794787200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Pwsp6qEbo",
-    "title": "术式反转久留美 【泛式】",
-    "desc": "储蓄战士久留美，堂堂连载！\n\n\n*本视频中涉及的投资产品，仅为搞笑娱乐服务，不构成任何投资建议。实际投资请以官方信息为准，理性判断风险。",
-    "pic": "http://i1.hdslb.com/bfs/archive/56d0ee8d8e632416d1518052bba57132606a3779.jpg",
-    "duration": 475,
+    "bvid": "BV18msM6zEqc",
+    "title": "梅耶·马斯克带你走进无限暖暖3.0",
+    "desc": "📢无限暖暖3.0西西亚官方发布会震撼首发！\n\n欢迎梅耶·马斯克女士正式加入西西亚搭配师协会，为搭配师们发布西西亚相关内容！\n\n此处也为搭配师们带来发布会省流版播报：\n暖暖！能开车了！\n无限暖暖！进城了！\n西西亚！艺术啊！\n\n♾️无限暖暖3.0版本「昨日之城，明日之声」前瞻特别节目将于11月21日19:00正式播出！",
+    "pic": "http://i1.hdslb.com/bfs/archive/624a7f1227d7d3779e4aa6d50b794addce7f7be4.jpg",
+    "duration": 177,
     "owner": {
-      "name": "泛式",
-      "face": "https://i0.hdslb.com/bfs/face/2608aaa45309c77ac88fbfaa40e160b8c7892985.jpg"
+      "name": "无限暖暖",
+      "face": "https://i0.hdslb.com/bfs/face/6b24f1f9c7e38563ac7b02ffcd10492908372b04.jpg"
     },
     "stat": {
-      "view": 1034543,
-      "like": 106857,
-      "danmaku": 3648
+      "view": 1004800,
+      "like": 19019,
+      "danmaku": 1252
     },
-    "tname": "MAD·AMV",
-    "pubdate": 1794742177,
-    "rcmd_reason": "10万点赞"
+    "tname": "手机游戏",
+    "pubdate": 1794888000,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1bzsV6nEM6",
-    "title": "《美队全家福VS灭霸全家福》灭霸的爸爸叫灭建国！",
-    "desc": "《美队全家福VS灭霸全家福》灭霸的爸爸叫灭建国！\n音频：DJ铁柱、阿主\n最强信息位\n你们太过分了 我不跟你们玩了\n攻防转换 钢志强 蜘秀英\n奇博的爸爸奇卫兵\n你们被艾特的都是扎啤 火箭浣熊\n 灭建国 灭大春\n灭霸的妈妈灭桂芬\n灭霸的爷爷灭国栋\n灭霸的堂哥灭狗剩",
-    "pic": "http://i0.hdslb.com/bfs/archive/6a8dfe091f57fdfcbbbef34588a8d09f02b53b8c.jpg",
-    "duration": 187,
-    "owner": {
-      "name": "音乐老友",
-      "face": "https://i1.hdslb.com/bfs/face/7e2600912c511ed0eb69a717f58e9ff2c1c5106d.jpg"
-    },
-    "stat": {
-      "view": 3897649,
-      "like": 135567,
-      "danmaku": 454
-    },
-    "tname": "MV",
-    "pubdate": 1794666375,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1XMsG6QEip",
-    "title": "《立贤不立长》",
+    "bvid": "BV1b2sK6aEJ9",
+    "title": "《最礼乐崩坏の一集》",
     "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/093e594e2c1e26e650854cd15468371ba0a8070e.jpg",
-    "duration": 100,
+    "pic": "http://i2.hdslb.com/bfs/archive/90bb5c12fae82425e158f5c51e9142a019427af0.jpg",
+    "duration": 128,
     "owner": {
       "name": "伤心欲茄222",
       "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg"
     },
     "stat": {
-      "view": 2044528,
-      "like": 138706,
-      "danmaku": 393
+      "view": 420552,
+      "like": 52937,
+      "danmaku": 692
     },
     "tname": "日常",
-    "pubdate": 1794715200,
+    "pubdate": 1794888000,
+    "rcmd_reason": "人气飙升"
+  },
+  {
+    "bvid": "BV1R1sc6oEkW",
+    "title": "《山海奇旅》兜风测试PV | 落脚小岛，出发兜风！",
+    "desc": "厌倦疲惫的生活了吗？\n烦恼暂停，上岛数云！\n「兜风测试」定档12月18日📢\n\n施工队仍在连夜装修，浮梦岛在管理员们的支持下初具雏形🚧\n服务处带来超能大陆的翻新进度——\n导演组依然秉持着纯手搓无添加的实机录屏信念\n管理员们请放心观看！\n让我们换身喜欢的行头，一起上岛兜风🪁\n\n*《山海奇旅》目前仍处于研发阶段，测试内容不代表最终游戏品质。\n\n——✩ 欢迎来到浮梦岛 ✩——\nbilibili站内搜索“山海奇旅”或点击https://www.biligame.com/detail/?id=111972&spm_i",
+    "pic": "http://i0.hdslb.com/bfs/archive/720f4e90fd838ae745f6571526e1aedabd91d20b.jpg",
+    "duration": 216,
+    "owner": {
+      "name": "山海奇旅官方",
+      "face": "https://i1.hdslb.com/bfs/face/6b861b0b3b22153cb841887e82aa3289bdba6111.jpg"
+    },
+    "stat": {
+      "view": 579498,
+      "like": 7374,
+      "danmaku": 132
+    },
+    "tname": "单机游戏",
+    "pubdate": 1794888000,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1bwWr6xEL6",
-    "title": "《复联暴雨末日》合集【AI全民制作人】",
-    "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/03a44d80c6c174a3227355d5c8fb33560e615807.jpg",
-    "duration": 864,
+    "bvid": "BV1gQsc69E6x",
+    "title": "小时候去朋友家玩电脑",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/6a9162559d5a05058c18c5e34f11730218c48bd0.jpg",
+    "duration": 112,
     "owner": {
-      "name": "看到这个名字的人暴富",
-      "face": "https://i2.hdslb.com/bfs/face/7ea6f51d4df005cae04702891ed6b2dc3c61fbfa.jpg"
+      "name": "破米库",
+      "face": "https://i0.hdslb.com/bfs/face/5b9cf1bf4a5109cb905136321a8250c2e42af4ef.jpg"
     },
     "stat": {
-      "view": 881660,
-      "like": 78763,
-      "danmaku": 1883
+      "view": 499781,
+      "like": 37239,
+      "danmaku": 379
     },
-    "tname": "影视剪辑",
-    "pubdate": 1794618228,
-    "rcmd_reason": "7万点赞"
+    "tname": "综合",
+    "pubdate": 1794823200,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1ZjsF6ZEju",
-    "title": "美国现场见证BLG一穿四！我已经坐好了…",
-    "desc": "-",
-    "pic": "http://i1.hdslb.com/bfs/archive/006dbc3119f4a403bd7e3bb0625c64967ba89f83.jpg",
-    "duration": 756,
+    "bvid": "BV1Ahsc6ME4o",
+    "title": "陈翔六点半：假如上学是修仙",
+    "desc": "",
+    "pic": "http://i2.hdslb.com/bfs/archive/31db67e1f0e2f794d172a97d8157b0dfe9042580.jpg",
+    "duration": 575,
     "owner": {
-      "name": "一只树奈奈啊",
-      "face": "https://i1.hdslb.com/bfs/face/c6dccdfc7812a2f3d1f9133252dd9e57910511d0.jpg"
+      "name": "陈翔六点半",
+      "face": "http://i1.hdslb.com/bfs/face/aad3b1bb735d2bd4066805f2a84892644fad8e2a.jpg"
     },
     "stat": {
-      "view": 118334,
-      "like": 6962,
-      "danmaku": 610
+      "view": 1091410,
+      "like": 34749,
+      "danmaku": 1528
+    },
+    "tname": "短片",
+    "pubdate": 1794825300,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1v8sP6vEiq",
+    "title": "《哈利波特与枪》",
+    "desc": "哈利波特在三角洲行动",
+    "pic": "http://i0.hdslb.com/bfs/archive/d5bb669fe75359c3f1e65c38c6c247b21d375191.jpg",
+    "duration": 521,
+    "owner": {
+      "name": "推背兔の",
+      "face": "https://i2.hdslb.com/bfs/face/db356930131b40a4c457b29e393a1b1999fee477.jpg"
+    },
+    "stat": {
+      "view": 693753,
+      "like": 36314,
+      "danmaku": 812
     },
     "tname": "日常",
-    "pubdate": 1794798000,
-    "rcmd_reason": ""
+    "pubdate": 1794826800,
+    "rcmd_reason": "1万分享"
   },
   {
-    "bvid": "BV1SAWC6YEFg",
-    "title": "美国野心滔天？把战火烧到鸭绿江？！那么 你将面对中朝军民合力反击！",
-    "desc": "1950年11月24日，麦克阿瑟飞到前线对军长说：打到鸭绿江，小伙子们就能回家过圣诞。一个月后的12月24日，第二次战役结束，联合国军退回了三八线附近。\n\n本片为历史题材地图动画，以一张朝鲜半岛战术地图一镜到底的形式回顾 1950 至 1953 年中国人民志愿军抗美援朝的主要战役。内容依据公开出版的史料与研究整理，为配合音乐节奏，部分战役进程、时间节点、部队位置与进攻路线有所简化与艺术化处理，不作为严谨的史学依据，难免存在疏漏，欢迎指正。\n\n片中地图只取朝鲜半岛与中国东北局部，战线推移、占领区范围、箭头走",
-    "pic": "http://i0.hdslb.com/bfs/archive/c64eaa817a2ba04742076c90cef5686c4c0b8da8.jpg",
-    "duration": 122,
+    "bvid": "BV13Qsc69EUv",
+    "title": "错了就要认，挨打要立正，对不起，这一次是我骗了你们！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/01a9d25ae46ba8c0424e00f406921d2f12036d59.jpg",
+    "duration": 524,
     "owner": {
-      "name": "MoNet_Team",
-      "face": "https://i0.hdslb.com/bfs/face/7a625d5aa1f2e596d357ca676d3c260b0333d6de.jpg"
+      "name": "爱画画的子衿",
+      "face": "https://i2.hdslb.com/bfs/face/14a67baac6b1e1a6e7cb08b0664ee3dacef6ff4b.jpg"
     },
     "stat": {
-      "view": 1072403,
-      "like": 139511,
-      "danmaku": 2873
-    },
-    "tname": "软件应用",
-    "pubdate": 1794650400,
-    "rcmd_reason": "13万点赞"
-  },
-  {
-    "bvid": "BV1ZXsn69E14",
-    "title": "波兰小伙自灭满门后景区屠杀，警界战神丝血反杀，国宝神医逆天改命！【2026年波兰克拉科夫枪击案详解】",
-    "desc": "【2026年波兰克拉科夫枪击案详解】",
-    "pic": "http://i2.hdslb.com/bfs/archive/62409d53d588d4bf4c15dc6793adc1e8deeaa4d8.jpg",
-    "duration": 911,
-    "owner": {
-      "name": "爱看热闹的大鹏",
-      "face": "https://i0.hdslb.com/bfs/face/999d403d5fc9dc2e102aa0a3a7428d7b56e78de5.jpg"
-    },
-    "stat": {
-      "view": 592570,
-      "like": 35282,
-      "danmaku": 7371
+      "view": 576589,
+      "like": 50187,
+      "danmaku": 1207
     },
     "tname": "日常",
-    "pubdate": 1794735000,
+    "pubdate": 1794817789,
+    "rcmd_reason": "人气飙升"
+  },
+  {
+    "bvid": "BV18mWe6rE1H",
+    "title": "不小心惹了上帝",
+    "desc": "不小心惹了上帝",
+    "pic": "http://i2.hdslb.com/bfs/archive/1882ad8a949b5e04b03dc94b16969dba27d806b3.jpg",
+    "duration": 764,
+    "owner": {
+      "name": "耳东辰-",
+      "face": "https://i0.hdslb.com/bfs/face/629abd378e88e2e064c9a00c49784cae8ca60da3.jpg"
+    },
+    "stat": {
+      "view": 826177,
+      "like": 87673,
+      "danmaku": 2324
+    },
+    "tname": "日常",
+    "pubdate": 1794564000,
+    "rcmd_reason": "8万点赞"
+  },
+  {
+    "bvid": "BV141sP6sE1x",
+    "title": "11月18日上线｜《终极角逐》全新模式 「生存挑战赛」",
+    "desc": "《终极角逐》「生存挑战赛」将于11月18日正式上线！\n【新地图】全新超大竞技场“荣光之城”\n【新玩法】全新主模式“生存挑战赛”\n【新活动】周年庆活动 神话红皮“FCAR烟波景”免费领",
+    "pic": "http://i2.hdslb.com/bfs/archive/03b13d74f6ed123ae5b5d3c9633f4bc6ab472378.jpg",
+    "duration": 115,
+    "owner": {
+      "name": "终极角逐_THEFINALS国服",
+      "face": "https://i2.hdslb.com/bfs/face/14827ef06b463a8d221c9f913e9677a61284ad27.jpg"
+    },
+    "stat": {
+      "view": 1901087,
+      "like": 42797,
+      "danmaku": 226
+    },
+    "tname": "网络游戏",
+    "pubdate": 1794823200,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Q8sp67Ejj",
-    "title": "星铁表面在讲「欢愉」，实际在讲200年前的哲学史【底层代码】",
-    "desc": "二相乐园表面是归寂vs阿哈，实际是叔本华vs尼采。",
-    "pic": "http://i2.hdslb.com/bfs/archive/076f5da1c53c41a234ceab7b338fdc2cf18c18a7.jpg",
-    "duration": 1366,
+    "bvid": "BV12MsK6tEV1",
+    "title": "“他们没有任何血缘关系，但却拥有同一个妈妈.”【Scared play sacred place】【治愈心灵の小曲】",
+    "desc": "----------------------",
+    "pic": "http://i2.hdslb.com/bfs/archive/ef2e34018ec27c66ad74b706ea9b8322b1dccf54.jpg",
+    "duration": 378,
     "owner": {
-      "name": "退役编辑雨上",
-      "face": "https://i0.hdslb.com/bfs/face/7bea9148b9e614cadbdc47b12392662aa50cb6a9.jpg"
+      "name": "早睡起大王",
+      "face": "https://i1.hdslb.com/bfs/face/ff92ee2eabf8a0a17bb83581476b84beb86692bd.jpg"
     },
     "stat": {
-      "view": 370500,
-      "like": 35216,
-      "danmaku": 1099
+      "view": 253802,
+      "like": 13835,
+      "danmaku": 147
     },
-    "tname": "手机游戏",
-    "pubdate": 1794736323,
+    "tname": "音MAD",
+    "pubdate": 1794835800,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV15es76gEgL",
-    "title": "【2026全球总决赛】11月15日 GEN vs BLG",
-    "desc": "【2026全球总决赛】11月15日 GEN vs BLG",
-    "pic": "http://i1.hdslb.com/bfs/archive/75bd99af8766e89c599ccdfd66c36d363f9ea9bd.jpg",
-    "duration": 19165,
+    "bvid": "BV1Bvsg6xEEr",
+    "title": "2026全球总决赛冠亚军决赛英雄麦克疯：“我们是冠军！”",
+    "desc": "BLG.Bin ：准备大我绕后了\nBLG.Xun ：我可以开啊看我\nBLG.Knight ：“杀”尺帝“杀”尺帝\nBLG.Viper ：能一波中路中路\nBLG.ON ：Bin“杀”“杀”“杀”",
+    "pic": "http://i2.hdslb.com/bfs/archive/c712fc34e6a1b60688d8d2266ad571275aa95021.jpg",
+    "duration": 401,
     "owner": {
-      "name": "哔哩哔哩英雄联盟赛事",
-      "face": "https://i2.hdslb.com/bfs/face/544c89e68f2b1f12ffcbb8b3c062a3328e8692d9.jpg"
+      "name": "英雄联盟赛事",
+      "face": "https://i2.hdslb.com/bfs/face/38ff9cd344e679393eb3b3789a3a986c92acdfc3.jpg"
     },
     "stat": {
-      "view": 24519566,
-      "like": 346833,
-      "danmaku": 305269
+      "view": 242455,
+      "like": 12384,
+      "danmaku": 920
     },
     "tname": "电子竞技",
-    "pubdate": 1794687441,
-    "rcmd_reason": "千万播放"
+    "pubdate": 1794889475,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1HTsn6xE3x",
-    "title": "【时间啊，向前！】TL-S-1至TL-S-4突袭 摆完挂机 简单好抄",
-    "desc": "干员均专三60级带1级模组，逻各斯3级Δ模组，维什戴尔3级X模组，歌蒂3级X模组（给乌尔比安减伤回血，很重要）\n本视频为为懒人向挂机流攻略。\n\n视频里常用的干员及技能:\nps：视频绝大多数情况都是用的都是永续/点燃/强力击类的挂机技能，比较难打的关卡会用冻河用手动干员。\n【先锋】异格银灰13、德克萨斯1、伊内斯1\n【近卫】山2、乌尔比安2、怒潮凛冬2\n【重装】谷米1/黍1/塞雷娅12 斩业星熊12\n【狙击】维什戴尔13、蕾缪安12、娜仁图亚1\n【术士】初雪2、逻各斯1\n【医疗】纯烬艾雅法拉1、华法林1、天",
-    "pic": "http://i1.hdslb.com/bfs/archive/78dd7be8258c562c94f770c768e71d934499e9d2.jpg",
-    "duration": 756,
+    "bvid": "BV1wasc6qEjc",
+    "title": "GTA6真人版！欢迎来到真正的罪恶都市-迈阿密！！",
+    "desc": "等了这么多年，GTA6终于来了！这期的【美国往事】我们来到了游戏取景地迈阿密📍本期视频全程自费无广，如果您喜欢这期视频的内容，别忘了给个三连~\n🌴 阳光、海滩、棕榈树、粉色酒店……很难想象，这座看起来最适合度假的城市，曾经也是美国最危险的城市之一，现实中的迈阿密，远比我们想象中复杂得多。\n所以这一次，到底是游戏更疯狂，还是现实更离谱？\n欢迎来到「美国往事」迈阿密篇！",
+    "pic": "http://i2.hdslb.com/bfs/archive/d3a59214a79c986f70d6c3518d25f6012d901c30.jpg",
+    "duration": 1852,
     "owner": {
-      "name": "萧然Q",
-      "face": "https://i2.hdslb.com/bfs/face/dca58d7a5a1cd34b8bd152c0bf8784c1555dcd30.jpg"
+      "name": "小鹿Lawrence",
+      "face": "https://i1.hdslb.com/bfs/face/e4c9f5f6bfd8c48de684d2456e8fe3ecce8f0c6c.jpg"
     },
     "stat": {
-      "view": 1819635,
-      "like": 37767,
-      "danmaku": 842
+      "view": 624523,
+      "like": 23533,
+      "danmaku": 2722
     },
-    "tname": "手机游戏",
-    "pubdate": 1794731593,
-    "rcmd_reason": "百万播放"
+    "tname": "数码",
+    "pubdate": 1794819600,
+    "rcmd_reason": ""
   },
   {
-    "bvid": "BV1uUsJ6BES6",
-    "title": "三年之期已到，恭迎世一上归位！【第18集】",
-    "desc": "AI生成视频，非真实事件，台词和动作基于短剧模仿设计，并非针对选手，各位选手仅作为演员出场，请勿上纲上线。",
-    "pic": "http://i0.hdslb.com/bfs/archive/50e0d61590d73cb21ac5b274eea8781289c0e7c6.jpg",
-    "duration": 518,
+    "bvid": "BV1mdWf6GEnF",
+    "title": "大牙|| 肖8选择题精讲带背（第一套卷），全网讲解最清晰，专治零基础！",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/03074f7f156d9c4b9bf3f6860f1d4688014d4807.jpg",
+    "duration": 5789,
     "owner": {
-      "name": "九夜听风",
-      "face": "https://i1.hdslb.com/bfs/face/bd1aaaafb2733c203ae32e869c49bb7bd717d7fc.jpg"
+      "name": "大牙考研",
+      "face": "https://i2.hdslb.com/bfs/face/189acbbc0ea332fdafbaaa4d0e191b8e8af4a262.jpg"
     },
     "stat": {
-      "view": 2075616,
-      "like": 123073,
-      "danmaku": 12402
+      "view": 490027,
+      "like": 34684,
+      "danmaku": 15613
+    },
+    "tname": "校园学习",
+    "pubdate": 1794799776,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1yGsK6REap",
+    "title": "5个美院人“喝”出5件作品，一起紫气东来！",
+    "desc": "-",
+    "pic": "http://i1.hdslb.com/bfs/archive/8e6bc7bfc49935550f97370f4e3a72fdd87af8dc.jpg",
+    "duration": 223,
+    "owner": {
+      "name": "一辣一辣hhh",
+      "face": "https://i1.hdslb.com/bfs/face/538726eba05164570dd4fb2c0497849d9413739a.jpg"
+    },
+    "stat": {
+      "view": 710809,
+      "like": 52694,
+      "danmaku": 178
     },
     "tname": "日常",
-    "pubdate": 1794734642,
-    "rcmd_reason": "百万播放"
+    "pubdate": 1794838849,
+    "rcmd_reason": "5万点赞"
   }
 ],
   podcast: []
