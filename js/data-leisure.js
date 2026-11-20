@@ -1,292 +1,292 @@
-// 课后时间数据 - 自动生成于 2026-11-19 09:34
+// 课后时间数据 - 自动生成于 2026-11-20 09:17
 // 数据来源：B站热门视频 + 小宇宙播客榜单
 const leisureData = {
-  updateTime: '2026-11-19 09:34',
+  updateTime: '2026-11-20 09:17',
   bilibili: [
   {
-    "bvid": "BV1XGsU6REC5",
-    "title": "坐牢难，但出狱其实更难，如果你犯罪了，你会面临什么样的人生",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/dcbc9b46210ba86daf03178c97ac45fe91a882f5.jpg",
-    "duration": 961,
+    "bvid": "BV18psq6JEgF",
+    "title": "90分钟中俄美会晤，摆了哪些事上桌？王骁APEC观察",
+    "desc": "一键三连推荐给更多朋友！",
+    "pic": "http://i2.hdslb.com/bfs/archive/8cf2f99addeef8229cb7178cba03c309527adee0.jpg",
+    "duration": 1130,
     "owner": {
-      "name": "东八区赵光辉",
-      "face": "https://i2.hdslb.com/bfs/face/5f6f40ce3b576ff224c3ccbf102388d89ff6a961.jpg"
+      "name": "小王Albert",
+      "face": "https://i0.hdslb.com/bfs/face/f9bb5dc9b5dcb3c90f9662e44fca9a7506584151.jpg"
     },
     "stat": {
-      "view": 551701,
-      "like": 30912,
-      "danmaku": 231
+      "view": 223863,
+      "like": 18164,
+      "danmaku": 340
     },
-    "tname": "短片",
-    "pubdate": 1794988800,
+    "tname": "人文历史",
+    "pubdate": 1795156370,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1gcs469Ecu",
-    "title": "以防你不知道GTA6的狗子会开游艇来救你！",
-    "desc": "不小心被通缉了潜水跑路， 意外触发这个彩蛋 哈哈哈哈哈",
-    "pic": "http://i2.hdslb.com/bfs/archive/6496168466d9e9965a3aafda96d75ec6fa82dc35.jpg",
-    "duration": 197,
+    "bvid": "BV1wLs465EWe",
+    "title": "【非凡之爱】⚡️但都是正常人⚡️",
+    "desc": "仅供娱乐",
+    "pic": "http://i2.hdslb.com/bfs/archive/d97ab94d22c685ae8d612d650c81e8fce59b0e37.jpg",
+    "duration": 77,
     "owner": {
-      "name": "忘川无语",
-      "face": "https://i0.hdslb.com/bfs/face/d271ce844ed3fa58b3b17cc6ca9855785a3ee121.jpg"
+      "name": "酸奶煎个蛋",
+      "face": "https://i1.hdslb.com/bfs/face/f6b4ddd4de220da0762927a9302ad84dcd1d87cf.jpg"
     },
     "stat": {
-      "view": 883871,
-      "like": 39780,
-      "danmaku": 893
+      "view": 2187793,
+      "like": 107970,
+      "danmaku": 319
     },
-    "tname": "单机游戏",
-    "pubdate": 1795034444,
-    "rcmd_reason": "3万分享"
-  },
-  {
-    "bvid": "BV1NDsS6UE8D",
-    "title": "【侠盗猎车手6】4K 最高画质 全网首发 全任务 全剧情流程通关攻略 开放世界冒险游戏 GTA6 - Grand Theft Auto VI",
-    "desc": "游戏名：《Grand Theft Auto VI》- GTA6\n是由Rockstar Games发行的一款开放世界游戏，是系列游戏《Grand Theft Auto》（GTA）的第六部正统续作该作的地点设定在以美国佛罗里达州为原型的雷奥奈达州，剧情围绕双主角犯罪搭档展开，两人因失败的银行抢劫行动卷入全州级阴谋，在犯罪势力与执法机构间周旋冒险杰森和露西娅一直清晰，命运对他们不公。本应简单的行动产生了差错，美国阳光最灿烂的地方向相反展现了它最阴暗的一面，将他们卷入一场窒息雷奥奈达的犯罪阴谋。若想逃离出生天他们",
-    "pic": "http://i1.hdslb.com/bfs/archive/6cd6c6227ccc69a7b7ded004f646d1e2d4913646.jpg",
-    "duration": 29840,
-    "owner": {
-      "name": "11的游戏世界",
-      "face": "https://i2.hdslb.com/bfs/face/dd1191aecebfed05e2a4faba32f78d016b80bde8.jpg"
-    },
-    "stat": {
-      "view": 2911367,
-      "like": 52084,
-      "danmaku": 18134
-    },
-    "tname": "单机游戏",
-    "pubdate": 1795000925,
+    "tname": "日常",
+    "pubdate": 1795063259,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1Tksm6jERV",
-    "title": "【纪录片】人生一串 第四季 03 十二时辰",
-    "desc": "从清晨的微光到深夜的霓虹，烧烤摊的炉火从未真正熄灭。本集以“早、中、晚、深夜”四个时段为轴，展现烧烤如何随昼夜流转变换节奏、口味与人情。它不只是夜宵，更是城市生活的节拍器——有人用一串晨肉唤醒一天，有人靠几把炭火抚平长夜的疲惫。",
-    "pic": "http://i1.hdslb.com/bfs/archive/c4dff1bc46fbeedcc5a45cc95e580e072c8ea0ed.jpg",
-    "duration": 4133,
+    "bvid": "BV16hsY6tExz",
+    "title": "【独家】《罗小黑战记》第44话 冬冬拯救行动方案五【10月国创】",
+    "desc": "每周五12:00，B站独播！",
+    "pic": "http://i2.hdslb.com/bfs/archive/a7cc4545d791535bcfd537f7d2b0389025251b0f.png",
+    "duration": 1622,
     "owner": {
-      "name": "哔哩哔哩纪录片",
-      "face": "https://i2.hdslb.com/bfs/face/d655b5efeb97cb4ca5d4926bc53cddee66f429a5.jpg"
+      "name": "哔哩哔哩国创",
+      "face": "https://i2.hdslb.com/bfs/face/ae8149db0fe146563cdbf7ff346eb9bb3dc25a12.jpg"
     },
     "stat": {
-      "view": 539686,
-      "like": 3030,
-      "danmaku": 821
+      "view": 1161980,
+      "like": 62960,
+      "danmaku": 70427
     },
-    "tname": "社会·美食·旅行",
-    "pubdate": 1795057202,
-    "rcmd_reason": ""
+    "tname": "国产动画",
+    "pubdate": 1795147201,
+    "rcmd_reason": "6万点赞"
   },
   {
-    "bvid": "BV1AosS6yEX9",
-    "title": "老戴《侠盗猎车手 6》初见开荒全实况流程解说【GTA 6】",
-    "desc": "初见实况，状态飘忽不定，请大家见谅",
-    "pic": "http://i0.hdslb.com/bfs/archive/8d3540ab40289204a37400efec8b34067bb4f73f.jpg",
-    "duration": 25083,
+    "bvid": "BV1v7s86zE7f",
+    "title": "尾随NPC的真实反应",
+    "desc": "好玩",
+    "pic": "http://i0.hdslb.com/bfs/archive/57492a779ff30c8e090f9b2ca4d38918ff21bab0.jpg",
+    "duration": 213,
     "owner": {
-      "name": "老戴在此",
-      "face": "https://i0.hdslb.com/bfs/face/986a9f29848d17b39a99e41557d56dcd1091a3a9.jpg"
+      "name": "叶猫Gamer",
+      "face": "https://i1.hdslb.com/bfs/face/00cc98cce9bcc34f30a3b40beb38e1be3f0aab69.jpg"
     },
     "stat": {
-      "view": 1121523,
-      "like": 28536,
-      "danmaku": 8639
+      "view": 2996604,
+      "like": 157711,
+      "danmaku": 3845
     },
     "tname": "单机游戏",
-    "pubdate": 1795028739,
+    "pubdate": 1795066710,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1sKs16AEWv",
+    "title": "⚡霸 爸 去 哪 儿⚡",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/0a71f6657b5336939d42b18b73d2c983e64646e2.jpg",
+    "duration": 174,
+    "owner": {
+      "name": "洛温阿特金森",
+      "face": "https://i2.hdslb.com/bfs/face/8991695154e980e8986b35a78e44bf52c8173b06.jpg"
+    },
+    "stat": {
+      "view": 1978806,
+      "like": 92390,
+      "danmaku": 500
+    },
+    "tname": "鬼畜剧场",
+    "pubdate": 1795060800,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV1iis66TEEn",
+    "title": "分不清哪个是倒放的",
+    "desc": "",
+    "pic": "http://i1.hdslb.com/bfs/archive/f8fca007afd34c9590f51551498f52a2b18b7859.jpg",
+    "duration": 130,
+    "owner": {
+      "name": "JF_江峰",
+      "face": "https://i1.hdslb.com/bfs/face/1c8b24cf3c4901f3c9ef60d3e5a3d2c27060b0ca.jpg"
+    },
+    "stat": {
+      "view": 1389239,
+      "like": 79689,
+      "danmaku": 652
+    },
+    "tname": "搞笑",
+    "pubdate": 1794974400,
     "rcmd_reason": ""
   },
   {
-    "bvid": "BV1Nisz6EEuH",
-    "title": "“被窝里”玩手机教程",
-    "desc": "又到钻被窝玩手机的季节了",
-    "pic": "http://i1.hdslb.com/bfs/archive/54311a127178a0a81a5464e1bc926eb08b4e906b.jpg",
-    "duration": 28,
+    "bvid": "BV1dmsq6wEMb",
+    "title": "爱沙尼亚惨遭俄戏耍",
+    "desc": "本视频提及事件以及信息来源如下：\n《爱沙尼亚制定“末日韧性”战略》来自：参考消息，2026-11-17 20:30发布\n《指控俄罗斯袭击其国防企业，爱沙尼亚宣布将关闭与俄罗斯的边境口岸》来自：四川观察，2026-11-16 09:00发布\n《这国外长呼吁：整个欧盟禁止俄罗斯游客入境！》来自：北晚在线，2022-08-22 14:58发布\n《爱沙尼亚宣布拆除苏联时期纪念碑，并禁止俄公民入境》来自：澎湃新闻，2022-08-17 18:44发布\n《最新动态：俄撤销波罗的海三国驻俄多家领事机构工作许可 乌俄再次",
+    "pic": "http://i1.hdslb.com/bfs/archive/f873b2b3d43a467d6137437d25a929cc0b24c7b9.jpg",
+    "duration": 1267,
     "owner": {
-      "name": "农民老杨_Shandong",
-      "face": "https://i0.hdslb.com/bfs/face/57f6fd51305498fb4062da213b1282fcda1a0008.jpg"
+      "name": "燕三嘤嘤嘤",
+      "face": "https://i2.hdslb.com/bfs/face/dc4d4dee16c8f19340ec3d880b456c8677c7ff09.jpg"
     },
     "stat": {
-      "view": 901302,
-      "like": 74271,
-      "danmaku": 196
+      "view": 306976,
+      "like": 27099,
+      "danmaku": 2078
     },
-    "tname": "亲子",
-    "pubdate": 1794907874,
+    "tname": "日常",
+    "pubdate": 1795151424,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1p5sm6vEJe",
+    "title": "最败家的一次",
+    "desc": "",
+    "pic": "http://i0.hdslb.com/bfs/archive/0c9d04aefd1d7025e5b90ab013f18fa71fb365dc.jpg",
+    "duration": 256,
+    "owner": {
+      "name": "白菜家的AMD",
+      "face": "https://i1.hdslb.com/bfs/face/a001ec98750bb88048bd493e952dd0dabf4d10d4.jpg"
+    },
+    "stat": {
+      "view": 2332893,
+      "like": 160058,
+      "danmaku": 2958
+    },
+    "tname": "数码",
+    "pubdate": 1794991197,
+    "rcmd_reason": "百万播放"
+  },
+  {
+    "bvid": "BV161st6kEKM",
+    "title": "芜湖好市民！大司马玩GTA6见谁打谁，弹幕：狗来了都得挨一巴掌",
+    "desc": "逆天",
+    "pic": "http://i0.hdslb.com/bfs/archive/2ed6f8e2355de5a858f1795c50469651aa727fc1.jpg",
+    "duration": 515,
+    "owner": {
+      "name": "艺术家阿克曼",
+      "face": "https://i0.hdslb.com/bfs/face/d119b02f293bf066bf141c9a0aba463553814037.jpg"
+    },
+    "stat": {
+      "view": 534984,
+      "like": 8244,
+      "danmaku": 1316
+    },
+    "tname": "单机游戏",
+    "pubdate": 1795077874,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV1K6sC6wEQR",
+    "title": "PVZ夜晚BGM，为什么越听越紧张？",
+    "desc": "-",
+    "pic": "http://i2.hdslb.com/bfs/archive/5f79a1f8221bbdc05a5a995585b343e36b7bc47a.jpg",
+    "duration": 192,
+    "owner": {
+      "name": "AIkenr",
+      "face": "https://i1.hdslb.com/bfs/face/2338b06aab52a2f6d4cf4d5158c87c2ffc2b7773.jpg"
+    },
+    "stat": {
+      "view": 917145,
+      "like": 106988,
+      "danmaku": 823
+    },
+    "tname": "音乐教学",
+    "pubdate": 1794965341,
+    "rcmd_reason": "10万点赞"
+  },
+  {
+    "bvid": "BV1ALs465E2V",
+    "title": "Mili - City Blue（都市之蓝）",
+    "desc": "Mili官方周边：https://projectmili.store/\nMili官方粉丝团Patreon：https://www.patreon.com/project_mili\n\n歌手：Mili\n曲名：City Blue\n作词：Cassie Wei\n作曲：Yamato Kasai & Cassie Wei\n编曲：Yamato Kasai, Yukihito, Shoto Yoshida\n\n鼓手：Tetsuyuki Yamada\n\n混音：Satoshi Yoneda\n母带：Akihiro Shiba (T",
+    "pic": "http://i0.hdslb.com/bfs/archive/d354940957b04084fad559c9501c494e673dd515.jpg",
+    "duration": 190,
+    "owner": {
+      "name": "ProjectMili",
+      "face": "https://i0.hdslb.com/bfs/face/3558e4817a00d78d5345c54ec6a17bb3dbda5f7a.jpg"
+    },
+    "stat": {
+      "view": 494815,
+      "like": 78781,
+      "danmaku": 2899
+    },
+    "tname": "原创音乐",
+    "pubdate": 1795086000,
     "rcmd_reason": "7万点赞"
   },
   {
-    "bvid": "BV12Psm6GE1K",
-    "title": "村民烟花",
-    "desc": "-",
-    "pic": "http://i0.hdslb.com/bfs/archive/cb20f216689a36b91b77d5ecabfbc7d619f226ea.jpg",
-    "duration": 33,
+    "bvid": "BV1aGsv6EEd3",
+    "title": "活了20年，就为了看懂这个视频",
+    "desc": "大家能看懂多少！可以打在弹幕上\n视频一镜到底拍的，拍了好久，也拍摄报废了很多遍。大家想看我可以把拍报废的放出来哈哈哈\n感谢@咕噜宝TAKA  的友情出现！",
+    "pic": "http://i1.hdslb.com/bfs/archive/f8489ef4d7cd44b79e239e2c5a3144cfd04d96f6.jpg",
+    "duration": 157,
     "owner": {
-      "name": "Go1denApple",
-      "face": "https://i0.hdslb.com/bfs/face/e375148431570d0fa1aca77b53f1801aeecb99db.jpg"
+      "name": "浑元Rysn",
+      "face": "https://i1.hdslb.com/bfs/face/07183aa68314436dac1e73a09e9cfd36a843672a.jpg"
     },
     "stat": {
-      "view": 1117477,
-      "like": 78828,
-      "danmaku": 209
+      "view": 286453,
+      "like": 12600,
+      "danmaku": 135
     },
-    "tname": "单机游戏",
-    "pubdate": 1794996874,
+    "tname": "仿妆cos",
+    "pubdate": 1795141800,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV125s66HEHU",
+    "title": "汉东内部视频通话被曝光?",
+    "desc": "灵感来自：@岩罗Crv   鸣谢\n辛苦大家给个三连 制作起来烧了很多RMB 真的很不易",
+    "pic": "http://i1.hdslb.com/bfs/archive/99e88a1a4bc64de8a8dd1ae5a8d6ebdfa9f74b18.jpg",
+    "duration": 106,
+    "owner": {
+      "name": "鲲局长",
+      "face": "https://i0.hdslb.com/bfs/face/770c47db69e13df848fa009dcfe0e448dd8a92f4.jpg"
+    },
+    "stat": {
+      "view": 1228180,
+      "like": 55006,
+      "danmaku": 352
+    },
+    "tname": "鬼畜剧场",
+    "pubdate": 1794960000,
     "rcmd_reason": "百万播放"
   },
   {
-    "bvid": "BV1b1s469EvB",
-    "title": "开着理想MEGA,我们要用七天吃遍山西！（哦对了还有玩）",
+    "bvid": "BV1gMsh6vEHF",
+    "title": "这谁能播的过他？看大司马玩GTA6简直能笑死，弹幕：太有节目了",
+    "desc": "逆",
+    "pic": "http://i2.hdslb.com/bfs/archive/df4197d54830239151447253a769a237d5b17270.jpg",
+    "duration": 802,
+    "owner": {
+      "name": "艺术家阿克曼",
+      "face": "https://i0.hdslb.com/bfs/face/d119b02f293bf066bf141c9a0aba463553814037.jpg"
+    },
+    "stat": {
+      "view": 745989,
+      "like": 10626,
+      "danmaku": 1790
+    },
+    "tname": "单机游戏",
+    "pubdate": 1795086028,
+    "rcmd_reason": ""
+  },
+  {
+    "bvid": "BV11mss6CE6J",
+    "title": "玩刀锋宝贝后再玩阿珂以为自己开挂了。",
     "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/a96589246484b0f9decfed52c5d766eac4960eb5.jpg",
-    "duration": 5537,
+    "pic": "http://i0.hdslb.com/bfs/archive/91499034069772755d64226232df54fc78707be7.jpg",
+    "duration": 234,
     "owner": {
-      "name": "王师傅の日记",
-      "face": "https://i1.hdslb.com/bfs/face/651216c298dce9603df1c350f7032b9f841bb1dd.jpg"
+      "name": "流夜一动不动",
+      "face": "https://i0.hdslb.com/bfs/face/a7d7c82cb4d6e4522a60d2db7bf468a08fac7cea.jpg"
     },
     "stat": {
-      "view": 199443,
-      "like": 10817,
-      "danmaku": 3936
+      "view": 1984252,
+      "like": 73985,
+      "danmaku": 2770
     },
-    "tname": "日常",
-    "pubdate": 1795061888,
+    "tname": "电子竞技",
+    "pubdate": 1795050000,
     "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV16Bs26FEAM",
-    "title": "在普罗米厄的怀抱下",
-    "desc": "《鸣潮：永明的烬焰》年度篇章12月22日即将开启，敬请期待！",
-    "pic": "http://i1.hdslb.com/bfs/archive/e19e758df352936f5581473cd5c7536e9ce088b2.jpg",
-    "duration": 516,
-    "owner": {
-      "name": "鸣潮",
-      "face": "https://i2.hdslb.com/bfs/face/0abd6b9df304334a9388e968740b5b9b7d1a84be.jpg"
-    },
-    "stat": {
-      "view": 3250599,
-      "like": 121730,
-      "danmaku": 7051
-    },
-    "tname": "手机游戏",
-    "pubdate": 1794970432,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1kVsw6BE77",
-    "title": "恶役千金题材作品天花板！全集93分钟一次看过瘾，《恶役千金的真面目》漫画剧情深度解析",
-    "desc": "因事故丧命的绘美转生后的身份，是年幼的千金小姐——蕾米莉亚·罗泽·格劳普纳。她是某部乙女游戏中登场的最强恶役，也是绘美最心爱的“推”。 绘美心疼那只能怀揣孤独诅咒世界的蕾米莉亚，想要靠自己的力量让她获得幸福。绘美在不懈努力提升自我的同时，也用天生的温柔让周围的人露出了笑容。 然而，游戏“原本的”女主角却不容许这一切。 “没能让你获得幸福，对不起……——蕾米莉亚，亲……” 遭到信任之人的背叛，无法逃避游戏既定的断罪事件，蕾米莉亚体内的绘美在绝望的深渊中失去了意识。 就在那时——。 “我绝不会原谅你们。” 燃",
-    "pic": "http://i0.hdslb.com/bfs/archive/d4f66db972b50aa089254b19568d6089ec0f8688.jpg",
-    "duration": 5564,
-    "owner": {
-      "name": "一口气追漫",
-      "face": "https://i0.hdslb.com/bfs/face/8f48b45e29ca22448c0cf74284b75cd363166cc6.jpg"
-    },
-    "stat": {
-      "view": 817118,
-      "like": 41056,
-      "danmaku": 3068
-    },
-    "tname": "日常",
-    "pubdate": 1794820740,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1X8s162EaR",
-    "title": "海豚尾巴上的怪东西，竟然是藤壶？",
-    "desc": "",
-    "pic": "http://i0.hdslb.com/bfs/archive/fc9637a9ee30a926fcafef745f07799127e6923f.jpg",
-    "duration": 62,
-    "owner": {
-      "name": "阿寻有解",
-      "face": "https://i1.hdslb.com/bfs/face/9aec4eaa48fd81118f13b2acbb743e6a32fcd166.jpg"
-    },
-    "stat": {
-      "view": 1859440,
-      "like": 24180,
-      "danmaku": 295
-    },
-    "tname": "科学科普",
-    "pubdate": 1794975737,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1YvsB6FER9",
-    "title": "「幽明志」幽城残梦",
-    "desc": "微烛难沸千年雪，热血不敌鬓上霜。南城隆隆添新客，剑雨淅淅画旧乡。",
-    "pic": "http://i0.hdslb.com/bfs/archive/67170962456460b39660b2d60930b002158fa366.jpg",
-    "duration": 412,
-    "owner": {
-      "name": "幽明志",
-      "face": "https://i2.hdslb.com/bfs/face/f9500197c6bc95fe44aebbddb96529f2698041cc.jpg"
-    },
-    "stat": {
-      "view": 2234255,
-      "like": 120851,
-      "danmaku": 769
-    },
-    "tname": "同人·手书",
-    "pubdate": 1794967200,
-    "rcmd_reason": "百万播放"
-  },
-  {
-    "bvid": "BV1wpsb67EP4",
-    "title": "一个视频告诉你GTA6多真实",
-    "desc": "GTA6能不能加入车辆尖叫系统，快要爆炸的时候，车的尖叫音量逐渐变高，让我知道它要炸了。",
-    "pic": "http://i1.hdslb.com/bfs/archive/380ab02a4044e48bd038a36769c19763a645d84a.jpg",
-    "duration": 413,
-    "owner": {
-      "name": "EdmundDZhang",
-      "face": "https://i1.hdslb.com/bfs/face/50900541a74f7875867c38a1e8e572b44b388060.jpg"
-    },
-    "stat": {
-      "view": 67455,
-      "like": 4366,
-      "danmaku": 364
-    },
-    "tname": "单机游戏",
-    "pubdate": 1795075930,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1R2s269EMr",
-    "title": "从恒生指数看港股这57年【1969-2026】【特效数据可视化】",
-    "desc": "首先非常感谢 @醉中中  中 特地帮我查阅了香港图书馆的馆藏资料，帮我找到了联交所《股市資料》和《香港經濟年鑑》的原表，为我补齐了1985、1990、1992—1997的年末市值榜数据。推荐60帧+佩戴耳机观看效果最佳。这期信息量非常大，觉得太快可以多看几次，目前难度、耗时、综合开销最大的一期，烧了42.24亿token，写了上万字分镜，一共改了43个版本，港股跨度太大了，要花相当长的时间展示，甚至tradeview的恒指数据都是从1987开始的，港股的数据比美股A股都要难找的多，很多付费金融数据库都大量",
-    "pic": "http://i1.hdslb.com/bfs/archive/861da07f78a98c005a3927905d2cd86e7c83102e.jpg",
-    "duration": 491,
-    "owner": {
-      "name": "湾林Studio",
-      "face": "https://i1.hdslb.com/bfs/face/89e493aff805fd2e198bf78fda07c3621046dbc4.jpg"
-    },
-    "stat": {
-      "view": 252463,
-      "like": 9879,
-      "danmaku": 251
-    },
-    "tname": "数码",
-    "pubdate": 1794994851,
-    "rcmd_reason": ""
-  },
-  {
-    "bvid": "BV1AZs461ETU",
-    "title": "纯黑《GTA6》丧心病狂攻略解说 第一期",
-    "desc": "有点赶，没法全面达到满意，但这才是以前的常态。第一期并没有丧心病狂，甚至非常遵纪守法，尊老爱幼，但想不起叫啥来就延用GTA5的标题了。",
-    "pic": "http://i1.hdslb.com/bfs/archive/fbf27a94d46f69d5eb98b6a4a7cf0b36db3ce9cd.jpg",
-    "duration": 2402,
-    "owner": {
-      "name": "-纯黑-",
-      "face": "https://i0.hdslb.com/bfs/face/e8ab7b02d6576f4141ea857734b68b9dd35a5730.jpg"
-    },
-    "stat": {
-      "view": 452520,
-      "like": 29635,
-      "danmaku": 2797
-    },
-    "tname": "单机游戏",
-    "pubdate": 1795052947,
-    "rcmd_reason": "人气飙升"
   }
 ],
   podcast: []
